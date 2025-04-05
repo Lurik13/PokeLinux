@@ -1,7 +1,7 @@
 import requests # type: ignore
 
-def get_data(pokemon, search = "pokemon"):
-    url = f"https://pokeapi.co/api/v2/{search}/{pokemon}/"
+def get_data(type, value):
+    url = f"https://pokeapi.co/api/v2/{type}/{value}/"
     return requests.get(url).json()
 
 def get_french_name(pokemon_data):

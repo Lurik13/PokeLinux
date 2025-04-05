@@ -1,27 +1,29 @@
-import requests # type: ignore
+from utils import *
+from data import *
 
-def get_weaknesses(types_api_names):
+def calculate_damages(pokemon_types):
     damage_relations = {}
 
-    for type_name in types_api_names:
-        res = requests.get(f"https://pokeapi.co/api/v2/type/{type_name}").json()
-        for category, multiplier in {
-            "double_damage_from": 2,
-            "half_damage_from": 0.5,
-            "no_damage_from": 0
-        }.items():
-            for t in res["damage_relations"][category]:
-                # t_name = TYPE_TRADUCTION[t["name"]]
-                t_name = t["name"]
-                if t_name not in damage_relations:
-                    damage_relations[t_name] = 1
-                damage_relations[t_name] *= multiplier
-    weaknesses = []
+    for pokemon_type in pokemon_types:
+        type_relations = TYPE_RELATIONS[pokemon_type]
+        for category, multiplier in DAMAGES.items():
+            for type_name in type_relations[category]:
+                if type_name not in damage_relations:
+                    damage_relations[type_name] = 1
+                damage_relations[type_name] *= multiplier
+
+    return damage_relations
+
+
+def get_weaknesses(types):
+    damage_relations = calculate_damages(types)
+    critical_weaknesses = []
+    normal_weaknesses = []
+
     for name, damage in damage_relations.items():
         if damage == 4:
-            weaknesses.append(name + '*')
-    for name, damage in damage_relations.items():
-        if damage == 2:
-            weaknesses.append(name)
+            critical_weaknesses.append(TYPE_TRANSLATION[name] + '*')
+        elif damage == 2:
+            normal_weaknesses.append(TYPE_TRANSLATION[name])
 
-    return weaknesses
+    return critical_weaknesses + normal_weaknesses
