@@ -2,22 +2,27 @@ import genanki # type: ignore
 import sys
 from pokemon.get_pokemon import *
 
-input_model = genanki.Model(
-  123456789,
-  'Pokémon',
-  fields=[
-    {'name': 'Recto'},
-    {'name': 'Verso'},
-  ],
-  templates=[
-    {
-      'name': 'Card 1',
-      'qfmt': '{{Recto}}{{type:Verso}}',
-      'afmt': '{{Recto}}<hr id=answer>{{type:Verso}}',
-    },
-  ],
-  css='.card {font-family: arial;font-size: 20px;text-align: center;color: black;background-color: white;}'
-  )
+def add_model_to_anki(gen_id, name, text_color, background_image):
+  model = genanki.Model(
+    gen_id,
+    name,
+    fields=[
+      {'name': 'Recto'},
+      {'name': 'Verso'},
+    ],
+    templates=[
+      {
+        'name': 'Card 1',
+        'qfmt': '{{Recto}}{{type:Verso}}',
+        'afmt': '{{Recto}}<hr id=answer>{{type:Verso}}',
+      },
+    ],
+    css=f'.card {{font-family: arial;font-size: 20px;text-align: center; \
+      color: {text_color} !important;font-weight: bold; \
+      background-image: url("{background_image}");background-size: cover; \
+      background-position: center;background-repeat: no-repeat;}}'
+    )
+  return model
 
 def get_de_pokemon(name):
    if name[0].lower() in ('a', 'e', 'i', 'o', 'u'):
@@ -26,7 +31,7 @@ def get_de_pokemon(name):
 
 def add_card_to_anki(question, answer, tags):
   note = genanki.Note(
-    model=input_model,
+    model=model,
     fields=[question, answer],
     tags=tags
   )
@@ -68,7 +73,7 @@ def create_pokemon_cards(pokemon):
 
 def parsing(argv):
   if len(argv) != 2:
-    raise ValueError("Vous devez renseigner le numéro d'une génération.")
+    raise ValueError("Vous indiquer le numéro d'une génération.")
   if argv[1].isnumeric() == False:
     raise ValueError(f"'{argv[1]}' n'est pas un numéro.")
 
@@ -76,13 +81,16 @@ if __name__ == "__main__":
     try:
       parsing(sys.argv)
       gen_number = sys.argv[1]
+      gen_id = int((gen_number * (10 // len(gen_number) + 1))[:10])
       if gen_number not in GENERATIONS:
         raise ValueError("Cette génération n'existe pas.")
       
-      deck = genanki.Deck(int((gen_number * (10 // len(gen_number) + 1))[:10]), GENERATIONS[gen_number]['name'])
+      model = add_model_to_anki(gen_id, GENERATIONS[gen_number]['name'], 
+        GENERATIONS[gen_number]['text_color'], GENERATIONS[gen_number]['background_image'])
+      deck = genanki.Deck(gen_id, GENERATIONS[gen_number]['name'])
       first_pokemon = GENERATIONS[gen_number]['pokemon_range'][0]
       last_pokemon = GENERATIONS[gen_number]['pokemon_range'][1]
-      for pokemon_id in range(first_pokemon, last_pokemon):
+      for pokemon_id in range(first_pokemon, first_pokemon + 1):
         pokemon = get_pokemon(pokemon_id)
         print("En train de créer les cartes de " + pokemon['french_name'])
         create_pokemon_cards(pokemon)
