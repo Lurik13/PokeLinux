@@ -1,5 +1,5 @@
-from utils import *
-from data import *
+from pokemon.utils import *
+from pokemon.data import *
 
 def calculate_damages(pokemon_types):
     damage_relations = {}

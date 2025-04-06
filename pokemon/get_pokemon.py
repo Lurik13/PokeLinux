@@ -1,6 +1,6 @@
-from utils import *
-from weaknesses import *
-from forms import *
+from pokemon.utils import *
+from pokemon.weaknesses import *
+from pokemon.forms import *
 
 def get_pokemon(pokemon_id):
     pokemon = get_data('pokemon', pokemon_id)
@@ -11,7 +11,7 @@ def get_pokemon(pokemon_id):
     weaknesses = get_weaknesses(types)
 
     return {
-        "number": number,
+        "number": f"{number:04}" ,
         "english_name": pokemon["name"].capitalize(),
         "french_name": french_name,
         "sprite": SPRITE_URL.format(number),
@@ -19,17 +19,3 @@ def get_pokemon(pokemon_id):
         "weaknesses": list(weaknesses),
         "forms": get_forms(species),
     }
-
-pokemon = get_pokemon(6)
-for key, value in pokemon.items():
-    if key == 'forms':
-        if value:
-            print("forms :")
-            for form in value:
-                print("   ", form['form_french_name'])
-                print("      ", form['sprite'])
-                if form['types'] is not None:
-                    print("      ", form['types'])
-                    print("      ", form['weaknesses'])
-    else:
-        print(key, ":", value)

@@ -1,6 +1,6 @@
-from weaknesses import *
-from utils import *
-from data import SPRITE_URL
+from pokemon.weaknesses import *
+from pokemon.utils import *
+from pokemon.data import SPRITE_URL
 
 def get_sprite(form_data):
     form_url = form_data["pokemon"]["url"]
@@ -12,7 +12,7 @@ def get_forms(species):
     for form in species['varieties']:
         if form['is_default'] is False:
             form_dict = {
-                'form_french_name': "",
+                'french_name': "",
                 'sprite': "",
                 'types': None,
                 'weaknesses': None
@@ -24,7 +24,7 @@ def get_forms(species):
                 types = [t["type"]["name"] for t in form_data["types"]]
                 form_dict['types'] = [TYPE_TRANSLATION[t] for t in types]
                 form_dict['weaknesses'] = get_weaknesses(types)
-            form_dict['form_french_name'] = get_french_name(form_data)
+            form_dict['french_name'] = get_french_name(form_data)
             form_dict['sprite'] = get_sprite(form_data)
             forms.append(form_dict)
     return forms
