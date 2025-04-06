@@ -90,7 +90,7 @@ if __name__ == "__main__":
       deck = genanki.Deck(gen_id, GENERATIONS[gen_number]['name'])
       first_pokemon = GENERATIONS[gen_number]['pokemon_range'][0]
       last_pokemon = GENERATIONS[gen_number]['pokemon_range'][1]
-      for pokemon_id in range(first_pokemon, first_pokemon + 1):
+      for pokemon_id in range(first_pokemon, last_pokemon):
         pokemon = get_pokemon(pokemon_id)
         print("En train de créer les cartes de " + pokemon['french_name'])
         create_pokemon_cards(pokemon)
