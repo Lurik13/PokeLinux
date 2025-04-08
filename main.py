@@ -56,9 +56,21 @@ def add_gen_pokemons(gen_number):
 	gen_pokemons = {}
 	for pokemon_id in range(first_pokemon_id, last_pokemon_id + 1):
 		gen_pokemons[pokemon_id] = get_pokemon(pokemon_id)
+		# print(gen_pokemons[pokemon_id]) ########
 		print_pokemon(gen_pokemons[pokemon_id], gen_number)
 		create_pokemon_cards(gen_pokemons[pokemon_id])
 	return gen_pokemons
+
+def gen_evolutions_data():
+	for i in range (1, 1026):
+		pokemon = get_pokemon(i)
+		print('\'' + pokemon['french_name'] + '\': ', end='', flush=True)
+		evolutions = []
+		for pokemon in pokemon['evolution_chain']:
+			pokemon_data = get_pokemon(pokemon['name'])['species_data']
+			evolutions.append((pokemon_data['id'], get_french_name(pokemon_data)))
+		print(evolutions, end='', flush=True)
+		print(",")
 
 if __name__ == "__main__":
 	try:
@@ -72,8 +84,10 @@ if __name__ == "__main__":
 			GENERATIONS[gen_number]['text_color'], GENERATIONS[gen_number]['background_image'])
 		deck = genanki.Deck(gen_id, GENERATIONS[gen_number]['name'])
 
-		asyncio.run(print_download(gen_number))
+		# asyncio.run(print_download(gen_number))
 		add_gen_pokemons(gen_number)
+
+		# gen_evolutions_data()
 		
 		my_package = genanki.Package(deck)
 		my_package.write_to_file(GENERATIONS[gen_number]['name'] + '.apkg')
