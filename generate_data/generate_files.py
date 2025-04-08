@@ -5,10 +5,10 @@ from genericpath import exists
 
 sys.path.append(os.path.abspath('..'))
 from data.Knowledge.generations import *
-from get_data import get_pokemon
+from get_data import get_pokemon_data
 
 def get_generation_number(pokemon_id): ###
-	for i in range(1, len(GENERATIONS)):
+	for i in range(1, len(GENERATIONS) + 1):
 		if pokemon_id >= GENERATIONS[i]['pokemon_range'][0] and pokemon_id <= GENERATIONS[i]['pokemon_range'][1]:
 			return i
 	return 0
@@ -29,20 +29,20 @@ def generate_folder(path, suffix):
 	return folder_path
 
 def get_good_constant_name(pokemon_name):
-	return pokemon_name.replace(".", "").replace(" ", "").replace("♀", "Femelle").replace("♂", "Male")
+	return pokemon_name.replace(".", "").replace(" ", "").replace("♀", "Femelle").replace("♂", "Male").replace("-", "").replace(":", "")
 
 def write_file(file, pokemon):
-	text = str(pokemon) #.replace('{', '{\n	').replace(', ', ',\n	')
+	text = str(pokemon)
 	new_text = get_good_constant_name(pokemon['french_name']).upper() + " = "
 	number_of_brackets = 0
 	for letter in text:
 		match letter:
 			case '{' | '[':
 				number_of_brackets += 1
-				new_text += '{\n' + number_of_brackets * '    '
+				new_text += letter + '\n' + number_of_brackets * '    '
 			case '}' | ']':
 				number_of_brackets -= 1
-				new_text += '\n' + number_of_brackets * '    ' + '}'
+				new_text += '\n' + number_of_brackets * '    ' + letter
 			case ',':
 				new_text += ',\n' + (number_of_brackets - 1) * '    ' + '   '
 			case _:
@@ -58,34 +58,27 @@ def generate_file(folder_name, pokemon):
 	print("Généré " + file_name + " avec succès.")
 
 def generate_pokemon_data_files():
-	try:
-		if os.path.exists("../data/Pokemons/"):
-			shutil.rmtree("../data/Pokemons/")
-		generate_folder("../data/Pokemons/", "")
-		file = open("../data/Pokemons/pokemon_relations.py", 'w')
-		poke_imports = ""
-		poke_dict = ""
-		poke_dict += "\nPOKEMON = {\n"
-		for i in range(1, 1026):
-			pokemon = get_pokemon(i)
-			gen_number = get_generation_number(i) ###
-			folder_path = generate_folder("../data/Pokemons/", get_gen_region(GENERATIONS[gen_number]['name']))
-			generate_file(folder_path, pokemon)
-			poke_name = get_good_constant_name(pokemon['french_name'])
-			poke_imports += "from data.Pokemons." + get_gen_region(GENERATIONS[gen_number]['name']) \
-				+ "." + poke_name + " import " + poke_name.upper() + "\n"
-			poke_dict += "    " + str(pokemon['number']).lstrip("0") + ": " + poke_name.upper() + ",\n"
-		poke_dict += "}"
-		file.writelines(poke_imports + poke_dict)
-		file.close()
-	except:
-		print()
+	if os.path.exists("../data/Pokemons/"):
+		shutil.rmtree("../data/Pokemons/")
+	generate_folder("../data/Pokemons/", "")
+	file = open("../data/Pokemons/pokemon_relations.py", 'w')
+	poke_imports = ""
+	poke_dict = ""
+	poke_dict += "\nPOKEMON = {\n"
+	for i in range(1, 1026):
+		pokemon = get_pokemon_data(i)
+		gen_number = get_generation_number(i)
+		folder_path = generate_folder("../data/Pokemons/", get_gen_region(GENERATIONS[gen_number]['name']))
+		generate_file(folder_path, pokemon)
+		poke_name = get_good_constant_name(pokemon['french_name'])
+		poke_imports += "from data.Pokemons." + get_gen_region(GENERATIONS[gen_number]['name']) \
+			+ "." + poke_name + " import " + poke_name.upper() + "\n"
+		poke_dict += "    " + str(pokemon['number']).lstrip("0") + ": " + poke_name.upper() + ",\n"
+	poke_dict += "}"
+	file.writelines(poke_imports + poke_dict)
+	file.close()
+	print("Toutes les données ont bien été téléchargées !")
 
 
 
 generate_pokemon_data_files()
-
-# print(POKEMON[3]['name'])
-
-# fichier = open("../data/" + GENERATIONS ".py", "w")
-# print(fichier)

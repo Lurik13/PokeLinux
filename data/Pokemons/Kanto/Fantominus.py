@@ -1,0 +1,33 @@
+FANTOMINUS = {
+    'number': '0092',
+    'french_name': 'Fantominus',
+    'english_name': 'Gastly',
+    'evolution_chain': [
+        {
+            'id': '92',
+            'name': 'gastly'
+        },
+        {
+            'id': '93',
+            'name': 'haunter'
+        },
+        {
+            'id': '94',
+            'name': 'gengar'
+        }
+    ],
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png',
+    'types': [
+        'Spectre',
+        'Poison'
+    ],
+    'weaknesses': [
+        'Spectre',
+        'Ténèbres',
+        'Sol',
+        'Psy'
+    ],
+    'forms': [
+        
+    ]
+}
