@@ -1,6 +1,6 @@
 SPRITE_URL = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{}.png"
 
-TYPE_TRANSLATION = {
+TYPE_TRANSLATIONS = {
     "normal": "Normal",
     "fire": "Feu",
     "water": "Eau",

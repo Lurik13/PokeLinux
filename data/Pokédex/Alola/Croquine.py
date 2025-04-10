@@ -1,0 +1,33 @@
+CROQUINE = {
+    'number': '0761',
+    'french_name': 'Croquine',
+    'english_name': 'Bounsweet',
+    'evolution_chain': [
+        {
+            'id': '761',
+            'name': 'Croquine'
+        },
+        {
+            'id': '762',
+            'name': 'Candine'
+        },
+        {
+            'id': '763',
+            'name': 'Sucreine'
+        }
+    ],
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/761.png',
+    'types': [
+        'Plante'
+    ],
+    'weaknesses': [
+        'Vol',
+        'Poison',
+        'Insecte',
+        'Feu',
+        'Glace'
+    ],
+    'forms': [
+        
+    ]
+}
