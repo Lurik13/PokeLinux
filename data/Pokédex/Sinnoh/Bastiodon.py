@@ -4,11 +4,11 @@ BASTIODON = {
     'english_name': 'Bastiodon',
     'evolution_chain': [
         {
-            'id': '410',
+            'id': '0410',
             'name': 'Dinoclier'
         },
         {
-            'id': '411',
+            'id': '0411',
             'name': 'Bastiodon'
         }
     ],

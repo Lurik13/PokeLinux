@@ -4,15 +4,15 @@ FLÂMIGATOR = {
     'english_name': 'Skeledirge',
     'evolution_chain': [
         {
-            'id': '909',
+            'id': '0909',
             'name': 'Chochodile'
         },
         {
-            'id': '910',
+            'id': '0910',
             'name': 'Crocogril'
         },
         {
-            'id': '911',
+            'id': '0911',
             'name': 'Flâmigator'
         }
     ],

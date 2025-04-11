@@ -4,15 +4,15 @@ GRUIKUI = {
     'english_name': 'Tepig',
     'evolution_chain': [
         {
-            'id': '498',
+            'id': '0498',
             'name': 'Gruikui'
         },
         {
-            'id': '499',
+            'id': '0499',
             'name': 'Grotichon'
         },
         {
-            'id': '500',
+            'id': '0500',
             'name': 'Roitiflam'
         }
     ],

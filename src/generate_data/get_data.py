@@ -71,7 +71,7 @@ def add_evolution(evolution_list, chain):
 	id = poke_url.strip("/").split("/")[-1]
 	name = get_french_name(get_pokemon_species(id))
 	evolution_list.append({
-		"id": id,
+		"id": f"{int(id):04}",
 		"name": name
 	})
 	for evolves_to in chain["evolves_to"]:

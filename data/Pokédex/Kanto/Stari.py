@@ -4,11 +4,11 @@ STARI = {
     'english_name': 'Staryu',
     'evolution_chain': [
         {
-            'id': '120',
+            'id': '0120',
             'name': 'Stari'
         },
         {
-            'id': '121',
+            'id': '0121',
             'name': 'Staross'
         }
     ],

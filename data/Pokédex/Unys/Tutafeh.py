@@ -4,15 +4,15 @@ TUTAFEH = {
     'english_name': 'Yamask',
     'evolution_chain': [
         {
-            'id': '562',
+            'id': '0562',
             'name': 'Tutafeh'
         },
         {
-            'id': '563',
+            'id': '0563',
             'name': 'Tutankafer'
         },
         {
-            'id': '867',
+            'id': '0867',
             'name': 'Tutétékri'
         }
     ],

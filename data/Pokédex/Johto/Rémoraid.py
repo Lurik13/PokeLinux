@@ -4,11 +4,11 @@ RÉMORAID = {
     'english_name': 'Remoraid',
     'evolution_chain': [
         {
-            'id': '223',
+            'id': '0223',
             'name': 'Rémoraid'
         },
         {
-            'id': '224',
+            'id': '0224',
             'name': 'Octillery'
         }
     ],

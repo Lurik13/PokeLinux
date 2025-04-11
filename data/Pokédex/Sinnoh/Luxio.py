@@ -4,15 +4,15 @@ LUXIO = {
     'english_name': 'Luxio',
     'evolution_chain': [
         {
-            'id': '403',
+            'id': '0403',
             'name': 'Lixy'
         },
         {
-            'id': '404',
+            'id': '0404',
             'name': 'Luxio'
         },
         {
-            'id': '405',
+            'id': '0405',
             'name': 'Luxray'
         }
     ],

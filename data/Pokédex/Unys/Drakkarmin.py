@@ -4,7 +4,7 @@ DRAKKARMIN = {
     'english_name': 'Druddigon',
     'evolution_chain': [
         {
-            'id': '621',
+            'id': '0621',
             'name': 'Drakkarmin'
         }
     ],

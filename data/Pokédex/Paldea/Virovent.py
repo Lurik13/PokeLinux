@@ -4,11 +4,11 @@ VIROVENT = {
     'english_name': 'Bramblin',
     'evolution_chain': [
         {
-            'id': '946',
+            'id': '0946',
             'name': 'Virovent'
         },
         {
-            'id': '947',
+            'id': '0947',
             'name': 'Virevorreur'
         }
     ],

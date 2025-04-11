@@ -4,7 +4,7 @@ MÉTÉNO = {
     'english_name': 'Minior-red-meteor',
     'evolution_chain': [
         {
-            'id': '774',
+            'id': '0774',
             'name': 'Météno'
         }
     ],

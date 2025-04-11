@@ -4,7 +4,7 @@
     'english_name': 'Zapdos',
     'evolution_chain': [
         {
-            'id': '145',
+            'id': '0145',
             'name': 'Électhor'
         }
     ],

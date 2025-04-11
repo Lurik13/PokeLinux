@@ -4,15 +4,15 @@ GERMIGNON = {
     'english_name': 'Chikorita',
     'evolution_chain': [
         {
-            'id': '152',
+            'id': '0152',
             'name': 'Germignon'
         },
         {
-            'id': '153',
+            'id': '0153',
             'name': 'Macronium'
         },
         {
-            'id': '154',
+            'id': '0154',
             'name': 'Méganium'
         }
     ],

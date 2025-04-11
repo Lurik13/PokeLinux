@@ -4,15 +4,15 @@ COIFFETON = {
     'english_name': 'Quaxly',
     'evolution_chain': [
         {
-            'id': '912',
+            'id': '0912',
             'name': 'Coiffeton'
         },
         {
-            'id': '913',
+            'id': '0913',
             'name': 'Canarbello'
         },
         {
-            'id': '914',
+            'id': '0914',
             'name': 'Palmaval'
         }
     ],

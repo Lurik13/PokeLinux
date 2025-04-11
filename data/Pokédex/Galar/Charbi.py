@@ -4,15 +4,15 @@ CHARBI = {
     'english_name': 'Rolycoly',
     'evolution_chain': [
         {
-            'id': '837',
+            'id': '0837',
             'name': 'Charbi'
         },
         {
-            'id': '838',
+            'id': '0838',
             'name': 'Wagomine'
         },
         {
-            'id': '839',
+            'id': '0839',
             'name': 'Monthracite'
         }
     ],

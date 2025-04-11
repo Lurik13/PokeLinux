@@ -4,11 +4,11 @@ LILIA = {
     'english_name': 'Lileep',
     'evolution_chain': [
         {
-            'id': '345',
+            'id': '0345',
             'name': 'Lilia'
         },
         {
-            'id': '346',
+            'id': '0346',
             'name': 'Vacilys'
         }
     ],

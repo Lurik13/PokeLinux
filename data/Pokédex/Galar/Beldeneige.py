@@ -4,11 +4,11 @@ BELDENEIGE = {
     'english_name': 'Frosmoth',
     'evolution_chain': [
         {
-            'id': '872',
+            'id': '0872',
             'name': 'Frissonille'
         },
         {
-            'id': '873',
+            'id': '0873',
             'name': 'Beldeneige'
         }
     ],

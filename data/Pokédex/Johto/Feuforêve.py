@@ -4,11 +4,11 @@ FEUFORÊVE = {
     'english_name': 'Misdreavus',
     'evolution_chain': [
         {
-            'id': '200',
+            'id': '0200',
             'name': 'Feuforêve'
         },
         {
-            'id': '429',
+            'id': '0429',
             'name': 'Magirêve'
         }
     ],

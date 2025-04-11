@@ -4,15 +4,15 @@ GRIKNOT = {
     'english_name': 'Gible',
     'evolution_chain': [
         {
-            'id': '443',
+            'id': '0443',
             'name': 'Griknot'
         },
         {
-            'id': '444',
+            'id': '0444',
             'name': 'Carmache'
         },
         {
-            'id': '445',
+            'id': '0445',
             'name': 'Carchacrok'
         }
     ],

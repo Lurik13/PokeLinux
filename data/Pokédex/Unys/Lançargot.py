@@ -4,11 +4,11 @@ LANÇARGOT = {
     'english_name': 'Escavalier',
     'evolution_chain': [
         {
-            'id': '588',
+            'id': '0588',
             'name': 'Carabing'
         },
         {
-            'id': '589',
+            'id': '0589',
             'name': 'Lançargot'
         }
     ],

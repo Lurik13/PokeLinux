@@ -4,7 +4,7 @@ SYLVEROY = {
     'english_name': 'Calyrex',
     'evolution_chain': [
         {
-            'id': '898',
+            'id': '0898',
             'name': 'Sylveroy'
         }
     ],

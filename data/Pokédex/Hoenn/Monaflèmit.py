@@ -4,15 +4,15 @@ MONAFLÈMIT = {
     'english_name': 'Slaking',
     'evolution_chain': [
         {
-            'id': '287',
+            'id': '0287',
             'name': 'Parecool'
         },
         {
-            'id': '288',
+            'id': '0288',
             'name': 'Vigoroth'
         },
         {
-            'id': '289',
+            'id': '0289',
             'name': 'Monaflèmit'
         }
     ],

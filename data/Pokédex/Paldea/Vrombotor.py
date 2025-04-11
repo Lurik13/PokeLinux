@@ -4,11 +4,11 @@ VROMBOTOR = {
     'english_name': 'Revavroom',
     'evolution_chain': [
         {
-            'id': '965',
+            'id': '0965',
             'name': 'Vrombi'
         },
         {
-            'id': '966',
+            'id': '0966',
             'name': 'Vrombotor'
         }
     ],

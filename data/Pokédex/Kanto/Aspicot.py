@@ -4,15 +4,15 @@ ASPICOT = {
     'english_name': 'Weedle',
     'evolution_chain': [
         {
-            'id': '13',
+            'id': '0013',
             'name': 'Aspicot'
         },
         {
-            'id': '14',
+            'id': '0014',
             'name': 'Coconfort'
         },
         {
-            'id': '15',
+            'id': '0015',
             'name': 'Dardargnan'
         }
     ],

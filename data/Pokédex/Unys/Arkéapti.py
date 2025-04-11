@@ -4,11 +4,11 @@ ARKÉAPTI = {
     'english_name': 'Archen',
     'evolution_chain': [
         {
-            'id': '566',
+            'id': '0566',
             'name': 'Arkéapti'
         },
         {
-            'id': '567',
+            'id': '0567',
             'name': 'Aéroptéryx'
         }
     ],

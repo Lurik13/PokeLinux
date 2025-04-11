@@ -4,11 +4,11 @@ FRAGROIN = {
     'english_name': 'Oinkologne-male',
     'evolution_chain': [
         {
-            'id': '915',
+            'id': '0915',
             'name': 'Gourmelet'
         },
         {
-            'id': '916',
+            'id': '0916',
             'name': 'Fragroin'
         }
     ],

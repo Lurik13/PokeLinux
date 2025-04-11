@@ -4,7 +4,7 @@ ABSOL = {
     'english_name': 'Absol',
     'evolution_chain': [
         {
-            'id': '359',
+            'id': '0359',
             'name': 'Absol'
         }
     ],

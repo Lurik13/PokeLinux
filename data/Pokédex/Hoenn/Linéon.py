@@ -4,15 +4,15 @@ LINÉON = {
     'english_name': 'Linoone',
     'evolution_chain': [
         {
-            'id': '263',
+            'id': '0263',
             'name': 'Zigzaton'
         },
         {
-            'id': '264',
+            'id': '0264',
             'name': 'Linéon'
         },
         {
-            'id': '862',
+            'id': '0862',
             'name': 'Ixon'
         }
     ],

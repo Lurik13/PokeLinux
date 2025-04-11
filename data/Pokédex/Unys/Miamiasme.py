@@ -4,11 +4,11 @@ MIAMIASME = {
     'english_name': 'Trubbish',
     'evolution_chain': [
         {
-            'id': '568',
+            'id': '0568',
             'name': 'Miamiasme'
         },
         {
-            'id': '569',
+            'id': '0569',
             'name': 'Miasmax'
         }
     ],

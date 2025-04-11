@@ -4,11 +4,11 @@ BALIGNON = {
     'english_name': 'Shroomish',
     'evolution_chain': [
         {
-            'id': '285',
+            'id': '0285',
             'name': 'Balignon'
         },
         {
-            'id': '286',
+            'id': '0286',
             'name': 'Chapignon'
         }
     ],

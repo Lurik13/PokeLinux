@@ -4,7 +4,7 @@ HYDRAGLA = {
     'english_name': 'Arctovish',
     'evolution_chain': [
         {
-            'id': '883',
+            'id': '0883',
             'name': 'Hydragla'
         }
     ],

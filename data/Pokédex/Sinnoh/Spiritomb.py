@@ -4,7 +4,7 @@ SPIRITOMB = {
     'english_name': 'Spiritomb',
     'evolution_chain': [
         {
-            'id': '442',
+            'id': '0442',
             'name': 'Spiritomb'
         }
     ],

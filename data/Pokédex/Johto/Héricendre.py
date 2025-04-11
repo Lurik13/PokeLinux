@@ -4,15 +4,15 @@ HÉRICENDRE = {
     'english_name': 'Cyndaquil',
     'evolution_chain': [
         {
-            'id': '155',
+            'id': '0155',
             'name': 'Héricendre'
         },
         {
-            'id': '156',
+            'id': '0156',
             'name': 'Feurisson'
         },
         {
-            'id': '157',
+            'id': '0157',
             'name': 'Typhlosion'
         }
     ],

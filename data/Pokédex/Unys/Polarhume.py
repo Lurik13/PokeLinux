@@ -4,11 +4,11 @@ POLARHUME = {
     'english_name': 'Cubchoo',
     'evolution_chain': [
         {
-            'id': '613',
+            'id': '0613',
             'name': 'Polarhume'
         },
         {
-            'id': '614',
+            'id': '0614',
             'name': 'Polagriffe'
         }
     ],

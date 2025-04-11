@@ -4,11 +4,11 @@ TIBOUDET = {
     'english_name': 'Mudbray',
     'evolution_chain': [
         {
-            'id': '749',
+            'id': '0749',
             'name': 'Tiboudet'
         },
         {
-            'id': '750',
+            'id': '0750',
             'name': 'Bourrinos'
         }
     ],

@@ -4,15 +4,15 @@ FÉLINFERNO = {
     'english_name': 'Incineroar',
     'evolution_chain': [
         {
-            'id': '725',
+            'id': '0725',
             'name': 'Flamiaou'
         },
         {
-            'id': '726',
+            'id': '0726',
             'name': 'Matoufeu'
         },
         {
-            'id': '727',
+            'id': '0727',
             'name': 'Félinferno'
         }
     ],

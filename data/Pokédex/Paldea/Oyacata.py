@@ -4,7 +4,7 @@ OYACATA = {
     'english_name': 'Dondozo',
     'evolution_chain': [
         {
-            'id': '977',
+            'id': '0977',
             'name': 'Oyacata'
         }
     ],

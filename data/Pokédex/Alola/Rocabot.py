@@ -4,11 +4,11 @@ ROCABOT = {
     'english_name': 'Rockruff',
     'evolution_chain': [
         {
-            'id': '744',
+            'id': '0744',
             'name': 'Rocabot'
         },
         {
-            'id': '745',
+            'id': '0745',
             'name': 'Lougaroc'
         }
     ],

@@ -4,11 +4,11 @@ VENALGUE = {
     'english_name': 'Skrelp',
     'evolution_chain': [
         {
-            'id': '690',
+            'id': '0690',
             'name': 'Venalgue'
         },
         {
-            'id': '691',
+            'id': '0691',
             'name': 'Kravarech'
         }
     ],

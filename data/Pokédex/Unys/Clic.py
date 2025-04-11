@@ -4,15 +4,15 @@ CLIC = {
     'english_name': 'Klang',
     'evolution_chain': [
         {
-            'id': '599',
+            'id': '0599',
             'name': 'Tic'
         },
         {
-            'id': '600',
+            'id': '0600',
             'name': 'Clic'
         },
         {
-            'id': '601',
+            'id': '0601',
             'name': 'Cliticlic'
         }
     ],

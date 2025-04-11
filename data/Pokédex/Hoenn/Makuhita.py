@@ -4,11 +4,11 @@ MAKUHITA = {
     'english_name': 'Makuhita',
     'evolution_chain': [
         {
-            'id': '296',
+            'id': '0296',
             'name': 'Makuhita'
         },
         {
-            'id': '297',
+            'id': '0297',
             'name': 'Hariyama'
         }
     ],

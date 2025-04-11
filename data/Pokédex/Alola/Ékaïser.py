@@ -4,15 +4,15 @@
     'english_name': 'Kommo-o',
     'evolution_chain': [
         {
-            'id': '782',
+            'id': '0782',
             'name': 'Bébécaille'
         },
         {
-            'id': '783',
+            'id': '0783',
             'name': 'Écaïd'
         },
         {
-            'id': '784',
+            'id': '0784',
             'name': 'Ékaïser'
         }
     ],

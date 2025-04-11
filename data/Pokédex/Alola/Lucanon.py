@@ -4,15 +4,15 @@ LUCANON = {
     'english_name': 'Vikavolt',
     'evolution_chain': [
         {
-            'id': '736',
+            'id': '0736',
             'name': 'Larvibule'
         },
         {
-            'id': '737',
+            'id': '0737',
             'name': 'Chrysapile'
         },
         {
-            'id': '738',
+            'id': '0738',
             'name': 'Lucanon'
         }
     ],

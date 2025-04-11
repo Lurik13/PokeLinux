@@ -4,11 +4,11 @@ GRELAÇON = {
     'english_name': 'Bergmite',
     'evolution_chain': [
         {
-            'id': '712',
+            'id': '0712',
             'name': 'Grelaçon'
         },
         {
-            'id': '713',
+            'id': '0713',
             'name': 'Séracrawl'
         }
     ],

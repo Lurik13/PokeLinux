@@ -4,11 +4,11 @@ ARBOK = {
     'english_name': 'Arbok',
     'evolution_chain': [
         {
-            'id': '23',
+            'id': '0023',
             'name': 'Abo'
         },
         {
-            'id': '24',
+            'id': '0024',
             'name': 'Arbok'
         }
     ],

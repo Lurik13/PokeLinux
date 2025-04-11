@@ -4,11 +4,11 @@ FEUNARD = {
     'english_name': 'Ninetales',
     'evolution_chain': [
         {
-            'id': '37',
+            'id': '0037',
             'name': 'Goupix'
         },
         {
-            'id': '38',
+            'id': '0038',
             'name': 'Feunard'
         }
     ],

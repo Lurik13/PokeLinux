@@ -4,7 +4,7 @@ TOKOTORO = {
     'english_name': 'Tapu-bulu',
     'evolution_chain': [
         {
-            'id': '787',
+            'id': '0787',
             'name': 'Tokotoro'
         }
     ],

@@ -4,15 +4,15 @@ GRODOUDOU = {
     'english_name': 'Wigglytuff',
     'evolution_chain': [
         {
-            'id': '174',
+            'id': '0174',
             'name': 'Toudoudou'
         },
         {
-            'id': '39',
+            'id': '0039',
             'name': 'Rondoudou'
         },
         {
-            'id': '40',
+            'id': '0040',
             'name': 'Grodoudou'
         }
     ],

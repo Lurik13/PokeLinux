@@ -4,11 +4,11 @@ PIMITO = {
     'english_name': 'Capsakid',
     'evolution_chain': [
         {
-            'id': '951',
+            'id': '0951',
             'name': 'Pimito'
         },
         {
-            'id': '952',
+            'id': '0952',
             'name': 'Scovilain'
         }
     ],

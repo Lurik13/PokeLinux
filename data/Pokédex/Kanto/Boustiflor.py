@@ -4,15 +4,15 @@ BOUSTIFLOR = {
     'english_name': 'Weepinbell',
     'evolution_chain': [
         {
-            'id': '69',
+            'id': '0069',
             'name': 'Chétiflor'
         },
         {
-            'id': '70',
+            'id': '0070',
             'name': 'Boustiflor'
         },
         {
-            'id': '71',
+            'id': '0071',
             'name': 'Empiflor'
         }
     ],

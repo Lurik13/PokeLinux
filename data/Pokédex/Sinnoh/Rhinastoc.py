@@ -4,15 +4,15 @@ RHINASTOC = {
     'english_name': 'Rhyperior',
     'evolution_chain': [
         {
-            'id': '111',
+            'id': '0111',
             'name': 'Rhinocorne'
         },
         {
-            'id': '112',
+            'id': '0112',
             'name': 'Rhinoféros'
         },
         {
-            'id': '464',
+            'id': '0464',
             'name': 'Rhinastoc'
         }
     ],

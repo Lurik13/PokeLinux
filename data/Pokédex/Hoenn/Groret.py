@@ -4,11 +4,11 @@ GRORET = {
     'english_name': 'Grumpig',
     'evolution_chain': [
         {
-            'id': '325',
+            'id': '0325',
             'name': 'Spoink'
         },
         {
-            'id': '326',
+            'id': '0326',
             'name': 'Groret'
         }
     ],

@@ -4,7 +4,7 @@ MÉTAMORPH = {
     'english_name': 'Ditto',
     'evolution_chain': [
         {
-            'id': '132',
+            'id': '0132',
             'name': 'Métamorph'
         }
     ],

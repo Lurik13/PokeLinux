@@ -4,7 +4,7 @@ SÉLÉROC = {
     'english_name': 'Lunatone',
     'evolution_chain': [
         {
-            'id': '337',
+            'id': '0337',
             'name': 'Séléroc'
         }
     ],

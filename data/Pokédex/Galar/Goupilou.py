@@ -4,11 +4,11 @@ GOUPILOU = {
     'english_name': 'Nickit',
     'evolution_chain': [
         {
-            'id': '827',
+            'id': '0827',
             'name': 'Goupilou'
         },
         {
-            'id': '828',
+            'id': '0828',
             'name': 'Roublenard'
         }
     ],

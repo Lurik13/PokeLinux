@@ -4,15 +4,15 @@ PINGOLÉON = {
     'english_name': 'Empoleon',
     'evolution_chain': [
         {
-            'id': '393',
+            'id': '0393',
             'name': 'Tiplouf'
         },
         {
-            'id': '394',
+            'id': '0394',
             'name': 'Prinplouf'
         },
         {
-            'id': '395',
+            'id': '0395',
             'name': 'Pingoléon'
         }
     ],

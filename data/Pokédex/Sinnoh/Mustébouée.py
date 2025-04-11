@@ -4,11 +4,11 @@ MUSTÉBOUÉE = {
     'english_name': 'Buizel',
     'evolution_chain': [
         {
-            'id': '418',
+            'id': '0418',
             'name': 'Mustébouée'
         },
         {
-            'id': '419',
+            'id': '0419',
             'name': 'Mustéflott'
         }
     ],

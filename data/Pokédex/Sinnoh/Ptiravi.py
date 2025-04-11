@@ -4,15 +4,15 @@ PTIRAVI = {
     'english_name': 'Happiny',
     'evolution_chain': [
         {
-            'id': '440',
+            'id': '0440',
             'name': 'Ptiravi'
         },
         {
-            'id': '113',
+            'id': '0113',
             'name': 'Leveinard'
         },
         {
-            'id': '242',
+            'id': '0242',
             'name': 'Leuphorie'
         }
     ],

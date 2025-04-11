@@ -4,11 +4,11 @@ QULBUTOKÉ = {
     'english_name': 'Wobbuffet',
     'evolution_chain': [
         {
-            'id': '360',
+            'id': '0360',
             'name': 'Okéoké'
         },
         {
-            'id': '202',
+            'id': '0202',
             'name': 'Qulbutoké'
         }
     ],

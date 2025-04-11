@@ -4,15 +4,15 @@ GALEKING = {
     'english_name': 'Aggron',
     'evolution_chain': [
         {
-            'id': '304',
+            'id': '0304',
             'name': 'Galekid'
         },
         {
-            'id': '305',
+            'id': '0305',
             'name': 'Galegon'
         },
         {
-            'id': '306',
+            'id': '0306',
             'name': 'Galeking'
         }
     ],

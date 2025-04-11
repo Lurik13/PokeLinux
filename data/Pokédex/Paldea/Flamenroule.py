@@ -4,7 +4,7 @@ FLAMENROULE = {
     'english_name': 'Flamigo',
     'evolution_chain': [
         {
-            'id': '973',
+            'id': '0973',
             'name': 'Flamenroule'
         }
     ],

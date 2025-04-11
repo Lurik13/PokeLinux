@@ -4,11 +4,11 @@ FEUILOUTAN = {
     'english_name': 'Simisage',
     'evolution_chain': [
         {
-            'id': '511',
+            'id': '0511',
             'name': 'Feuillajou'
         },
         {
-            'id': '512',
+            'id': '0512',
             'name': 'Feuiloutan'
         }
     ],

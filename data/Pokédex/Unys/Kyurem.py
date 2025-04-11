@@ -4,7 +4,7 @@ KYUREM = {
     'english_name': 'Kyurem',
     'evolution_chain': [
         {
-            'id': '646',
+            'id': '0646',
             'name': 'Kyurem'
         }
     ],

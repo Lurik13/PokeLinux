@@ -4,11 +4,11 @@ MANAPHY = {
     'english_name': 'Manaphy',
     'evolution_chain': [
         {
-            'id': '489',
+            'id': '0489',
             'name': 'Phione'
         },
         {
-            'id': '490',
+            'id': '0490',
             'name': 'Manaphy'
         }
     ],

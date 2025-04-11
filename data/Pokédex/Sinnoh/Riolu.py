@@ -4,11 +4,11 @@ RIOLU = {
     'english_name': 'Riolu',
     'evolution_chain': [
         {
-            'id': '447',
+            'id': '0447',
             'name': 'Riolu'
         },
         {
-            'id': '448',
+            'id': '0448',
             'name': 'Lucario'
         }
     ],

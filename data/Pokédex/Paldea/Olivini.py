@@ -4,15 +4,15 @@ OLIVINI = {
     'english_name': 'Smoliv',
     'evolution_chain': [
         {
-            'id': '928',
+            'id': '0928',
             'name': 'Olivini'
         },
         {
-            'id': '929',
+            'id': '0929',
             'name': 'Olivado'
         },
         {
-            'id': '930',
+            'id': '0930',
             'name': 'Arboliva'
         }
     ],

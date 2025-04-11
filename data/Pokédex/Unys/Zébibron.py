@@ -4,11 +4,11 @@ ZÉBIBRON = {
     'english_name': 'Blitzle',
     'evolution_chain': [
         {
-            'id': '522',
+            'id': '0522',
             'name': 'Zébibron'
         },
         {
-            'id': '523',
+            'id': '0523',
             'name': 'Zéblitz'
         }
     ],

@@ -4,11 +4,11 @@ SALARSEN = {
     'english_name': 'Toxtricity-amped',
     'evolution_chain': [
         {
-            'id': '848',
+            'id': '0848',
             'name': 'Toxizap'
         },
         {
-            'id': '849',
+            'id': '0849',
             'name': 'Salarsen'
         }
     ],

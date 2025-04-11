@@ -4,19 +4,19 @@ TARPAUD = {
     'english_name': 'Politoed',
     'evolution_chain': [
         {
-            'id': '60',
+            'id': '0060',
             'name': 'Ptitard'
         },
         {
-            'id': '61',
+            'id': '0061',
             'name': 'Têtarte'
         },
         {
-            'id': '62',
+            'id': '0062',
             'name': 'Tartard'
         },
         {
-            'id': '186',
+            'id': '0186',
             'name': 'Tarpaud'
         }
     ],

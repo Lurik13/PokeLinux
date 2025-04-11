@@ -4,11 +4,11 @@ ARCHÉODONG = {
     'english_name': 'Bronzong',
     'evolution_chain': [
         {
-            'id': '436',
+            'id': '0436',
             'name': 'Archéomire'
         },
         {
-            'id': '437',
+            'id': '0437',
             'name': 'Archéodong'
         }
     ],

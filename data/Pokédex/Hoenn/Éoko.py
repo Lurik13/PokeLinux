@@ -4,11 +4,11 @@
     'english_name': 'Chimecho',
     'evolution_chain': [
         {
-            'id': '433',
+            'id': '0433',
             'name': 'Korillon'
         },
         {
-            'id': '358',
+            'id': '0358',
             'name': 'Éoko'
         }
     ],

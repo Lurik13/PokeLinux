@@ -4,7 +4,7 @@ TOGEDEMARU = {
     'english_name': 'Togedemaru',
     'evolution_chain': [
         {
-            'id': '777',
+            'id': '0777',
             'name': 'Togedemaru'
         }
     ],

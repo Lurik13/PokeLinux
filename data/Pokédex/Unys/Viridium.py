@@ -4,7 +4,7 @@ VIRIDIUM = {
     'english_name': 'Virizion',
     'evolution_chain': [
         {
-            'id': '640',
+            'id': '0640',
             'name': 'Viridium'
         }
     ],

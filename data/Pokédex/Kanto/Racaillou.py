@@ -4,15 +4,15 @@ RACAILLOU = {
     'english_name': 'Geodude',
     'evolution_chain': [
         {
-            'id': '74',
+            'id': '0074',
             'name': 'Racaillou'
         },
         {
-            'id': '75',
+            'id': '0075',
             'name': 'Gravalanch'
         },
         {
-            'id': '76',
+            'id': '0076',
             'name': 'Grolem'
         }
     ],

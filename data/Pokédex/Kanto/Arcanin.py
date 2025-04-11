@@ -4,11 +4,11 @@ ARCANIN = {
     'english_name': 'Arcanine',
     'evolution_chain': [
         {
-            'id': '58',
+            'id': '0058',
             'name': 'Caninos'
         },
         {
-            'id': '59',
+            'id': '0059',
             'name': 'Arcanin'
         }
     ],

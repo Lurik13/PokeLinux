@@ -4,15 +4,15 @@ ROSÉLIA = {
     'english_name': 'Roselia',
     'evolution_chain': [
         {
-            'id': '406',
+            'id': '0406',
             'name': 'Rozbouton'
         },
         {
-            'id': '315',
+            'id': '0315',
             'name': 'Rosélia'
         },
         {
-            'id': '407',
+            'id': '0407',
             'name': 'Roserade'
         }
     ],

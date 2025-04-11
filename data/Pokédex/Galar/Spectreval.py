@@ -4,7 +4,7 @@ SPECTREVAL = {
     'english_name': 'Spectrier',
     'evolution_chain': [
         {
-            'id': '897',
+            'id': '0897',
             'name': 'Spectreval'
         }
     ],

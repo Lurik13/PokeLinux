@@ -4,7 +4,7 @@ LOVDISC = {
     'english_name': 'Luvdisc',
     'evolution_chain': [
         {
-            'id': '370',
+            'id': '0370',
             'name': 'Lovdisc'
         }
     ],

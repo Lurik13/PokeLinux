@@ -4,19 +4,19 @@ COSMOG = {
     'english_name': 'Cosmog',
     'evolution_chain': [
         {
-            'id': '789',
+            'id': '0789',
             'name': 'Cosmog'
         },
         {
-            'id': '790',
+            'id': '0790',
             'name': 'Cosmovum'
         },
         {
-            'id': '791',
+            'id': '0791',
             'name': 'Solgaleo'
         },
         {
-            'id': '792',
+            'id': '0792',
             'name': 'Lunala'
         }
     ],

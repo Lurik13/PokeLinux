@@ -4,11 +4,11 @@ QWILPIK = {
     'english_name': 'Overqwil',
     'evolution_chain': [
         {
-            'id': '211',
+            'id': '0211',
             'name': 'Qwilfish'
         },
         {
-            'id': '904',
+            'id': '0904',
             'name': 'Qwilpik'
         }
     ],

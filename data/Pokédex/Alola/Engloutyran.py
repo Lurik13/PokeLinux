@@ -4,7 +4,7 @@ ENGLOUTYRAN = {
     'english_name': 'Guzzlord',
     'evolution_chain': [
         {
-            'id': '799',
+            'id': '0799',
             'name': 'Engloutyran'
         }
     ],

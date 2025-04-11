@@ -4,7 +4,7 @@ BEKAGLAÇON = {
     'english_name': 'Eiscue-ice',
     'evolution_chain': [
         {
-            'id': '875',
+            'id': '0875',
             'name': 'Bekaglaçon'
         }
     ],

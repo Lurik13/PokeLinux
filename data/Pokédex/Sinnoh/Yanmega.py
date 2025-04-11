@@ -4,11 +4,11 @@ YANMEGA = {
     'english_name': 'Yanmega',
     'evolution_chain': [
         {
-            'id': '193',
+            'id': '0193',
             'name': 'Yanma'
         },
         {
-            'id': '469',
+            'id': '0469',
             'name': 'Yanmega'
         }
     ],

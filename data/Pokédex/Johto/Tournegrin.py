@@ -4,11 +4,11 @@ TOURNEGRIN = {
     'english_name': 'Sunkern',
     'evolution_chain': [
         {
-            'id': '191',
+            'id': '0191',
             'name': 'Tournegrin'
         },
         {
-            'id': '192',
+            'id': '0192',
             'name': 'Héliatronc'
         }
     ],

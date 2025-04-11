@@ -4,11 +4,11 @@ DÉMOLOSSE = {
     'english_name': 'Houndoom',
     'evolution_chain': [
         {
-            'id': '228',
+            'id': '0228',
             'name': 'Malosse'
         },
         {
-            'id': '229',
+            'id': '0229',
             'name': 'Démolosse'
         }
     ],

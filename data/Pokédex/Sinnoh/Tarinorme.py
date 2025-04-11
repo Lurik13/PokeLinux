@@ -4,11 +4,11 @@ TARINORME = {
     'english_name': 'Probopass',
     'evolution_chain': [
         {
-            'id': '299',
+            'id': '0299',
             'name': 'Tarinor'
         },
         {
-            'id': '476',
+            'id': '0476',
             'name': 'Tarinorme'
         }
     ],

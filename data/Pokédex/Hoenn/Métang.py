@@ -4,15 +4,15 @@ MÉTANG = {
     'english_name': 'Metang',
     'evolution_chain': [
         {
-            'id': '374',
+            'id': '0374',
             'name': 'Terhal'
         },
         {
-            'id': '375',
+            'id': '0375',
             'name': 'Métang'
         },
         {
-            'id': '376',
+            'id': '0376',
             'name': 'Métalosse'
         }
     ],

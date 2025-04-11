@@ -4,15 +4,15 @@ COTOVOL = {
     'english_name': 'Jumpluff',
     'evolution_chain': [
         {
-            'id': '187',
+            'id': '0187',
             'name': 'Granivol'
         },
         {
-            'id': '188',
+            'id': '0188',
             'name': 'Floravol'
         },
         {
-            'id': '189',
+            'id': '0189',
             'name': 'Cotovol'
         }
     ],

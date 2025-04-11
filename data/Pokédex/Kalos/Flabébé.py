@@ -4,15 +4,15 @@ FLABÉBÉ = {
     'english_name': 'Flabebe',
     'evolution_chain': [
         {
-            'id': '669',
+            'id': '0669',
             'name': 'Flabébé'
         },
         {
-            'id': '670',
+            'id': '0670',
             'name': 'Floette'
         },
         {
-            'id': '671',
+            'id': '0671',
             'name': 'Florges'
         }
     ],

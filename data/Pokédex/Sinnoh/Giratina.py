@@ -4,7 +4,7 @@ GIRATINA = {
     'english_name': 'Giratina-altered',
     'evolution_chain': [
         {
-            'id': '487',
+            'id': '0487',
             'name': 'Giratina'
         }
     ],

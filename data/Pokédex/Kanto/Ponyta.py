@@ -4,11 +4,11 @@ PONYTA = {
     'english_name': 'Ponyta',
     'evolution_chain': [
         {
-            'id': '77',
+            'id': '0077',
             'name': 'Ponyta'
         },
         {
-            'id': '78',
+            'id': '0078',
             'name': 'Galopa'
         }
     ],

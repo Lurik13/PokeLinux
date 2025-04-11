@@ -4,11 +4,11 @@ GAMBEX = {
     'english_name': 'Lokix',
     'evolution_chain': [
         {
-            'id': '919',
+            'id': '0919',
             'name': 'Lilliterelle'
         },
         {
-            'id': '920',
+            'id': '0920',
             'name': 'Gambex'
         }
     ],

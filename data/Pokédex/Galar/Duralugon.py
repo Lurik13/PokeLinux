@@ -4,7 +4,7 @@ DURALUGON = {
     'english_name': 'Duraludon',
     'evolution_chain': [
         {
-            'id': '884',
+            'id': '0884',
             'name': 'Duralugon'
         },
         {

@@ -4,7 +4,7 @@ TOKORICO = {
     'english_name': 'Tapu-koko',
     'evolution_chain': [
         {
-            'id': '785',
+            'id': '0785',
             'name': 'Tokorico'
         }
     ],

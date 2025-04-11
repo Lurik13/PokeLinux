@@ -4,7 +4,7 @@ MOTISMA = {
     'english_name': 'Rotom',
     'evolution_chain': [
         {
-            'id': '479',
+            'id': '0479',
             'name': 'Motisma'
         }
     ],

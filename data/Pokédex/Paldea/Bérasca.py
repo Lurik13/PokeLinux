@@ -4,11 +4,11 @@ BÉRASCA = {
     'english_name': 'Rabsca',
     'evolution_chain': [
         {
-            'id': '953',
+            'id': '0953',
             'name': 'Léboulérou'
         },
         {
-            'id': '954',
+            'id': '0954',
             'name': 'Bérasca'
         }
     ],

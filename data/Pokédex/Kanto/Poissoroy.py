@@ -4,11 +4,11 @@ POISSOROY = {
     'english_name': 'Seaking',
     'evolution_chain': [
         {
-            'id': '118',
+            'id': '0118',
             'name': 'Poissirène'
         },
         {
-            'id': '119',
+            'id': '0119',
             'name': 'Poissoroy'
         }
     ],

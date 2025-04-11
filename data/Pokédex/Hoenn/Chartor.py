@@ -4,7 +4,7 @@ CHARTOR = {
     'english_name': 'Torkoal',
     'evolution_chain': [
         {
-            'id': '324',
+            'id': '0324',
             'name': 'Chartor'
         }
     ],

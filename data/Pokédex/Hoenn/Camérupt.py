@@ -4,11 +4,11 @@ CAMÉRUPT = {
     'english_name': 'Camerupt',
     'evolution_chain': [
         {
-            'id': '322',
+            'id': '0322',
             'name': 'Chamallot'
         },
         {
-            'id': '323',
+            'id': '0323',
             'name': 'Camérupt'
         }
     ],

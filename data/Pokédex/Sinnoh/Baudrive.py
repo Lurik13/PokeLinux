@@ -4,11 +4,11 @@ BAUDRIVE = {
     'english_name': 'Drifloon',
     'evolution_chain': [
         {
-            'id': '425',
+            'id': '0425',
             'name': 'Baudrive'
         },
         {
-            'id': '426',
+            'id': '0426',
             'name': 'Grodrive'
         }
     ],

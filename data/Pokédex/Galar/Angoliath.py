@@ -4,15 +4,15 @@ ANGOLIATH = {
     'english_name': 'Grimmsnarl',
     'evolution_chain': [
         {
-            'id': '859',
+            'id': '0859',
             'name': 'Grimalin'
         },
         {
-            'id': '860',
+            'id': '0860',
             'name': 'Fourbelin'
         },
         {
-            'id': '861',
+            'id': '0861',
             'name': 'Angoliath'
         }
     ],

@@ -4,7 +4,7 @@ COBALTIUM = {
     'english_name': 'Cobalion',
     'evolution_chain': [
         {
-            'id': '638',
+            'id': '0638',
             'name': 'Cobaltium'
         }
     ],

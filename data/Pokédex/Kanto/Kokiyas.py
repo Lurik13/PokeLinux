@@ -4,11 +4,11 @@ KOKIYAS = {
     'english_name': 'Shellder',
     'evolution_chain': [
         {
-            'id': '90',
+            'id': '0090',
             'name': 'Kokiyas'
         },
         {
-            'id': '91',
+            'id': '0091',
             'name': 'Crustabri'
         }
     ],

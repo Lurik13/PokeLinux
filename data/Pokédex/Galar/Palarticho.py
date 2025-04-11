@@ -4,11 +4,11 @@ PALARTICHO = {
     'english_name': 'Sirfetchd',
     'evolution_chain': [
         {
-            'id': '83',
+            'id': '0083',
             'name': 'Canarticho'
         },
         {
-            'id': '865',
+            'id': '0865',
             'name': 'Palarticho'
         }
     ],

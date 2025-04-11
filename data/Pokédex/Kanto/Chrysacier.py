@@ -4,15 +4,15 @@ CHRYSACIER = {
     'english_name': 'Metapod',
     'evolution_chain': [
         {
-            'id': '10',
+            'id': '0010',
             'name': 'Chenipan'
         },
         {
-            'id': '11',
+            'id': '0011',
             'name': 'Chrysacier'
         },
         {
-            'id': '12',
+            'id': '0012',
             'name': 'Papilusion'
         }
     ],

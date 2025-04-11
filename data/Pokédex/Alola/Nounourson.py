@@ -4,11 +4,11 @@ NOUNOURSON = {
     'english_name': 'Stufful',
     'evolution_chain': [
         {
-            'id': '759',
+            'id': '0759',
             'name': 'Nounourson'
         },
         {
-            'id': '760',
+            'id': '0760',
             'name': 'Chelours'
         }
     ],

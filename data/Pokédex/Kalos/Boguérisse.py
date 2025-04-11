@@ -4,15 +4,15 @@ BOGUÉRISSE = {
     'english_name': 'Quilladin',
     'evolution_chain': [
         {
-            'id': '650',
+            'id': '0650',
             'name': 'Marisson'
         },
         {
-            'id': '651',
+            'id': '0651',
             'name': 'Boguérisse'
         },
         {
-            'id': '652',
+            'id': '0652',
             'name': 'Blindépique'
         }
     ],

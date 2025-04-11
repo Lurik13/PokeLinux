@@ -4,11 +4,11 @@ CHINCHIDOU = {
     'english_name': 'Minccino',
     'evolution_chain': [
         {
-            'id': '572',
+            'id': '0572',
             'name': 'Chinchidou'
         },
         {
-            'id': '573',
+            'id': '0573',
             'name': 'Pashmilla'
         }
     ],

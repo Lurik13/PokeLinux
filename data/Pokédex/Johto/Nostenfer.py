@@ -4,15 +4,15 @@ NOSTENFER = {
     'english_name': 'Crobat',
     'evolution_chain': [
         {
-            'id': '41',
+            'id': '0041',
             'name': 'Nosferapti'
         },
         {
-            'id': '42',
+            'id': '0042',
             'name': 'Nosferalto'
         },
         {
-            'id': '169',
+            'id': '0169',
             'name': 'Nostenfer'
         }
     ],

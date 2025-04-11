@@ -4,11 +4,11 @@ OPERMINE = {
     'english_name': 'Binacle',
     'evolution_chain': [
         {
-            'id': '688',
+            'id': '0688',
             'name': 'Opermine'
         },
         {
-            'id': '689',
+            'id': '0689',
             'name': 'Golgopathe'
         }
     ],

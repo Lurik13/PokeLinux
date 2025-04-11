@@ -4,15 +4,15 @@ PORYGON = {
     'english_name': 'Porygon',
     'evolution_chain': [
         {
-            'id': '137',
+            'id': '0137',
             'name': 'Porygon'
         },
         {
-            'id': '233',
+            'id': '0233',
             'name': 'Porygon2'
         },
         {
-            'id': '474',
+            'id': '0474',
             'name': 'Porygon-Z'
         }
     ],

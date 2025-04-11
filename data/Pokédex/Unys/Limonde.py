@@ -4,7 +4,7 @@ LIMONDE = {
     'english_name': 'Stunfisk',
     'evolution_chain': [
         {
-            'id': '618',
+            'id': '0618',
             'name': 'Limonde'
         }
     ],

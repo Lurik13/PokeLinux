@@ -4,11 +4,11 @@ KEUNOTOR = {
     'english_name': 'Bidoof',
     'evolution_chain': [
         {
-            'id': '399',
+            'id': '0399',
             'name': 'Keunotor'
         },
         {
-            'id': '400',
+            'id': '0400',
             'name': 'Castorno'
         }
     ],

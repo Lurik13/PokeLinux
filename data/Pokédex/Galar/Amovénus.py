@@ -4,7 +4,7 @@ AMOVÉNUS = {
     'english_name': 'Enamorus-incarnate',
     'evolution_chain': [
         {
-            'id': '905',
+            'id': '0905',
             'name': 'Amovénus'
         }
     ],

@@ -4,7 +4,7 @@ SUICUNE = {
     'english_name': 'Suicune',
     'evolution_chain': [
         {
-            'id': '245',
+            'id': '0245',
             'name': 'Suicune'
         }
     ],

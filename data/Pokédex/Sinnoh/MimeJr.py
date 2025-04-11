@@ -4,15 +4,15 @@ MIMEJR = {
     'english_name': 'Mime-jr',
     'evolution_chain': [
         {
-            'id': '439',
+            'id': '0439',
             'name': 'Mime Jr.'
         },
         {
-            'id': '122',
+            'id': '0122',
             'name': 'M. Mime'
         },
         {
-            'id': '866',
+            'id': '0866',
             'name': 'M. Glaquette'
         }
     ],

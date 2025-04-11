@@ -4,15 +4,15 @@ GALIFEU = {
     'english_name': 'Combusken',
     'evolution_chain': [
         {
-            'id': '255',
+            'id': '0255',
             'name': 'Poussifeu'
         },
         {
-            'id': '256',
+            'id': '0256',
             'name': 'Galifeu'
         },
         {
-            'id': '257',
+            'id': '0257',
             'name': 'Braségali'
         }
     ],

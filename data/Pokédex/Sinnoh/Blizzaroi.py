@@ -4,11 +4,11 @@ BLIZZAROI = {
     'english_name': 'Abomasnow',
     'evolution_chain': [
         {
-            'id': '459',
+            'id': '0459',
             'name': 'Blizzi'
         },
         {
-            'id': '460',
+            'id': '0460',
             'name': 'Blizzaroi'
         }
     ],

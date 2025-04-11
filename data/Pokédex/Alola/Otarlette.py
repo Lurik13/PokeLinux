@@ -4,15 +4,15 @@ OTARLETTE = {
     'english_name': 'Brionne',
     'evolution_chain': [
         {
-            'id': '728',
+            'id': '0728',
             'name': 'Otaquin'
         },
         {
-            'id': '729',
+            'id': '0729',
             'name': 'Otarlette'
         },
         {
-            'id': '730',
+            'id': '0730',
             'name': 'Oratoria'
         }
     ],

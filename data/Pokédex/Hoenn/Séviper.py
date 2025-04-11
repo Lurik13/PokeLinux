@@ -4,7 +4,7 @@ SÉVIPER = {
     'english_name': 'Seviper',
     'evolution_chain': [
         {
-            'id': '336',
+            'id': '0336',
             'name': 'Séviper'
         }
     ],

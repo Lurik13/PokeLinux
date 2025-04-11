@@ -4,11 +4,11 @@ EMBROCHET = {
     'english_name': 'Arrokuda',
     'evolution_chain': [
         {
-            'id': '846',
+            'id': '0846',
             'name': 'Embrochet'
         },
         {
-            'id': '847',
+            'id': '0847',
             'name': 'Hastacuda'
         }
     ],

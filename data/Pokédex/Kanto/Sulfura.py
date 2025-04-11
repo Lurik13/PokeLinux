@@ -4,7 +4,7 @@ SULFURA = {
     'english_name': 'Moltres',
     'evolution_chain': [
         {
-            'id': '146',
+            'id': '0146',
             'name': 'Sulfura'
         }
     ],

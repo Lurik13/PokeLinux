@@ -4,11 +4,11 @@ PSYKOKWAK = {
     'english_name': 'Psyduck',
     'evolution_chain': [
         {
-            'id': '54',
+            'id': '0054',
             'name': 'Psykokwak'
         },
         {
-            'id': '55',
+            'id': '0055',
             'name': 'Akwakwak'
         }
     ],

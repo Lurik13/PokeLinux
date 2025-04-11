@@ -4,7 +4,7 @@ FONGUSFURIE = {
     'english_name': 'Brute-bonnet',
     'evolution_chain': [
         {
-            'id': '986',
+            'id': '0986',
             'name': 'Fongus-Furie'
         }
     ],

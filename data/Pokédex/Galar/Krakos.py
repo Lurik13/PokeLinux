@@ -4,11 +4,11 @@ KRAKOS = {
     'english_name': 'Grapploct',
     'evolution_chain': [
         {
-            'id': '852',
+            'id': '0852',
             'name': 'Poulpaf'
         },
         {
-            'id': '853',
+            'id': '0853',
             'name': 'Krakos'
         }
     ],

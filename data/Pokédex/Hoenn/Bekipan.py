@@ -4,11 +4,11 @@ BEKIPAN = {
     'english_name': 'Pelipper',
     'evolution_chain': [
         {
-            'id': '278',
+            'id': '0278',
             'name': 'Goélise'
         },
         {
-            'id': '279',
+            'id': '0279',
             'name': 'Bekipan'
         }
     ],

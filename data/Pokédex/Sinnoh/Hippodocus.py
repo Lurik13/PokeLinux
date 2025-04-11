@@ -4,11 +4,11 @@ HIPPODOCUS = {
     'english_name': 'Hippowdon',
     'evolution_chain': [
         {
-            'id': '449',
+            'id': '0449',
             'name': 'Hippopotas'
         },
         {
-            'id': '450',
+            'id': '0450',
             'name': 'Hippodocus'
         }
     ],

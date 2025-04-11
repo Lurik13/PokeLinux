@@ -4,7 +4,7 @@ RELICANTH = {
     'english_name': 'Relicanth',
     'evolution_chain': [
         {
-            'id': '369',
+            'id': '0369',
             'name': 'Relicanth'
         }
     ],

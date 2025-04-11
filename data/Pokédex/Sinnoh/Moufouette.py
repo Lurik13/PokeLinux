@@ -4,11 +4,11 @@ MOUFOUETTE = {
     'english_name': 'Stunky',
     'evolution_chain': [
         {
-            'id': '434',
+            'id': '0434',
             'name': 'Moufouette'
         },
         {
-            'id': '435',
+            'id': '0435',
             'name': 'Moufflair'
         }
     ],

@@ -4,11 +4,11 @@ LAMPIGNON = {
     'english_name': 'Shiinotic',
     'evolution_chain': [
         {
-            'id': '755',
+            'id': '0755',
             'name': 'Spododo'
         },
         {
-            'id': '756',
+            'id': '0756',
             'name': 'Lampignon'
         }
     ],

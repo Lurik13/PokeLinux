@@ -4,15 +4,15 @@ MÉLANCOLUX = {
     'english_name': 'Lampent',
     'evolution_chain': [
         {
-            'id': '607',
+            'id': '0607',
             'name': 'Funécire'
         },
         {
-            'id': '608',
+            'id': '0608',
             'name': 'Mélancolux'
         },
         {
-            'id': '609',
+            'id': '0609',
             'name': 'Lugulabre'
         }
     ],

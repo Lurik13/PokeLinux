@@ -4,7 +4,7 @@ TERRAKIUM = {
     'english_name': 'Terrakion',
     'evolution_chain': [
         {
-            'id': '639',
+            'id': '0639',
             'name': 'Terrakium'
         }
     ],

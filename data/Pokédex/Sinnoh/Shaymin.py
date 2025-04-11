@@ -4,7 +4,7 @@ SHAYMIN = {
     'english_name': 'Shaymin-land',
     'evolution_chain': [
         {
-            'id': '492',
+            'id': '0492',
             'name': 'Shaymin'
         }
     ],

@@ -4,15 +4,15 @@ MAGNÉTI = {
     'english_name': 'Magnemite',
     'evolution_chain': [
         {
-            'id': '81',
+            'id': '0081',
             'name': 'Magnéti'
         },
         {
-            'id': '82',
+            'id': '0082',
             'name': 'Magnéton'
         },
         {
-            'id': '462',
+            'id': '0462',
             'name': 'Magnézone'
         }
     ],

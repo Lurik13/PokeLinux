@@ -4,7 +4,7 @@ PONDRALUGON = {
     'english_name': 'Archaludon',
     'evolution_chain': [
         {
-            'id': '884',
+            'id': '0884',
             'name': 'Duralugon'
         },
         {

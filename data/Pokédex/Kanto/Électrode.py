@@ -4,11 +4,11 @@
     'english_name': 'Electrode',
     'evolution_chain': [
         {
-            'id': '100',
+            'id': '0100',
             'name': 'Voltorbe'
         },
         {
-            'id': '101',
+            'id': '0101',
             'name': 'Électrode'
         }
     ],

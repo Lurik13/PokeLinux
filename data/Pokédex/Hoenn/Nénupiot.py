@@ -4,15 +4,15 @@ NÉNUPIOT = {
     'english_name': 'Lotad',
     'evolution_chain': [
         {
-            'id': '270',
+            'id': '0270',
             'name': 'Nénupiot'
         },
         {
-            'id': '271',
+            'id': '0271',
             'name': 'Lombre'
         },
         {
-            'id': '272',
+            'id': '0272',
             'name': 'Ludicolo'
         }
     ],

@@ -4,11 +4,11 @@ TAUPIKEAU = {
     'english_name': 'Wiglett',
     'evolution_chain': [
         {
-            'id': '960',
+            'id': '0960',
             'name': 'Taupikeau'
         },
         {
-            'id': '961',
+            'id': '0961',
             'name': 'Triopikeau'
         }
     ],

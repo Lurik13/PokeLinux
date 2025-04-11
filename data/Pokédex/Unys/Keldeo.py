@@ -4,7 +4,7 @@ KELDEO = {
     'english_name': 'Keldeo-ordinary',
     'evolution_chain': [
         {
-            'id': '647',
+            'id': '0647',
             'name': 'Keldeo'
         }
     ],

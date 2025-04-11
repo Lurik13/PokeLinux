@@ -4,7 +4,7 @@ POSIPI = {
     'english_name': 'Plusle',
     'evolution_chain': [
         {
-            'id': '311',
+            'id': '0311',
             'name': 'Posipi'
         }
     ],

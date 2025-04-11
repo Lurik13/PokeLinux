@@ -4,7 +4,7 @@ LATIOS = {
     'english_name': 'Latios',
     'evolution_chain': [
         {
-            'id': '381',
+            'id': '0381',
             'name': 'Latios'
         }
     ],

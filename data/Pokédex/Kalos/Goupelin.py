@@ -4,15 +4,15 @@ GOUPELIN = {
     'english_name': 'Delphox',
     'evolution_chain': [
         {
-            'id': '653',
+            'id': '0653',
             'name': 'Feunnec'
         },
         {
-            'id': '654',
+            'id': '0654',
             'name': 'Roussil'
         },
         {
-            'id': '655',
+            'id': '0655',
             'name': 'Goupelin'
         }
     ],

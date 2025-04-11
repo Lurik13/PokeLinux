@@ -4,15 +4,15 @@ COLOMBEAU = {
     'english_name': 'Tranquill',
     'evolution_chain': [
         {
-            'id': '519',
+            'id': '0519',
             'name': 'Poichigeon'
         },
         {
-            'id': '520',
+            'id': '0520',
             'name': 'Colombeau'
         },
         {
-            'id': '521',
+            'id': '0521',
             'name': 'Déflaisan'
         }
     ],

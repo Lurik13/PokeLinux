@@ -4,11 +4,11 @@ PRÉDASTÉRIE = {
     'english_name': 'Toxapex',
     'evolution_chain': [
         {
-            'id': '747',
+            'id': '0747',
             'name': 'Vorastérie'
         },
         {
-            'id': '748',
+            'id': '0748',
             'name': 'Prédastérie'
         }
     ],

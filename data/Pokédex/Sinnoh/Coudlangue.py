@@ -4,11 +4,11 @@ COUDLANGUE = {
     'english_name': 'Lickilicky',
     'evolution_chain': [
         {
-            'id': '108',
+            'id': '0108',
             'name': 'Excelangue'
         },
         {
-            'id': '463',
+            'id': '0463',
             'name': 'Coudlangue'
         }
     ],

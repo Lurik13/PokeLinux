@@ -4,7 +4,7 @@ FULGURIS = {
     'english_name': 'Thundurus-incarnate',
     'evolution_chain': [
         {
-            'id': '642',
+            'id': '0642',
             'name': 'Fulguris'
         }
     ],

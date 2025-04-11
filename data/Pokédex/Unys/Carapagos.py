@@ -4,11 +4,11 @@ CARAPAGOS = {
     'english_name': 'Tirtouga',
     'evolution_chain': [
         {
-            'id': '564',
+            'id': '0564',
             'name': 'Carapagos'
         },
         {
-            'id': '565',
+            'id': '0565',
             'name': 'Mégapagos'
         }
     ],

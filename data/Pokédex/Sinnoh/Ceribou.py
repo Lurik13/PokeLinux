@@ -4,11 +4,11 @@ CERIBOU = {
     'english_name': 'Cherubi',
     'evolution_chain': [
         {
-            'id': '420',
+            'id': '0420',
             'name': 'Ceribou'
         },
         {
-            'id': '421',
+            'id': '0421',
             'name': 'Ceriflor'
         }
     ],

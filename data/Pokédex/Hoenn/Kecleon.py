@@ -4,7 +4,7 @@ KECLEON = {
     'english_name': 'Kecleon',
     'evolution_chain': [
         {
-            'id': '352',
+            'id': '0352',
             'name': 'Kecleon'
         }
     ],

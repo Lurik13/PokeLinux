@@ -4,7 +4,7 @@ PTÉRA = {
     'english_name': 'Aerodactyl',
     'evolution_chain': [
         {
-            'id': '142',
+            'id': '0142',
             'name': 'Ptéra'
         }
     ],

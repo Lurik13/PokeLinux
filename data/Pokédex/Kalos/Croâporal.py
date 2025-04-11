@@ -4,15 +4,15 @@ CROÂPORAL = {
     'english_name': 'Frogadier',
     'evolution_chain': [
         {
-            'id': '656',
+            'id': '0656',
             'name': 'Grenousse'
         },
         {
-            'id': '657',
+            'id': '0657',
             'name': 'Croâporal'
         },
         {
-            'id': '658',
+            'id': '0658',
             'name': 'Amphinobi'
         }
     ],

@@ -4,11 +4,11 @@ VIREVORREUR = {
     'english_name': 'Brambleghast',
     'evolution_chain': [
         {
-            'id': '946',
+            'id': '0946',
             'name': 'Virovent'
         },
         {
-            'id': '947',
+            'id': '0947',
             'name': 'Virevorreur'
         }
     ],

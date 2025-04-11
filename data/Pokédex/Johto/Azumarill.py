@@ -4,15 +4,15 @@ AZUMARILL = {
     'english_name': 'Azumarill',
     'evolution_chain': [
         {
-            'id': '298',
+            'id': '0298',
             'name': 'Azurill'
         },
         {
-            'id': '183',
+            'id': '0183',
             'name': 'Marill'
         },
         {
-            'id': '184',
+            'id': '0184',
             'name': 'Azumarill'
         }
     ],

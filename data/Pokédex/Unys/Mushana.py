@@ -4,11 +4,11 @@ MUSHANA = {
     'english_name': 'Musharna',
     'evolution_chain': [
         {
-            'id': '517',
+            'id': '0517',
             'name': 'Munna'
         },
         {
-            'id': '518',
+            'id': '0518',
             'name': 'Mushana'
         }
     ],

@@ -4,7 +4,7 @@ NÉGAPI = {
     'english_name': 'Minun',
     'evolution_chain': [
         {
-            'id': '312',
+            'id': '0312',
             'name': 'Négapi'
         }
     ],

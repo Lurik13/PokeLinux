@@ -4,7 +4,7 @@ MELTAN = {
     'english_name': 'Meltan',
     'evolution_chain': [
         {
-            'id': '808',
+            'id': '0808',
             'name': 'Meltan'
         }
     ],

@@ -4,15 +4,15 @@ ASTRONELLE = {
     'english_name': 'Orbeetle',
     'evolution_chain': [
         {
-            'id': '824',
+            'id': '0824',
             'name': 'Larvadar'
         },
         {
-            'id': '825',
+            'id': '0825',
             'name': 'Coléodôme'
         },
         {
-            'id': '826',
+            'id': '0826',
             'name': 'Astronelle'
         }
     ],

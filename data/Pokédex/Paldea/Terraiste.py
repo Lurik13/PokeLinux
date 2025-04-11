@@ -4,15 +4,15 @@ TERRAISTE = {
     'english_name': 'Clodsire',
     'evolution_chain': [
         {
-            'id': '194',
+            'id': '0194',
             'name': 'Axoloto'
         },
         {
-            'id': '195',
+            'id': '0195',
             'name': 'Maraiste'
         },
         {
-            'id': '980',
+            'id': '0980',
             'name': 'Terraiste'
         }
     ],

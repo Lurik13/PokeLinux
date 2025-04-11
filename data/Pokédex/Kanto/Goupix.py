@@ -4,11 +4,11 @@ GOUPIX = {
     'english_name': 'Vulpix',
     'evolution_chain': [
         {
-            'id': '37',
+            'id': '0037',
             'name': 'Goupix'
         },
         {
-            'id': '38',
+            'id': '0038',
             'name': 'Feunard'
         }
     ],

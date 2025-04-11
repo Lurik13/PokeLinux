@@ -4,11 +4,11 @@ PANDARBARE = {
     'english_name': 'Pangoro',
     'evolution_chain': [
         {
-            'id': '674',
+            'id': '0674',
             'name': 'Pandespiègle'
         },
         {
-            'id': '675',
+            'id': '0675',
             'name': 'Pandarbare'
         }
     ],

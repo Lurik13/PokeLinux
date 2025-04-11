@@ -4,11 +4,11 @@ DELCATTY = {
     'english_name': 'Delcatty',
     'evolution_chain': [
         {
-            'id': '300',
+            'id': '0300',
             'name': 'Skitty'
         },
         {
-            'id': '301',
+            'id': '0301',
             'name': 'Delcatty'
         }
     ],

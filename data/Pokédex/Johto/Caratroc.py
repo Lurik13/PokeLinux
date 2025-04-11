@@ -4,7 +4,7 @@ CARATROC = {
     'english_name': 'Shuckle',
     'evolution_chain': [
         {
-            'id': '213',
+            'id': '0213',
             'name': 'Caratroc'
         }
     ],

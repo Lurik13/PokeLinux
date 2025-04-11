@@ -4,15 +4,15 @@ BAZOUCAN = {
     'english_name': 'Toucannon',
     'evolution_chain': [
         {
-            'id': '731',
+            'id': '0731',
             'name': 'Picassaut'
         },
         {
-            'id': '732',
+            'id': '0732',
             'name': 'Piclairon'
         },
         {
-            'id': '733',
+            'id': '0733',
             'name': 'Bazoucan'
         }
     ],

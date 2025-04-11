@@ -4,11 +4,11 @@ CORBOSS = {
     'english_name': 'Honchkrow',
     'evolution_chain': [
         {
-            'id': '198',
+            'id': '0198',
             'name': 'Cornèbre'
         },
         {
-            'id': '430',
+            'id': '0430',
             'name': 'Corboss'
         }
     ],

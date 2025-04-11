@@ -4,7 +4,7 @@
     'english_name': 'Eternatus',
     'evolution_chain': [
         {
-            'id': '890',
+            'id': '0890',
             'name': 'Éthernatos'
         }
     ],

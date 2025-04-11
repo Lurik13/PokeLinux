@@ -4,7 +4,7 @@ VICTINI = {
     'english_name': 'Victini',
     'evolution_chain': [
         {
-            'id': '494',
+            'id': '0494',
             'name': 'Victini'
         }
     ],

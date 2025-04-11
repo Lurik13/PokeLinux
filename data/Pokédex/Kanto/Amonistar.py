@@ -4,11 +4,11 @@ AMONISTAR = {
     'english_name': 'Omastar',
     'evolution_chain': [
         {
-            'id': '138',
+            'id': '0138',
             'name': 'Amonita'
         },
         {
-            'id': '139',
+            'id': '0139',
             'name': 'Amonistar'
         }
     ],

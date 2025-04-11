@@ -4,11 +4,11 @@ SCOVILAIN = {
     'english_name': 'Scovillain',
     'evolution_chain': [
         {
-            'id': '951',
+            'id': '0951',
             'name': 'Pimito'
         },
         {
-            'id': '952',
+            'id': '0952',
             'name': 'Scovilain'
         }
     ],

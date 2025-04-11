@@ -4,11 +4,11 @@ GALVARAN = {
     'english_name': 'Helioptile',
     'evolution_chain': [
         {
-            'id': '694',
+            'id': '0694',
             'name': 'Galvaran'
         },
         {
-            'id': '695',
+            'id': '0695',
             'name': 'Iguolta'
         }
     ],

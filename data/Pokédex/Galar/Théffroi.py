@@ -4,11 +4,11 @@ THÉFFROI = {
     'english_name': 'Sinistea',
     'evolution_chain': [
         {
-            'id': '854',
+            'id': '0854',
             'name': 'Théffroi'
         },
         {
-            'id': '855',
+            'id': '0855',
             'name': 'Polthégeist'
         }
     ],

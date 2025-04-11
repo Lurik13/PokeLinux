@@ -4,7 +4,7 @@ NIGIRIGON = {
     'english_name': 'Tatsugiri-curly',
     'evolution_chain': [
         {
-            'id': '978',
+            'id': '0978',
             'name': 'Nigirigon'
         }
     ],

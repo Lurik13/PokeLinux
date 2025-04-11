@@ -4,7 +4,7 @@ HEATRAN = {
     'english_name': 'Heatran',
     'evolution_chain': [
         {
-            'id': '485',
+            'id': '0485',
             'name': 'Heatran'
         }
     ],

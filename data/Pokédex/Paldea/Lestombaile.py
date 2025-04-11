@@ -4,7 +4,7 @@ LESTOMBAILE = {
     'english_name': 'Bombirdier',
     'evolution_chain': [
         {
-            'id': '962',
+            'id': '0962',
             'name': 'Lestombaile'
         }
     ],

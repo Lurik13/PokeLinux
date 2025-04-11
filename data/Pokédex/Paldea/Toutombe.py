@@ -4,11 +4,11 @@ TOUTOMBE = {
     'english_name': 'Greavard',
     'evolution_chain': [
         {
-            'id': '971',
+            'id': '0971',
             'name': 'Toutombe'
         },
         {
-            'id': '972',
+            'id': '0972',
             'name': 'Tomberro'
         }
     ],

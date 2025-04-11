@@ -4,11 +4,11 @@ HÉLIONCEAU = {
     'english_name': 'Litleo',
     'evolution_chain': [
         {
-            'id': '667',
+            'id': '0667',
             'name': 'Hélionceau'
         },
         {
-            'id': '668',
+            'id': '0668',
             'name': 'Némélios'
         }
     ],

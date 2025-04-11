@@ -4,15 +4,15 @@ DIAMAT = {
     'english_name': 'Zweilous',
     'evolution_chain': [
         {
-            'id': '633',
+            'id': '0633',
             'name': 'Solochi'
         },
         {
-            'id': '634',
+            'id': '0634',
             'name': 'Diamat'
         },
         {
-            'id': '635',
+            'id': '0635',
             'name': 'Trioxhydre'
         }
     ],

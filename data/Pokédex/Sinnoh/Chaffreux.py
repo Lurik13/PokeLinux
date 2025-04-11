@@ -4,11 +4,11 @@ CHAFFREUX = {
     'english_name': 'Purugly',
     'evolution_chain': [
         {
-            'id': '431',
+            'id': '0431',
             'name': 'Chaglam'
         },
         {
-            'id': '432',
+            'id': '0432',
             'name': 'Chaffreux'
         }
     ],

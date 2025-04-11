@@ -4,11 +4,11 @@ CHEVROUM = {
     'english_name': 'Gogoat',
     'evolution_chain': [
         {
-            'id': '672',
+            'id': '0672',
             'name': 'Cabriolaine'
         },
         {
-            'id': '673',
+            'id': '0673',
             'name': 'Chevroum'
         }
     ],

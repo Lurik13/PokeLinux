@@ -4,11 +4,11 @@ COCOTINE = {
     'english_name': 'Aromatisse',
     'evolution_chain': [
         {
-            'id': '682',
+            'id': '0682',
             'name': 'Fluvetin'
         },
         {
-            'id': '683',
+            'id': '0683',
             'name': 'Cocotine'
         }
     ],

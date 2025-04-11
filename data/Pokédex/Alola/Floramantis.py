@@ -4,11 +4,11 @@ FLORAMANTIS = {
     'english_name': 'Lurantis',
     'evolution_chain': [
         {
-            'id': '753',
+            'id': '0753',
             'name': 'Mimantis'
         },
         {
-            'id': '754',
+            'id': '0754',
             'name': 'Floramantis'
         }
     ],

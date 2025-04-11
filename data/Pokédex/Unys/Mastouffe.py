@@ -4,15 +4,15 @@ MASTOUFFE = {
     'english_name': 'Stoutland',
     'evolution_chain': [
         {
-            'id': '506',
+            'id': '0506',
             'name': 'Ponchiot'
         },
         {
-            'id': '507',
+            'id': '0507',
             'name': 'Ponchien'
         },
         {
-            'id': '508',
+            'id': '0508',
             'name': 'Mastouffe'
         }
     ],

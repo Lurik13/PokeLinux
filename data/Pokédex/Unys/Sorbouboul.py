@@ -4,15 +4,15 @@ SORBOUBOUL = {
     'english_name': 'Vanilluxe',
     'evolution_chain': [
         {
-            'id': '582',
+            'id': '0582',
             'name': 'Sorbébé'
         },
         {
-            'id': '583',
+            'id': '0583',
             'name': 'Sorboul'
         },
         {
-            'id': '584',
+            'id': '0584',
             'name': 'Sorbouboul'
         }
     ],

@@ -4,7 +4,7 @@ PELAGESABLÉ = {
     'english_name': 'Sandy-shocks',
     'evolution_chain': [
         {
-            'id': '989',
+            'id': '0989',
             'name': 'Pelage-Sablé'
         }
     ],

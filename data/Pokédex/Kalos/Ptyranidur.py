@@ -4,11 +4,11 @@ PTYRANIDUR = {
     'english_name': 'Tyrunt',
     'evolution_chain': [
         {
-            'id': '696',
+            'id': '0696',
             'name': 'Ptyranidur'
         },
         {
-            'id': '697',
+            'id': '0697',
             'name': 'Rexillius'
         }
     ],

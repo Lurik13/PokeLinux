@@ -1,9 +1,11 @@
 import asyncio
-from anki.anki_utils import *
+import pickle
+from src.anki.anki_utils import *
 import genanki # type: ignore
 import sys
-from pokemon.get_pokemon import *
-from anki.print import *
+from src.anki.print import *
+with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
+    POKEMON = pickle.load(executable)
 
 def get_de_pokemon(name):
 	if name[0].lower() in ('a', 'e', 'i', 'o', 'u'):
@@ -46,37 +48,23 @@ def create_pokemon_cards(pokemon):
 
 def parsing(argv):
 	if len(argv) != 2:
-		raise ValueError("Vous indiquer le numéro d'une génération.")
+		raise ValueError("Vous devez indiquer le numéro d'une génération.")
 	if argv[1].isnumeric() == False:
 		raise ValueError(f"'{argv[1]}' n'est pas un numéro.")
 
 def add_gen_pokemons(gen_number):
 	first_pokemon_id = GENERATIONS[gen_number]['pokemon_range'][0]
-	last_pokemon_id = GENERATIONS[gen_number]['pokemon_range'][1]
-	gen_pokemons = {}
-	for pokemon_id in range(first_pokemon_id, last_pokemon_id + 1):
-		gen_pokemons[pokemon_id] = get_pokemon(pokemon_id)
-		# print(gen_pokemons[pokemon_id]) ########
-		print_pokemon(gen_pokemons[pokemon_id], gen_number)
-		create_pokemon_cards(gen_pokemons[pokemon_id])
-	return gen_pokemons
-
-def gen_evolutions_data():
-	for i in range (1, 1026):
-		pokemon = get_pokemon(i)
-		print('\'' + pokemon['french_name'] + '\': ', end='', flush=True)
-		evolutions = []
-		for pokemon in pokemon['evolution_chain']:
-			pokemon_data = get_pokemon(pokemon['name'])['species_data']
-			evolutions.append((pokemon_data['id'], get_french_name(pokemon_data)))
-		print(evolutions, end='', flush=True)
-		print(",")
+	last_pokemon_id = GENERATIONS[gen_number]['pokemon_range'][1] + 1
+	for pokemon_id in range(first_pokemon_id, last_pokemon_id):
+		asyncio.run(print_pokemon(POKEMON[pokemon_id], gen_number))
+		create_pokemon_cards(POKEMON[pokemon_id])
 
 if __name__ == "__main__":
 	try:
 		parsing(sys.argv)
 		gen_number = sys.argv[1]
-		gen_id = int((gen_number * (10 // len(gen_number) + 1))[:10])
+		gen_id = int(str((gen_number * (10 // len(gen_number) + 1)))[:10])
+		gen_number = int(gen_number)
 		if gen_number not in GENERATIONS:
 			raise ValueError("Cette génération n'existe pas.")
 		
@@ -84,13 +72,15 @@ if __name__ == "__main__":
 			GENERATIONS[gen_number]['text_color'], GENERATIONS[gen_number]['background_image'])
 		deck = genanki.Deck(gen_id, GENERATIONS[gen_number]['name'])
 
-		# asyncio.run(print_download(gen_number))
+		asyncio.run(print_download(gen_number))
 		add_gen_pokemons(gen_number)
-
-		# gen_evolutions_data()
 		
 		my_package = genanki.Package(deck)
 		my_package.write_to_file(GENERATIONS[gen_number]['name'] + '.apkg')
 		
 	except ValueError as ve:
 		print("Error:", ve)
+
+
+
+# passer aux fonctions anki seulement gen_number en paramètre

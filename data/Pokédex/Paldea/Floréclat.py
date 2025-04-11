@@ -4,11 +4,11 @@ FLORÉCLAT = {
     'english_name': 'Glimmora',
     'evolution_chain': [
         {
-            'id': '969',
+            'id': '0969',
             'name': 'Germéclat'
         },
         {
-            'id': '970',
+            'id': '0970',
             'name': 'Floréclat'
         }
     ],

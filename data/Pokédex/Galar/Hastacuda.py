@@ -4,11 +4,11 @@ HASTACUDA = {
     'english_name': 'Barraskewda',
     'evolution_chain': [
         {
-            'id': '846',
+            'id': '0846',
             'name': 'Embrochet'
         },
         {
-            'id': '847',
+            'id': '0847',
             'name': 'Hastacuda'
         }
     ],

@@ -4,7 +4,7 @@ BLIZZEVAL = {
     'english_name': 'Glastrier',
     'evolution_chain': [
         {
-            'id': '896',
+            'id': '0896',
             'name': 'Blizzeval'
         }
     ],

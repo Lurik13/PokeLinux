@@ -4,7 +4,7 @@ LUMIVOLE = {
     'english_name': 'Illumise',
     'evolution_chain': [
         {
-            'id': '314',
+            'id': '0314',
             'name': 'Lumivole'
         }
     ],

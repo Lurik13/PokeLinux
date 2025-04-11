@@ -4,11 +4,11 @@ PHIONE = {
     'english_name': 'Phione',
     'evolution_chain': [
         {
-            'id': '489',
+            'id': '0489',
             'name': 'Phione'
         },
         {
-            'id': '490',
+            'id': '0490',
             'name': 'Manaphy'
         }
     ],

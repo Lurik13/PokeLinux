@@ -4,11 +4,11 @@ LOUPIO = {
     'english_name': 'Chinchou',
     'evolution_chain': [
         {
-            'id': '170',
+            'id': '0170',
             'name': 'Loupio'
         },
         {
-            'id': '171',
+            'id': '0171',
             'name': 'Lanturn'
         }
     ],

@@ -4,15 +4,15 @@ MOUSTILLON = {
     'english_name': 'Oshawott',
     'evolution_chain': [
         {
-            'id': '501',
+            'id': '0501',
             'name': 'Moustillon'
         },
         {
-            'id': '502',
+            'id': '0502',
             'name': 'Mateloutre'
         },
         {
-            'id': '503',
+            'id': '0503',
             'name': 'Clamiral'
         }
     ],

@@ -4,7 +4,7 @@ ENTEI = {
     'english_name': 'Entei',
     'evolution_chain': [
         {
-            'id': '244',
+            'id': '0244',
             'name': 'Entei'
         }
     ],

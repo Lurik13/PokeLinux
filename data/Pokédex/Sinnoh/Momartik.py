@@ -4,15 +4,15 @@ MOMARTIK = {
     'english_name': 'Froslass',
     'evolution_chain': [
         {
-            'id': '361',
+            'id': '0361',
             'name': 'Stalgamin'
         },
         {
-            'id': '362',
+            'id': '0362',
             'name': 'Oniglali'
         },
         {
-            'id': '478',
+            'id': '0478',
             'name': 'Momartik'
         }
     ],

@@ -4,11 +4,11 @@ DEUSOLOURDO = {
     'english_name': 'Dudunsparce-two-segment',
     'evolution_chain': [
         {
-            'id': '206',
+            'id': '0206',
             'name': 'Insolourdo'
         },
         {
-            'id': '982',
+            'id': '0982',
             'name': 'Deusolourdo'
         }
     ],

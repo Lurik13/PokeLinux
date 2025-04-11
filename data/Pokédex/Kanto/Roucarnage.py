@@ -4,15 +4,15 @@ ROUCARNAGE = {
     'english_name': 'Pidgeot',
     'evolution_chain': [
         {
-            'id': '16',
+            'id': '0016',
             'name': 'Roucool'
         },
         {
-            'id': '17',
+            'id': '0017',
             'name': 'Roucoups'
         },
         {
-            'id': '18',
+            'id': '0018',
             'name': 'Roucarnage'
         }
     ],

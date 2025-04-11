@@ -4,15 +4,15 @@
     'english_name': 'Electabuzz',
     'evolution_chain': [
         {
-            'id': '239',
+            'id': '0239',
             'name': 'Élekid'
         },
         {
-            'id': '125',
+            'id': '0125',
             'name': 'Élektek'
         },
         {
-            'id': '466',
+            'id': '0466',
             'name': 'Élekable'
         }
     ],

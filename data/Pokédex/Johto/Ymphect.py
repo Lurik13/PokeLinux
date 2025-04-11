@@ -4,15 +4,15 @@ YMPHECT = {
     'english_name': 'Pupitar',
     'evolution_chain': [
         {
-            'id': '246',
+            'id': '0246',
             'name': 'Embrylex'
         },
         {
-            'id': '247',
+            'id': '0247',
             'name': 'Ymphect'
         },
         {
-            'id': '248',
+            'id': '0248',
             'name': 'Tyranocif'
         }
     ],

@@ -4,7 +4,7 @@ GROMAGO = {
     'english_name': 'Gholdengo',
     'evolution_chain': [
         {
-            'id': '999',
+            'id': '0999',
             'name': 'Mordudor'
         },
         {

@@ -4,7 +4,7 @@ HOOH = {
     'english_name': 'Ho-oh',
     'evolution_chain': [
         {
-            'id': '250',
+            'id': '0250',
             'name': 'Ho-Oh'
         }
     ],

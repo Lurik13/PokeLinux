@@ -4,7 +4,7 @@ JUDOKRAK = {
     'english_name': 'Throh',
     'evolution_chain': [
         {
-            'id': '538',
+            'id': '0538',
             'name': 'Judokrak'
         }
     ],

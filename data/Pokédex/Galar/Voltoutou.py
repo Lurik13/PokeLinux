@@ -4,11 +4,11 @@ VOLTOUTOU = {
     'english_name': 'Yamper',
     'evolution_chain': [
         {
-            'id': '835',
+            'id': '0835',
             'name': 'Voltoutou'
         },
         {
-            'id': '836',
+            'id': '0836',
             'name': 'Fulgudog'
         }
     ],

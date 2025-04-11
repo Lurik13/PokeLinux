@@ -4,11 +4,11 @@ KRABBY = {
     'english_name': 'Krabby',
     'evolution_chain': [
         {
-            'id': '98',
+            'id': '0098',
             'name': 'Krabby'
         },
         {
-            'id': '99',
+            'id': '0099',
             'name': 'Krabboss'
         }
     ],

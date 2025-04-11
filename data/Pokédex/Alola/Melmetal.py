@@ -4,7 +4,7 @@ MELMETAL = {
     'english_name': 'Melmetal',
     'evolution_chain': [
         {
-            'id': '809',
+            'id': '0809',
             'name': 'Melmetal'
         }
     ],

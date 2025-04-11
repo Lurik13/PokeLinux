@@ -4,7 +4,7 @@ KANGOUREX = {
     'english_name': 'Kangaskhan',
     'evolution_chain': [
         {
-            'id': '115',
+            'id': '0115',
             'name': 'Kangourex'
         }
     ],

@@ -4,7 +4,7 @@ CRYPTÉRO = {
     'english_name': 'Sigilyph',
     'evolution_chain': [
         {
-            'id': '561',
+            'id': '0561',
             'name': 'Cryptéro'
         }
     ],

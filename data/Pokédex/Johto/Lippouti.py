@@ -4,11 +4,11 @@ LIPPOUTI = {
     'english_name': 'Smoochum',
     'evolution_chain': [
         {
-            'id': '238',
+            'id': '0238',
             'name': 'Lippouti'
         },
         {
-            'id': '124',
+            'id': '0124',
             'name': 'Lippoutou'
         }
     ],

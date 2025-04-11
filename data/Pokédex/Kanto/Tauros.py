@@ -4,7 +4,7 @@ TAUROS = {
     'english_name': 'Tauros',
     'evolution_chain': [
         {
-            'id': '128',
+            'id': '0128',
             'name': 'Tauros'
         }
     ],

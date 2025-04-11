@@ -4,7 +4,7 @@ FROUSSARDINE = {
     'english_name': 'Wishiwashi-solo',
     'evolution_chain': [
         {
-            'id': '746',
+            'id': '0746',
             'name': 'Froussardine'
         }
     ],

@@ -4,15 +4,15 @@ FORGERETTE = {
     'english_name': 'Tinkatink',
     'evolution_chain': [
         {
-            'id': '957',
+            'id': '0957',
             'name': 'Forgerette'
         },
         {
-            'id': '958',
+            'id': '0958',
             'name': 'Forgella'
         },
         {
-            'id': '959',
+            'id': '0959',
             'name': 'Forgelina'
         }
     ],

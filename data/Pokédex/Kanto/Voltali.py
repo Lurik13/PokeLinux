@@ -4,39 +4,39 @@ VOLTALI = {
     'english_name': 'Jolteon',
     'evolution_chain': [
         {
-            'id': '133',
+            'id': '0133',
             'name': 'Évoli'
         },
         {
-            'id': '134',
+            'id': '0134',
             'name': 'Aquali'
         },
         {
-            'id': '135',
+            'id': '0135',
             'name': 'Voltali'
         },
         {
-            'id': '136',
+            'id': '0136',
             'name': 'Pyroli'
         },
         {
-            'id': '196',
+            'id': '0196',
             'name': 'Mentali'
         },
         {
-            'id': '197',
+            'id': '0197',
             'name': 'Noctali'
         },
         {
-            'id': '470',
+            'id': '0470',
             'name': 'Phyllali'
         },
         {
-            'id': '471',
+            'id': '0471',
             'name': 'Givrali'
         },
         {
-            'id': '700',
+            'id': '0700',
             'name': 'Nymphali'
         }
     ],

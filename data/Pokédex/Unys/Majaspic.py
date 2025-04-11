@@ -4,15 +4,15 @@ MAJASPIC = {
     'english_name': 'Serperior',
     'evolution_chain': [
         {
-            'id': '495',
+            'id': '0495',
             'name': 'Vipélierre'
         },
         {
-            'id': '496',
+            'id': '0496',
             'name': 'Lianaja'
         },
         {
-            'id': '497',
+            'id': '0497',
             'name': 'Majaspic'
         }
     ],

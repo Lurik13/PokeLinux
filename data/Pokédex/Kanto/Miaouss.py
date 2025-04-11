@@ -4,15 +4,15 @@ MIAOUSS = {
     'english_name': 'Meowth',
     'evolution_chain': [
         {
-            'id': '52',
+            'id': '0052',
             'name': 'Miaouss'
         },
         {
-            'id': '53',
+            'id': '0053',
             'name': 'Persian'
         },
         {
-            'id': '863',
+            'id': '0863',
             'name': 'Berserkatt'
         }
     ],

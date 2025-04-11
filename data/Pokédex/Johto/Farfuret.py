@@ -4,15 +4,15 @@ FARFURET = {
     'english_name': 'Sneasel',
     'evolution_chain': [
         {
-            'id': '215',
+            'id': '0215',
             'name': 'Farfuret'
         },
         {
-            'id': '461',
+            'id': '0461',
             'name': 'Dimoret'
         },
         {
-            'id': '903',
+            'id': '0903',
             'name': 'Farfurex'
         }
     ],

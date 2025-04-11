@@ -4,11 +4,11 @@ ONIX = {
     'english_name': 'Onix',
     'evolution_chain': [
         {
-            'id': '95',
+            'id': '0095',
             'name': 'Onix'
         },
         {
-            'id': '208',
+            'id': '0208',
             'name': 'Steelix'
         }
     ],

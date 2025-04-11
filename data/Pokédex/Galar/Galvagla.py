@@ -4,7 +4,7 @@ GALVAGLA = {
     'english_name': 'Arctozolt',
     'evolution_chain': [
         {
-            'id': '881',
+            'id': '0881',
             'name': 'Galvagla'
         }
     ],

@@ -4,11 +4,11 @@ DARUMACHO = {
     'english_name': 'Darmanitan-standard',
     'evolution_chain': [
         {
-            'id': '554',
+            'id': '0554',
             'name': 'Darumarond'
         },
         {
-            'id': '555',
+            'id': '0555',
             'name': 'Darumacho'
         }
     ],

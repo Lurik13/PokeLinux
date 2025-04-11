@@ -4,7 +4,7 @@ CADOIZO = {
     'english_name': 'Delibird',
     'evolution_chain': [
         {
-            'id': '225',
+            'id': '0225',
             'name': 'Cadoizo'
         }
     ],

@@ -4,7 +4,7 @@ SCARABRUTE = {
     'english_name': 'Pinsir',
     'evolution_chain': [
         {
-            'id': '127',
+            'id': '0127',
             'name': 'Scarabrute'
         }
     ],

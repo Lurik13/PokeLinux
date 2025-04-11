@@ -4,11 +4,11 @@ LIMAGMA = {
     'english_name': 'Slugma',
     'evolution_chain': [
         {
-            'id': '218',
+            'id': '0218',
             'name': 'Limagma'
         },
         {
-            'id': '219',
+            'id': '0219',
             'name': 'Volcaropod'
         }
     ],

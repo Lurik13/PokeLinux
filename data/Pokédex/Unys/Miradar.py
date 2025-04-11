@@ -4,11 +4,11 @@ MIRADAR = {
     'english_name': 'Watchog',
     'evolution_chain': [
         {
-            'id': '504',
+            'id': '0504',
             'name': 'Ratentif'
         },
         {
-            'id': '505',
+            'id': '0505',
             'name': 'Miradar'
         }
     ],

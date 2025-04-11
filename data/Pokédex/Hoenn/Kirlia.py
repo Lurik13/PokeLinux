@@ -4,19 +4,19 @@ KIRLIA = {
     'english_name': 'Kirlia',
     'evolution_chain': [
         {
-            'id': '280',
+            'id': '0280',
             'name': 'Tarsal'
         },
         {
-            'id': '281',
+            'id': '0281',
             'name': 'Kirlia'
         },
         {
-            'id': '282',
+            'id': '0282',
             'name': 'Gardevoir'
         },
         {
-            'id': '475',
+            'id': '0475',
             'name': 'Gallame'
         }
     ],

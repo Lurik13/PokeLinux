@@ -4,15 +4,15 @@ ABRA = {
     'english_name': 'Abra',
     'evolution_chain': [
         {
-            'id': '63',
+            'id': '0063',
             'name': 'Abra'
         },
         {
-            'id': '64',
+            'id': '0064',
             'name': 'Kadabra'
         },
         {
-            'id': '65',
+            'id': '0065',
             'name': 'Alakazam'
         }
     ],

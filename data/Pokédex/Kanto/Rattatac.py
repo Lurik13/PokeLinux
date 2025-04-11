@@ -4,11 +4,11 @@ RATTATAC = {
     'english_name': 'Raticate',
     'evolution_chain': [
         {
-            'id': '19',
+            'id': '0019',
             'name': 'Rattata'
         },
         {
-            'id': '20',
+            'id': '0020',
             'name': 'Rattatac'
         }
     ],

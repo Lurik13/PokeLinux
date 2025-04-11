@@ -4,15 +4,15 @@ CARAPUCE = {
     'english_name': 'Squirtle',
     'evolution_chain': [
         {
-            'id': '7',
+            'id': '0007',
             'name': 'Carapuce'
         },
         {
-            'id': '8',
+            'id': '0008',
             'name': 'Carabaffe'
         },
         {
-            'id': '9',
+            'id': '0009',
             'name': 'Tortank'
         }
     ],

@@ -4,15 +4,15 @@ MÉLO = {
     'english_name': 'Cleffa',
     'evolution_chain': [
         {
-            'id': '173',
+            'id': '0173',
             'name': 'Mélo'
         },
         {
-            'id': '35',
+            'id': '0035',
             'name': 'Mélofée'
         },
         {
-            'id': '36',
+            'id': '0036',
             'name': 'Mélodelfe'
         }
     ],

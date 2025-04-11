@@ -4,11 +4,11 @@ SCOLOCENDRE = {
     'english_name': 'Centiskorch',
     'evolution_chain': [
         {
-            'id': '850',
+            'id': '0850',
             'name': 'Grillepattes'
         },
         {
-            'id': '851',
+            'id': '0851',
             'name': 'Scolocendre'
         }
     ],

@@ -4,15 +4,15 @@ MACHOC = {
     'english_name': 'Machop',
     'evolution_chain': [
         {
-            'id': '66',
+            'id': '0066',
             'name': 'Machoc'
         },
         {
-            'id': '67',
+            'id': '0067',
             'name': 'Machopeur'
         },
         {
-            'id': '68',
+            'id': '0068',
             'name': 'Mackogneur'
         }
     ],

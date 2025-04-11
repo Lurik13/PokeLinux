@@ -4,15 +4,15 @@ SIDÉRELLA = {
     'english_name': 'Gothitelle',
     'evolution_chain': [
         {
-            'id': '574',
+            'id': '0574',
             'name': 'Scrutella'
         },
         {
-            'id': '575',
+            'id': '0575',
             'name': 'Mesmérella'
         },
         {
-            'id': '576',
+            'id': '0576',
             'name': 'Sidérella'
         }
     ],

@@ -4,11 +4,11 @@ TÊTAMPOULE = {
     'english_name': 'Tadbulb',
     'evolution_chain': [
         {
-            'id': '938',
+            'id': '0938',
             'name': 'Têtampoule'
         },
         {
-            'id': '939',
+            'id': '0939',
             'name': 'Ampibidou'
         }
     ],

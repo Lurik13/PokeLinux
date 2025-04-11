@@ -4,7 +4,7 @@ DÉLESTIN = {
     'english_name': 'Veluza',
     'evolution_chain': [
         {
-            'id': '976',
+            'id': '0976',
             'name': 'Délestin'
         }
     ],

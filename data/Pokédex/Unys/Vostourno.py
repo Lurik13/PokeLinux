@@ -4,11 +4,11 @@ VOSTOURNO = {
     'english_name': 'Vullaby',
     'evolution_chain': [
         {
-            'id': '629',
+            'id': '0629',
             'name': 'Vostourno'
         },
         {
-            'id': '630',
+            'id': '0630',
             'name': 'Vaututrice'
         }
     ],

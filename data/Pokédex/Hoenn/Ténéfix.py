@@ -4,7 +4,7 @@ TÉNÉFIX = {
     'english_name': 'Sableye',
     'evolution_chain': [
         {
-            'id': '302',
+            'id': '0302',
             'name': 'Ténéfix'
         }
     ],

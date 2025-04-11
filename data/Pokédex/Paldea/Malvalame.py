@@ -4,15 +4,15 @@ MALVALAME = {
     'english_name': 'Ceruledge',
     'evolution_chain': [
         {
-            'id': '935',
+            'id': '0935',
             'name': 'Charbambin'
         },
         {
-            'id': '936',
+            'id': '0936',
             'name': 'Carmadura'
         },
         {
-            'id': '937',
+            'id': '0937',
             'name': 'Malvalame'
         }
     ],

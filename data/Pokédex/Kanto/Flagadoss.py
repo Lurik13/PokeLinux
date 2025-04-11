@@ -4,15 +4,15 @@ FLAGADOSS = {
     'english_name': 'Slowbro',
     'evolution_chain': [
         {
-            'id': '79',
+            'id': '0079',
             'name': 'Ramoloss'
         },
         {
-            'id': '80',
+            'id': '0080',
             'name': 'Flagadoss'
         },
         {
-            'id': '199',
+            'id': '0199',
             'name': 'Roigada'
         }
     ],

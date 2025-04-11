@@ -4,7 +4,7 @@ MANGRIFF = {
     'english_name': 'Zangoose',
     'evolution_chain': [
         {
-            'id': '335',
+            'id': '0335',
             'name': 'Mangriff'
         }
     ],

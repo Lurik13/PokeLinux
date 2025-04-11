@@ -4,11 +4,11 @@ MILOBELLUS = {
     'english_name': 'Milotic',
     'evolution_chain': [
         {
-            'id': '349',
+            'id': '0349',
             'name': 'Barpau'
         },
         {
-            'id': '350',
+            'id': '0350',
             'name': 'Milobellus'
         }
     ],

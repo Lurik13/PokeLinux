@@ -4,7 +4,7 @@ PALKIA = {
     'english_name': 'Palkia',
     'evolution_chain': [
         {
-            'id': '484',
+            'id': '0484',
             'name': 'Palkia'
         }
     ],

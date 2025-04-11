@@ -4,7 +4,7 @@ DEOXYS = {
     'english_name': 'Deoxys-normal',
     'evolution_chain': [
         {
-            'id': '386',
+            'id': '0386',
             'name': 'Deoxys'
         }
     ],

@@ -4,7 +4,7 @@ DOLMAN = {
     'english_name': 'Stonjourner',
     'evolution_chain': [
         {
-            'id': '874',
+            'id': '0874',
             'name': 'Dolman'
         }
     ],

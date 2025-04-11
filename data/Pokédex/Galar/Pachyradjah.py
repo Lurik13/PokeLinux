@@ -4,11 +4,11 @@ PACHYRADJAH = {
     'english_name': 'Copperajah',
     'evolution_chain': [
         {
-            'id': '878',
+            'id': '0878',
             'name': 'Charibari'
         },
         {
-            'id': '879',
+            'id': '0879',
             'name': 'Pachyradjah'
         }
     ],

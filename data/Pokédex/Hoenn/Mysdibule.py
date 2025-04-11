@@ -4,7 +4,7 @@ MYSDIBULE = {
     'english_name': 'Mawile',
     'evolution_chain': [
         {
-            'id': '303',
+            'id': '0303',
             'name': 'Mysdibule'
         }
     ],

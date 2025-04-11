@@ -4,15 +4,15 @@ MUNJA = {
     'english_name': 'Shedinja',
     'evolution_chain': [
         {
-            'id': '290',
+            'id': '0290',
             'name': 'Ningale'
         },
         {
-            'id': '291',
+            'id': '0291',
             'name': 'Ninjask'
         },
         {
-            'id': '292',
+            'id': '0292',
             'name': 'Munja'
         }
     ],

@@ -4,11 +4,11 @@ COXYCLAQUE = {
     'english_name': 'Ledian',
     'evolution_chain': [
         {
-            'id': '165',
+            'id': '0165',
             'name': 'Coxy'
         },
         {
-            'id': '166',
+            'id': '0166',
             'name': 'Coxyclaque'
         }
     ],

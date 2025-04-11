@@ -4,7 +4,7 @@ MOUSCOTO = {
     'english_name': 'Buzzwole',
     'evolution_chain': [
         {
-            'id': '794',
+            'id': '0794',
             'name': 'Mouscoto'
         }
     ],

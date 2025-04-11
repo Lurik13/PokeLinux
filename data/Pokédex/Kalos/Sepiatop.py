@@ -4,11 +4,11 @@ SEPIATOP = {
     'english_name': 'Inkay',
     'evolution_chain': [
         {
-            'id': '686',
+            'id': '0686',
             'name': 'Sepiatop'
         },
         {
-            'id': '687',
+            'id': '0687',
             'name': 'Sepiatroce'
         }
     ],

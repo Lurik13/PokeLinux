@@ -4,15 +4,15 @@ COLOSSINGE = {
     'english_name': 'Primeape',
     'evolution_chain': [
         {
-            'id': '56',
+            'id': '0056',
             'name': 'Férosinge'
         },
         {
-            'id': '57',
+            'id': '0057',
             'name': 'Colossinge'
         },
         {
-            'id': '979',
+            'id': '0979',
             'name': 'Courrousinge'
         }
     ],

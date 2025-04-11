@@ -4,11 +4,11 @@ TENTACOOL = {
     'english_name': 'Tentacool',
     'evolution_chain': [
         {
-            'id': '72',
+            'id': '0072',
             'name': 'Tentacool'
         },
         {
-            'id': '73',
+            'id': '0073',
             'name': 'Tentacruel'
         }
     ],

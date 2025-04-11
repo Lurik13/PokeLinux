@@ -4,7 +4,7 @@ LOKHLASS = {
     'english_name': 'Lapras',
     'evolution_chain': [
         {
-            'id': '131',
+            'id': '0131',
             'name': 'Lokhlass'
         }
     ],

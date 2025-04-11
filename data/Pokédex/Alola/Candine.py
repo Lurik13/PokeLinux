@@ -4,15 +4,15 @@ CANDINE = {
     'english_name': 'Steenee',
     'evolution_chain': [
         {
-            'id': '761',
+            'id': '0761',
             'name': 'Croquine'
         },
         {
-            'id': '762',
+            'id': '0762',
             'name': 'Candine'
         },
         {
-            'id': '763',
+            'id': '0763',
             'name': 'Sucreine'
         }
     ],

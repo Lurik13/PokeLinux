@@ -4,7 +4,7 @@ LUGIA = {
     'english_name': 'Lugia',
     'evolution_chain': [
         {
-            'id': '249',
+            'id': '0249',
             'name': 'Lugia'
         }
     ],

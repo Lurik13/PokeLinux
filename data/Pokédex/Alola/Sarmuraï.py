@@ -4,11 +4,11 @@ SARMURAÏ = {
     'english_name': 'Golisopod',
     'evolution_chain': [
         {
-            'id': '767',
+            'id': '0767',
             'name': 'Sovkipou'
         },
         {
-            'id': '768',
+            'id': '0768',
             'name': 'Sarmuraï'
         }
     ],

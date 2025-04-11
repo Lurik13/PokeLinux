@@ -4,15 +4,15 @@ DRACKHAUS = {
     'english_name': 'Shelgon',
     'evolution_chain': [
         {
-            'id': '371',
+            'id': '0371',
             'name': 'Draby'
         },
         {
-            'id': '372',
+            'id': '0372',
             'name': 'Drackhaus'
         },
         {
-            'id': '373',
+            'id': '0373',
             'name': 'Drattak'
         }
     ],

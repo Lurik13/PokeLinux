@@ -4,15 +4,15 @@ LIBÉGON = {
     'english_name': 'Flygon',
     'evolution_chain': [
         {
-            'id': '328',
+            'id': '0328',
             'name': 'Kraknoix'
         },
         {
-            'id': '329',
+            'id': '0329',
             'name': 'Vibraninf'
         },
         {
-            'id': '330',
+            'id': '0330',
             'name': 'Libégon'
         }
     ],

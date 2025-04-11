@@ -4,11 +4,11 @@ GAMBLAST = {
     'english_name': 'Clawitzer',
     'evolution_chain': [
         {
-            'id': '692',
+            'id': '0692',
             'name': 'Flingouste'
         },
         {
-            'id': '693',
+            'id': '0693',
             'name': 'Gamblast'
         }
     ],

@@ -4,7 +4,7 @@ SOLAROC = {
     'english_name': 'Solrock',
     'evolution_chain': [
         {
-            'id': '338',
+            'id': '0338',
             'name': 'Solaroc'
         }
     ],

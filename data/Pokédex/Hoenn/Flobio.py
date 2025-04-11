@@ -4,15 +4,15 @@ FLOBIO = {
     'english_name': 'Marshtomp',
     'evolution_chain': [
         {
-            'id': '258',
+            'id': '0258',
             'name': 'Gobou'
         },
         {
-            'id': '259',
+            'id': '0259',
             'name': 'Flobio'
         },
         {
-            'id': '260',
+            'id': '0260',
             'name': 'Laggron'
         }
     ],

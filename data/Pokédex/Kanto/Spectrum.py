@@ -4,15 +4,15 @@ SPECTRUM = {
     'english_name': 'Haunter',
     'evolution_chain': [
         {
-            'id': '92',
+            'id': '0092',
             'name': 'Fantominus'
         },
         {
-            'id': '93',
+            'id': '0093',
             'name': 'Spectrum'
         },
         {
-            'id': '94',
+            'id': '0094',
             'name': 'Ectoplasma'
         }
     ],

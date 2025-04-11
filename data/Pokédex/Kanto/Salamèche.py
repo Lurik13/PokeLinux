@@ -4,15 +4,15 @@ SALAMÈCHE = {
     'english_name': 'Charmander',
     'evolution_chain': [
         {
-            'id': '4',
+            'id': '0004',
             'name': 'Salamèche'
         },
         {
-            'id': '5',
+            'id': '0005',
             'name': 'Reptincel'
         },
         {
-            'id': '6',
+            'id': '0006',
             'name': 'Dracaufeu'
         }
     ],

@@ -4,15 +4,15 @@ MINISANGE = {
     'english_name': 'Rookidee',
     'evolution_chain': [
         {
-            'id': '821',
+            'id': '0821',
             'name': 'Minisange'
         },
         {
-            'id': '822',
+            'id': '0822',
             'name': 'Bleuseille'
         },
         {
-            'id': '823',
+            'id': '0823',
             'name': 'Corvaillus'
         }
     ],

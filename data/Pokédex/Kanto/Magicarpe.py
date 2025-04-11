@@ -4,11 +4,11 @@ MAGICARPE = {
     'english_name': 'Magikarp',
     'evolution_chain': [
         {
-            'id': '129',
+            'id': '0129',
             'name': 'Magicarpe'
         },
         {
-            'id': '130',
+            'id': '0130',
             'name': 'Léviator'
         }
     ],

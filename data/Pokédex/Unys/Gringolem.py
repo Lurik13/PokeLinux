@@ -4,11 +4,11 @@ GRINGOLEM = {
     'english_name': 'Golett',
     'evolution_chain': [
         {
-            'id': '622',
+            'id': '0622',
             'name': 'Gringolem'
         },
         {
-            'id': '623',
+            'id': '0623',
             'name': 'Golemastoc'
         }
     ],

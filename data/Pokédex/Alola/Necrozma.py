@@ -4,7 +4,7 @@ NECROZMA = {
     'english_name': 'Necrozma',
     'evolution_chain': [
         {
-            'id': '800',
+            'id': '0800',
             'name': 'Necrozma'
         }
     ],

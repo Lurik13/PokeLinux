@@ -4,7 +4,7 @@ TROPIUS = {
     'english_name': 'Tropius',
     'evolution_chain': [
         {
-            'id': '357',
+            'id': '0357',
             'name': 'Tropius'
         }
     ],

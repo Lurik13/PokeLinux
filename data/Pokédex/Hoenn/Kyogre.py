@@ -4,7 +4,7 @@ KYOGRE = {
     'english_name': 'Kyogre',
     'evolution_chain': [
         {
-            'id': '382',
+            'id': '0382',
             'name': 'Kyogre'
         }
     ],

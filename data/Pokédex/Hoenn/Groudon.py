@@ -4,7 +4,7 @@ GROUDON = {
     'english_name': 'Groudon',
     'evolution_chain': [
         {
-            'id': '383',
+            'id': '0383',
             'name': 'Groudon'
         }
     ],

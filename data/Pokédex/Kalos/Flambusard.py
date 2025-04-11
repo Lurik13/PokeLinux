@@ -4,15 +4,15 @@ FLAMBUSARD = {
     'english_name': 'Talonflame',
     'evolution_chain': [
         {
-            'id': '661',
+            'id': '0661',
             'name': 'Passerouge'
         },
         {
-            'id': '662',
+            'id': '0662',
             'name': 'Braisillon'
         },
         {
-            'id': '663',
+            'id': '0663',
             'name': 'Flambusard'
         }
     ],

@@ -4,11 +4,11 @@ ARAKDO = {
     'english_name': 'Surskit',
     'evolution_chain': [
         {
-            'id': '283',
+            'id': '0283',
             'name': 'Arakdo'
         },
         {
-            'id': '284',
+            'id': '0284',
             'name': 'Maskadra'
         }
     ],

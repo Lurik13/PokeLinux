@@ -4,11 +4,11 @@ MINOTAUPE = {
     'english_name': 'Excadrill',
     'evolution_chain': [
         {
-            'id': '529',
+            'id': '0529',
             'name': 'Rototaupe'
         },
         {
-            'id': '530',
+            'id': '0530',
             'name': 'Minotaupe'
         }
     ],

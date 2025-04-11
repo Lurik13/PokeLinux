@@ -4,7 +4,7 @@ AMAAMA = {
     'english_name': 'Stakataka',
     'evolution_chain': [
         {
-            'id': '805',
+            'id': '0805',
             'name': 'Ama-Ama'
         }
     ],

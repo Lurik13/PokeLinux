@@ -4,7 +4,7 @@ TOKOPISCO = {
     'english_name': 'Tapu-fini',
     'evolution_chain': [
         {
-            'id': '788',
+            'id': '0788',
             'name': 'Tokopisco'
         }
     ],

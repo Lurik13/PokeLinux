@@ -4,11 +4,11 @@ SCORVOL = {
     'english_name': 'Gliscor',
     'evolution_chain': [
         {
-            'id': '207',
+            'id': '0207',
             'name': 'Scorplane'
         },
         {
-            'id': '472',
+            'id': '0472',
             'name': 'Scorvol'
         }
     ],

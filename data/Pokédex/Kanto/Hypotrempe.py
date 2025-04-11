@@ -4,15 +4,15 @@ HYPOTREMPE = {
     'english_name': 'Horsea',
     'evolution_chain': [
         {
-            'id': '116',
+            'id': '0116',
             'name': 'Hypotrempe'
         },
         {
-            'id': '117',
+            'id': '0117',
             'name': 'Hypocéan'
         },
         {
-            'id': '230',
+            'id': '0230',
             'name': 'Hyporoi'
         }
     ],

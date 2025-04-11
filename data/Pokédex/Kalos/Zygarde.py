@@ -4,7 +4,7 @@ ZYGARDE = {
     'english_name': 'Zygarde-50',
     'evolution_chain': [
         {
-            'id': '718',
+            'id': '0718',
             'name': 'Zygarde'
         }
     ],

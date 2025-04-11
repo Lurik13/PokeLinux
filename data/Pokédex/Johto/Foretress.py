@@ -4,11 +4,11 @@ FORETRESS = {
     'english_name': 'Forretress',
     'evolution_chain': [
         {
-            'id': '204',
+            'id': '0204',
             'name': 'Pomdepik'
         },
         {
-            'id': '205',
+            'id': '0205',
             'name': 'Foretress'
         }
     ],

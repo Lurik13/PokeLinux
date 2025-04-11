@@ -4,11 +4,11 @@ CAPIDEXTRE = {
     'english_name': 'Ambipom',
     'evolution_chain': [
         {
-            'id': '190',
+            'id': '0190',
             'name': 'Capumain'
         },
         {
-            'id': '424',
+            'id': '0424',
             'name': 'Capidextre'
         }
     ],

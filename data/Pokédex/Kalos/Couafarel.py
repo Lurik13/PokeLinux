@@ -4,7 +4,7 @@ COUAFAREL = {
     'english_name': 'Furfrou',
     'evolution_chain': [
         {
-            'id': '676',
+            'id': '0676',
             'name': 'Couafarel'
         }
     ],

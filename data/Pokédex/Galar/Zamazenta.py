@@ -4,7 +4,7 @@ ZAMAZENTA = {
     'english_name': 'Zamazenta',
     'evolution_chain': [
         {
-            'id': '889',
+            'id': '0889',
             'name': 'Zamazenta'
         }
     ],

@@ -4,7 +4,7 @@ CRESSELIA = {
     'english_name': 'Cresselia',
     'evolution_chain': [
         {
-            'id': '488',
+            'id': '0488',
             'name': 'Cresselia'
         }
     ],

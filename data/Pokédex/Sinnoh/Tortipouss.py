@@ -4,15 +4,15 @@ TORTIPOUSS = {
     'english_name': 'Turtwig',
     'evolution_chain': [
         {
-            'id': '387',
+            'id': '0387',
             'name': 'Tortipouss'
         },
         {
-            'id': '388',
+            'id': '0388',
             'name': 'Boskara'
         },
         {
-            'id': '389',
+            'id': '0389',
             'name': 'Torterra'
         }
     ],

@@ -4,11 +4,11 @@ LEWSOR = {
     'english_name': 'Elgyem',
     'evolution_chain': [
         {
-            'id': '605',
+            'id': '0605',
             'name': 'Lewsor'
         },
         {
-            'id': '606',
+            'id': '0606',
             'name': 'Neitram'
         }
     ],

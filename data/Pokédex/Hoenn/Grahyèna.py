@@ -4,11 +4,11 @@ GRAHYÈNA = {
     'english_name': 'Mightyena',
     'evolution_chain': [
         {
-            'id': '261',
+            'id': '0261',
             'name': 'Medhyèna'
         },
         {
-            'id': '262',
+            'id': '0262',
             'name': 'Grahyèna'
         }
     ],

@@ -4,11 +4,11 @@ PIAFABEC = {
     'english_name': 'Spearow',
     'evolution_chain': [
         {
-            'id': '21',
+            'id': '0021',
             'name': 'Piafabec'
         },
         {
-            'id': '22',
+            'id': '0022',
             'name': 'Rapasdepic'
         }
     ],

@@ -4,11 +4,11 @@ TERRACOOL = {
     'english_name': 'Toedscool',
     'evolution_chain': [
         {
-            'id': '948',
+            'id': '0948',
             'name': 'Terracool'
         },
         {
-            'id': '949',
+            'id': '0949',
             'name': 'Terracruel'
         }
     ],

@@ -4,11 +4,11 @@ BACABOUH = {
     'english_name': 'Sandygast',
     'evolution_chain': [
         {
-            'id': '769',
+            'id': '0769',
             'name': 'Bacabouh'
         },
         {
-            'id': '770',
+            'id': '0770',
             'name': 'Trépassable'
         }
     ],

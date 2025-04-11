@@ -4,15 +4,15 @@ LAMPÉROIE = {
     'english_name': 'Eelektrik',
     'evolution_chain': [
         {
-            'id': '602',
+            'id': '0602',
             'name': 'Anchwatt'
         },
         {
-            'id': '603',
+            'id': '0603',
             'name': 'Lampéroie'
         },
         {
-            'id': '604',
+            'id': '0604',
             'name': 'Ohmassacre'
         }
     ],

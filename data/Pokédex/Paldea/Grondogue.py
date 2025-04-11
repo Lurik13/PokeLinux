@@ -4,11 +4,11 @@ GRONDOGUE = {
     'english_name': 'Maschiff',
     'evolution_chain': [
         {
-            'id': '942',
+            'id': '0942',
             'name': 'Grondogue'
         },
         {
-            'id': '943',
+            'id': '0943',
             'name': 'Dogrino'
         }
     ],

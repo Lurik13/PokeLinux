@@ -4,7 +4,7 @@ REGIDRAGO = {
     'english_name': 'Regidrago',
     'evolution_chain': [
         {
-            'id': '895',
+            'id': '0895',
             'name': 'Regidrago'
         }
     ],

@@ -4,11 +4,11 @@ LOCKPIN = {
     'english_name': 'Lopunny',
     'evolution_chain': [
         {
-            'id': '427',
+            'id': '0427',
             'name': 'Laporeille'
         },
         {
-            'id': '428',
+            'id': '0428',
             'name': 'Lockpin'
         }
     ],

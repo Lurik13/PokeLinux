@@ -4,7 +4,7 @@ PAUMEDEFER = {
     'english_name': 'Iron-hands',
     'evolution_chain': [
         {
-            'id': '992',
+            'id': '0992',
             'name': 'Paume-de-Fer'
         }
     ],

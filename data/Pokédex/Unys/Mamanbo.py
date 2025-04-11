@@ -4,7 +4,7 @@ MAMANBO = {
     'english_name': 'Alomomola',
     'evolution_chain': [
         {
-            'id': '594',
+            'id': '0594',
             'name': 'Mamanbo'
         }
     ],

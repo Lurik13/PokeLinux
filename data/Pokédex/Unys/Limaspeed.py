@@ -4,11 +4,11 @@ LIMASPEED = {
     'english_name': 'Accelgor',
     'evolution_chain': [
         {
-            'id': '616',
+            'id': '0616',
             'name': 'Escargaume'
         },
         {
-            'id': '617',
+            'id': '0617',
             'name': 'Limaspeed'
         }
     ],

@@ -99,17 +99,3 @@ def generate_pokedex():
 
 
 generate_pokedex()
-
-
-# with open("../../data/Pokédex/pokemon_relations.pkl", "rb") as executable:
-#     POKEMON = pickle.load(executable)
-
-# try:
-# 	print(POKEMON[1]['number'])
-# 	print(POKEMON[105]['number'])
-# 	print(POKEMON[215]['number'])
-# 	print(POKEMON[325]['number'])
-# 	print(POKEMON[435]['number'])
-# 	print(POKEMON[545]['number'])
-# except:
-# 	print("ah")

@@ -4,7 +4,7 @@ REGIELEKI = {
     'english_name': 'Regieleki',
     'evolution_chain': [
         {
-            'id': '894',
+            'id': '0894',
             'name': 'Regieleki'
         }
     ],

@@ -4,7 +4,7 @@ BRUTALIBRÉ = {
     'english_name': 'Hawlucha',
     'evolution_chain': [
         {
-            'id': '701',
+            'id': '0701',
             'name': 'Brutalibré'
         }
     ],

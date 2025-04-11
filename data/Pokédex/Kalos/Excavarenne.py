@@ -4,11 +4,11 @@ EXCAVARENNE = {
     'english_name': 'Diggersby',
     'evolution_chain': [
         {
-            'id': '659',
+            'id': '0659',
             'name': 'Sapereau'
         },
         {
-            'id': '660',
+            'id': '0660',
             'name': 'Excavarenne'
         }
     ],

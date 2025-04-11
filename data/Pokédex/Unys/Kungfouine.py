@@ -4,11 +4,11 @@ KUNGFOUINE = {
     'english_name': 'Mienfoo',
     'evolution_chain': [
         {
-            'id': '619',
+            'id': '0619',
             'name': 'Kungfouine'
         },
         {
-            'id': '620',
+            'id': '0620',
             'name': 'Shaofouine'
         }
     ],

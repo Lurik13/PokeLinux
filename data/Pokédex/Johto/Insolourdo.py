@@ -4,11 +4,11 @@ INSOLOURDO = {
     'english_name': 'Dunsparce',
     'evolution_chain': [
         {
-            'id': '206',
+            'id': '0206',
             'name': 'Insolourdo'
         },
         {
-            'id': '982',
+            'id': '0982',
             'name': 'Deusolourdo'
         }
     ],

@@ -4,11 +4,11 @@ FARFADUVET = {
     'english_name': 'Whimsicott',
     'evolution_chain': [
         {
-            'id': '546',
+            'id': '0546',
             'name': 'Doudouvet'
         },
         {
-            'id': '547',
+            'id': '0547',
             'name': 'Farfaduvet'
         }
     ],

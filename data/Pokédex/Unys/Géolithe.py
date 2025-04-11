@@ -4,15 +4,15 @@ GÉOLITHE = {
     'english_name': 'Boldore',
     'evolution_chain': [
         {
-            'id': '524',
+            'id': '0524',
             'name': 'Nodulithe'
         },
         {
-            'id': '525',
+            'id': '0525',
             'name': 'Géolithe'
         },
         {
-            'id': '526',
+            'id': '0526',
             'name': 'Gigalithe'
         }
     ],

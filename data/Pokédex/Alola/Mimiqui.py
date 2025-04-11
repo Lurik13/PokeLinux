@@ -4,7 +4,7 @@ MIMIQUI = {
     'english_name': 'Mimikyu-disguised',
     'evolution_chain': [
         {
-            'id': '778',
+            'id': '0778',
             'name': 'Mimiqui'
         }
     ],

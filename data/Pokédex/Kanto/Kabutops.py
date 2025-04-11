@@ -4,11 +4,11 @@ KABUTOPS = {
     'english_name': 'Kabutops',
     'evolution_chain': [
         {
-            'id': '140',
+            'id': '0140',
             'name': 'Kabuto'
         },
         {
-            'id': '141',
+            'id': '0141',
             'name': 'Kabutops'
         }
     ],

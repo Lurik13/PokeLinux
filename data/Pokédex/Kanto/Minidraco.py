@@ -4,15 +4,15 @@ MINIDRACO = {
     'english_name': 'Dratini',
     'evolution_chain': [
         {
-            'id': '147',
+            'id': '0147',
             'name': 'Minidraco'
         },
         {
-            'id': '148',
+            'id': '0148',
             'name': 'Draco'
         },
         {
-            'id': '149',
+            'id': '0149',
             'name': 'Dracolosse'
         }
     ],

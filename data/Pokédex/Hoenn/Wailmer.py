@@ -4,11 +4,11 @@ WAILMER = {
     'english_name': 'Wailmer',
     'evolution_chain': [
         {
-            'id': '320',
+            'id': '0320',
             'name': 'Wailmer'
         },
         {
-            'id': '321',
+            'id': '0321',
             'name': 'Wailord'
         }
     ],

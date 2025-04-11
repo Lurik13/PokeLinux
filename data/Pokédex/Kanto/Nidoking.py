@@ -4,15 +4,15 @@ NIDOKING = {
     'english_name': 'Nidoking',
     'evolution_chain': [
         {
-            'id': '32',
+            'id': '0032',
             'name': 'Nidoran♂'
         },
         {
-            'id': '33',
+            'id': '0033',
             'name': 'Nidorino'
         },
         {
-            'id': '34',
+            'id': '0034',
             'name': 'Nidoking'
         }
     ],

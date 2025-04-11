@@ -4,11 +4,11 @@ AMAGARA = {
     'english_name': 'Amaura',
     'evolution_chain': [
         {
-            'id': '698',
+            'id': '0698',
             'name': 'Amagara'
         },
         {
-            'id': '699',
+            'id': '0699',
             'name': 'Dragmara'
         }
     ],

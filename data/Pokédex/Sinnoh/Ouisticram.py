@@ -4,15 +4,15 @@ OUISTICRAM = {
     'english_name': 'Chimchar',
     'evolution_chain': [
         {
-            'id': '390',
+            'id': '0390',
             'name': 'Ouisticram'
         },
         {
-            'id': '391',
+            'id': '0391',
             'name': 'Chimpenfeu'
         },
         {
-            'id': '392',
+            'id': '0392',
             'name': 'Simiabraz'
         }
     ],

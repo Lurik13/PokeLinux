@@ -4,7 +4,7 @@ MORDUDOR = {
     'english_name': 'Gimmighoul',
     'evolution_chain': [
         {
-            'id': '999',
+            'id': '0999',
             'name': 'Mordudor'
         },
         {

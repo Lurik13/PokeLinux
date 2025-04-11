@@ -4,11 +4,11 @@ BALBALÈZE = {
     'english_name': 'Cetitan',
     'evolution_chain': [
         {
-            'id': '974',
+            'id': '0974',
             'name': 'Piétacé'
         },
         {
-            'id': '975',
+            'id': '0975',
             'name': 'Balbalèze'
         }
     ],

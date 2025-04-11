@@ -4,11 +4,11 @@ TAUPIQUEUR = {
     'english_name': 'Diglett',
     'evolution_chain': [
         {
-            'id': '50',
+            'id': '0050',
             'name': 'Taupiqueur'
         },
         {
-            'id': '51',
+            'id': '0051',
             'name': 'Triopikeur'
         }
     ],

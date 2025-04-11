@@ -4,11 +4,11 @@ GUERIAIGLE = {
     'english_name': 'Braviary',
     'evolution_chain': [
         {
-            'id': '627',
+            'id': '0627',
             'name': 'Furaiglon'
         },
         {
-            'id': '628',
+            'id': '0628',
             'name': 'Gueriaigle'
         }
     ],

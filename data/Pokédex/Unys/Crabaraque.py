@@ -4,11 +4,11 @@ CRABARAQUE = {
     'english_name': 'Crustle',
     'evolution_chain': [
         {
-            'id': '557',
+            'id': '0557',
             'name': 'Crabicoque'
         },
         {
-            'id': '558',
+            'id': '0558',
             'name': 'Crabaraque'
         }
     ],

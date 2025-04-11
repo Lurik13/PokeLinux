@@ -4,19 +4,19 @@ MYSTHERBE = {
     'english_name': 'Oddish',
     'evolution_chain': [
         {
-            'id': '43',
+            'id': '0043',
             'name': 'Mystherbe'
         },
         {
-            'id': '44',
+            'id': '0044',
             'name': 'Ortide'
         },
         {
-            'id': '45',
+            'id': '0045',
             'name': 'Rafflesia'
         },
         {
-            'id': '182',
+            'id': '0182',
             'name': 'Joliflor'
         }
     ],

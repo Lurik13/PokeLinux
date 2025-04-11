@@ -4,7 +4,7 @@ CRAPAROI = {
     'english_name': 'Klawf',
     'evolution_chain': [
         {
-            'id': '950',
+            'id': '0950',
             'name': 'Craparoi'
         }
     ],

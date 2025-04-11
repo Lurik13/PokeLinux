@@ -4,7 +4,7 @@ TÊTESDEFER = {
     'english_name': 'Iron-jugulis',
     'evolution_chain': [
         {
-            'id': '993',
+            'id': '0993',
             'name': 'Têtes-de-Fer'
         }
     ],

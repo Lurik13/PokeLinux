@@ -4,15 +4,15 @@ NIDORINA = {
     'english_name': 'Nidorina',
     'evolution_chain': [
         {
-            'id': '29',
+            'id': '0029',
             'name': 'Nidoran♀'
         },
         {
-            'id': '30',
+            'id': '0030',
             'name': 'Nidorina'
         },
         {
-            'id': '31',
+            'id': '0031',
             'name': 'Nidoqueen'
         }
     ],

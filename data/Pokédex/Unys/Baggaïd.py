@@ -4,11 +4,11 @@ BAGGAÏD = {
     'english_name': 'Scrafty',
     'evolution_chain': [
         {
-            'id': '559',
+            'id': '0559',
             'name': 'Baggiguane'
         },
         {
-            'id': '560',
+            'id': '0560',
             'name': 'Baggaïd'
         }
     ],

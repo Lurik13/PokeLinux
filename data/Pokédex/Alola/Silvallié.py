@@ -4,11 +4,11 @@ SILVALLIÉ = {
     'english_name': 'Silvally',
     'evolution_chain': [
         {
-            'id': '772',
+            'id': '0772',
             'name': 'Type:0'
         },
         {
-            'id': '773',
+            'id': '0773',
             'name': 'Silvallié'
         }
     ],

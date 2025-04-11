@@ -4,7 +4,7 @@ FORTIVOIRE = {
     'english_name': 'Great-tusk',
     'evolution_chain': [
         {
-            'id': '984',
+            'id': '0984',
             'name': 'Fort-Ivoire'
         }
     ],

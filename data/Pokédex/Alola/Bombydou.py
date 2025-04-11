@@ -4,11 +4,11 @@ BOMBYDOU = {
     'english_name': 'Cutiefly',
     'evolution_chain': [
         {
-            'id': '742',
+            'id': '0742',
             'name': 'Bombydou'
         },
         {
-            'id': '743',
+            'id': '0743',
             'name': 'Rubombelle'
         }
     ],

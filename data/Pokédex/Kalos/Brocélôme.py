@@ -4,11 +4,11 @@ BROCÉLÔME = {
     'english_name': 'Phantump',
     'evolution_chain': [
         {
-            'id': '708',
+            'id': '0708',
             'name': 'Brocélôme'
         },
         {
-            'id': '709',
+            'id': '0709',
             'name': 'Desséliande'
         }
     ],

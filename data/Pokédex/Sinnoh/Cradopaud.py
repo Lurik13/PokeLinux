@@ -4,11 +4,11 @@ CRADOPAUD = {
     'english_name': 'Croagunk',
     'evolution_chain': [
         {
-            'id': '453',
+            'id': '0453',
             'name': 'Cradopaud'
         },
         {
-            'id': '454',
+            'id': '0454',
             'name': 'Coatox'
         }
     ],

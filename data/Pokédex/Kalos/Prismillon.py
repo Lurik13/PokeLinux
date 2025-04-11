@@ -4,15 +4,15 @@ PRISMILLON = {
     'english_name': 'Vivillon',
     'evolution_chain': [
         {
-            'id': '664',
+            'id': '0664',
             'name': 'Lépidonille'
         },
         {
-            'id': '665',
+            'id': '0665',
             'name': 'Pérégrain'
         },
         {
-            'id': '666',
+            'id': '0666',
             'name': 'Prismillon'
         }
     ],

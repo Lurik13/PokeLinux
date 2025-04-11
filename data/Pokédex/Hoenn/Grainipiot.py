@@ -4,15 +4,15 @@ GRAINIPIOT = {
     'english_name': 'Seedot',
     'evolution_chain': [
         {
-            'id': '273',
+            'id': '0273',
             'name': 'Grainipiot'
         },
         {
-            'id': '274',
+            'id': '0274',
             'name': 'Pifeuil'
         },
         {
-            'id': '275',
+            'id': '0275',
             'name': 'Tengalice'
         }
     ],

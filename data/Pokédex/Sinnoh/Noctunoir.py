@@ -4,15 +4,15 @@ NOCTUNOIR = {
     'english_name': 'Dusknoir',
     'evolution_chain': [
         {
-            'id': '355',
+            'id': '0355',
             'name': 'Skelénox'
         },
         {
-            'id': '356',
+            'id': '0356',
             'name': 'Téraclope'
         },
         {
-            'id': '477',
+            'id': '0477',
             'name': 'Noctunoir'
         }
     ],

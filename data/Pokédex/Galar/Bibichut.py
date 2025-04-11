@@ -4,15 +4,15 @@ BIBICHUT = {
     'english_name': 'Hatenna',
     'evolution_chain': [
         {
-            'id': '856',
+            'id': '0856',
             'name': 'Bibichut'
         },
         {
-            'id': '857',
+            'id': '0857',
             'name': 'Chapotus'
         },
         {
-            'id': '858',
+            'id': '0858',
             'name': 'Sorcilence'
         }
     ],

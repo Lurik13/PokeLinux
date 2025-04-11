@@ -4,15 +4,15 @@ DIMOCLÈS = {
     'english_name': 'Doublade',
     'evolution_chain': [
         {
-            'id': '679',
+            'id': '0679',
             'name': 'Monorpale'
         },
         {
-            'id': '680',
+            'id': '0680',
             'name': 'Dimoclès'
         },
         {
-            'id': '681',
+            'id': '0681',
             'name': 'Exagide'
         }
     ],

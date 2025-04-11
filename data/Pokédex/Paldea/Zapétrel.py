@@ -4,11 +4,11 @@ ZAPÉTREL = {
     'english_name': 'Wattrel',
     'evolution_chain': [
         {
-            'id': '940',
+            'id': '0940',
             'name': 'Zapétrel'
         },
         {
-            'id': '941',
+            'id': '0941',
             'name': 'Fulgulairo'
         }
     ],

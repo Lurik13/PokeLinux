@@ -4,7 +4,7 @@ FRISON = {
     'english_name': 'Bouffalant',
     'evolution_chain': [
         {
-            'id': '626',
+            'id': '0626',
             'name': 'Frison'
         }
     ],

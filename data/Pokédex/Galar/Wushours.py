@@ -4,11 +4,11 @@ WUSHOURS = {
     'english_name': 'Kubfu',
     'evolution_chain': [
         {
-            'id': '891',
+            'id': '0891',
             'name': 'Wushours'
         },
         {
-            'id': '892',
+            'id': '0892',
             'name': 'Shifours'
         }
     ],

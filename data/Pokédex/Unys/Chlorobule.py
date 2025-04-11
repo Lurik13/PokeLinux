@@ -4,11 +4,11 @@ CHLOROBULE = {
     'english_name': 'Petilil',
     'evolution_chain': [
         {
-            'id': '548',
+            'id': '0548',
             'name': 'Chlorobule'
         },
         {
-            'id': '549',
+            'id': '0549',
             'name': 'Fragilady'
         }
     ],

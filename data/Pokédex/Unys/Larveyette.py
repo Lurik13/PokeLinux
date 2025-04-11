@@ -4,15 +4,15 @@ LARVEYETTE = {
     'english_name': 'Sewaddle',
     'evolution_chain': [
         {
-            'id': '540',
+            'id': '0540',
             'name': 'Larveyette'
         },
         {
-            'id': '541',
+            'id': '0541',
             'name': 'Couverdure'
         },
         {
-            'id': '542',
+            'id': '0542',
             'name': 'Manternel'
         }
     ],

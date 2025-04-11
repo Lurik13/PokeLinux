@@ -4,11 +4,11 @@ VÉMINI = {
     'english_name': 'Poipole',
     'evolution_chain': [
         {
-            'id': '803',
+            'id': '0803',
             'name': 'Vémini'
         },
         {
-            'id': '804',
+            'id': '0804',
             'name': 'Mandrillon'
         }
     ],

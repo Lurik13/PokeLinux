@@ -4,11 +4,11 @@ FILENTRAPPE = {
     'english_name': 'Spidops',
     'evolution_chain': [
         {
-            'id': '917',
+            'id': '0917',
             'name': 'Tissenboule'
         },
         {
-            'id': '918',
+            'id': '0918',
             'name': 'Filentrappe'
         }
     ],

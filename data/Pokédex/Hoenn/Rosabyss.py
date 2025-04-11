@@ -4,15 +4,15 @@ ROSABYSS = {
     'english_name': 'Gorebyss',
     'evolution_chain': [
         {
-            'id': '366',
+            'id': '0366',
             'name': 'Coquiperl'
         },
         {
-            'id': '367',
+            'id': '0367',
             'name': 'Serpang'
         },
         {
-            'id': '368',
+            'id': '0368',
             'name': 'Rosabyss'
         }
     ],

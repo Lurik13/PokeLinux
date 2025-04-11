@@ -4,15 +4,15 @@ BADABOUIN = {
     'english_name': 'Thwackey',
     'evolution_chain': [
         {
-            'id': '810',
+            'id': '0810',
             'name': 'Ouistempo'
         },
         {
-            'id': '811',
+            'id': '0811',
             'name': 'Badabouin'
         },
         {
-            'id': '812',
+            'id': '0812',
             'name': 'Gorythmic'
         }
     ],

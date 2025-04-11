@@ -4,15 +4,15 @@ PIKACHU = {
     'english_name': 'Pikachu',
     'evolution_chain': [
         {
-            'id': '172',
+            'id': '0172',
             'name': 'Pichu'
         },
         {
-            'id': '25',
+            'id': '0025',
             'name': 'Pikachu'
         },
         {
-            'id': '26',
+            'id': '0026',
             'name': 'Raichu'
         }
     ],

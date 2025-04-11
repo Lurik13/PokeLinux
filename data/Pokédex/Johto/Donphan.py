@@ -4,11 +4,11 @@ DONPHAN = {
     'english_name': 'Donphan',
     'evolution_chain': [
         {
-            'id': '231',
+            'id': '0231',
             'name': 'Phanpy'
         },
         {
-            'id': '232',
+            'id': '0232',
             'name': 'Donphan'
         }
     ],

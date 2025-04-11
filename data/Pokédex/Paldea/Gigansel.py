@@ -4,15 +4,15 @@ GIGANSEL = {
     'english_name': 'Garganacl',
     'evolution_chain': [
         {
-            'id': '932',
+            'id': '0932',
             'name': 'Selutin'
         },
         {
-            'id': '933',
+            'id': '0933',
             'name': 'Amassel'
         },
         {
-            'id': '934',
+            'id': '0934',
             'name': 'Gigansel'
         }
     ],

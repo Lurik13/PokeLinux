@@ -4,11 +4,11 @@ MANGLOUTON = {
     'english_name': 'Yungoos',
     'evolution_chain': [
         {
-            'id': '734',
+            'id': '0734',
             'name': 'Manglouton'
         },
         {
-            'id': '735',
+            'id': '0735',
             'name': 'Argouste'
         }
     ],

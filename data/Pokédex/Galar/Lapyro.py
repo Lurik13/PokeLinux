@@ -4,15 +4,15 @@ LAPYRO = {
     'english_name': 'Raboot',
     'evolution_chain': [
         {
-            'id': '813',
+            'id': '0813',
             'name': 'Flambino'
         },
         {
-            'id': '814',
+            'id': '0814',
             'name': 'Lapyro'
         },
         {
-            'id': '815',
+            'id': '0815',
             'name': 'Pyrobut'
         }
     ],

@@ -4,15 +4,15 @@ CROCORIBLE = {
     'english_name': 'Krookodile',
     'evolution_chain': [
         {
-            'id': '551',
+            'id': '0551',
             'name': 'Mascaïman'
         },
         {
-            'id': '552',
+            'id': '0552',
             'name': 'Escroco'
         },
         {
-            'id': '553',
+            'id': '0553',
             'name': 'Crocorible'
         }
     ],

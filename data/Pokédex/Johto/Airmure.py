@@ -4,7 +4,7 @@ AIRMURE = {
     'english_name': 'Skarmory',
     'evolution_chain': [
         {
-            'id': '227',
+            'id': '0227',
             'name': 'Airmure'
         }
     ],

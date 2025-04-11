@@ -4,11 +4,11 @@ MIASMAX = {
     'english_name': 'Garbodor',
     'evolution_chain': [
         {
-            'id': '568',
+            'id': '0568',
             'name': 'Miamiasme'
         },
         {
-            'id': '569',
+            'id': '0569',
             'name': 'Miasmax'
         }
     ],

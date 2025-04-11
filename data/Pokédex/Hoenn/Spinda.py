@@ -4,7 +4,7 @@ SPINDA = {
     'english_name': 'Spinda',
     'evolution_chain': [
         {
-            'id': '327',
+            'id': '0327',
             'name': 'Spinda'
         }
     ],

@@ -4,7 +4,7 @@ BOUMATA = {
     'english_name': 'Turtonator',
     'evolution_chain': [
         {
-            'id': '776',
+            'id': '0776',
             'name': 'Boumata'
         }
     ],

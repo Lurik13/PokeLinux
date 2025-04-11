@@ -4,11 +4,11 @@ GRANBULL = {
     'english_name': 'Granbull',
     'evolution_chain': [
         {
-            'id': '209',
+            'id': '0209',
             'name': 'Snubbull'
         },
         {
-            'id': '210',
+            'id': '0210',
             'name': 'Granbull'
         }
     ],

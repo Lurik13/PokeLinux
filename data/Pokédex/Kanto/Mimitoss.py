@@ -4,11 +4,11 @@ MIMITOSS = {
     'english_name': 'Venonat',
     'evolution_chain': [
         {
-            'id': '48',
+            'id': '0048',
             'name': 'Mimitoss'
         },
         {
-            'id': '49',
+            'id': '0049',
             'name': 'Aéromite'
         }
     ],

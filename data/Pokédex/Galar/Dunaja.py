@@ -4,11 +4,11 @@ DUNAJA = {
     'english_name': 'Silicobra',
     'evolution_chain': [
         {
-            'id': '843',
+            'id': '0843',
             'name': 'Dunaja'
         },
         {
-            'id': '844',
+            'id': '0844',
             'name': 'Dunaconda'
         }
     ],

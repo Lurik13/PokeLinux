@@ -4,11 +4,11 @@ GRINDUR = {
     'english_name': 'Ferroseed',
     'evolution_chain': [
         {
-            'id': '597',
+            'id': '0597',
             'name': 'Grindur'
         },
         {
-            'id': '598',
+            'id': '0598',
             'name': 'Noacier'
         }
     ],

@@ -4,11 +4,11 @@ POLICHOMBR = {
     'english_name': 'Shuppet',
     'evolution_chain': [
         {
-            'id': '353',
+            'id': '0353',
             'name': 'Polichombr'
         },
         {
-            'id': '354',
+            'id': '0354',
             'name': 'Branette'
         }
     ],

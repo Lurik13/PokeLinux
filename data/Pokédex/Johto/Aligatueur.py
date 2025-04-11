@@ -4,15 +4,15 @@ ALIGATUEUR = {
     'english_name': 'Feraligatr',
     'evolution_chain': [
         {
-            'id': '158',
+            'id': '0158',
             'name': 'Kaiminus'
         },
         {
-            'id': '159',
+            'id': '0159',
             'name': 'Crocrodil'
         },
         {
-            'id': '160',
+            'id': '0160',
             'name': 'Aligatueur'
         }
     ],

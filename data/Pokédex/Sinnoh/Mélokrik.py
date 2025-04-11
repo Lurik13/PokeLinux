@@ -4,11 +4,11 @@ MÉLOKRIK = {
     'english_name': 'Kricketune',
     'evolution_chain': [
         {
-            'id': '401',
+            'id': '0401',
             'name': 'Crikzik'
         },
         {
-            'id': '402',
+            'id': '0402',
             'name': 'Mélokrik'
         }
     ],

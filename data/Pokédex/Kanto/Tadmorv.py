@@ -4,11 +4,11 @@ TADMORV = {
     'english_name': 'Grimer',
     'evolution_chain': [
         {
-            'id': '88',
+            'id': '0088',
             'name': 'Tadmorv'
         },
         {
-            'id': '89',
+            'id': '0089',
             'name': 'Grotadmorv'
         }
     ],

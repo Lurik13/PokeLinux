@@ -4,11 +4,11 @@ SAQUEDENEU = {
     'english_name': 'Tangela',
     'evolution_chain': [
         {
-            'id': '114',
+            'id': '0114',
             'name': 'Saquedeneu'
         },
         {
-            'id': '465',
+            'id': '0465',
             'name': 'Bouldeneu'
         }
     ],

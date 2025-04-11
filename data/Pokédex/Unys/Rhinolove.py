@@ -4,11 +4,11 @@ RHINOLOVE = {
     'english_name': 'Swoobat',
     'evolution_chain': [
         {
-            'id': '527',
+            'id': '0527',
             'name': 'Chovsourir'
         },
         {
-            'id': '528',
+            'id': '0528',
             'name': 'Rhinolove'
         }
     ],

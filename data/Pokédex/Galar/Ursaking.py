@@ -4,15 +4,15 @@ URSAKING = {
     'english_name': 'Ursaluna',
     'evolution_chain': [
         {
-            'id': '216',
+            'id': '0216',
             'name': 'Teddiursa'
         },
         {
-            'id': '217',
+            'id': '0217',
             'name': 'Ursaring'
         },
         {
-            'id': '901',
+            'id': '0901',
             'name': 'Ursaking'
         }
     ],

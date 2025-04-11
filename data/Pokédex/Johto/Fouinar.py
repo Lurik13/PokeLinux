@@ -4,11 +4,11 @@ FOUINAR = {
     'english_name': 'Furret',
     'evolution_chain': [
         {
-            'id': '161',
+            'id': '0161',
             'name': 'Fouinette'
         },
         {
-            'id': '162',
+            'id': '0162',
             'name': 'Fouinar'
         }
     ],

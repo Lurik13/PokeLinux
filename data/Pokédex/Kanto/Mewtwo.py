@@ -4,7 +4,7 @@ MEWTWO = {
     'english_name': 'Mewtwo',
     'evolution_chain': [
         {
-            'id': '150',
+            'id': '0150',
             'name': 'Mewtwo'
         }
     ],

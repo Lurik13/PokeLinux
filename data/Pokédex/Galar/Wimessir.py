@@ -4,7 +4,7 @@ WIMESSIR = {
     'english_name': 'Indeedee-male',
     'evolution_chain': [
         {
-            'id': '876',
+            'id': '0876',
             'name': 'Wimessir'
         }
     ],

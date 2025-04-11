@@ -4,11 +4,11 @@ CHACRIPAN = {
     'english_name': 'Purrloin',
     'evolution_chain': [
         {
-            'id': '509',
+            'id': '0509',
             'name': 'Chacripan'
         },
         {
-            'id': '510',
+            'id': '0510',
             'name': 'Léopardus'
         }
     ],

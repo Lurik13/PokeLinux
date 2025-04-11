@@ -4,11 +4,11 @@ TRITOSOR = {
     'english_name': 'Gastrodon',
     'evolution_chain': [
         {
-            'id': '422',
+            'id': '0422',
             'name': 'Sancoki'
         },
         {
-            'id': '423',
+            'id': '0423',
             'name': 'Tritosor'
         }
     ],

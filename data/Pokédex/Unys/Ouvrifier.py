@@ -4,15 +4,15 @@ OUVRIFIER = {
     'english_name': 'Gurdurr',
     'evolution_chain': [
         {
-            'id': '532',
+            'id': '0532',
             'name': 'Charpenti'
         },
         {
-            'id': '533',
+            'id': '0533',
             'name': 'Ouvrifier'
         },
         {
-            'id': '534',
+            'id': '0534',
             'name': 'Bétochef'
         }
     ],

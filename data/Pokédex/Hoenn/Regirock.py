@@ -4,7 +4,7 @@ REGIROCK = {
     'english_name': 'Regirock',
     'evolution_chain': [
         {
-            'id': '377',
+            'id': '0377',
             'name': 'Regirock'
         }
     ],

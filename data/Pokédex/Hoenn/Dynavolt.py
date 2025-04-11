@@ -4,11 +4,11 @@ DYNAVOLT = {
     'english_name': 'Electrike',
     'evolution_chain': [
         {
-            'id': '309',
+            'id': '0309',
             'name': 'Dynavolt'
         },
         {
-            'id': '310',
+            'id': '0310',
             'name': 'Élecsprint'
         }
     ],

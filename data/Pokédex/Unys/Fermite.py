@@ -4,7 +4,7 @@ FERMITE = {
     'english_name': 'Durant',
     'evolution_chain': [
         {
-            'id': '632',
+            'id': '0632',
             'name': 'Fermite'
         }
     ],

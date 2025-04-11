@@ -4,11 +4,11 @@ COUANETON = {
     'english_name': 'Ducklett',
     'evolution_chain': [
         {
-            'id': '580',
+            'id': '0580',
             'name': 'Couaneton'
         },
         {
-            'id': '581',
+            'id': '0581',
             'name': 'Lakmécygne'
         }
     ],

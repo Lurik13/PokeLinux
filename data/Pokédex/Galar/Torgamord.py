@@ -4,11 +4,11 @@ TORGAMORD = {
     'english_name': 'Drednaw',
     'evolution_chain': [
         {
-            'id': '833',
+            'id': '0833',
             'name': 'Khélocrok'
         },
         {
-            'id': '834',
+            'id': '0834',
             'name': 'Torgamord'
         }
     ],

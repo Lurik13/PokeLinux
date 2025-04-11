@@ -4,11 +4,11 @@ HYPNOMADE = {
     'english_name': 'Hypno',
     'evolution_chain': [
         {
-            'id': '96',
+            'id': '0096',
             'name': 'Soporifik'
         },
         {
-            'id': '97',
+            'id': '0097',
             'name': 'Hypnomade'
         }
     ],

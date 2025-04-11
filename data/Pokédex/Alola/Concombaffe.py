@@ -4,7 +4,7 @@ CONCOMBAFFE = {
     'english_name': 'Pyukumuku',
     'evolution_chain': [
         {
-            'id': '771',
+            'id': '0771',
             'name': 'Concombaffe'
         }
     ],

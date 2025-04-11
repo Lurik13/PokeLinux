@@ -4,11 +4,11 @@ CORAYON = {
     'english_name': 'Corsola',
     'evolution_chain': [
         {
-            'id': '222',
+            'id': '0222',
             'name': 'Corayon'
         },
         {
-            'id': '864',
+            'id': '0864',
             'name': 'Corayôme'
         }
     ],

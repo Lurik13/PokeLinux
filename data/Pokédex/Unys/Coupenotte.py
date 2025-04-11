@@ -4,15 +4,15 @@ COUPENOTTE = {
     'english_name': 'Axew',
     'evolution_chain': [
         {
-            'id': '610',
+            'id': '0610',
             'name': 'Coupenotte'
         },
         {
-            'id': '611',
+            'id': '0611',
             'name': 'Incisache'
         },
         {
-            'id': '612',
+            'id': '0612',
             'name': 'Tranchodon'
         }
     ],

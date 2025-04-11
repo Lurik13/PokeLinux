@@ -4,11 +4,11 @@ BARGANTUA = {
     'english_name': 'Basculin-red-striped',
     'evolution_chain': [
         {
-            'id': '550',
+            'id': '0550',
             'name': 'Bargantua'
         },
         {
-            'id': '902',
+            'id': '0902',
             'name': 'Paragruel'
         }
     ],

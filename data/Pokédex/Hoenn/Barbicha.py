@@ -4,11 +4,11 @@ BARBICHA = {
     'english_name': 'Whiscash',
     'evolution_chain': [
         {
-            'id': '339',
+            'id': '0339',
             'name': 'Barloche'
         },
         {
-            'id': '340',
+            'id': '0340',
             'name': 'Barbicha'
         }
     ],

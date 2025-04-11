@@ -4,15 +4,15 @@ BROUHABAM = {
     'english_name': 'Exploud',
     'evolution_chain': [
         {
-            'id': '293',
+            'id': '0293',
             'name': 'Chuchmur'
         },
         {
-            'id': '294',
+            'id': '0294',
             'name': 'Ramboum'
         },
         {
-            'id': '295',
+            'id': '0295',
             'name': 'Brouhabam'
         }
     ],

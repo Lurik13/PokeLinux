@@ -4,15 +4,15 @@ CIZAYOX = {
     'english_name': 'Scizor',
     'evolution_chain': [
         {
-            'id': '123',
+            'id': '0123',
             'name': 'Insécateur'
         },
         {
-            'id': '212',
+            'id': '0212',
             'name': 'Cizayox'
         },
         {
-            'id': '900',
+            'id': '0900',
             'name': 'Hachécateur'
         }
     ],

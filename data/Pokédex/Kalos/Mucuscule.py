@@ -4,15 +4,15 @@ MUCUSCULE = {
     'english_name': 'Goomy',
     'evolution_chain': [
         {
-            'id': '704',
+            'id': '0704',
             'name': 'Mucuscule'
         },
         {
-            'id': '705',
+            'id': '0705',
             'name': 'Colimucus'
         },
         {
-            'id': '706',
+            'id': '0706',
             'name': 'Muplodocus'
         }
     ],

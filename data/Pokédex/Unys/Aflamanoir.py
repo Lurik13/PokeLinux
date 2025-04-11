@@ -4,7 +4,7 @@ AFLAMANOIR = {
     'english_name': 'Heatmor',
     'evolution_chain': [
         {
-            'id': '631',
+            'id': '0631',
             'name': 'Aflamanoir'
         }
     ],

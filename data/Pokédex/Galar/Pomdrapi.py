@@ -4,15 +4,15 @@ POMDRAPI = {
     'english_name': 'Flapple',
     'evolution_chain': [
         {
-            'id': '840',
+            'id': '0840',
             'name': 'Verpom'
         },
         {
-            'id': '841',
+            'id': '0841',
             'name': 'Pomdrapi'
         },
         {
-            'id': '842',
+            'id': '0842',
             'name': 'Dratatin'
         },
         {

@@ -4,15 +4,15 @@ CRYODO = {
     'english_name': 'Arctibax',
     'evolution_chain': [
         {
-            'id': '996',
+            'id': '0996',
             'name': 'Frigodo'
         },
         {
-            'id': '997',
+            'id': '0997',
             'name': 'Cryodo'
         },
         {
-            'id': '998',
+            'id': '0998',
             'name': 'Glaivodo'
         }
     ],

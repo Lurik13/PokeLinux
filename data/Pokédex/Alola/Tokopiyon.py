@@ -4,7 +4,7 @@ TOKOPIYON = {
     'english_name': 'Tapu-lele',
     'evolution_chain': [
         {
-            'id': '786',
+            'id': '0786',
             'name': 'Tokopiyon'
         }
     ],

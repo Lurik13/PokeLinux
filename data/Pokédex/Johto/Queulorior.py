@@ -4,7 +4,7 @@ QUEULORIOR = {
     'english_name': 'Smeargle',
     'evolution_chain': [
         {
-            'id': '235',
+            'id': '0235',
             'name': 'Queulorior'
         }
     ],

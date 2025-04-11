@@ -4,11 +4,11 @@ SHARPEDO = {
     'english_name': 'Sharpedo',
     'evolution_chain': [
         {
-            'id': '318',
+            'id': '0318',
             'name': 'Carvanha'
         },
         {
-            'id': '319',
+            'id': '0319',
             'name': 'Sharpedo'
         }
     ],

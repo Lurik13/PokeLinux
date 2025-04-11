@@ -4,15 +4,15 @@ HERBIZARRE = {
     'english_name': 'Ivysaur',
     'evolution_chain': [
         {
-            'id': '1',
+            'id': '0001',
             'name': 'Bulbizarre'
         },
         {
-            'id': '2',
+            'id': '0002',
             'name': 'Herbizarre'
         },
         {
-            'id': '3',
+            'id': '0003',
             'name': 'Florizarre'
         }
     ],

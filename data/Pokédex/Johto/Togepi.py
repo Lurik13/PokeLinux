@@ -4,15 +4,15 @@ TOGEPI = {
     'english_name': 'Togepi',
     'evolution_chain': [
         {
-            'id': '175',
+            'id': '0175',
             'name': 'Togepi'
         },
         {
-            'id': '176',
+            'id': '0176',
             'name': 'Togetic'
         },
         {
-            'id': '468',
+            'id': '0468',
             'name': 'Togekiss'
         }
     ],

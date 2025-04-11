@@ -4,11 +4,11 @@ PARASECT = {
     'english_name': 'Parasect',
     'evolution_chain': [
         {
-            'id': '46',
+            'id': '0046',
             'name': 'Paras'
         },
         {
-            'id': '47',
+            'id': '0047',
             'name': 'Parasect'
         }
     ],

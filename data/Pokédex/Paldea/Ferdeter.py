@@ -4,7 +4,7 @@ FERDETER = {
     'english_name': 'Orthworm',
     'evolution_chain': [
         {
-            'id': '968',
+            'id': '0968',
             'name': 'Ferdeter'
         }
     ],

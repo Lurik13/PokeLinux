@@ -4,15 +4,15 @@ BATRACNÉ = {
     'english_name': 'Palpitoad',
     'evolution_chain': [
         {
-            'id': '535',
+            'id': '0535',
             'name': 'Tritonde'
         },
         {
-            'id': '536',
+            'id': '0536',
             'name': 'Batracné'
         },
         {
-            'id': '537',
+            'id': '0537',
             'name': 'Crapustule'
         }
     ],

@@ -4,11 +4,11 @@ OSSELAIT = {
     'english_name': 'Cubone',
     'evolution_chain': [
         {
-            'id': '104',
+            'id': '0104',
             'name': 'Osselait'
         },
         {
-            'id': '105',
+            'id': '0105',
             'name': 'Ossatueur'
         }
     ],

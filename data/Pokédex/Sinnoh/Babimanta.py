@@ -4,11 +4,11 @@ BABIMANTA = {
     'english_name': 'Mantyke',
     'evolution_chain': [
         {
-            'id': '458',
+            'id': '0458',
             'name': 'Babimanta'
         },
         {
-            'id': '226',
+            'id': '0226',
             'name': 'Démanta'
         }
     ],

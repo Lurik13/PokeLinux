@@ -4,7 +4,7 @@ NANMÉOUÏE = {
     'english_name': 'Audino',
     'evolution_chain': [
         {
-            'id': '531',
+            'id': '0531',
             'name': 'Nanméouïe'
         }
     ],

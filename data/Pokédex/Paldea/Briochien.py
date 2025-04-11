@@ -4,11 +4,11 @@ BRIOCHIEN = {
     'english_name': 'Dachsbun',
     'evolution_chain': [
         {
-            'id': '926',
+            'id': '0926',
             'name': 'Pâtachiot'
         },
         {
-            'id': '927',
+            'id': '0927',
             'name': 'Briochien'
         }
     ],

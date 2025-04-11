@@ -4,7 +4,7 @@ RAIKOU = {
     'english_name': 'Raikou',
     'evolution_chain': [
         {
-            'id': '243',
+            'id': '0243',
             'name': 'Raikou'
         }
     ],

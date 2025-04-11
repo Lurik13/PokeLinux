@@ -4,11 +4,11 @@ LAMANTINE = {
     'english_name': 'Dewgong',
     'evolution_chain': [
         {
-            'id': '86',
+            'id': '0086',
             'name': 'Otaria'
         },
         {
-            'id': '87',
+            'id': '0087',
             'name': 'Lamantine'
         }
     ],

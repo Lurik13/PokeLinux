@@ -4,15 +4,15 @@ MAGANON = {
     'english_name': 'Magmortar',
     'evolution_chain': [
         {
-            'id': '240',
+            'id': '0240',
             'name': 'Magby'
         },
         {
-            'id': '126',
+            'id': '0126',
             'name': 'Magmar'
         },
         {
-            'id': '467',
+            'id': '0467',
             'name': 'Maganon'
         }
     ],

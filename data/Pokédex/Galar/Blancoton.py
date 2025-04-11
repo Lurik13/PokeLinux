@@ -4,11 +4,11 @@ BLANCOTON = {
     'english_name': 'Eldegoss',
     'evolution_chain': [
         {
-            'id': '829',
+            'id': '0829',
             'name': 'Tournicoton'
         },
         {
-            'id': '830',
+            'id': '0830',
             'name': 'Blancoton'
         }
     ],

@@ -4,11 +4,11 @@ CACTURNE = {
     'english_name': 'Cacturne',
     'evolution_chain': [
         {
-            'id': '331',
+            'id': '0331',
             'name': 'Cacnea'
         },
         {
-            'id': '332',
+            'id': '0332',
             'name': 'Cacturne'
         }
     ],

@@ -4,7 +4,7 @@ HURLEQUEUE = {
     'english_name': 'Scream-tail',
     'evolution_chain': [
         {
-            'id': '985',
+            'id': '0985',
             'name': 'Hurle-Queue'
         }
     ],

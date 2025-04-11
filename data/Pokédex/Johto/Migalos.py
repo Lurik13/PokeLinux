@@ -4,11 +4,11 @@ MIGALOS = {
     'english_name': 'Ariados',
     'evolution_chain': [
         {
-            'id': '167',
+            'id': '0167',
             'name': 'Mimigal'
         },
         {
-            'id': '168',
+            'id': '0168',
             'name': 'Migalos'
         }
     ],

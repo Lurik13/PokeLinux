@@ -4,11 +4,11 @@
     'english_name': 'Corphish',
     'evolution_chain': [
         {
-            'id': '341',
+            'id': '0341',
             'name': 'Écrapince'
         },
         {
-            'id': '342',
+            'id': '0342',
             'name': 'Colhomard'
         }
     ],

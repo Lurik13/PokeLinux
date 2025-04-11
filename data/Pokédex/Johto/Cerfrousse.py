@@ -4,11 +4,11 @@ CERFROUSSE = {
     'english_name': 'Stantler',
     'evolution_chain': [
         {
-            'id': '234',
+            'id': '0234',
             'name': 'Cerfrousse'
         },
         {
-            'id': '899',
+            'id': '0899',
             'name': 'Cerbyllin'
         }
     ],

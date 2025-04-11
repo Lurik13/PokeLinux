@@ -4,11 +4,11 @@ ARMALDO = {
     'english_name': 'Armaldo',
     'evolution_chain': [
         {
-            'id': '347',
+            'id': '0347',
             'name': 'Anorith'
         },
         {
-            'id': '348',
+            'id': '0348',
             'name': 'Armaldo'
         }
     ],

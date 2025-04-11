@@ -4,15 +4,15 @@ POHMARMOTTE = {
     'english_name': 'Pawmot',
     'evolution_chain': [
         {
-            'id': '921',
+            'id': '0921',
             'name': 'Pohm'
         },
         {
-            'id': '922',
+            'id': '0922',
             'name': 'Pohmotte'
         },
         {
-            'id': '923',
+            'id': '0923',
             'name': 'Pohmarmotte'
         }
     ],

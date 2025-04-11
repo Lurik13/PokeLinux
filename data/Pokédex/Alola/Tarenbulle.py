@@ -4,11 +4,11 @@ TARENBULLE = {
     'english_name': 'Araquanid',
     'evolution_chain': [
         {
-            'id': '751',
+            'id': '0751',
             'name': 'Araqua'
         },
         {
-            'id': '752',
+            'id': '0752',
             'name': 'Tarenbulle'
         }
     ],

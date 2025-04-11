@@ -4,11 +4,11 @@ ALTARIA = {
     'english_name': 'Altaria',
     'evolution_chain': [
         {
-            'id': '333',
+            'id': '0333',
             'name': 'Tylton'
         },
         {
-            'id': '334',
+            'id': '0334',
             'name': 'Altaria'
         }
     ],

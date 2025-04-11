@@ -4,7 +4,7 @@ BAMBOISELLE = {
     'english_name': 'Celesteela',
     'evolution_chain': [
         {
-            'id': '797',
+            'id': '0797',
             'name': 'Bamboiselle'
         }
     ],

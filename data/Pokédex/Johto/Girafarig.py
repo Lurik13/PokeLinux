@@ -4,11 +4,11 @@ GIRAFARIG = {
     'english_name': 'Girafarig',
     'evolution_chain': [
         {
-            'id': '203',
+            'id': '0203',
             'name': 'Girafarig'
         },
         {
-            'id': '981',
+            'id': '0981',
             'name': 'Farigiraf'
         }
     ],

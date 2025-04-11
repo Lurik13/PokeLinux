@@ -4,11 +4,11 @@ SABLAIREAU = {
     'english_name': 'Sandslash',
     'evolution_chain': [
         {
-            'id': '27',
+            'id': '0027',
             'name': 'Sabelette'
         },
         {
-            'id': '28',
+            'id': '0028',
             'name': 'Sablaireau'
         }
     ],

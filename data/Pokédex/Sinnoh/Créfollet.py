@@ -4,7 +4,7 @@ CRÉFOLLET = {
     'english_name': 'Mesprit',
     'evolution_chain': [
         {
-            'id': '481',
+            'id': '0481',
             'name': 'Créfollet'
         }
     ],

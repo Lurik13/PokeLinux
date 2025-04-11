@@ -4,7 +4,7 @@ CRÉHELF = {
     'english_name': 'Uxie',
     'evolution_chain': [
         {
-            'id': '480',
+            'id': '0480',
             'name': 'Créhelf'
         }
     ],

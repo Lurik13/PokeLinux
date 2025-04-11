@@ -4,15 +4,15 @@ COCHIGNON = {
     'english_name': 'Piloswine',
     'evolution_chain': [
         {
-            'id': '220',
+            'id': '0220',
             'name': 'Marcacrin'
         },
         {
-            'id': '221',
+            'id': '0221',
             'name': 'Cochignon'
         },
         {
-            'id': '473',
+            'id': '0473',
             'name': 'Mammochon'
         }
     ],

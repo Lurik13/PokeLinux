@@ -4,15 +4,15 @@ KAIMORSE = {
     'english_name': 'Walrein',
     'evolution_chain': [
         {
-            'id': '363',
+            'id': '0363',
             'name': 'Obalie'
         },
         {
-            'id': '364',
+            'id': '0364',
             'name': 'Phogleur'
         },
         {
-            'id': '365',
+            'id': '0365',
             'name': 'Kaimorse'
         }
     ],

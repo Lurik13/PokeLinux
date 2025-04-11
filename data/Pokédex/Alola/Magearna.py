@@ -4,7 +4,7 @@ MAGEARNA = {
     'english_name': 'Magearna',
     'evolution_chain': [
         {
-            'id': '801',
+            'id': '0801',
             'name': 'Magearna'
         }
     ],

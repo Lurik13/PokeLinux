@@ -4,11 +4,11 @@ MISTIGRIX = {
     'english_name': 'Meowstic-male',
     'evolution_chain': [
         {
-            'id': '677',
+            'id': '0677',
             'name': 'Psystigri'
         },
         {
-            'id': '678',
+            'id': '0678',
             'name': 'Mistigrix'
         }
     ],

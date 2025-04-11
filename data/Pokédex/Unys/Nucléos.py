@@ -4,15 +4,15 @@ NUCLÉOS = {
     'english_name': 'Solosis',
     'evolution_chain': [
         {
-            'id': '577',
+            'id': '0577',
             'name': 'Nucléos'
         },
         {
-            'id': '578',
+            'id': '0578',
             'name': 'Méios'
         },
         {
-            'id': '579',
+            'id': '0579',
             'name': 'Symbios'
         }
     ],

@@ -4,15 +4,15 @@ MIASCARADE = {
     'english_name': 'Meowscarada',
     'evolution_chain': [
         {
-            'id': '906',
+            'id': '0906',
             'name': 'Poussacha'
         },
         {
-            'id': '907',
+            'id': '0907',
             'name': 'Matourgeon'
         },
         {
-            'id': '908',
+            'id': '0908',
             'name': 'Miascarade'
         }
     ],

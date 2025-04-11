@@ -4,15 +4,15 @@ JUNGKO = {
     'english_name': 'Sceptile',
     'evolution_chain': [
         {
-            'id': '252',
+            'id': '0252',
             'name': 'Arcko'
         },
         {
-            'id': '253',
+            'id': '0253',
             'name': 'Massko'
         },
         {
-            'id': '254',
+            'id': '0254',
             'name': 'Jungko'
         }
     ],

@@ -4,11 +4,11 @@ MÉDITIKKA = {
     'english_name': 'Meditite',
     'evolution_chain': [
         {
-            'id': '307',
+            'id': '0307',
             'name': 'Méditikka'
         },
         {
-            'id': '308',
+            'id': '0308',
             'name': 'Charmina'
         }
     ],

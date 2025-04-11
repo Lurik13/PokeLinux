@@ -4,11 +4,11 @@ TRITOX = {
     'english_name': 'Salandit',
     'evolution_chain': [
         {
-            'id': '757',
+            'id': '0757',
             'name': 'Tritox'
         },
         {
-            'id': '758',
+            'id': '0758',
             'name': 'Malamandre'
         }
     ],

@@ -4,11 +4,11 @@ TAGTAG = {
     'english_name': 'Grafaiai',
     'evolution_chain': [
         {
-            'id': '944',
+            'id': '0944',
             'name': 'Gribouraigne'
         },
         {
-            'id': '945',
+            'id': '0945',
             'name': 'Tag-Tag'
         }
     ],

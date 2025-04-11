@@ -4,11 +4,11 @@ REXILLIUS = {
     'english_name': 'Tyrantrum',
     'evolution_chain': [
         {
-            'id': '696',
+            'id': '0696',
             'name': 'Ptyranidur'
         },
         {
-            'id': '697',
+            'id': '0697',
             'name': 'Rexillius'
         }
     ],

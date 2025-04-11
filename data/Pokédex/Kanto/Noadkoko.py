@@ -4,11 +4,11 @@ NOADKOKO = {
     'english_name': 'Exeggutor',
     'evolution_chain': [
         {
-            'id': '102',
+            'id': '0102',
             'name': 'Noeunoeuf'
         },
         {
-            'id': '103',
+            'id': '0103',
             'name': 'Noadkoko'
         }
     ],

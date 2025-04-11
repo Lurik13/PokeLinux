@@ -4,7 +4,7 @@ CELEBI = {
     'english_name': 'Celebi',
     'evolution_chain': [
         {
-            'id': '251',
+            'id': '0251',
             'name': 'Celebi'
         }
     ],

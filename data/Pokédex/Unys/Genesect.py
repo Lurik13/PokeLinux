@@ -4,7 +4,7 @@ GENESECT = {
     'english_name': 'Genesect',
     'evolution_chain': [
         {
-            'id': '649',
+            'id': '0649',
             'name': 'Genesect'
         }
     ],

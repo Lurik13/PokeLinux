@@ -4,7 +4,7 @@ HEXADRON = {
     'english_name': 'Falinks',
     'evolution_chain': [
         {
-            'id': '870',
+            'id': '0870',
             'name': 'Hexadron'
         }
     ],

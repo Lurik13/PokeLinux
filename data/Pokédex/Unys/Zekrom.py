@@ -4,7 +4,7 @@ ZEKROM = {
     'english_name': 'Zekrom',
     'evolution_chain': [
         {
-            'id': '644',
+            'id': '0644',
             'name': 'Zekrom'
         }
     ],

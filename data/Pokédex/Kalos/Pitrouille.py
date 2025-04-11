@@ -4,11 +4,11 @@ PITROUILLE = {
     'english_name': 'Pumpkaboo-average',
     'evolution_chain': [
         {
-            'id': '710',
+            'id': '0710',
             'name': 'Pitrouille'
         },
         {
-            'id': '711',
+            'id': '0711',
             'name': 'Banshitrouye'
         }
     ],

@@ -4,11 +4,11 @@ BALBUTO = {
     'english_name': 'Baltoy',
     'evolution_chain': [
         {
-            'id': '343',
+            'id': '0343',
             'name': 'Balbuto'
         },
         {
-            'id': '344',
+            'id': '0344',
             'name': 'Kaorine'
         }
     ],

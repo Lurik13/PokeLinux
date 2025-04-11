@@ -4,7 +4,7 @@ PIERROTEKNIK = {
     'english_name': 'Blacephalon',
     'evolution_chain': [
         {
-            'id': '806',
+            'id': '0806',
             'name': 'Pierroteknik'
         }
     ],

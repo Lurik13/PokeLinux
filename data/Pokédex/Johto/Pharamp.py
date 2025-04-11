@@ -4,15 +4,15 @@ PHARAMP = {
     'english_name': 'Ampharos',
     'evolution_chain': [
         {
-            'id': '179',
+            'id': '0179',
             'name': 'Wattouat'
         },
         {
-            'id': '180',
+            'id': '0180',
             'name': 'Lainergie'
         },
         {
-            'id': '181',
+            'id': '0181',
             'name': 'Pharamp'
         }
     ],

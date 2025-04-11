@@ -4,7 +4,7 @@ KATAGAMI = {
     'english_name': 'Kartana',
     'evolution_chain': [
         {
-            'id': '798',
+            'id': '0798',
             'name': 'Katagami'
         }
     ],

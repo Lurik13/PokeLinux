@@ -4,11 +4,11 @@ RAPION = {
     'english_name': 'Skorupi',
     'evolution_chain': [
         {
-            'id': '451',
+            'id': '0451',
             'name': 'Rapion'
         },
         {
-            'id': '452',
+            'id': '0452',
             'name': 'Drascore'
         }
     ],

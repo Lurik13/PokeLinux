@@ -4,11 +4,11 @@ VORASTÉRIE = {
     'english_name': 'Mareanie',
     'evolution_chain': [
         {
-            'id': '747',
+            'id': '0747',
             'name': 'Vorastérie'
         },
         {
-            'id': '748',
+            'id': '0748',
             'name': 'Prédastérie'
         }
     ],

@@ -4,11 +4,11 @@ VISKUSE = {
     'english_name': 'Frillish',
     'evolution_chain': [
         {
-            'id': '592',
+            'id': '0592',
             'name': 'Viskuse'
         },
         {
-            'id': '593',
+            'id': '0593',
             'name': 'Moyade'
         }
     ],

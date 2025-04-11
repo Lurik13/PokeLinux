@@ -4,11 +4,11 @@ NOARFANG = {
     'english_name': 'Noctowl',
     'evolution_chain': [
         {
-            'id': '163',
+            'id': '0163',
             'name': 'Hoothoot'
         },
         {
-            'id': '164',
+            'id': '0164',
             'name': 'Noarfang'
         }
     ],

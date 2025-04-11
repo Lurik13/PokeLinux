@@ -4,11 +4,11 @@ XATU = {
     'english_name': 'Xatu',
     'evolution_chain': [
         {
-            'id': '177',
+            'id': '0177',
             'name': 'Natu'
         },
         {
-            'id': '178',
+            'id': '0178',
             'name': 'Xatu'
         }
     ],

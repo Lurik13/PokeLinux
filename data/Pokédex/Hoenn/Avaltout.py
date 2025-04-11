@@ -4,11 +4,11 @@ AVALTOUT = {
     'english_name': 'Swalot',
     'evolution_chain': [
         {
-            'id': '316',
+            'id': '0316',
             'name': 'Gloupti'
         },
         {
-            'id': '317',
+            'id': '0317',
             'name': 'Avaltout'
         }
     ],

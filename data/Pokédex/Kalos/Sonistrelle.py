@@ -4,11 +4,11 @@ SONISTRELLE = {
     'english_name': 'Noibat',
     'evolution_chain': [
         {
-            'id': '714',
+            'id': '0714',
             'name': 'Sonistrelle'
         },
         {
-            'id': '715',
+            'id': '0715',
             'name': 'Bruyverne'
         }
     ],

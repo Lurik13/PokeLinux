@@ -4,15 +4,15 @@ BRUTAPODE = {
     'english_name': 'Scolipede',
     'evolution_chain': [
         {
-            'id': '543',
+            'id': '0543',
             'name': 'Venipatte'
         },
         {
-            'id': '544',
+            'id': '0544',
             'name': 'Scobolide'
         },
         {
-            'id': '545',
+            'id': '0545',
             'name': 'Brutapode'
         }
     ],

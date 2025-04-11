@@ -4,11 +4,11 @@ VIVALDAIM = {
     'english_name': 'Deerling',
     'evolution_chain': [
         {
-            'id': '585',
+            'id': '0585',
             'name': 'Vivaldaim'
         },
         {
-            'id': '586',
+            'id': '0586',
             'name': 'Haydaim'
         }
     ],

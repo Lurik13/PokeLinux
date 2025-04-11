@@ -4,7 +4,7 @@ ARTIKODIN = {
     'english_name': 'Articuno',
     'evolution_chain': [
         {
-            'id': '144',
+            'id': '0144',
             'name': 'Artikodin'
         }
     ],

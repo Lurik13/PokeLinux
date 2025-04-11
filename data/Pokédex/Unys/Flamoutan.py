@@ -4,11 +4,11 @@ FLAMOUTAN = {
     'english_name': 'Simisear',
     'evolution_chain': [
         {
-            'id': '513',
+            'id': '0513',
             'name': 'Flamajou'
         },
         {
-            'id': '514',
+            'id': '0514',
             'name': 'Flamoutan'
         }
     ],

@@ -4,11 +4,11 @@ FAMIGNOL = {
     'english_name': 'Maushold-family-of-four',
     'evolution_chain': [
         {
-            'id': '924',
+            'id': '0924',
             'name': 'Compagnol'
         },
         {
-            'id': '925',
+            'id': '0925',
             'name': 'Famignol'
         }
     ],

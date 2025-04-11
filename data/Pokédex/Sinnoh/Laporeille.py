@@ -4,11 +4,11 @@ LAPOREILLE = {
     'english_name': 'Buneary',
     'evolution_chain': [
         {
-            'id': '427',
+            'id': '0427',
             'name': 'Laporeille'
         },
         {
-            'id': '428',
+            'id': '0428',
             'name': 'Lockpin'
         }
     ],

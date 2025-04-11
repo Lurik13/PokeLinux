@@ -4,7 +4,7 @@ BORÉAS = {
     'english_name': 'Tornadus-incarnate',
     'evolution_chain': [
         {
-            'id': '641',
+            'id': '0641',
             'name': 'Boréas'
         }
     ],

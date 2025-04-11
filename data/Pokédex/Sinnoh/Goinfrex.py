@@ -4,11 +4,11 @@ GOINFREX = {
     'english_name': 'Munchlax',
     'evolution_chain': [
         {
-            'id': '446',
+            'id': '0446',
             'name': 'Goinfrex'
         },
         {
-            'id': '143',
+            'id': '0143',
             'name': 'Ronflex'
         }
     ],

@@ -4,11 +4,11 @@ CHARKOS = {
     'english_name': 'Rampardos',
     'evolution_chain': [
         {
-            'id': '408',
+            'id': '0408',
             'name': 'Kranidos'
         },
         {
-            'id': '409',
+            'id': '0409',
             'name': 'Charkos'
         }
     ],

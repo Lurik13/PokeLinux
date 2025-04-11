@@ -4,15 +4,15 @@ LARMÉLÉON = {
     'english_name': 'Sobble',
     'evolution_chain': [
         {
-            'id': '816',
+            'id': '0816',
             'name': 'Larméléon'
         },
         {
-            'id': '817',
+            'id': '0817',
             'name': 'Arrozard'
         },
         {
-            'id': '818',
+            'id': '0818',
             'name': 'Lézargus'
         }
     ],

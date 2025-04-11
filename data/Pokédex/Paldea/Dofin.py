@@ -4,11 +4,11 @@ DOFIN = {
     'english_name': 'Finizen',
     'evolution_chain': [
         {
-            'id': '963',
+            'id': '0963',
             'name': 'Dofin'
         },
         {
-            'id': '964',
+            'id': '0964',
             'name': 'Superdofin'
         }
     ],

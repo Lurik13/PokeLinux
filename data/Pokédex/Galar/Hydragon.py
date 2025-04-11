@@ -4,7 +4,7 @@ HYDRAGON = {
     'english_name': 'Dracovish',
     'evolution_chain': [
         {
-            'id': '882',
+            'id': '0882',
             'name': 'Hydragon'
         }
     ],

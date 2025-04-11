@@ -4,7 +4,7 @@ REGISTEEL = {
     'english_name': 'Registeel',
     'evolution_chain': [
         {
-            'id': '379',
+            'id': '0379',
             'name': 'Registeel'
         }
     ],

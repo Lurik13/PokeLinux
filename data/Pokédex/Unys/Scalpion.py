@@ -4,15 +4,15 @@ SCALPION = {
     'english_name': 'Pawniard',
     'evolution_chain': [
         {
-            'id': '624',
+            'id': '0624',
             'name': 'Scalpion'
         },
         {
-            'id': '625',
+            'id': '0625',
             'name': 'Scalproie'
         },
         {
-            'id': '983',
+            'id': '0983',
             'name': 'Scalpereur'
         }
     ],

@@ -4,11 +4,11 @@ SUCROQUIN = {
     'english_name': 'Swirlix',
     'evolution_chain': [
         {
-            'id': '684',
+            'id': '0684',
             'name': 'Sucroquin'
         },
         {
-            'id': '685',
+            'id': '0685',
             'name': 'Cupcanaille'
         }
     ],

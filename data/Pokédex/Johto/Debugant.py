@@ -4,19 +4,19 @@ DEBUGANT = {
     'english_name': 'Tyrogue',
     'evolution_chain': [
         {
-            'id': '236',
+            'id': '0236',
             'name': 'Debugant'
         },
         {
-            'id': '106',
+            'id': '0106',
             'name': 'Kicklee'
         },
         {
-            'id': '107',
+            'id': '0107',
             'name': 'Tygnon'
         },
         {
-            'id': '237',
+            'id': '0237',
             'name': 'Kapoera'
         }
     ],

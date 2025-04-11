@@ -4,7 +4,7 @@ MOTORIZARD = {
     'english_name': 'Cyclizar',
     'evolution_chain': [
         {
-            'id': '967',
+            'id': '0967',
             'name': 'Motorizard'
         }
     ],

@@ -4,11 +4,11 @@ TROMPIGNON = {
     'english_name': 'Foongus',
     'evolution_chain': [
         {
-            'id': '590',
+            'id': '0590',
             'name': 'Trompignon'
         },
         {
-            'id': '591',
+            'id': '0591',
             'name': 'Gaulet'
         }
     ],

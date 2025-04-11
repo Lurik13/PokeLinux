@@ -4,11 +4,11 @@ SIMULARBRE = {
     'english_name': 'Sudowoodo',
     'evolution_chain': [
         {
-            'id': '438',
+            'id': '0438',
             'name': 'Manzaï'
         },
         {
-            'id': '185',
+            'id': '0185',
             'name': 'Simularbre'
         }
     ],

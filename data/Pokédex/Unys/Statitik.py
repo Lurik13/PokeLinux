@@ -4,11 +4,11 @@ STATITIK = {
     'english_name': 'Joltik',
     'evolution_chain': [
         {
-            'id': '595',
+            'id': '0595',
             'name': 'Statitik'
         },
         {
-            'id': '596',
+            'id': '0596',
             'name': 'Mygavolt'
         }
     ],

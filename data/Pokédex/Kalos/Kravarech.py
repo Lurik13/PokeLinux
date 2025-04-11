@@ -4,11 +4,11 @@ KRAVARECH = {
     'english_name': 'Dragalge',
     'evolution_chain': [
         {
-            'id': '690',
+            'id': '0690',
             'name': 'Venalgue'
         },
         {
-            'id': '691',
+            'id': '0691',
             'name': 'Kravarech'
         }
     ],

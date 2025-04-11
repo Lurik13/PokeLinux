@@ -4,11 +4,11 @@ FLOTILLON = {
     'english_name': 'Flittle',
     'evolution_chain': [
         {
-            'id': '955',
+            'id': '0955',
             'name': 'Flotillon'
         },
         {
-            'id': '956',
+            'id': '0956',
             'name': 'Cléopsytra'
         }
     ],

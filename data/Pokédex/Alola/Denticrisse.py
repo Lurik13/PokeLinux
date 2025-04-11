@@ -4,7 +4,7 @@ DENTICRISSE = {
     'english_name': 'Bruxish',
     'evolution_chain': [
         {
-            'id': '779',
+            'id': '0779',
             'name': 'Denticrisse'
         }
     ],

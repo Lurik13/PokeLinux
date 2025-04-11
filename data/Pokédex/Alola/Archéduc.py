@@ -4,15 +4,15 @@ ARCHÉDUC = {
     'english_name': 'Decidueye',
     'evolution_chain': [
         {
-            'id': '722',
+            'id': '0722',
             'name': 'Brindibou'
         },
         {
-            'id': '723',
+            'id': '0723',
             'name': 'Efflèche'
         },
         {
-            'id': '724',
+            'id': '0724',
             'name': 'Archéduc'
         }
     ],

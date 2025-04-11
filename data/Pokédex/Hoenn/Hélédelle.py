@@ -4,11 +4,11 @@ HÉLÉDELLE = {
     'english_name': 'Swellow',
     'evolution_chain': [
         {
-            'id': '276',
+            'id': '0276',
             'name': 'Nirondelle'
         },
         {
-            'id': '277',
+            'id': '0277',
             'name': 'Hélédelle'
         }
     ],

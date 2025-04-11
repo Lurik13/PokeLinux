@@ -4,11 +4,11 @@ RONGRIGOU = {
     'english_name': 'Greedent',
     'evolution_chain': [
         {
-            'id': '819',
+            'id': '0819',
             'name': 'Rongourmand'
         },
         {
-            'id': '820',
+            'id': '0820',
             'name': 'Rongrigou'
         }
     ],

@@ -4,11 +4,11 @@ ZORUA = {
     'english_name': 'Zorua',
     'evolution_chain': [
         {
-            'id': '570',
+            'id': '0570',
             'name': 'Zorua'
         },
         {
-            'id': '571',
+            'id': '0571',
             'name': 'Zoroark'
         }
     ],

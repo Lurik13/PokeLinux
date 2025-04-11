@@ -4,11 +4,11 @@ APITRINI = {
     'english_name': 'Combee',
     'evolution_chain': [
         {
-            'id': '415',
+            'id': '0415',
             'name': 'Apitrini'
         },
         {
-            'id': '416',
+            'id': '0416',
             'name': 'Apireine'
         }
     ],

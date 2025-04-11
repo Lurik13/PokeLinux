@@ -4,15 +4,15 @@ LANSSORIEN = {
     'english_name': 'Dragapult',
     'evolution_chain': [
         {
-            'id': '885',
+            'id': '0885',
             'name': 'Fantyrm'
         },
         {
-            'id': '886',
+            'id': '0886',
             'name': 'Dispareptil'
         },
         {
-            'id': '887',
+            'id': '0887',
             'name': 'Lanssorien'
         }
     ],

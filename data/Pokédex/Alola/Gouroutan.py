@@ -4,7 +4,7 @@ GOUROUTAN = {
     'english_name': 'Oranguru',
     'evolution_chain': [
         {
-            'id': '765',
+            'id': '0765',
             'name': 'Gouroutan'
         }
     ],

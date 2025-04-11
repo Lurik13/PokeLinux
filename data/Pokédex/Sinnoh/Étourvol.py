@@ -4,15 +4,15 @@
     'english_name': 'Staravia',
     'evolution_chain': [
         {
-            'id': '396',
+            'id': '0396',
             'name': 'Étourmi'
         },
         {
-            'id': '397',
+            'id': '0397',
             'name': 'Étourvol'
         },
         {
-            'id': '398',
+            'id': '0398',
             'name': 'Étouraptor'
         }
     ],

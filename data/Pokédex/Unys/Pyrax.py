@@ -4,11 +4,11 @@ PYRAX = {
     'english_name': 'Volcarona',
     'evolution_chain': [
         {
-            'id': '636',
+            'id': '0636',
             'name': 'Pyronille'
         },
         {
-            'id': '637',
+            'id': '0637',
             'name': 'Pyrax'
         }
     ],

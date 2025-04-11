@@ -4,11 +4,11 @@ SMOGO = {
     'english_name': 'Koffing',
     'evolution_chain': [
         {
-            'id': '109',
+            'id': '0109',
             'name': 'Smogo'
         },
         {
-            'id': '110',
+            'id': '0110',
             'name': 'Smogogo'
         }
     ],

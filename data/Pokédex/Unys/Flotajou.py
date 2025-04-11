@@ -4,11 +4,11 @@ FLOTAJOU = {
     'english_name': 'Panpour',
     'evolution_chain': [
         {
-            'id': '515',
+            'id': '0515',
             'name': 'Flotajou'
         },
         {
-            'id': '516',
+            'id': '0516',
             'name': 'Flotoutan'
         }
     ],

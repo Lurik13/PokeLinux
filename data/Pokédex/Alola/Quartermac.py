@@ -4,7 +4,7 @@ QUARTERMAC = {
     'english_name': 'Passimian',
     'evolution_chain': [
         {
-            'id': '766',
+            'id': '0766',
             'name': 'Quartermac'
         }
     ],

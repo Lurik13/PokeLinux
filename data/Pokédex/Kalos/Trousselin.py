@@ -4,7 +4,7 @@ TROUSSELIN = {
     'english_name': 'Klefki',
     'evolution_chain': [
         {
-            'id': '707',
+            'id': '0707',
             'name': 'Trousselin'
         }
     ],
