@@ -6,15 +6,9 @@ from genericpath import exists
 
 sys.path.append(os.path.abspath('../..'))
 from data.Knowledge.generations import *
-from get_data import get_pokemon_data
+from src.generate_data.get_data import get_pokemon_data
 
-def get_generation_number(pokemon_id): ###
-	for i in range(1, len(GENERATIONS) + 1):
-		if pokemon_id >= GENERATIONS[i]['pokemon_range'][0] and pokemon_id <= GENERATIONS[i]['pokemon_range'][1]:
-			return i
-	return 0
-
-def get_gen_region(gen_name): ###
+def get_gen_region(gen_name):
 	words = gen_name.strip().split()
 	if not words:
 		return None
@@ -94,8 +88,3 @@ def generate_pokedex():
 	with open(pokedex_path + "pokemon_relations.pkl", "wb") as executable: # wb = write binary
 		pickle.dump(POKEMON, executable)
 	clear_and_print("Toutes les données ont bien été téléchargées !")
-
-
-
-
-generate_pokedex()

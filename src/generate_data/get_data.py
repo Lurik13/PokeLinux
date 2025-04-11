@@ -10,39 +10,8 @@ from data.Knowledge.others import *
 ############################    UTILS FUNCTIONS    ############################
 ###############################################################################
 def get_data(type, value):
-	url = f"https://pokeapi.co/api/v2/{type}/{value}/"
-	return requests.get(url).json()
-
-import time
-
-def get_data(type, value, retries=3, delay=1):
-	url = f"https://pokeapi.co/api/v2/{type}/{value}/"
-	
-	for attempt in range(retries):
-		try:
-			# Effectuer la requête
-			response = requests.get(url)
-			
-			# Vérifier si la requête a été réussie (statut 200)
-			if response.status_code == 200:
-				try:
-					return response.json()  # Essayer de convertir la réponse en JSON
-				except requests.exceptions.JSONDecodeError as json_err:
-					print(f"[ERROR] JSON Decode Error for {url}: {json_err}")
-					break  # Sortir de la boucle en cas d'erreur de décodage
-			elif response.status_code == 429:
-				# Gérer le rate-limiting (trop de requêtes)
-				print(f"[RATE LIMIT] Too many requests. Retrying in {delay}s...")
-				time.sleep(delay)
-			else:
-				print(f"[ERROR] HTTP Error {response.status_code} for {url}")
-				break  # Sortir de la boucle si le code HTTP est différent de 200 ou 429
-		except requests.exceptions.RequestException as e:
-			print(f"[NETWORK ERROR] Error occurred while making request to {url}: {e}")
-			time.sleep(delay)  # Attendre un peu avant de réessayer
-	
-	# Si toutes les tentatives échouent, lever une exception
-	raise Exception(f"Failed to retrieve data from {url} after {retries} attempts.")
+    url = f"https://pokeapi.co/api/v2/{type}/{value}/"
+    return requests.get(url).json()
 
 
 def get_french_name(pokemon_data):
@@ -95,7 +64,6 @@ def get_evolution_chain(species_data):
 ###############################################################################
 def calculate_damages(pokemon_types):
 	damage_relations = {}
-
 	for pokemon_type in pokemon_types:
 		type_relations = DAMAGE_RELATIONS[pokemon_type]
 		for category, multiplier in DAMAGE_MULTIPLIER.items():
@@ -103,7 +71,6 @@ def calculate_damages(pokemon_types):
 				if type_name not in damage_relations:
 					damage_relations[type_name] = 1
 				damage_relations[type_name] *= multiplier
-
 	return damage_relations
 
 
@@ -111,13 +78,11 @@ def get_weaknesses(types):
 	damage_relations = calculate_damages(types)
 	critical_weaknesses = []
 	normal_weaknesses = []
-
 	for name, damage in damage_relations.items():
 		if damage == 4:
 			critical_weaknesses.append(TYPE_TRANSLATIONS[name] + '*')
 		elif damage == 2:
 			normal_weaknesses.append(TYPE_TRANSLATIONS[name])
-
 	return critical_weaknesses + normal_weaknesses
 
 
@@ -141,7 +106,6 @@ def get_forms(species):
 				'weaknesses': None
 			}
 			form_data = get_data('pokemon-form', form['pokemon']['name'])
-
 			if form['pokemon']['name'].endswith('gmax') == False \
 			 and form['pokemon']['name'].startswith('pikachu') == False:
 				types = [t["type"]["name"] for t in form_data["types"]]

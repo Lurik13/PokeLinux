@@ -6,7 +6,7 @@ sys.path.append(os.path.abspath('../..'))
 from data.Knowledge.generations import *
 from data.Knowledge.others import TYPE_COLOURS
 
-async def print_text_slowly(text, delay = 0.015):
+async def print_text_slowly(text, delay = 0.005):
 	for char in text:
 		print(char, end='', flush=True)
 		if char.isdigit() == False and char != ";" and char != "\\":

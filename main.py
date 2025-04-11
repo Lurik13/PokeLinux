@@ -1,5 +1,6 @@
 import asyncio
 import pickle
+from src.generate_data.generate_files import generate_folder
 from src.anki.anki_utils import *
 import genanki # type: ignore
 import sys
@@ -46,7 +47,7 @@ def create_pokemon_cards(pokemon):
 				add_types_or_weaknesses("Types", form['types'], form['french_name'], tags)
 				add_types_or_weaknesses("Faiblesses", form['weaknesses'], form['french_name'], tags)
 
-def parsing(argv):
+def parsing(argv): ###################
 	if len(argv) != 2:
 		raise ValueError("Vous devez indiquer le numéro d'une génération.")
 	if argv[1].isnumeric() == False:
@@ -74,9 +75,11 @@ if __name__ == "__main__":
 
 		asyncio.run(print_download(gen_number))
 		add_gen_pokemons(gen_number)
+		print("Fini ! Tu peux dès maintenant importer le paquet dans Anki, depuis le dossier anki_decks !")
 		
+		generate_folder("./anki_decks", "")
 		my_package = genanki.Package(deck)
-		my_package.write_to_file(GENERATIONS[gen_number]['name'] + '.apkg')
+		my_package.write_to_file("./anki_decks/" + GENERATIONS[gen_number]['name'] + '.apkg')
 		
 	except ValueError as ve:
 		print("Error:", ve)
