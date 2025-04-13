@@ -5,6 +5,8 @@ from src.anki.anki_utils import *
 import genanki # type: ignore
 import sys
 from src.anki.print import *
+from src.generate_data.generate_evolutions_file import generate_evolutions_file
+from data.Knowledge.evolutions import EVOLUTIONS
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
 
@@ -60,30 +62,55 @@ def add_gen_pokemons(gen_number):
 		asyncio.run(print_pokemon(POKEMON[pokemon_id], gen_number))
 		create_pokemon_cards(POKEMON[pokemon_id])
 
+RED = "\033[38;2;170;0;0m"
+GREEN = "\033[38;2;0;170;0m"
+RESET = "\033[0m"
+def ou(chain, colour):
+	print(colour + str(chain) + RESET)
+
+def add_evolutions(gen_number):
+	for i in range (GENERATIONS[gen_number]['pokemon_range'][0], GENERATIONS[gen_number]['pokemon_range'][1] + 1):
+		if i in EVOLUTIONS:
+			print(str(i) + ": ", end='', flush=True)
+			for j in range(len(EVOLUTIONS[i])):
+				if j == 0 and isinstance(EVOLUTIONS[i][j], list): # on veut 2 questions différentes (on a forcément que des listes)
+					while j < len(EVOLUTIONS[i]):
+						ou(EVOLUTIONS[i][j], RED)
+						j += 1
+					continue
+					# for form in line:
+					# 	print(form)
+					# 	for j in range(len(form)):
+					# 		print("\033[38;2;170;0;0m" + form[j] + "\033[0m", end='', flush=True)
+					# 		if j < len(form):
+					# 			print(' → ', end='', flush=True)
+				else:
+					ou(EVOLUTIONS[i][j], GREEN)
+					# print(str(EVOLUTIONS[i][j]) + ', ', end='', flush=True)
+			print("")
+
 if __name__ == "__main__":
-	try:
-		parsing(sys.argv)
-		gen_number = sys.argv[1]
-		gen_id = int(str((gen_number * (10 // len(gen_number) + 1)))[:10])
-		gen_number = int(gen_number)
-		if gen_number not in GENERATIONS:
-			raise ValueError("Cette génération n'existe pas.")
+	# generate_evolutions_file(POKEMON)
+	add_evolutions(1)
+	# try:
+	# 	parsing(sys.argv)
+	# 	gen_number = sys.argv[1]
+	# 	gen_id = int(str((gen_number * (10 // len(gen_number) + 1)))[:10])
+	# 	gen_number = int(gen_number)
+	# 	if gen_number not in GENERATIONS:
+	# 		raise ValueError("Cette génération n'existe pas.")
 		
-		model = add_model_to_anki(gen_id, GENERATIONS[gen_number]['name'], 
-			GENERATIONS[gen_number]['text_color'], GENERATIONS[gen_number]['background_image'])
-		deck = genanki.Deck(gen_id, GENERATIONS[gen_number]['name'])
+	# 	model = add_model_to_anki(gen_id, GENERATIONS[gen_number]['name'], 
+	# 		GENERATIONS[gen_number]['text_color'], GENERATIONS[gen_number]['background_image'])
+	# 	deck = genanki.Deck(gen_id, GENERATIONS[gen_number]['name'])
 
-		asyncio.run(print_download(gen_number))
-		add_gen_pokemons(gen_number)
-		print("Fini ! Tu peux dès maintenant importer le paquet dans Anki, depuis le dossier anki_decks !")
+	# 	asyncio.run(print_download(gen_number))
+	# 	add_gen_pokemons(gen_number)
+	# 	print("Fini ! Tu peux dès maintenant importer le paquet dans Anki, depuis le dossier anki_decks !")
 		
-		generate_folder("./anki_decks", "")
-		my_package = genanki.Package(deck)
-		my_package.write_to_file("./anki_decks/" + GENERATIONS[gen_number]['name'] + '.apkg')
+	# 	generate_folder("./anki_decks", "")
+	# 	my_package = genanki.Package(deck)
+	# 	my_package.write_to_file("./anki_decks/" + GENERATIONS[gen_number]['name'] + '.apkg')
 		
-	except ValueError as ve:
-		print("Error:", ve)
-
-
-
-# passer aux fonctions anki seulement gen_number en paramètre
+	# except ValueError as ve:
+	# 	print("Error:", ve)
