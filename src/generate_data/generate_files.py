@@ -61,7 +61,7 @@ def generate_file(folder_name, gen_name, pokemon):
 	clear_and_print("Données enregistrées dans le Pokédex de " + gen_name + " : " + file_name, True)
 
 def generate_pokedex():
-	pokedex_path = "../../data/Pokédex/"
+	pokedex_path = "data/Pokédex/"
 	if os.path.exists(pokedex_path):
 		shutil.rmtree(pokedex_path)
 	generate_folder(pokedex_path, "")

@@ -1,13 +1,17 @@
 import asyncio
 import os
+import pickle
 import sys
+import genanki # type: ignore
 sys.path.append(os.path.abspath('../..'))
-from src.anki.anki_utils import add_card_to_anki
-from src.anki.print import print_pokemon
+from src.generate_data.generate_files import generate_folder
+from src.anki.anki_utils import add_card_to_anki, add_model_to_anki
+from src.anki.print import print_download, print_pokemon
 from data.Knowledge.evolutions import EVOLUTIONS
 from data.Knowledge.generations import GENERATIONS
-from main import POKEMON, get_de_pokemon
-
+from src.utils import get_de_pokemon
+with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
+    POKEMON = pickle.load(executable)
 
 def get_tags(pokemon_id, pokemon_name, types):
 	tags = [pokemon_id + "-" + pokemon_name.replace(' ', '-')]
@@ -80,3 +84,22 @@ def add_evolutions(gen_number, model, deck):
 				answer = get_evolutions_text(EVOLUTIONS[i])
 				tags = get_tags(POKEMON[i]['number'], POKEMON[i]['french_name'], POKEMON[i]['types'])
 			add_card_to_anki(question, answer, tags, model, deck)
+
+def get_anki_deck(gen_number):
+	gen_id = int(str((gen_number * (10 // len(gen_number) + 1)))[:10])
+	gen_number = int(gen_number)
+	if gen_number not in GENERATIONS:
+		raise ValueError("Cette génération n'existe pas.")
+
+	model = add_model_to_anki(gen_id, GENERATIONS[gen_number]['name'], 
+		GENERATIONS[gen_number]['text_color'], GENERATIONS[gen_number]['background_image'])
+	deck = genanki.Deck(gen_id, GENERATIONS[gen_number]['name'])
+
+	asyncio.run(print_download(gen_number))
+	add_pokemons(gen_number, model, deck)
+	add_evolutions(gen_number, model, deck)
+	print("Fini ! Tu peux dès maintenant importer le paquet dans Anki, depuis le dossier anki_decks !")
+
+	generate_folder("./anki_decks", "")
+	my_package = genanki.Package(deck)
+	my_package.write_to_file("./anki_decks/" + GENERATIONS[gen_number]['name'] + '.apkg')

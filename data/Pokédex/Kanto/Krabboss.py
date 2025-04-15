@@ -22,7 +22,7 @@ KRABBOSS = {
     ],
     'forms': [
         {
-            'french_name': 'Leviator Gigamax',
+            'french_name': 'Krabboss Gigamax',
             'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10203.png',
             'types': None,
             'weaknesses': None
