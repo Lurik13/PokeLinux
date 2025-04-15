@@ -19,13 +19,13 @@ GENERATIONS = {
     },
     4: {
         "name": "💎 Diamant, Perle et Platine - Sinnoh",
-        "pokemon_range": (387, 493),
+        "pokemon_range": (387, 494),
         "text_color": "black",
         "background_image": "perle.png"
     },
     5: {
         "name": "⚫ Noir et Blanc - Unys",
-        "pokemon_range": (494, 649),
+        "pokemon_range": (495, 649),
         "text_color": "white",
         "background_image": "noir.png"
     },

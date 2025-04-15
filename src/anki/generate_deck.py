@@ -88,8 +88,6 @@ def add_evolutions(gen_number, model, deck):
 def get_anki_deck(gen_number):
 	gen_id = int(str((gen_number * (10 // len(gen_number) + 1)))[:10])
 	gen_number = int(gen_number)
-	if gen_number not in GENERATIONS:
-		raise ValueError("Cette génération n'existe pas.")
 
 	model = add_model_to_anki(gen_id, GENERATIONS[gen_number]['name'], 
 		GENERATIONS[gen_number]['text_color'], GENERATIONS[gen_number]['background_image'])
