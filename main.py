@@ -35,6 +35,10 @@ COMMANDS = [
 		"description": "Affiche les starters de toutes les générations.",
 	},
 	{
+      		"name": "pokedle",
+      		"description": "Lance un jeu pour deviner un pokémon.",
+    },
+	{
 		"name": "generate_data",
 		"description": "Met à jour la base de données. À faire s'il n'y a aucune autre solution.",
 	},
