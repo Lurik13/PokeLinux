@@ -9,11 +9,12 @@ from src.generate_data.generate_evolutions_file import generate_evolutions_file
 from data.Knowledge.evolutions import EVOLUTIONS
 from src.anki.generate_deck import add_evolutions, add_pokemons, get_anki_deck
 from src.utils import get_starters
+from src.pokedle.main import pokedle
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
 
-RED = "\033[38;2;170;0;0m"
-BLUE = "\033[38;2;0;50;150m"
+RED = "\033[38;2;210;30;30m"
+BLUE = "\033[38;2;0;100;200m"
 RESET = "\033[0m"
 
 
@@ -31,13 +32,13 @@ COMMANDS = [
 		"description": "Génère les cartes Anki de tous les pokémons d'une génération.",
 	},
 	{
-		"name": "get_starters",
-		"description": "Affiche les starters de toutes les générations.",
-	},
-	{
       		"name": "pokedle",
       		"description": "Lance un jeu pour deviner un pokémon.",
     },
+	{
+		"name": "get_starters",
+		"description": "Affiche les starters de toutes les générations.",
+	},
 	{
 		"name": "generate_data",
 		"description": "Met à jour la base de données. À faire s'il n'y a aucune autre solution.",
@@ -48,7 +49,7 @@ COMMANDS = [
 	}
 ]
 
-def parsing_get_anki_deck():
+def parsing_gen(function):
 	valid = False
 	print("Veuillez indiquer le numéro d'une génération. 0 pour sortir.")
 	while not valid:
@@ -64,7 +65,7 @@ def parsing_get_anki_deck():
 			valid = True
 		else:
 			valid = True
-			get_anki_deck(gen_number)
+			function(gen_number)
 
 if __name__ == "__main__":
 	# generate_evolutions_file(POKEMON)
@@ -72,29 +73,32 @@ if __name__ == "__main__":
 		print("Que souhaitez-vous faire ? Voici l'inventaire des commandes disponibles :")
 		display_commands()
 		# input_command = input()
-		while True:
+		invalid_command = True
+		while invalid_command:
+			invalid_command = False
 			print("\nCommande : ", end='', flush=True)
 			match input():
 				case "help":
 					display_commands()
+					invalid_command = True
 				case "get_anki_deck":
-					parsing_get_anki_deck()
-					break
+					parsing_gen(get_anki_deck)
+				case "pokedle":
+				    parsing_gen(pokedle)
 				case "get_starters":
 					get_starters()
-					break
 				case "generate_data":
 					print("Êtes-vous vraiment sûr de vouloir lancer cette commande ? Écrivez \"Oui\" pour confirmer. Autre chose pour annuler.")
 					print("Confirmation : ", end='', flush=True)
 					confirmation = input()
 					if (confirmation == "Oui"):
 						generate_pokedex()
-						break
 				case "exit":
-					break
+				    break
 				case _:
 					print("Commande introuvable. Pour rappel, voici les commandes disponibles :")
 					display_commands()
+					invalid_command = True
 		
 	except ValueError as ve:
 		print("Error:", ve)
