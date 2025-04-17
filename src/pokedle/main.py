@@ -1,7 +1,8 @@
 import pickle
 from random import randint
-from data.Knowledge.evolutions import EVOLUTIONS
 from data.Knowledge.generations import GENERATIONS
+from src.pokedle.utils import console_print
+from src.pokedle.evolutions import try_evolutions
 from src.generate_data.generate_files import get_gen_region
 from src.utils import get_de_pokemon
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
@@ -26,12 +27,6 @@ BLUE = "\033[38;2;0;100;200m"
 RED = "\033[38;2;200;50;50m"
 RESET = "\033[0m"
 
-def console_print(message, should_flush = False, color = GRAY):
-    if should_flush:
-        print(color + message + RESET, end='', flush=should_flush)
-    else:
-        print(color + message + RESET)
-
 def try_types(types, mystery_types):
     for i in range(2):
         console_print("Type " + str(i + 1) + " : ", True)
@@ -47,35 +42,7 @@ def try_types(types, mystery_types):
                 console_print(types[i], True, RED)
         console_print("  |  ", True, GRAY)
 
-def get_evolution_index(evolution_chain, pokemon_name, evolution_number = 0):
-    for i in range(len(evolution_chain)):
-        if isinstance(evolution_chain[i], str):
-            if evolution_chain[i] == pokemon_name:
-                return i + evolution_number + 1
-        else:
-            found = 0
-            original_index = i
-            while found == 0:
-                found = get_evolution_index(evolution_chain[i], pokemon_name, original_index)
-                i += 1
-            if found:
-                return found
-    return 0
 
-def get_evolution_stage(pokemon_id):
-    first_evolution_id = int(POKEMON[pokemon_id]['evolution_chain'][0]['id'])
-    if isinstance(EVOLUTIONS[first_evolution_id][0], list):
-        return get_evolution_index(EVOLUTIONS[first_evolution_id][0], POKEMON[pokemon_id]['french_name'])
-    else:
-        return get_evolution_index(EVOLUTIONS[first_evolution_id], POKEMON[pokemon_id]['french_name'])
-    
-def try_evolutions(pokemon_id_tried, mystery_pokemon):
-    console_print("Stade d'évolution : ", True, GRAY)
-    try_evolution_stage = get_evolution_stage(pokemon_id_tried)
-    if (try_evolution_stage == get_evolution_stage(int(mystery_pokemon['number']))):
-        console_print(str(try_evolution_stage), False, GREEN)
-    else:
-        console_print(str(try_evolution_stage), False, RED)
 
 def pokedle(gen_number):
     gen_number = int(gen_number)

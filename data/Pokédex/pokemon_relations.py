@@ -491,7 +491,7 @@ from data.Pokédex.Sinnoh.Manaphy import MANAPHY
 from data.Pokédex.Sinnoh.Darkrai import DARKRAI
 from data.Pokédex.Sinnoh.Shaymin import SHAYMIN
 from data.Pokédex.Sinnoh.Arceus import ARCEUS
-from data.Pokédex.Unys.Victini import VICTINI
+from data.Pokédex.Sinnoh.Victini import VICTINI
 from data.Pokédex.Unys.Vipélierre import VIPÉLIERRE
 from data.Pokédex.Unys.Lianaja import LIANAJA
 from data.Pokédex.Unys.Majaspic import MAJASPIC

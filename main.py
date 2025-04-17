@@ -40,7 +40,7 @@ COMMANDS = [
         "description": "Affiche les starters de toutes les générations.",
     },
     {
-        "name": "generate_data",
+        "name": "reset_data",
         "description": "Met à jour la base de données. À faire s'il n'y a aucune autre solution.",
     },
     {
@@ -87,7 +87,7 @@ if __name__ == "__main__":
                     parsing_gen(pokedle)
                 case "get_starters":
                     get_starters()
-                case "generate_data":
+                case "reset_data":
                     print("Êtes-vous vraiment sûr de vouloir lancer cette commande ? Écrivez \"Oui\" pour confirmer. Autre chose pour annuler.")
                     print("Confirmation : ", end='', flush=True)
                     confirmation = input()
