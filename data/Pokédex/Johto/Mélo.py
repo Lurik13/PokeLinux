@@ -26,5 +26,7 @@ MÉLO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 30
 }

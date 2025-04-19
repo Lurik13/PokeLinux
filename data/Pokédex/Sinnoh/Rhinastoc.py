@@ -31,5 +31,7 @@ RHINASTOC = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 24,
+    'weight': 2828
 }

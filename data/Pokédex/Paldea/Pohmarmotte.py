@@ -28,5 +28,7 @@ POHMARMOTTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 9,
+    'weight': 410
 }

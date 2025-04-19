@@ -22,5 +22,7 @@ FLOTOUTAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 290
 }

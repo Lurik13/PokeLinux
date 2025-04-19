@@ -40,5 +40,7 @@ ONIGLALI = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'height': 15,
+    'weight': 2565
 }

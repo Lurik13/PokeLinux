@@ -28,5 +28,7 @@ PICLAIRON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 148
 }

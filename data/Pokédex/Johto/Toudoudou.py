@@ -27,5 +27,7 @@ TOUDOUDOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 10
 }

@@ -26,5 +26,7 @@ DOUDOUVET = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 6
 }

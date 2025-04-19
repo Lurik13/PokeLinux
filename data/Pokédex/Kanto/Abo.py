@@ -22,5 +22,7 @@ ABO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 20,
+    'weight': 69
 }

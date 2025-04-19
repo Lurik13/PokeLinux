@@ -57,5 +57,7 @@ TAUROS = {
                 'Électrik'
             ]
         }
-    ]
+    ],
+    'height': 14,
+    'weight': 884
 }

@@ -21,5 +21,7 @@ ROUEDEFER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 9,
+    'weight': 2400
 }

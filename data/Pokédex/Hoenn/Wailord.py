@@ -22,5 +22,7 @@ WAILORD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 145,
+    'weight': 3980
 }

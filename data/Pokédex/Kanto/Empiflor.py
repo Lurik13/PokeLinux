@@ -29,5 +29,7 @@ EMPIFLOR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 17,
+    'weight': 155
 }

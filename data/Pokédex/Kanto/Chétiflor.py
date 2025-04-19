@@ -29,5 +29,7 @@ CHÉTIFLOR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 40
 }

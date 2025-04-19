@@ -28,5 +28,7 @@ SCALPEREUR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 20,
+    'weight': 1200
 }

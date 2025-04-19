@@ -26,5 +26,7 @@ TIPLOUF = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 52
 }

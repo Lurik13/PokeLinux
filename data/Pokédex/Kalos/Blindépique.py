@@ -31,5 +31,7 @@ BLINDÉPIQUE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 16,
+    'weight': 900
 }

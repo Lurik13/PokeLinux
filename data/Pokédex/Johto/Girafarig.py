@@ -23,5 +23,7 @@ GIRAFARIG = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 415
 }

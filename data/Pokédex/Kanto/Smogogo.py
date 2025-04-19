@@ -34,5 +34,7 @@ SMOGOGO = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'height': 12,
+    'weight': 95
 }

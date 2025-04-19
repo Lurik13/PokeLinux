@@ -26,5 +26,7 @@ GRENOUSSE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 70
 }

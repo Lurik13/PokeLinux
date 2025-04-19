@@ -21,5 +21,7 @@ TÊTAMPOULE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 4
 }

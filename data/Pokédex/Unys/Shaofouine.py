@@ -23,5 +23,7 @@ SHAOFOUINE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 14,
+    'weight': 355
 }

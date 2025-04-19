@@ -26,5 +26,7 @@ NOCTUNOIR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 22,
+    'weight': 1066
 }

@@ -21,5 +21,7 @@ MOUSCOTO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 24,
+    'weight': 3336
 }

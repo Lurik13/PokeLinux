@@ -31,5 +31,7 @@ KICKLEE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 498
 }

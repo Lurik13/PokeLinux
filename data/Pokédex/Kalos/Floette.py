@@ -36,5 +36,7 @@ FLOETTE = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'height': 2,
+    'weight': 9
 }

@@ -25,5 +25,7 @@ GERMÉCLAT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 80
 }

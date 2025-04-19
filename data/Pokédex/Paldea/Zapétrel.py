@@ -23,5 +23,7 @@ ZAPÉTREL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 36
 }

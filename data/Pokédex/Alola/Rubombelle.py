@@ -40,5 +40,7 @@ RUBOMBELLE = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'height': 2,
+    'weight': 5
 }

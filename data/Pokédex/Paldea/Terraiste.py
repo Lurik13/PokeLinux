@@ -29,5 +29,7 @@ TERRAISTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 18,
+    'weight': 2230
 }

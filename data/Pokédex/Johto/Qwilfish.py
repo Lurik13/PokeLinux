@@ -34,5 +34,7 @@ QWILFISH = {
                 'Sol'
             ]
         }
-    ]
+    ],
+    'height': 5,
+    'weight': 39
 }

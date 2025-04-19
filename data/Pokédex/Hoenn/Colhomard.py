@@ -26,5 +26,7 @@ COLHOMARD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 11,
+    'weight': 328
 }

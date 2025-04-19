@@ -29,5 +29,7 @@ NOSFERAPTI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 8,
+    'weight': 75
 }

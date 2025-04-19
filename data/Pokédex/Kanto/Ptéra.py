@@ -36,5 +36,7 @@ PTÉRA = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'height': 18,
+    'weight': 590
 }

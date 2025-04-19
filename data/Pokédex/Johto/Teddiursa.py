@@ -25,5 +25,7 @@ TEDDIURSA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 88
 }

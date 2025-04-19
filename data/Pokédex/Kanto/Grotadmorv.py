@@ -32,5 +32,7 @@ GROTADMORV = {
                 'Sol'
             ]
         }
-    ]
+    ],
+    'height': 12,
+    'weight': 300
 }

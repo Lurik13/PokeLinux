@@ -25,5 +25,7 @@ BROUHABAM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 840
 }

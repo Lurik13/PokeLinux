@@ -31,5 +31,7 @@ COSMOVUM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 1,
+    'weight': 9999
 }

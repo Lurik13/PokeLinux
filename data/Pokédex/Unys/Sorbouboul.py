@@ -28,5 +28,7 @@ SORBOUBOUL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 13,
+    'weight': 575
 }

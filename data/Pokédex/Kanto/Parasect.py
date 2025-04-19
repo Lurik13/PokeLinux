@@ -27,5 +27,7 @@ PARASECT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 295
 }

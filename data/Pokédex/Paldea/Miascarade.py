@@ -32,5 +32,7 @@ MIASCARADE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 312
 }

@@ -40,5 +40,7 @@ ROUCARNAGE = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'height': 15,
+    'weight': 395
 }

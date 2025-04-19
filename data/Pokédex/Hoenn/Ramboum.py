@@ -25,5 +25,7 @@ RAMBOUM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 405
 }

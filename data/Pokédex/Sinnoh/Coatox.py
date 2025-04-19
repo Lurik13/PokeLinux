@@ -24,5 +24,7 @@ COATOX = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 13,
+    'weight': 444
 }

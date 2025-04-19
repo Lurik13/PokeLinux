@@ -38,5 +38,7 @@ ALTARIA = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'height': 11,
+    'weight': 206
 }

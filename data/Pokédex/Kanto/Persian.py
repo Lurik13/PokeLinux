@@ -36,5 +36,7 @@ PERSIAN = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 10,
+    'weight': 320
 }

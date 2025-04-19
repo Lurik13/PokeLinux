@@ -24,5 +24,7 @@ DODUO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 14,
+    'weight': 392
 }

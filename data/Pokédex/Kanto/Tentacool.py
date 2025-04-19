@@ -24,5 +24,7 @@ TENTACOOL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 9,
+    'weight': 455
 }

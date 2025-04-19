@@ -29,5 +29,7 @@ GÉOLITHE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 9,
+    'weight': 1020
 }

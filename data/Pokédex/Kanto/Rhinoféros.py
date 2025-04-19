@@ -31,5 +31,7 @@ RHINOFÉROS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 19,
+    'weight': 1200
 }

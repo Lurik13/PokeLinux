@@ -31,5 +31,7 @@ COSMOG = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 2,
+    'weight': 1
 }

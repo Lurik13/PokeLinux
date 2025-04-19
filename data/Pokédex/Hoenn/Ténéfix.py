@@ -28,5 +28,7 @@ TÉNÉFIX = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 5,
+    'weight': 110
 }

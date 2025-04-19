@@ -25,5 +25,7 @@ VIGOROTH = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 14,
+    'weight': 465
 }

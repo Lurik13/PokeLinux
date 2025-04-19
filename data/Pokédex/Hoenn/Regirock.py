@@ -21,5 +21,7 @@ REGIROCK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 17,
+    'weight': 2300
 }

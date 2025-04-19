@@ -28,5 +28,7 @@ CACTURNE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 13,
+    'weight': 774
 }

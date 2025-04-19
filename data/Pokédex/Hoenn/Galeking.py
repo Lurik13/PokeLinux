@@ -39,5 +39,7 @@ GALEKING = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'height': 21,
+    'weight': 3600
 }

@@ -29,5 +29,7 @@ DRACOLOSSE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 22,
+    'weight': 2100
 }

@@ -25,5 +25,7 @@ GOLGOPATHE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 13,
+    'weight': 960
 }

@@ -20,5 +20,7 @@ FÉLICANIS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 18,
+    'weight': 922
 }

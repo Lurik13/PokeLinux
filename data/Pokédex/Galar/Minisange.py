@@ -27,5 +27,7 @@ MINISANGE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 2,
+    'weight': 18
 }

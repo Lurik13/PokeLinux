@@ -21,5 +21,7 @@ GALVAGLA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 23,
+    'weight': 1500
 }

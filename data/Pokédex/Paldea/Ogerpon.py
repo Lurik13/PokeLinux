@@ -60,5 +60,7 @@ OGERPON = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'height': 12,
+    'weight': 398
 }

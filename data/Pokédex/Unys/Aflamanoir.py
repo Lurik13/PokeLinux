@@ -19,5 +19,7 @@ AFLAMANOIR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 14,
+    'weight': 580
 }

@@ -46,5 +46,7 @@ RATTATAC = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 7,
+    'weight': 185
 }

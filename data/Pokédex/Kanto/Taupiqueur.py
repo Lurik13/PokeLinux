@@ -36,5 +36,7 @@ TAUPIQUEUR = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'height': 2,
+    'weight': 8
 }

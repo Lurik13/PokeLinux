@@ -36,5 +36,7 @@ KELDEO = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 14,
+    'weight': 485
 }

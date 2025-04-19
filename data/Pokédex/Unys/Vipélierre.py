@@ -29,5 +29,7 @@ VIPÉLIERRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 81
 }

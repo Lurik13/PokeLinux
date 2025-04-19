@@ -37,5 +37,7 @@ LINÉON = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 5,
+    'weight': 325
 }

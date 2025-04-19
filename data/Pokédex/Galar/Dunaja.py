@@ -23,5 +23,7 @@ DUNAJA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 22,
+    'weight': 76
 }

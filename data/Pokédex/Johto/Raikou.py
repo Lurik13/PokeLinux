@@ -17,5 +17,7 @@ RAIKOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 19,
+    'weight': 1780
 }

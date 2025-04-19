@@ -26,5 +26,7 @@ MÉLODELFE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 13,
+    'weight': 400
 }

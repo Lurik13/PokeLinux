@@ -52,5 +52,7 @@ OSSATUEUR = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 10,
+    'weight': 450
 }

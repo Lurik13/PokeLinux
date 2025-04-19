@@ -70,5 +70,7 @@ BANSHITROUYE = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'height': 9,
+    'weight': 125
 }

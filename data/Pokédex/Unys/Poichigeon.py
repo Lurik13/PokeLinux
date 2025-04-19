@@ -28,5 +28,7 @@ POICHIGEON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 21
 }

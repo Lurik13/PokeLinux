@@ -25,5 +25,7 @@ FEUILOUTAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 11,
+    'weight': 305
 }

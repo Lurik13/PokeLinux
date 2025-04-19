@@ -52,5 +52,7 @@ LOUGAROC = {
                 'Plante'
             ]
         }
-    ]
+    ],
+    'height': 8,
+    'weight': 250
 }

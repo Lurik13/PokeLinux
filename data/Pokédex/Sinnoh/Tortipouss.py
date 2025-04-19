@@ -29,5 +29,7 @@ TORTIPOUSS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 102
 }

@@ -29,5 +29,7 @@ BADABOUIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 140
 }

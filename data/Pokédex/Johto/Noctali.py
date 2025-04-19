@@ -51,5 +51,7 @@ NOCTALI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 270
 }

@@ -27,5 +27,7 @@ CHOCHODILE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 98
 }

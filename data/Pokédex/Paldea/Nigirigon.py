@@ -42,5 +42,7 @@ NIGIRIGON = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 3,
+    'weight': 80
 }

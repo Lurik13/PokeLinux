@@ -18,5 +18,7 @@ OYACATA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 120,
+    'weight': 2200
 }

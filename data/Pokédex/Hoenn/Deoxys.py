@@ -54,5 +54,7 @@ DEOXYS = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 17,
+    'weight': 608
 }

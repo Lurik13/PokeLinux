@@ -31,5 +31,7 @@ MANTERNEL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 12,
+    'weight': 205
 }

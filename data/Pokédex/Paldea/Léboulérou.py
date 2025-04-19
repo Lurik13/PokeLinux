@@ -23,5 +23,7 @@ LÉBOULÉROU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 2,
+    'weight': 10
 }

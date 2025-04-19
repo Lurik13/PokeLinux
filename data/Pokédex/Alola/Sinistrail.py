@@ -22,5 +22,7 @@ SINISTRAIL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 39,
+    'weight': 2100
 }

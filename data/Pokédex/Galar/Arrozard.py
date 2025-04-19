@@ -26,5 +26,7 @@ ARROZARD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 115
 }

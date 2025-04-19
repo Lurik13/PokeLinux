@@ -19,5 +19,7 @@ REGIDRAGO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 21,
+    'weight': 2000
 }

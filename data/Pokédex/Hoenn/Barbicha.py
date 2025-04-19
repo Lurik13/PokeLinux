@@ -22,5 +22,7 @@ BARBICHA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 9,
+    'weight': 236
 }

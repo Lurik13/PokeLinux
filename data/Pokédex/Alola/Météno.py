@@ -216,5 +216,7 @@ MÉTÉNO = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'height': 3,
+    'weight': 400
 }

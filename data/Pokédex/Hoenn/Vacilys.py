@@ -25,5 +25,7 @@ VACILYS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 604
 }

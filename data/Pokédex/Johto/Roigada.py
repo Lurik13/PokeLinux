@@ -42,5 +42,7 @@ ROIGADA = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 20,
+    'weight': 795
 }

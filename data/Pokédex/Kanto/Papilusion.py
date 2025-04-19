@@ -35,5 +35,7 @@ PAPILUSION = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 11,
+    'weight': 320
 }

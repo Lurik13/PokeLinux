@@ -29,5 +29,7 @@ GERMIGNON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 9,
+    'weight': 64
 }

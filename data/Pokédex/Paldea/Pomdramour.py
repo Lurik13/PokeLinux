@@ -39,5 +39,7 @@ POMDRAMOUR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 97
 }

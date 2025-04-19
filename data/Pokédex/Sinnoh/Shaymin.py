@@ -35,5 +35,7 @@ SHAYMIN = {
                 'Roche'
             ]
         }
-    ]
+    ],
+    'height': 2,
+    'weight': 21
 }

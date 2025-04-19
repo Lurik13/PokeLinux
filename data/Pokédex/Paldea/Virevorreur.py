@@ -26,5 +26,7 @@ VIREVORREUR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 12,
+    'weight': 60
 }

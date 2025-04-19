@@ -38,5 +38,7 @@ ALAKAZAM = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 15,
+    'weight': 480
 }

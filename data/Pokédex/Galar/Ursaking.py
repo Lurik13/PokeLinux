@@ -42,5 +42,7 @@ URSAKING = {
                 'Combat'
             ]
         }
-    ]
+    ],
+    'height': 24,
+    'weight': 2900
 }

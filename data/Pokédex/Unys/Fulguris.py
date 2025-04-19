@@ -30,5 +30,7 @@ FULGURIS = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'height': 15,
+    'weight': 610
 }

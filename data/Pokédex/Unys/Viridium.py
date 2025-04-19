@@ -23,5 +23,7 @@ VIRIDIUM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 20,
+    'weight': 2000
 }

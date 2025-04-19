@@ -22,5 +22,7 @@ FORETRESS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 12,
+    'weight': 1258
 }

@@ -27,5 +27,7 @@ LIPPOUTI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 60
 }

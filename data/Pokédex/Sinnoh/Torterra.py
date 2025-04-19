@@ -29,5 +29,7 @@ TORTERRA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 22,
+    'weight': 3100
 }

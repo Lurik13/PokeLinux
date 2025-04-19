@@ -25,5 +25,7 @@ LEVEINARD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 11,
+    'weight': 346
 }

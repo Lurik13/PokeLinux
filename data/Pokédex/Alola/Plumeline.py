@@ -61,5 +61,7 @@ PLUMELINE = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'height': 6,
+    'weight': 34
 }

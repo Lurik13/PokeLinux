@@ -17,5 +17,7 @@ PACHIRISU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 39
 }

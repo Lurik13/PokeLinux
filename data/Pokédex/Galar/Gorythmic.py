@@ -34,5 +34,7 @@ GORYTHMIC = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 21,
+    'weight': 900
 }

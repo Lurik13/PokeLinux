@@ -30,5 +30,7 @@ COCHIGNON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 11,
+    'weight': 558
 }

@@ -18,5 +18,7 @@ SÉVIPER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 27,
+    'weight': 525
 }

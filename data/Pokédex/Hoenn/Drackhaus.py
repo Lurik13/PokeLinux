@@ -27,5 +27,7 @@ DRACKHAUS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 11,
+    'weight': 1105
 }

@@ -31,5 +31,7 @@ CROCORIBLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 963
 }

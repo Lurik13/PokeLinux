@@ -38,5 +38,7 @@ ROCABOT = {
                 'Plante'
             ]
         }
-    ]
+    ],
+    'height': 5,
+    'weight': 92
 }

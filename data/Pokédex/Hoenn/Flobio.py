@@ -26,5 +26,7 @@ FLOBIO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 280
 }

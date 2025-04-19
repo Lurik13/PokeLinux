@@ -84,5 +84,7 @@ MOTISMA = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'height': 3,
+    'weight': 3
 }

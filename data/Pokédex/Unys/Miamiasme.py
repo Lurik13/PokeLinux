@@ -22,5 +22,7 @@ MIAMIASME = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 310
 }

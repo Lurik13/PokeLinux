@@ -19,5 +19,7 @@ JUDOKRAK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 13,
+    'weight': 555
 }

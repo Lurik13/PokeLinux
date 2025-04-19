@@ -59,5 +59,7 @@ DRACAUFEU = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 17,
+    'weight': 905
 }

@@ -46,5 +46,7 @@ SALARSEN = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 16,
+    'weight': 400
 }

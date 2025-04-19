@@ -30,5 +30,7 @@ BORÉAS = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'height': 15,
+    'weight': 630
 }

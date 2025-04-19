@@ -23,5 +23,7 @@ NOACIER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 1100
 }

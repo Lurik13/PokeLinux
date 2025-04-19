@@ -26,5 +26,7 @@ COIFFETON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 5,
+    'weight': 61
 }

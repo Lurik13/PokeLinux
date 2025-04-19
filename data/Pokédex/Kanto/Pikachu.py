@@ -120,5 +120,7 @@ PIKACHU = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 4,
+    'weight': 60
 }

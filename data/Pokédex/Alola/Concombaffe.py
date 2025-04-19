@@ -18,5 +18,7 @@ CONCOMBAFFE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 12
 }

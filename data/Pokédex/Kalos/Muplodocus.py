@@ -38,5 +38,7 @@ MUPLODOCUS = {
                 'Sol'
             ]
         }
-    ]
+    ],
+    'height': 20,
+    'weight': 1505
 }

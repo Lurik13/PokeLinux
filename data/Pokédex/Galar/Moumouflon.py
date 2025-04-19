@@ -21,5 +21,7 @@ MOUMOUFLON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 13,
+    'weight': 430
 }

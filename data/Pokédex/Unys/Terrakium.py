@@ -24,5 +24,7 @@ TERRAKIUM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 19,
+    'weight': 2600
 }

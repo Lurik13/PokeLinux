@@ -71,5 +71,7 @@ ZYGARDE = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 50,
+    'weight': 3050
 }

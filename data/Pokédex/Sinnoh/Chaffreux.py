@@ -21,5 +21,7 @@ CHAFFREUX = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 438
 }

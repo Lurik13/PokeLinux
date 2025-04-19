@@ -24,5 +24,7 @@ ARMALDO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 682
 }

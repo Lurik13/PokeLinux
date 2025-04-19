@@ -35,5 +35,7 @@ ARTIKODIN = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'height': 17,
+    'weight': 554
 }

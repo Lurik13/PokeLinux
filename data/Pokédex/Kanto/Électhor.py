@@ -33,5 +33,7 @@
                 'Glace'
             ]
         }
-    ]
+    ],
+    'height': 16,
+    'weight': 526
 }

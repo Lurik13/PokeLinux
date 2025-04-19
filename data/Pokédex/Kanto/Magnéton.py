@@ -28,5 +28,7 @@ MAGNÉTON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 600
 }

@@ -42,6 +42,36 @@ def try_types(types, mystery_types):
                 console_print(types[i], True, RED)
         console_print("  |  ", True, GRAY)
 
+def print_higher_or_lower(title, message, value, mystery_value):
+    console_print(title + " : ", True)
+    if value == mystery_value:
+        console_print(message, True, GREEN)
+    elif value > mystery_value:
+        console_print(message + ' ↓', True, RED)
+    else:
+        console_print(message + ' ↑', True, RED)
+    console_print("  |  ", True, GRAY)
+
+def try_height(height, mystery_height):
+    meters = height // 10
+    centimeters = (height % 10) * 10
+    result = ""
+    if (meters):
+        result += str(meters) + 'm'
+        if (centimeters):
+            result += str(centimeters)
+    else:
+        result += str(centimeters) + 'cm'
+    print_higher_or_lower("Taille", result, height, mystery_height)
+
+def try_weight(weight, mystery_weight):
+    # kilograms = weight // 10
+    # hectograms = weight % 10
+    result = ""
+    if (weight):
+        result += str(weight / 10) + 'kg'
+    print_higher_or_lower("Poids", result, weight, mystery_weight)
+
 
 
 def pokedle(gen_number):
@@ -49,6 +79,7 @@ def pokedle(gen_number):
     first_pokemon_id = GENERATIONS[gen_number]['pokemon_range'][0]
     last_pokemon_id = GENERATIONS[gen_number]['pokemon_range'][1]
     mystery_pokemon = POKEMON[randint(first_pokemon_id, last_pokemon_id)]
+    print("Height:", mystery_pokemon['height'], "Weight:", mystery_pokemon['weight'])
     print(mystery_pokemon['french_name'] + "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
     console_print("Entrez le nom d'un pokémon")
     counter = 0
@@ -56,19 +87,21 @@ def pokedle(gen_number):
         console_print("Pokémon : ", True)
         new_try = input().lower().replace("é", "e").replace("è", "e") #######
         counter += 1
+        # else:
+        pokemon_id_tried = find_pokemon_by_name(new_try, first_pokemon_id, last_pokemon_id)
+        if pokemon_id_tried > 0:
+            try_types(POKEMON[pokemon_id_tried]['types'], mystery_pokemon['types'])
+            try_evolutions(pokemon_id_tried, mystery_pokemon)
+            try_height(POKEMON[pokemon_id_tried]['height'], mystery_pokemon['height'])
+            try_weight(POKEMON[pokemon_id_tried]['weight'], mystery_pokemon['weight'])
+        elif pokemon_id_tried < 0:
+            console_print(f"Les {new_try} ne vivent pas dans la région " + \
+                f"{get_de_pokemon(get_gen_region(GENERATIONS[gen_number]['name']))} !", False, RED)
+        else:
+            console_print(f"Ce pokémon n'existe pas ou est mal ortographié.", False, RED)
         if new_try.lower() == mystery_pokemon['french_name'].lower().replace("é", "e").replace("è", "e"): #######
-            console_print(f"Bien joué ! Tu as trouvé {mystery_pokemon['french_name']} en {counter} coup", True, GREEN)
+            console_print(f"\nBien joué ! Tu as trouvé {mystery_pokemon['french_name']} en {counter} coup", True, GREEN)
             if counter != 1:
                 console_print("s", True, GREEN)
             console_print(" !", False, GREEN)
             break
-        else:
-            pokemon_id_tried = find_pokemon_by_name(new_try, first_pokemon_id, last_pokemon_id)
-            if pokemon_id_tried > 0:
-                try_types(POKEMON[pokemon_id_tried]['types'], mystery_pokemon['types'])
-                try_evolutions(pokemon_id_tried, mystery_pokemon)
-            elif pokemon_id_tried < 0:
-                console_print(f"Les {new_try} ne vivent pas dans la région " + \
-                    f"{get_de_pokemon(get_gen_region(GENERATIONS[gen_number]['name']))} !", False, RED)
-            else:
-                console_print(f"Ce pokémon n'existe pas ou est mal ortographié.", False, RED)

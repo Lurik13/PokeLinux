@@ -21,5 +21,7 @@ DRAÏEUL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 30,
+    'weight': 1850
 }

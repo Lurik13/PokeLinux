@@ -22,5 +22,7 @@ POLICHOMBR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 23
 }

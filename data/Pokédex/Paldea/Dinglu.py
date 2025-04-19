@@ -23,5 +23,7 @@ DINGLU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 27,
+    'weight': 6997
 }

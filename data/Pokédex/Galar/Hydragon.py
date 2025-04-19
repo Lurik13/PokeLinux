@@ -19,5 +19,7 @@ HYDRAGON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 23,
+    'weight': 2150
 }

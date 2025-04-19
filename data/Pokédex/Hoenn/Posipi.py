@@ -17,5 +17,7 @@ POSIPI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 42
 }

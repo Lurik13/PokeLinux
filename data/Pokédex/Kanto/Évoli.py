@@ -64,5 +64,7 @@
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 3,
+    'weight': 65
 }

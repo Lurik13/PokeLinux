@@ -36,5 +36,7 @@ LAGGRON = {
                 'Plante*'
             ]
         }
-    ]
+    ],
+    'height': 15,
+    'weight': 819
 }

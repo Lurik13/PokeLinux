@@ -70,5 +70,7 @@ PITROUILLE = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'height': 4,
+    'weight': 50
 }

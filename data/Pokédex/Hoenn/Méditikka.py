@@ -24,5 +24,7 @@ MÉDITIKKA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 112
 }

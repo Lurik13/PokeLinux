@@ -23,5 +23,7 @@ RIOLU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 202
 }

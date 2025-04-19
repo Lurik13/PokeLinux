@@ -26,5 +26,7 @@ SERPANG = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 17,
+    'weight': 270
 }

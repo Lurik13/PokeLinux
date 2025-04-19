@@ -18,5 +18,7 @@ XERNEAS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 30,
+    'weight': 2150
 }

@@ -35,5 +35,7 @@ SABELETTE = {
                 'Sol'
             ]
         }
-    ]
+    ],
+    'height': 6,
+    'weight': 120
 }

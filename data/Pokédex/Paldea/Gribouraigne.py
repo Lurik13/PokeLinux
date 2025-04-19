@@ -23,5 +23,7 @@ GRIBOURAIGNE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 2,
+    'weight': 7
 }

@@ -23,5 +23,7 @@ POMDEPIK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 72
 }

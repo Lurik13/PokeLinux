@@ -23,5 +23,7 @@ LIMAGMA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 350
 }

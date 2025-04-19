@@ -25,5 +25,7 @@ TOURNICOTON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 22
 }

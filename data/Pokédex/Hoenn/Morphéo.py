@@ -52,5 +52,7 @@ MORPHÉO = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'height': 3,
+    'weight': 8
 }

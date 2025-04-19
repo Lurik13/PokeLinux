@@ -23,5 +23,7 @@ GRINDUR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 188
 }

@@ -22,5 +22,7 @@ DOFIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 13,
+    'weight': 602
 }

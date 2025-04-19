@@ -30,5 +30,7 @@ EFFLÈCHE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 160
 }

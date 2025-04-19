@@ -19,5 +19,7 @@ ENTEI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 21,
+    'weight': 1980
 }

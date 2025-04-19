@@ -21,5 +21,7 @@ MOTORIZARD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 16,
+    'weight': 630
 }

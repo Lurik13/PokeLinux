@@ -59,5 +59,7 @@ AMPHINOBI = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 15,
+    'weight': 400
 }

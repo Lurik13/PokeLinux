@@ -33,5 +33,7 @@ RATTATA = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 3,
+    'weight': 35
 }

@@ -19,5 +19,7 @@ REGISTEEL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 19,
+    'weight': 2050
 }

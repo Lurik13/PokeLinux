@@ -23,5 +23,7 @@ PONDRALUGON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 20,
+    'weight': 600
 }

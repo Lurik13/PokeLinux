@@ -17,5 +17,7 @@ CÂBLIFÈRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 38,
+    'weight': 1000
 }

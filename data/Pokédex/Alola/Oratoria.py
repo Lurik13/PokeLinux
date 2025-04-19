@@ -28,5 +28,7 @@ ORATORIA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 18,
+    'weight': 440
 }

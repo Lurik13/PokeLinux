@@ -22,5 +22,7 @@ STARI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 8,
+    'weight': 345
 }

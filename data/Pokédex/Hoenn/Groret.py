@@ -23,5 +23,7 @@ GRORET = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 9,
+    'weight': 715
 }

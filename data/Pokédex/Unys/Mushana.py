@@ -23,5 +23,7 @@ MUSHANA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 11,
+    'weight': 605
 }

@@ -48,5 +48,7 @@ ECTOPLASMA = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 15,
+    'weight': 405
 }

@@ -22,5 +22,7 @@ LUGIA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 52,
+    'weight': 2160
 }

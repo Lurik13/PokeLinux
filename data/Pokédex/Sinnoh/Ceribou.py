@@ -25,5 +25,7 @@ CERIBOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 33
 }

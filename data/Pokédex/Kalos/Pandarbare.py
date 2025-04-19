@@ -24,5 +24,7 @@ PANDARBARE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 21,
+    'weight': 1360
 }

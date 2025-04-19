@@ -28,5 +28,7 @@ LIBÉGON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 20,
+    'weight': 820
 }

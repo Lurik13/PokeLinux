@@ -23,5 +23,7 @@ BOURRINOS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 25,
+    'weight': 9200
 }

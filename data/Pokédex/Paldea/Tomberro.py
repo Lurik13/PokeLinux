@@ -22,5 +22,7 @@ TOMBERRO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 20,
+    'weight': 150
 }

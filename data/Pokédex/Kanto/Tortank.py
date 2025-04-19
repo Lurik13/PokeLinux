@@ -42,5 +42,7 @@ TORTANK = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 16,
+    'weight': 855
 }

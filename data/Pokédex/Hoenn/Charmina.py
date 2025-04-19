@@ -36,5 +36,7 @@ CHARMINA = {
                 'Spectre'
             ]
         }
-    ]
+    ],
+    'height': 13,
+    'weight': 315
 }

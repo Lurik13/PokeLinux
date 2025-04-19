@@ -32,5 +32,7 @@ BRANETTE = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 11,
+    'weight': 125
 }

@@ -17,5 +17,7 @@ REGIGIGAS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 37,
+    'weight': 4200
 }

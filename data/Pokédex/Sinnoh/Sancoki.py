@@ -22,5 +22,7 @@ SANCOKI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 63
 }

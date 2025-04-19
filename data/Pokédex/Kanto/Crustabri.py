@@ -25,5 +25,7 @@ CRUSTABRI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 1325
 }

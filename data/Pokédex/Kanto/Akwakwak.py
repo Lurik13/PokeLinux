@@ -22,5 +22,7 @@ AKWAKWAK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 17,
+    'weight': 766
 }

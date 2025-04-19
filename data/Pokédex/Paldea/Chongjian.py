@@ -24,5 +24,7 @@ CHONGJIAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 742
 }

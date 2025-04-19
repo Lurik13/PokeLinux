@@ -17,5 +17,7 @@ DODOALA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 199
 }

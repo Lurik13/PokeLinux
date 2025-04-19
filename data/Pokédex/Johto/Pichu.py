@@ -25,5 +25,7 @@ PICHU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 20
 }

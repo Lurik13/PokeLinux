@@ -42,5 +42,7 @@ NIGOSIER = {
                 'Roche'
             ]
         }
-    ]
+    ],
+    'height': 8,
+    'weight': 180
 }

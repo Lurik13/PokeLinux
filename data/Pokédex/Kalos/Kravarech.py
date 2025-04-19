@@ -25,5 +25,7 @@ KRAVARECH = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 18,
+    'weight': 815
 }

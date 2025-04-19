@@ -31,5 +31,7 @@ ZAMAZENTA = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'height': 29,
+    'weight': 2100
 }

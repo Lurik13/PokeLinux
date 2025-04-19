@@ -23,5 +23,7 @@ SCORPLANE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 11,
+    'weight': 648
 }

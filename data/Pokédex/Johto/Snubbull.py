@@ -22,5 +22,7 @@ SNUBBULL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 78
 }

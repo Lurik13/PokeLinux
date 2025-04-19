@@ -44,5 +44,7 @@ GRAVALANCH = {
                 'Plante'
             ]
         }
-    ]
+    ],
+    'height': 10,
+    'weight': 1050
 }

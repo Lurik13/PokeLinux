@@ -26,5 +26,7 @@ YANMEGA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 19,
+    'weight': 515
 }

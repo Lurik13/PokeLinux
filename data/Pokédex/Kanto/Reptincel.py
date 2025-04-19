@@ -27,5 +27,7 @@ REPTINCEL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 11,
+    'weight': 190
 }

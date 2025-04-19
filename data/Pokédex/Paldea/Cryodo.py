@@ -30,5 +30,7 @@ CRYODO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 8,
+    'weight': 300
 }

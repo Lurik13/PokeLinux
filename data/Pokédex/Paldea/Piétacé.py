@@ -24,5 +24,7 @@ PIÉTACÉ = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 12,
+    'weight': 450
 }

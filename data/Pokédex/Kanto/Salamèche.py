@@ -27,5 +27,7 @@ SALAMÈCHE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 85
 }

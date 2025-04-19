@@ -34,5 +34,7 @@ RAYQUAZA = {
                 'Roche'
             ]
         }
-    ]
+    ],
+    'height': 70,
+    'weight': 2065
 }

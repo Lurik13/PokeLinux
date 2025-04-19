@@ -29,5 +29,7 @@ ZACIAN = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'height': 28,
+    'weight': 1100
 }

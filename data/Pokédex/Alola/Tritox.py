@@ -25,5 +25,7 @@ TRITOX = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 48
 }

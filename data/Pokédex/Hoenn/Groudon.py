@@ -30,5 +30,7 @@ GROUDON = {
                 'Sol'
             ]
         }
-    ]
+    ],
+    'height': 35,
+    'weight': 9500
 }

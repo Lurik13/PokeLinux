@@ -28,5 +28,7 @@ DUNACONDA = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 38,
+    'weight': 655
 }

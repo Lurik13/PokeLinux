@@ -27,5 +27,7 @@ GRODOUDOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 120
 }

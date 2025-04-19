@@ -26,5 +26,7 @@ GRODRIVE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 12,
+    'weight': 150
 }

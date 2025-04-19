@@ -27,5 +27,7 @@ DRACO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 40,
+    'weight': 165
 }

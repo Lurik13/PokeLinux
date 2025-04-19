@@ -41,5 +41,7 @@ RAMOLOSS = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 12,
+    'weight': 360
 }

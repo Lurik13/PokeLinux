@@ -57,5 +57,7 @@ FLAGADOSS = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 16,
+    'weight': 785
 }

@@ -26,5 +26,7 @@ FLABÉBÉ = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 1,
+    'weight': 1
 }

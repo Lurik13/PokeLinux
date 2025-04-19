@@ -27,5 +27,7 @@ CRABOMINABLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 17,
+    'weight': 1800
 }

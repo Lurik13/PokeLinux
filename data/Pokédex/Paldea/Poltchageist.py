@@ -26,5 +26,7 @@ POLTCHAGEIST = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 1,
+    'weight': 11
 }

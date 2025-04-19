@@ -42,5 +42,7 @@ MÉTALOSSE = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 16,
+    'weight': 5500
 }

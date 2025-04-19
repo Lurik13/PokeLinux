@@ -22,5 +22,7 @@ KRABBY = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 65
 }

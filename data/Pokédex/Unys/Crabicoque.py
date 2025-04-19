@@ -24,5 +24,7 @@ CRABICOQUE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 145
 }

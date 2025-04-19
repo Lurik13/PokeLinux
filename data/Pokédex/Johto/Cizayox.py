@@ -36,5 +36,7 @@ CIZAYOX = {
                 'Feu*'
             ]
         }
-    ]
+    ],
+    'height': 18,
+    'weight': 1180
 }

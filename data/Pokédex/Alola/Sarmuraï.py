@@ -24,5 +24,7 @@ SARMURAÏ = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 20,
+    'weight': 1080
 }

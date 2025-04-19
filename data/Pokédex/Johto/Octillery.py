@@ -22,5 +22,7 @@ OCTILLERY = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 9,
+    'weight': 285
 }

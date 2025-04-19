@@ -34,5 +34,7 @@ SCARHINO = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 15,
+    'weight': 540
 }

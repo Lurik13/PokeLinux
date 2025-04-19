@@ -28,5 +28,7 @@ LUDICOLO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 550
 }

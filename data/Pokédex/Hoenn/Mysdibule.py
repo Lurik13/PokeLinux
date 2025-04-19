@@ -30,5 +30,7 @@ MYSDIBULE = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'height': 6,
+    'weight': 115
 }

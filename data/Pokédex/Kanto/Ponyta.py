@@ -34,5 +34,7 @@ PONYTA = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 10,
+    'weight': 300
 }

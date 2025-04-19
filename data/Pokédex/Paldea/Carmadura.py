@@ -30,5 +30,7 @@ CARMADURA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 850
 }

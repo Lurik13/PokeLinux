@@ -26,5 +26,7 @@ KANGOUREX = {
                 'Combat'
             ]
         }
-    ]
+    ],
+    'height': 22,
+    'weight': 800
 }

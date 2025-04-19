@@ -34,5 +34,7 @@ CAMÉRUPT = {
                 'Sol'
             ]
         }
-    ]
+    ],
+    'height': 19,
+    'weight': 2200
 }

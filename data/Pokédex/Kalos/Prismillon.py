@@ -30,5 +30,7 @@ PRISMILLON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 12,
+    'weight': 170
 }

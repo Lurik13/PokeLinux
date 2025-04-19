@@ -38,5 +38,7 @@ LATIAS = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 14,
+    'weight': 400
 }

@@ -30,5 +30,7 @@ LANSSORIEN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 30,
+    'weight': 500
 }

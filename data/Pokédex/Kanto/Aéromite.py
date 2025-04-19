@@ -25,5 +25,7 @@ AÉROMITE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 125
 }

@@ -25,5 +25,7 @@ EXCAVARENNE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 424
 }

@@ -20,5 +20,7 @@ TOKOPISCO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 13,
+    'weight': 212
 }

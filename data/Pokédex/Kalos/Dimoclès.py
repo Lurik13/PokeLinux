@@ -29,5 +29,7 @@ DIMOCLÈS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 8,
+    'weight': 45
 }

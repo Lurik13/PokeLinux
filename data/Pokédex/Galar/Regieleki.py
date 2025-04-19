@@ -17,5 +17,7 @@ REGIELEKI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 12,
+    'weight': 1450
 }

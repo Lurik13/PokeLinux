@@ -23,5 +23,7 @@ MAKUHITA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 864
 }

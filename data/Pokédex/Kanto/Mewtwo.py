@@ -43,5 +43,7 @@ MEWTWO = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 20,
+    'weight': 1220
 }

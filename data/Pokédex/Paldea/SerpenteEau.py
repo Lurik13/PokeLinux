@@ -19,5 +19,7 @@ SERPENTEEAU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 35,
+    'weight': 2800
 }

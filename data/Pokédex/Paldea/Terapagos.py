@@ -36,5 +36,7 @@ TERAPAGOS = {
                 'Combat'
             ]
         }
-    ]
+    ],
+    'height': 2,
+    'weight': 65
 }

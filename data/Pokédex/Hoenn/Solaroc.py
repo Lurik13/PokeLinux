@@ -24,5 +24,7 @@ SOLAROC = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 12,
+    'weight': 1540
 }

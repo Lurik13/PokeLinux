@@ -32,5 +32,7 @@ TOGEDEMARU = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'height': 3,
+    'weight': 33
 }

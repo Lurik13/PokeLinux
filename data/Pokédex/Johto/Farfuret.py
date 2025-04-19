@@ -43,5 +43,7 @@ FARFURET = {
                 'Sol'
             ]
         }
-    ]
+    ],
+    'height': 9,
+    'weight': 280
 }

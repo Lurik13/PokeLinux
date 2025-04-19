@@ -27,5 +27,7 @@ MACHOPEUR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 705
 }

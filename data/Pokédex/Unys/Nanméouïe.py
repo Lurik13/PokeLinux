@@ -28,5 +28,7 @@ NANMÉOUÏE = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'height': 11,
+    'weight': 310
 }

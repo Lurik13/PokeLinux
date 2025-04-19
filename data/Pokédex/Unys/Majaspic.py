@@ -29,5 +29,7 @@ MAJASPIC = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 33,
+    'weight': 630
 }

@@ -20,5 +20,7 @@ PAUMEDEFER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 18,
+    'weight': 3807
 }

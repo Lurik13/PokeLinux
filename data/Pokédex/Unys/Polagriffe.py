@@ -24,5 +24,7 @@ POLAGRIFFE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 26,
+    'weight': 2600
 }

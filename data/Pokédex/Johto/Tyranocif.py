@@ -48,5 +48,7 @@ TYRANOCIF = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 20,
+    'weight': 2020
 }

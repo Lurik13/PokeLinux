@@ -33,5 +33,7 @@ ZORUA = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 7,
+    'weight': 125
 }

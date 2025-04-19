@@ -22,5 +22,7 @@ MOUFFLAIR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 380
 }

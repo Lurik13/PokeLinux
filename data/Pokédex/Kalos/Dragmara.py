@@ -27,5 +27,7 @@ DRAGMARA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 27,
+    'weight': 2250
 }

@@ -22,5 +22,7 @@ TRITOSOR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 9,
+    'weight': 299
 }

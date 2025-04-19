@@ -23,5 +23,7 @@ FARIGIRAF = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 32,
+    'weight': 1600
 }

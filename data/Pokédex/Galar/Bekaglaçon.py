@@ -32,5 +32,7 @@ BEKAGLAÇON = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'height': 14,
+    'weight': 890
 }

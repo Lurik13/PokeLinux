@@ -36,5 +36,7 @@ AMOVÉNUS = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'height': 16,
+    'weight': 480
 }

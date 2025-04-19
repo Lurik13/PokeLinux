@@ -28,5 +28,7 @@ STALGAMIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 168
 }

@@ -20,5 +20,7 @@ COBALTIUM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 21,
+    'weight': 2500
 }

@@ -24,5 +24,7 @@ MELMETAL = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 25,
+    'weight': 8000
 }

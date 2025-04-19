@@ -30,5 +30,7 @@ MAMMOCHON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 25,
+    'weight': 2910
 }

@@ -25,5 +25,7 @@ MINOTAUPE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 404
 }

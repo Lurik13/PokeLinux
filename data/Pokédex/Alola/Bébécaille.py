@@ -27,5 +27,7 @@ BÉBÉCAILLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 297
 }

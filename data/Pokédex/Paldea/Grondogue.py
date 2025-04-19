@@ -23,5 +23,7 @@ GRONDOGUE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 5,
+    'weight': 160
 }

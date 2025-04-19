@@ -43,5 +43,7 @@ BARGANTUA = {
                 'Électrik'
             ]
         }
-    ]
+    ],
+    'height': 10,
+    'weight': 180
 }

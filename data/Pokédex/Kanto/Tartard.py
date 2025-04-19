@@ -34,5 +34,7 @@ TARTARD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 13,
+    'weight': 540
 }

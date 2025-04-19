@@ -22,5 +22,7 @@ DRASCORE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 13,
+    'weight': 615
 }

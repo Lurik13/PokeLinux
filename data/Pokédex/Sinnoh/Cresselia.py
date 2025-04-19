@@ -19,5 +19,7 @@ CRESSELIA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 856
 }

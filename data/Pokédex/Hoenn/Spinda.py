@@ -17,5 +17,7 @@ SPINDA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 11,
+    'weight': 50
 }

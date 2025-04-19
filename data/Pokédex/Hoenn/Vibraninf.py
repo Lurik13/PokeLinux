@@ -28,5 +28,7 @@ VIBRANINF = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 11,
+    'weight': 153
 }

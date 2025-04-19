@@ -36,5 +36,7 @@ CANINOS = {
                 'Combat'
             ]
         }
-    ]
+    ],
+    'height': 7,
+    'weight': 190
 }

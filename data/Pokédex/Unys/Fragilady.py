@@ -40,5 +40,7 @@ FRAGILADY = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 11,
+    'weight': 163
 }

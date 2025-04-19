@@ -25,5 +25,7 @@ FEUILLAJOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 105
 }

@@ -30,5 +30,7 @@ DEUSOLOURDO = {
                 'Combat'
             ]
         }
-    ]
+    ],
+    'height': 36,
+    'weight': 392
 }

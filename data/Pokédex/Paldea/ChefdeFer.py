@@ -21,5 +21,7 @@ CHEFDEFER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 16,
+    'weight': 1560
 }

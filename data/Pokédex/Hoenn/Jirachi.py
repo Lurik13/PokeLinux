@@ -21,5 +21,7 @@ JIRACHI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 11
 }

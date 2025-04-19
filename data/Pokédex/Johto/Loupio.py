@@ -23,5 +23,7 @@ LOUPIO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 5,
+    'weight': 120
 }

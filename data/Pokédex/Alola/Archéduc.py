@@ -45,5 +45,7 @@ ARCHÉDUC = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 16,
+    'weight': 366
 }

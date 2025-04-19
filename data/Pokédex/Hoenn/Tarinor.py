@@ -25,5 +25,7 @@ TARINOR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 970
 }

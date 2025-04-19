@@ -30,5 +30,7 @@ MALVALAME = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 16,
+    'weight': 620
 }

@@ -23,5 +23,7 @@ ROUBLENARD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 12,
+    'weight': 199
 }

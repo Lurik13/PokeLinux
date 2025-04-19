@@ -29,5 +29,7 @@ CHIMPENFEU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 9,
+    'weight': 220
 }

@@ -21,5 +21,7 @@ DOLMAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 25,
+    'weight': 5200
 }

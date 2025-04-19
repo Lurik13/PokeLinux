@@ -21,5 +21,7 @@ SAPEREAU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 50
 }

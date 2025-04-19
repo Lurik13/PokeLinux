@@ -28,5 +28,7 @@ BLIZZI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 505
 }

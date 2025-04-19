@@ -38,5 +38,7 @@ MALAMANDRE = {
                 'Eau'
             ]
         }
-    ]
+    ],
+    'height': 12,
+    'weight': 222
 }

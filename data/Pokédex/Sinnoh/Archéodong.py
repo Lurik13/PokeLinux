@@ -25,5 +25,7 @@ ARCHÉODONG = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 13,
+    'weight': 1870
 }

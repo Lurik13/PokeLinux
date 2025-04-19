@@ -40,5 +40,7 @@ ZARUDE = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'height': 18,
+    'weight': 700
 }

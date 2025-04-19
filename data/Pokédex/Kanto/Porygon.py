@@ -25,5 +25,7 @@ PORYGON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 8,
+    'weight': 365
 }

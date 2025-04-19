@@ -35,5 +35,7 @@ CANARTICHO = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 8,
+    'weight': 150
 }

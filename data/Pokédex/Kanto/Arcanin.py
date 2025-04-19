@@ -36,5 +36,7 @@ ARCANIN = {
                 'Combat'
             ]
         }
-    ]
+    ],
+    'height': 19,
+    'weight': 1550
 }

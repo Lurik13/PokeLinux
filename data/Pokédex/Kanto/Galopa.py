@@ -35,5 +35,7 @@ GALOPA = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'height': 17,
+    'weight': 950
 }

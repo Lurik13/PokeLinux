@@ -21,5 +21,7 @@ INSOLOURDO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 140
 }

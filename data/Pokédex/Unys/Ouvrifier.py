@@ -27,5 +27,7 @@ OUVRIFIER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 12,
+    'weight': 400
 }

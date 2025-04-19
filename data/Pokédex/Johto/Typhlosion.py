@@ -41,5 +41,7 @@ TYPHLOSION = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 17,
+    'weight': 795
 }

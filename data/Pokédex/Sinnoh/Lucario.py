@@ -36,5 +36,7 @@ LUCARIO = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'height': 12,
+    'weight': 540
 }

@@ -23,5 +23,7 @@ CRABAGARRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 70
 }

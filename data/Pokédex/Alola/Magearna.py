@@ -30,5 +30,7 @@ MAGEARNA = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'height': 10,
+    'weight': 805
 }

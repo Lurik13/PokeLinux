@@ -20,5 +20,7 @@ HEATRAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 17,
+    'weight': 4300
 }

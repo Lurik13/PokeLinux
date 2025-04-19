@@ -27,5 +27,7 @@ ONIX = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 88,
+    'weight': 2100
 }

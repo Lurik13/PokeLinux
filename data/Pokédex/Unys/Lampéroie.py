@@ -25,5 +25,7 @@ LAMPÉROIE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 12,
+    'weight': 220
 }

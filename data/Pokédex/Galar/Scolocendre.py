@@ -29,5 +29,7 @@ SCOLOCENDRE = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 30,
+    'weight': 1200
 }

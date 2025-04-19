@@ -30,5 +30,7 @@ LUGULABRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 343
 }

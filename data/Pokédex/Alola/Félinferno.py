@@ -29,5 +29,7 @@ FÉLINFERNO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 18,
+    'weight': 830
 }

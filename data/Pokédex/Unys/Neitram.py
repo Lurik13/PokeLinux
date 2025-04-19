@@ -23,5 +23,7 @@ NEITRAM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 345
 }

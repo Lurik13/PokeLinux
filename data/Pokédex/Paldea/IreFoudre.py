@@ -21,5 +21,7 @@ IREFOUDRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 52,
+    'weight': 4800
 }

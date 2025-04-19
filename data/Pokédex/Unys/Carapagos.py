@@ -25,5 +25,7 @@ CARAPAGOS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 165
 }

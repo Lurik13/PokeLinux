@@ -20,5 +20,7 @@ FEUPERÇANT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 35,
+    'weight': 5900
 }

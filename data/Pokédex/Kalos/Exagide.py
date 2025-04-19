@@ -42,5 +42,7 @@ EXAGIDE = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 17,
+    'weight': 530
 }

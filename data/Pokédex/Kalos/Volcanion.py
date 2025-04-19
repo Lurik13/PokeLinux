@@ -20,5 +20,7 @@ VOLCANION = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 17,
+    'weight': 1950
 }

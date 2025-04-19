@@ -60,5 +60,7 @@ NECROZMA = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 24,
+    'weight': 2300
 }

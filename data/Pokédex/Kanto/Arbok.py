@@ -22,5 +22,7 @@ ARBOK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 35,
+    'weight': 650
 }

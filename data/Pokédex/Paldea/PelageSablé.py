@@ -21,5 +21,7 @@ PELAGESABLÉ = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 23,
+    'weight': 600
 }

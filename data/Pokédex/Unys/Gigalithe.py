@@ -29,5 +29,7 @@ GIGALITHE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 17,
+    'weight': 2600
 }

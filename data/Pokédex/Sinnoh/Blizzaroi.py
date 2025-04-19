@@ -44,5 +44,7 @@ BLIZZAROI = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'height': 22,
+    'weight': 1355
 }

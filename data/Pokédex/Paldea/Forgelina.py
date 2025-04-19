@@ -27,5 +27,7 @@ FORGELINA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 1128
 }

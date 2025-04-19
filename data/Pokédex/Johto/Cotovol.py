@@ -30,5 +30,7 @@ COTOVOL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 8,
+    'weight': 30
 }

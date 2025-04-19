@@ -26,5 +26,7 @@ AÉROPTÉRYX = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 14,
+    'weight': 320
 }

@@ -21,5 +21,7 @@ VOLTOUTOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 135
 }

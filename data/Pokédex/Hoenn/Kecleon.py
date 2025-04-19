@@ -17,5 +17,7 @@ KECLEON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 220
 }

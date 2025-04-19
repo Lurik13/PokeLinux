@@ -48,5 +48,7 @@ FLORIZARRE = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 20,
+    'weight': 1000
 }

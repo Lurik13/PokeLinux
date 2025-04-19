@@ -29,5 +29,7 @@ HERBIZARRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 130
 }

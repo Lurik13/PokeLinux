@@ -27,5 +27,7 @@ SYMBIOS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 201
 }

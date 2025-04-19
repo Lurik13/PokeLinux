@@ -20,5 +20,7 @@ RESHIRAM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 32,
+    'weight': 3300
 }

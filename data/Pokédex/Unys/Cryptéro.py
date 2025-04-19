@@ -22,5 +22,7 @@ CRYPTÉRO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 14,
+    'weight': 140
 }

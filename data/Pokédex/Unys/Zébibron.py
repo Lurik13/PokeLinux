@@ -21,5 +21,7 @@ ZÉBIBRON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 8,
+    'weight': 298
 }

@@ -44,5 +44,7 @@ GARDEVOIR = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'height': 16,
+    'weight': 484
 }

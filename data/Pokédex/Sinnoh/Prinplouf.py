@@ -26,5 +26,7 @@ PRINPLOUF = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 8,
+    'weight': 230
 }

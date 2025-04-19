@@ -24,5 +24,7 @@ NIRONDELLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 23
 }

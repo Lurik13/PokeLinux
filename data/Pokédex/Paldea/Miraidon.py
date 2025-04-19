@@ -76,5 +76,7 @@ MIRAIDON = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 35,
+    'weight': 2400
 }

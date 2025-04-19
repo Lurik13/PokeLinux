@@ -29,5 +29,7 @@ BOSKARA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 11,
+    'weight': 970
 }

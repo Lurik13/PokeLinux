@@ -29,5 +29,7 @@ BRUTAPODE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 25,
+    'weight': 2005
 }

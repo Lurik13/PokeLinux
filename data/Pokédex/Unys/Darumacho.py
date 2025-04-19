@@ -64,5 +64,7 @@ DARUMACHO = {
                 'Eau'
             ]
         }
-    ]
+    ],
+    'height': 13,
+    'weight': 929
 }

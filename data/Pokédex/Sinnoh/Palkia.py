@@ -30,5 +30,7 @@ PALKIA = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 42,
+    'weight': 3360
 }

@@ -22,5 +22,7 @@ DÉLESTIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 25,
+    'weight': 900
 }

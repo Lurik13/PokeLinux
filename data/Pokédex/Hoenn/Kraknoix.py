@@ -27,5 +27,7 @@ KRAKNOIX = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 150
 }

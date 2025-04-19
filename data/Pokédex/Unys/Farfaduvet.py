@@ -26,5 +26,7 @@ FARFADUVET = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 66
 }

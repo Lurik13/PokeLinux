@@ -38,5 +38,7 @@ RAICHU = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 8,
+    'weight': 300
 }

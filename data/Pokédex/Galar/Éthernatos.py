@@ -34,5 +34,7 @@
                 'Dragon'
             ]
         }
-    ]
+    ],
+    'height': 200,
+    'weight': 9500
 }

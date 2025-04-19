@@ -28,5 +28,7 @@ DURALUGON = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 18,
+    'weight': 400
 }

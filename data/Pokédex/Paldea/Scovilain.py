@@ -24,5 +24,7 @@ SCOVILAIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 9,
+    'weight': 150
 }

@@ -26,5 +26,7 @@ HYPOCÉAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 12,
+    'weight': 250
 }

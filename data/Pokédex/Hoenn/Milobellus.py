@@ -22,5 +22,7 @@ MILOBELLUS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 62,
+    'weight': 1620
 }

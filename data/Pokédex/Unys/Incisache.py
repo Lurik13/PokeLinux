@@ -27,5 +27,7 @@ INCISACHE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 360
 }

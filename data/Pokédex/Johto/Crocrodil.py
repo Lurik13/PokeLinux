@@ -26,5 +26,7 @@ CROCRODIL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 11,
+    'weight': 250
 }

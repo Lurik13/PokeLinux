@@ -22,5 +22,7 @@ RUGITLUNE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 20,
+    'weight': 3800
 }

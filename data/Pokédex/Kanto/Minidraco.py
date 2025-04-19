@@ -27,5 +27,7 @@ MINIDRACO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 18,
+    'weight': 33
 }

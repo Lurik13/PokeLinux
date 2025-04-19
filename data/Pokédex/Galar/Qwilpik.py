@@ -22,5 +22,7 @@ QWILPIK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 25,
+    'weight': 605
 }

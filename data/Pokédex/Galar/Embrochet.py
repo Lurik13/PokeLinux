@@ -22,5 +22,7 @@ EMBROCHET = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 5,
+    'weight': 10
 }

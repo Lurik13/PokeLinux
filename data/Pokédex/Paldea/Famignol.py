@@ -30,5 +30,7 @@ FAMIGNOL = {
                 'Combat'
             ]
         }
-    ]
+    ],
+    'height': 3,
+    'weight': 23
 }

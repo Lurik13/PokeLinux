@@ -17,5 +17,7 @@ MANGRIFF = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 13,
+    'weight': 403
 }

@@ -21,5 +21,7 @@ RAMPEAILES = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 32,
+    'weight': 920
 }

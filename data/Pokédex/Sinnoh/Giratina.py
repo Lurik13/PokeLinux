@@ -36,5 +36,7 @@ GIRATINA = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 45,
+    'weight': 7500
 }

@@ -28,5 +28,7 @@ IXON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 16,
+    'weight': 460
 }

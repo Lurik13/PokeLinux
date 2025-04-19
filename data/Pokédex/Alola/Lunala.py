@@ -31,5 +31,7 @@ LUNALA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 40,
+    'weight': 1200
 }

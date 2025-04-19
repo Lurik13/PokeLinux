@@ -51,5 +51,7 @@ PYROLI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 9,
+    'weight': 250
 }

@@ -40,5 +40,7 @@ SHARPEDO = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 18,
+    'weight': 888
 }

@@ -22,5 +22,7 @@ VICTINI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 40
 }

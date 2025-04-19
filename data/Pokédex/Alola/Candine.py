@@ -29,5 +29,7 @@ CANDINE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 82
 }

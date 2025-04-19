@@ -28,5 +28,7 @@ FOURBELIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 8,
+    'weight': 125
 }

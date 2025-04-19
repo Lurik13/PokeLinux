@@ -23,5 +23,7 @@ ESCARGAUME = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 77
 }

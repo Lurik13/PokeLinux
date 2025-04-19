@@ -20,5 +20,7 @@ HEXAGEL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 11,
+    'weight': 1480
 }

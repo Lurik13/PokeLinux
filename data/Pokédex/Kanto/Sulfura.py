@@ -33,5 +33,7 @@ SULFURA = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'height': 20,
+    'weight': 600
 }

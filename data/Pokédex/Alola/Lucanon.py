@@ -38,5 +38,7 @@ LUCANON = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'height': 15,
+    'weight': 450
 }

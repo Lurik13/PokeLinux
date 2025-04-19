@@ -25,5 +25,7 @@ CHEVROUM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 17,
+    'weight': 910
 }

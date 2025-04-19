@@ -33,5 +33,7 @@ ANGOLIATH = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 15,
+    'weight': 610
 }

@@ -26,5 +26,7 @@ APITRINI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 55
 }

@@ -32,5 +32,7 @@ TADMORV = {
                 'Sol'
             ]
         }
-    ]
+    ],
+    'height': 9,
+    'weight': 300
 }

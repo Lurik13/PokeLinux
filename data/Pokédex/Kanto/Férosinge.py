@@ -27,5 +27,7 @@ FÉROSINGE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 5,
+    'weight': 280
 }

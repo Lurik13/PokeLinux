@@ -20,5 +20,7 @@ BLIZZEVAL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 22,
+    'weight': 8000
 }

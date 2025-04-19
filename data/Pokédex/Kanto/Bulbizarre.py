@@ -29,5 +29,7 @@ BULBIZARRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 69
 }

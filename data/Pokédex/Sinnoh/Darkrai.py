@@ -19,5 +19,7 @@ DARKRAI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 505
 }

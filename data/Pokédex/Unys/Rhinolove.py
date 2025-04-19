@@ -26,5 +26,7 @@ RHINOLOVE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 9,
+    'weight': 105
 }

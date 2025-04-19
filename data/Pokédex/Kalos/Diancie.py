@@ -34,5 +34,7 @@ DIANCIE = {
                 'Plante'
             ]
         }
-    ]
+    ],
+    'height': 7,
+    'weight': 88
 }

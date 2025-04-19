@@ -26,5 +26,7 @@ FLORGES = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 11,
+    'weight': 100
 }

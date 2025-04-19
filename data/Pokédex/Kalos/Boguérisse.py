@@ -29,5 +29,7 @@ BOGUÉRISSE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 290
 }

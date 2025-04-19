@@ -24,5 +24,7 @@ TENTACRUEL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 16,
+    'weight': 550
 }

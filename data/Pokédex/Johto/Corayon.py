@@ -35,5 +35,7 @@ CORAYON = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 6,
+    'weight': 50
 }

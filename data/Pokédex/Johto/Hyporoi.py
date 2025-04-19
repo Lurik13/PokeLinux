@@ -27,5 +27,7 @@ HYPOROI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 18,
+    'weight': 1520
 }

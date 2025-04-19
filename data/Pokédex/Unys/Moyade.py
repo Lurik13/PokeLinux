@@ -25,5 +25,7 @@ MOYADE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 22,
+    'weight': 1350
 }

@@ -26,5 +26,7 @@ ALIGATUEUR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 23,
+    'weight': 888
 }

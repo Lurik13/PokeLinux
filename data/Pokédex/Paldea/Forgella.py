@@ -27,5 +27,7 @@ FORGELLA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 591
 }

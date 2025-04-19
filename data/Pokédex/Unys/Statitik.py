@@ -23,5 +23,7 @@ STATITIK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 1,
+    'weight': 6
 }

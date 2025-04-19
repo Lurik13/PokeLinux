@@ -36,5 +36,7 @@ TARENBULLE = {
                 'Roche'
             ]
         }
-    ]
+    ],
+    'height': 18,
+    'weight': 820
 }

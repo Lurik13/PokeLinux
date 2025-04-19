@@ -22,5 +22,7 @@ FEUFORÊVE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 10
 }

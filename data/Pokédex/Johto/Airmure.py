@@ -19,5 +19,7 @@ AIRMURE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 17,
+    'weight': 505
 }

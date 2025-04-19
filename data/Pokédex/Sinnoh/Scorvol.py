@@ -23,5 +23,7 @@ SCORVOL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 20,
+    'weight': 425
 }

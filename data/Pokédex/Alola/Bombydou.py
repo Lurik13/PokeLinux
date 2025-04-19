@@ -26,5 +26,7 @@ BOMBYDOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 1,
+    'weight': 2
 }

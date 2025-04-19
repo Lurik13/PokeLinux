@@ -28,5 +28,7 @@ GRIKNOT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 205
 }

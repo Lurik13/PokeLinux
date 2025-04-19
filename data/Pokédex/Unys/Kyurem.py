@@ -51,5 +51,7 @@ KYUREM = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'height': 30,
+    'weight': 3250
 }

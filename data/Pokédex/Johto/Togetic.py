@@ -30,5 +30,7 @@ TOGETIC = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 32
 }

@@ -26,5 +26,7 @@ RONFLEX = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 21,
+    'weight': 4600
 }

@@ -19,5 +19,7 @@ MEW = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 40
 }

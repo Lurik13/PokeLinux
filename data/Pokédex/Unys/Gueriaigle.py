@@ -38,5 +38,7 @@ GUERIAIGLE = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'height': 15,
+    'weight': 410
 }

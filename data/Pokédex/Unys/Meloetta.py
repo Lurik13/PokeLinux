@@ -32,5 +32,7 @@ MELOETTA = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 6,
+    'weight': 65
 }

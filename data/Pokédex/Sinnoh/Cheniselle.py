@@ -55,5 +55,7 @@ CHENISELLE = {
                 'Feu*'
             ]
         }
-    ]
+    ],
+    'height': 5,
+    'weight': 65
 }

@@ -37,5 +37,7 @@ ZIGZATON = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 4,
+    'weight': 175
 }

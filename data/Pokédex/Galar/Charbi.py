@@ -29,5 +29,7 @@ CHARBI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 120
 }

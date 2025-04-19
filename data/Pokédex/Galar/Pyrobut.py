@@ -32,5 +32,7 @@ PYROBUT = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 14,
+    'weight': 330
 }

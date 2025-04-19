@@ -32,5 +32,7 @@ CORVAILLUS = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 22,
+    'weight': 750
 }

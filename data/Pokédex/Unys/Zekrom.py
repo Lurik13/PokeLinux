@@ -21,5 +21,7 @@ ZEKROM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 29,
+    'weight': 3450
 }

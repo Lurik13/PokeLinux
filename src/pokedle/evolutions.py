@@ -35,6 +35,7 @@ def try_evolutions(pokemon_id_tried, mystery_pokemon):
     console_print("Stade d'évolution : ", True, GRAY)
     try_evolution_stage = get_evolution_stage(pokemon_id_tried)
     if (try_evolution_stage == get_evolution_stage(int(mystery_pokemon['number']))):
-        console_print(str(try_evolution_stage), False, GREEN)
+        console_print(str(try_evolution_stage), True, GREEN)
     else:
-        console_print(str(try_evolution_stage), False, RED)
+        console_print(str(try_evolution_stage), True, RED)
+    console_print("  |  ", True, GRAY)

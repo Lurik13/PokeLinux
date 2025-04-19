@@ -23,5 +23,7 @@ FLAMOUTAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 280
 }

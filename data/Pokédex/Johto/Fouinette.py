@@ -21,5 +21,7 @@ FOUINETTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 8,
+    'weight': 60
 }

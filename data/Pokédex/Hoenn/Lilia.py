@@ -25,5 +25,7 @@ LILIA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 238
 }

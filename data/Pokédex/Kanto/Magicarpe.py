@@ -22,5 +22,7 @@ MAGICARPE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 9,
+    'weight': 100
 }

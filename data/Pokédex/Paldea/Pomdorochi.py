@@ -39,5 +39,7 @@ POMDOROCHI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 18,
+    'weight': 930
 }

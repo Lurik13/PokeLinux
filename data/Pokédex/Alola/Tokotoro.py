@@ -22,5 +22,7 @@ TOKOTORO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 19,
+    'weight': 455
 }

@@ -28,5 +28,7 @@ FROUSSARDINE = {
                 'Électrik'
             ]
         }
-    ]
+    ],
+    'height': 2,
+    'weight': 3
 }

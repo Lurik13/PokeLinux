@@ -19,5 +19,7 @@ CHARTOR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 5,
+    'weight': 804
 }

@@ -23,5 +23,7 @@ ROTOTAUPE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 85
 }

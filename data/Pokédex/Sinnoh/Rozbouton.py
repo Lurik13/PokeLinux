@@ -29,5 +29,7 @@ ROZBOUTON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 2,
+    'weight': 12
 }

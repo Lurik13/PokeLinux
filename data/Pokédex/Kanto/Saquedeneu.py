@@ -25,5 +25,7 @@ SAQUEDENEU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 350
 }

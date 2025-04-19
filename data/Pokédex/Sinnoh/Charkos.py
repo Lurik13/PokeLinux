@@ -25,5 +25,7 @@ CHARKOS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 16,
+    'weight': 1025
 }

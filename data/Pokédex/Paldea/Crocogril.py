@@ -27,5 +27,7 @@ CROCOGRIL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 307
 }

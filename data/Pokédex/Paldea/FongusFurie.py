@@ -24,5 +24,7 @@ FONGUSFURIE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 12,
+    'weight': 210
 }

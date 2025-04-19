@@ -38,5 +38,7 @@ PARAGRUEL = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 30,
+    'weight': 1100
 }

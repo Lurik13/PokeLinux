@@ -40,5 +40,7 @@ CARCHACROK = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 19,
+    'weight': 950
 }

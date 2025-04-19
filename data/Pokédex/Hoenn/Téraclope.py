@@ -26,5 +26,7 @@ TÉRACLOPE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 16,
+    'weight': 306
 }

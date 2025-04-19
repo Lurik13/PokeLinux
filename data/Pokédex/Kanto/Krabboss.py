@@ -27,5 +27,7 @@ KRABBOSS = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 13,
+    'weight': 600
 }

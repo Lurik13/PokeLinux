@@ -21,5 +21,7 @@ VORTENTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 14,
+    'weight': 270
 }

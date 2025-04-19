@@ -24,5 +24,7 @@ VERTDEFER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 1250
 }

@@ -23,5 +23,7 @@ HIPPOPOTAS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 8,
+    'weight': 495
 }

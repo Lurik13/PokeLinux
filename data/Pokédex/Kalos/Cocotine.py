@@ -22,5 +22,7 @@ COCOTINE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 8,
+    'weight': 155
 }

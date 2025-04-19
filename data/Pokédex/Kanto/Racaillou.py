@@ -44,5 +44,7 @@ RACAILLOU = {
                 'Plante'
             ]
         }
-    ]
+    ],
+    'height': 4,
+    'weight': 200
 }

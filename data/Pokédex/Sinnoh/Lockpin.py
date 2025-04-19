@@ -34,5 +34,7 @@ LOCKPIN = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 12,
+    'weight': 333
 }

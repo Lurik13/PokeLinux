@@ -19,5 +19,7 @@ MELTAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 2,
+    'weight': 80
 }

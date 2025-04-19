@@ -44,5 +44,7 @@ JUNGKO = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 17,
+    'weight': 522
 }

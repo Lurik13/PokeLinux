@@ -23,5 +23,7 @@ SEPIATROCE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 470
 }

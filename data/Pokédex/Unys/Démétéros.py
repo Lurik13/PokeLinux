@@ -30,5 +30,7 @@ DÉMÉTÉROS = {
                 'Eau'
             ]
         }
-    ]
+    ],
+    'height': 15,
+    'weight': 680
 }

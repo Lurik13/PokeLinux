@@ -31,5 +31,7 @@ YMPHECT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 12,
+    'weight': 1520
 }

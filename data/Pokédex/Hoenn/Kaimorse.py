@@ -29,5 +29,7 @@ KAIMORSE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 14,
+    'weight': 1506
 }

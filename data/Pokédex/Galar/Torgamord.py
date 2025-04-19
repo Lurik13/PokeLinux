@@ -30,5 +30,7 @@ TORGAMORD = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 10,
+    'weight': 1155
 }

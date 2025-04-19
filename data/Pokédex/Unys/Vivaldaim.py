@@ -27,5 +27,7 @@ VIVALDAIM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 195
 }

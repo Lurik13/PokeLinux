@@ -26,5 +26,7 @@ TUTANKAFER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 17,
+    'weight': 765
 }

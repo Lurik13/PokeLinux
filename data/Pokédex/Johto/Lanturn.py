@@ -23,5 +23,7 @@ LANTURN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 12,
+    'weight': 225
 }

@@ -27,5 +27,7 @@ CHENITI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 2,
+    'weight': 34
 }

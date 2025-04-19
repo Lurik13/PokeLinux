@@ -24,5 +24,7 @@ PRÉDASTÉRIE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 145
 }

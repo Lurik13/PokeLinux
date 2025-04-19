@@ -30,5 +30,7 @@ WIMESSIR = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 9,
+    'weight': 280
 }

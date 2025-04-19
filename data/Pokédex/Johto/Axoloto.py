@@ -39,5 +39,7 @@ AXOLOTO = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'height': 4,
+    'weight': 85
 }

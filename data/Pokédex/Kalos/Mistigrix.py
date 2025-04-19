@@ -34,5 +34,7 @@ MISTIGRIX = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 6,
+    'weight': 85
 }

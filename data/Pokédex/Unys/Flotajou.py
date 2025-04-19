@@ -22,5 +22,7 @@ FLOTAJOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 135
 }

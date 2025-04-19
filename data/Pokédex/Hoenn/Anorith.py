@@ -24,5 +24,7 @@ ANORITH = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 125
 }

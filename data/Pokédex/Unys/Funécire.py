@@ -30,5 +30,7 @@ FUNÉCIRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 31
 }

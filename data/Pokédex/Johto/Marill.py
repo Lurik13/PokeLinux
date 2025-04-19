@@ -28,5 +28,7 @@ MARILL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 85
 }

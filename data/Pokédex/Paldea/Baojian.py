@@ -23,5 +23,7 @@ BAOJIAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 19,
+    'weight': 1522
 }

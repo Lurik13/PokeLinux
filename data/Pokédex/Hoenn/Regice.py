@@ -20,5 +20,7 @@ REGICE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 18,
+    'weight': 1750
 }

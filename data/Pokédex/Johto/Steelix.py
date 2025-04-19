@@ -38,5 +38,7 @@ STEELIX = {
                 'Eau'
             ]
         }
-    ]
+    ],
+    'height': 92,
+    'weight': 4000
 }

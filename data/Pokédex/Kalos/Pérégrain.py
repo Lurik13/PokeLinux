@@ -27,5 +27,7 @@ PÉRÉGRAIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 84
 }

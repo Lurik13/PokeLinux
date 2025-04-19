@@ -34,5 +34,7 @@ MORPEKO = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 3,
+    'weight': 30
 }

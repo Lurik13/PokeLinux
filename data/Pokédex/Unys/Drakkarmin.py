@@ -19,5 +19,7 @@ DRAKKARMIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 16,
+    'weight': 1390
 }

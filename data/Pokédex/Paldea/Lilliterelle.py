@@ -23,5 +23,7 @@ LILLITERELLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 2,
+    'weight': 10
 }

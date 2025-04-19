@@ -24,5 +24,7 @@ ROCDEFER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 1625
 }

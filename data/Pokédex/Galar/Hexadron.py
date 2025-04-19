@@ -19,5 +19,7 @@ HEXADRON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 30,
+    'weight': 620
 }

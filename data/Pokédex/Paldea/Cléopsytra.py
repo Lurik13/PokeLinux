@@ -23,5 +23,7 @@ CLÉOPSYTRA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 19,
+    'weight': 900
 }

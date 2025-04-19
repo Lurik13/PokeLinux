@@ -119,6 +119,28 @@ def get_forms(species):
 
 
 ###############################################################################
+######################    HEIGHT AND WEIGHT FUNCTIONS    ######################
+###############################################################################
+# def get_height(height):
+# 	meters = height // 10
+# 	centimeters = (height % 10) * 10
+# 	result = ""
+# 	if (meters):
+# 		result += str(meters) + 'm'
+# 		if (centimeters):
+# 			result += str(centimeters)
+# 	else:
+# 		result += str(centimeters) + 'cm'
+# 	return result
+
+# def get_weight(weight):
+# 	kilograms = weight // 10
+# 	hectograms = (weight % 10)
+# 	return weight / 10
+
+
+
+###############################################################################
 #############################    MAIN FUNCTION    #############################
 ###############################################################################
 def get_pokemon_data(pokemon_id):
@@ -137,5 +159,7 @@ def get_pokemon_data(pokemon_id):
 		"sprite": SPRITE_URL.format(number),
 		"types": [TYPE_TRANSLATIONS[t] for t in types],
 		"weaknesses": list(weaknesses),
-		"forms": get_forms(species)
+		"forms": get_forms(species),
+		"height": pokemon['height'],
+		"weight": pokemon['weight']
 	}

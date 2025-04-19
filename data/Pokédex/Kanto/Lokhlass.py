@@ -26,5 +26,7 @@ LOKHLASS = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 25,
+    'weight': 2200
 }

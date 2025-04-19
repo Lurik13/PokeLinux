@@ -29,5 +29,7 @@ VENIPATTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 53
 }

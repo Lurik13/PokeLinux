@@ -24,5 +24,7 @@ CRADOPAUD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 230
 }

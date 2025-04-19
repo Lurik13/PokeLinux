@@ -34,5 +34,7 @@ MONTHRACITE = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 28,
+    'weight': 3105
 }

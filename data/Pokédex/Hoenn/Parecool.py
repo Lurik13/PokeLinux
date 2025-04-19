@@ -25,5 +25,7 @@ PARECOOL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 8,
+    'weight': 240
 }

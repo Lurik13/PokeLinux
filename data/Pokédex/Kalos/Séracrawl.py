@@ -39,5 +39,7 @@ SÉRACRAWL = {
                 'Plante'
             ]
         }
-    ]
+    ],
+    'height': 20,
+    'weight': 5050
 }

@@ -29,5 +29,7 @@ SIMIABRAZ = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 12,
+    'weight': 550
 }

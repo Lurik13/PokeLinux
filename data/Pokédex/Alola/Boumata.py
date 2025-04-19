@@ -20,5 +20,7 @@ BOUMATA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 20,
+    'weight': 2120
 }

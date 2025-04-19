@@ -21,5 +21,7 @@ COMPAGNOL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 18
 }

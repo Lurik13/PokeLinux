@@ -35,5 +35,7 @@ DARUMAROND = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'height': 6,
+    'weight': 375
 }

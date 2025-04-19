@@ -25,5 +25,7 @@ NÉMÉLIOS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 815
 }

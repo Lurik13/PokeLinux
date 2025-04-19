@@ -38,5 +38,7 @@ FLORAMANTIS = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'height': 9,
+    'weight': 185
 }

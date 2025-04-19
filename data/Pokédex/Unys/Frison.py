@@ -17,5 +17,7 @@ FRISON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 16,
+    'weight': 946
 }

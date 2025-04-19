@@ -22,5 +22,7 @@ AVALTOUT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 17,
+    'weight': 800
 }

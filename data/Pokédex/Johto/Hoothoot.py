@@ -24,5 +24,7 @@ HOOTHOOT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 212
 }

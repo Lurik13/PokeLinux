@@ -21,5 +21,7 @@ GOINFREX = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 1050
 }

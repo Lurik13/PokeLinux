@@ -22,5 +22,7 @@ POLTHÉGEIST = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 2,
+    'weight': 4
 }

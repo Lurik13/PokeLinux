@@ -24,5 +24,7 @@ TYLTON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 12
 }

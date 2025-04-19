@@ -31,5 +31,7 @@ LARVEYETTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 25
 }

@@ -24,5 +24,7 @@ BALBALÈZE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 45,
+    'weight': 7000
 }

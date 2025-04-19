@@ -23,5 +23,7 @@ CHAMALLOT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 240
 }

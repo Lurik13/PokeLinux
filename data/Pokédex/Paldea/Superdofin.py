@@ -32,5 +32,7 @@ SUPERDOFIN = {
                 'Électrik'
             ]
         }
-    ]
+    ],
+    'height': 13,
+    'weight': 602
 }

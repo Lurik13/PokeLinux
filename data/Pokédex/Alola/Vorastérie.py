@@ -24,5 +24,7 @@ VORASTÉRIE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 80
 }

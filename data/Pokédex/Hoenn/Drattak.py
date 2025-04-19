@@ -42,5 +42,7 @@ DRATTAK = {
                 'Roche'
             ]
         }
-    ]
+    ],
+    'height': 15,
+    'weight': 1026
 }

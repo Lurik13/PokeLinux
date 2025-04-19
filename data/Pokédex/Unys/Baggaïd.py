@@ -24,5 +24,7 @@ BAGGAÏD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 11,
+    'weight': 300
 }

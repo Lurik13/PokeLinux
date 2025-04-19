@@ -23,5 +23,7 @@ CHACRIPAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 101
 }

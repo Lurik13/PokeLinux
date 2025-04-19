@@ -27,5 +27,7 @@ MATOUFEU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 250
 }

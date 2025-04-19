@@ -18,5 +18,7 @@ GENESECT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 825
 }

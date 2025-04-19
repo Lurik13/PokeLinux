@@ -33,5 +33,7 @@ ZOROARK = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 16,
+    'weight': 811
 }

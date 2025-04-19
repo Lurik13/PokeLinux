@@ -29,5 +29,7 @@ ASPICOT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 32
 }

@@ -23,5 +23,7 @@ GOÉLISE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 95
 }

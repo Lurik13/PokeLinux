@@ -18,5 +18,7 @@ GUÉRILANDE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 1,
+    'weight': 3
 }

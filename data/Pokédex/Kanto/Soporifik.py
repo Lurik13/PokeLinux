@@ -23,5 +23,7 @@ SOPORIFIK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 324
 }

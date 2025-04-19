@@ -25,5 +25,7 @@ VISKUSE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 12,
+    'weight': 330
 }

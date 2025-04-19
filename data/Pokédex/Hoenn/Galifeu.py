@@ -29,5 +29,7 @@ GALIFEU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 9,
+    'weight': 195
 }

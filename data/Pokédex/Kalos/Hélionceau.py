@@ -25,5 +25,7 @@ HÉLIONCEAU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 135
 }

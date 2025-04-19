@@ -21,5 +21,7 @@ ZÉBLITZ = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 16,
+    'weight': 795
 }

@@ -29,5 +29,7 @@ WAGOMINE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 11,
+    'weight': 780
 }

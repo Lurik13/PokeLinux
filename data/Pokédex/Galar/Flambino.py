@@ -27,5 +27,7 @@ FLAMBINO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 3,
+    'weight': 45
 }

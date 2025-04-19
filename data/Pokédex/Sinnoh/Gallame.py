@@ -44,5 +44,7 @@ GALLAME = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 16,
+    'weight': 520
 }

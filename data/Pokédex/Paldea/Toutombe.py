@@ -22,5 +22,7 @@ TOUTOMBE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 350
 }

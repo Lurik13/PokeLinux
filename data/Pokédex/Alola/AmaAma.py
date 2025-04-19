@@ -20,5 +20,7 @@ AMAAMA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 55,
+    'weight': 8200
 }

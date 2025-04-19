@@ -35,5 +35,7 @@ GOUPIX = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'height': 6,
+    'weight': 99
 }

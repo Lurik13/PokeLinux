@@ -30,5 +30,7 @@ FLÂMIGATOR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 16,
+    'weight': 3265
 }

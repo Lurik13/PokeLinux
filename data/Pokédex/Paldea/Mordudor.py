@@ -32,5 +32,7 @@ MORDUDOR = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 3,
+    'weight': 50
 }

@@ -28,5 +28,7 @@ MIMEJR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 130
 }

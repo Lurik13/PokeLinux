@@ -27,5 +27,7 @@ BIBICHUT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 34
 }

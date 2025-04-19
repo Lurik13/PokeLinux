@@ -30,5 +30,7 @@ MOMARTIK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 13,
+    'weight': 266
 }

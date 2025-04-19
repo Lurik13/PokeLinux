@@ -23,5 +23,7 @@ HIPPODOCUS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 20,
+    'weight': 3000
 }

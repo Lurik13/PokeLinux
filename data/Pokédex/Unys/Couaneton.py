@@ -23,5 +23,7 @@ COUANETON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 5,
+    'weight': 55
 }

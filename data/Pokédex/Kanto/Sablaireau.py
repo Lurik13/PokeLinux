@@ -35,5 +35,7 @@ SABLAIREAU = {
                 'Sol'
             ]
         }
-    ]
+    ],
+    'height': 10,
+    'weight': 295
 }

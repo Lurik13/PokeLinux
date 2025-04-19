@@ -27,5 +27,7 @@ MAGANON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 16,
+    'weight': 680
 }

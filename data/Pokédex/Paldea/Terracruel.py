@@ -25,5 +25,7 @@ TERRACRUEL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 19,
+    'weight': 580
 }

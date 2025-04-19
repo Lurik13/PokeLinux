@@ -29,5 +29,7 @@ MÉGANIUM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 18,
+    'weight': 1005
 }

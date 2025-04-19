@@ -26,5 +26,7 @@ OTARLETTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 6,
+    'weight': 175
 }

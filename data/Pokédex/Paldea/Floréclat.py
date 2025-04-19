@@ -25,5 +25,7 @@ FLORÉCLAT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 450
 }

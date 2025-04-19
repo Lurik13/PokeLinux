@@ -23,5 +23,7 @@ FORTIVOIRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 22,
+    'weight': 3200
 }

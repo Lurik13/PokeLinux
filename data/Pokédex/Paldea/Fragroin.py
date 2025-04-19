@@ -30,5 +30,7 @@ FRAGROIN = {
                 'Combat'
             ]
         }
-    ]
+    ],
+    'height': 10,
+    'weight': 1200
 }

@@ -21,5 +21,7 @@ AMPIBIDOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 12,
+    'weight': 1130
 }

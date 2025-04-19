@@ -17,5 +17,7 @@ ZERAORA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 445
 }

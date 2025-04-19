@@ -21,5 +21,7 @@ COUDLANGUE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 17,
+    'weight': 1400
 }

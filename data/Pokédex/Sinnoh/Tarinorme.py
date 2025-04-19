@@ -24,5 +24,7 @@ TARINORME = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 14,
+    'weight': 3400
 }

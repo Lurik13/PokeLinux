@@ -23,5 +23,7 @@ MYGAVOLT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 8,
+    'weight': 143
 }

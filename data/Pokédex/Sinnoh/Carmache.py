@@ -28,5 +28,7 @@ CARMACHE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 14,
+    'weight': 560
 }

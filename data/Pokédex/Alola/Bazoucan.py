@@ -28,5 +28,7 @@ BAZOUCAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 11,
+    'weight': 260
 }

@@ -19,5 +19,7 @@ DEDENNE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 2,
+    'weight': 22
 }

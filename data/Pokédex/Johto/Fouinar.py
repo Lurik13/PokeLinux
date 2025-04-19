@@ -21,5 +21,7 @@ FOUINAR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 18,
+    'weight': 325
 }

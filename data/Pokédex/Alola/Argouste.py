@@ -30,5 +30,7 @@ ARGOUSTE = {
                 'Combat'
             ]
         }
-    ]
+    ],
+    'height': 7,
+    'weight': 142
 }

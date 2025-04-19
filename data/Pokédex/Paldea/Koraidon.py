@@ -81,5 +81,7 @@ KORAIDON = {
                 'Dragon'
             ]
         }
-    ]
+    ],
+    'height': 25,
+    'weight': 3030
 }

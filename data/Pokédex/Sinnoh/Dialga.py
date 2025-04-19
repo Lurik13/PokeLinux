@@ -30,5 +30,7 @@ DIALGA = {
                 'Sol'
             ]
         }
-    ]
+    ],
+    'height': 54,
+    'weight': 6830
 }

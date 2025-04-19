@@ -27,5 +27,7 @@ BÉTOCHEF = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 14,
+    'weight': 870
 }

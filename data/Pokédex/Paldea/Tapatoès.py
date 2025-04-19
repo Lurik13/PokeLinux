@@ -58,5 +58,7 @@ TAPATOÈS = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'height': 6,
+    'weight': 24
 }

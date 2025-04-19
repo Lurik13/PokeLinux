@@ -25,5 +25,7 @@ SONISTRELLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 5,
+    'weight': 80
 }

@@ -37,5 +37,7 @@ LÉVIATOR = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'height': 65,
+    'weight': 2350
 }

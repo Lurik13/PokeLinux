@@ -19,5 +19,7 @@ BAMBOISELLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 92,
+    'weight': 9999
 }

@@ -27,5 +27,7 @@ MIASMAX = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'height': 19,
+    'weight': 1073
 }

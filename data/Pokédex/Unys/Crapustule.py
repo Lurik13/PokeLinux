@@ -26,5 +26,7 @@ CRAPUSTULE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 620
 }

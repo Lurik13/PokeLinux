@@ -24,5 +24,7 @@ HÉLÉDELLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 198
 }

@@ -43,5 +43,7 @@ MMIME = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 13,
+    'weight': 545
 }

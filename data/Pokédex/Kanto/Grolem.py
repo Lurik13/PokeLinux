@@ -44,5 +44,7 @@ GROLEM = {
                 'Plante'
             ]
         }
-    ]
+    ],
+    'height': 14,
+    'weight': 3000
 }

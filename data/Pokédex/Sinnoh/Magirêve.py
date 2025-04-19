@@ -22,5 +22,7 @@ MAGIRÊVE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 9,
+    'weight': 44
 }

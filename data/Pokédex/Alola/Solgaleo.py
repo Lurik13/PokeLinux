@@ -33,5 +33,7 @@ SOLGALEO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 34,
+    'weight': 2300
 }

@@ -34,5 +34,7 @@ VOLTORBE = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'height': 5,
+    'weight': 104
 }

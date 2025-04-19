@@ -27,5 +27,7 @@ CHRYSAPILE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 5,
+    'weight': 105
 }

@@ -29,5 +29,7 @@ NOSTENFER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 18,
+    'weight': 750
 }

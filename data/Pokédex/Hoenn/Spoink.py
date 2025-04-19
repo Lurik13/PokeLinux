@@ -23,5 +23,7 @@ SPOINK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 306
 }

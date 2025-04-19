@@ -22,5 +22,7 @@ MOUFOUETTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 192
 }

@@ -28,5 +28,7 @@ KYOGRE = {
                 'Électrik'
             ]
         }
-    ]
+    ],
+    'height': 45,
+    'weight': 3520
 }

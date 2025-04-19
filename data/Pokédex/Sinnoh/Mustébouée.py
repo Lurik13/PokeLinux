@@ -22,5 +22,7 @@ MUSTÉBOUÉE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 7,
+    'weight': 295
 }

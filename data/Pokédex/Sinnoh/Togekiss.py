@@ -30,5 +30,7 @@ TOGEKISS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 380
 }

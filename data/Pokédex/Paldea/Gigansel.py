@@ -29,5 +29,7 @@ GIGANSEL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 23,
+    'weight': 2400
 }

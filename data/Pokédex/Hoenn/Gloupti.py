@@ -22,5 +22,7 @@ GLOUPTI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 103
 }

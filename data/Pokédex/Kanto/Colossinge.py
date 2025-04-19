@@ -27,5 +27,7 @@ COLOSSINGE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 320
 }

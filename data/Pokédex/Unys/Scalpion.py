@@ -28,5 +28,7 @@ SCALPION = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 5,
+    'weight': 102
 }

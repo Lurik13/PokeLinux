@@ -26,5 +26,7 @@ CANARBELLO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 12,
+    'weight': 215
 }

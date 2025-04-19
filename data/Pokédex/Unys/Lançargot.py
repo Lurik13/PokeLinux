@@ -22,5 +22,7 @@ LANÇARGOT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 330
 }

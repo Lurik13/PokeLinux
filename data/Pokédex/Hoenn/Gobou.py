@@ -26,5 +26,7 @@ GOBOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 76
 }

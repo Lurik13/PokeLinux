@@ -22,5 +22,7 @@ POISSOROY = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 13,
+    'weight': 390
 }

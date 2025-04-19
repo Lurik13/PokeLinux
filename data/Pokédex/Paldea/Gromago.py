@@ -25,5 +25,7 @@ GROMAGO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 12,
+    'weight': 300
 }

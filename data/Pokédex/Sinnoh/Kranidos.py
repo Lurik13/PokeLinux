@@ -25,5 +25,7 @@ KRANIDOS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 9,
+    'weight': 315
 }

@@ -27,5 +27,7 @@ ROUSSIL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 145
 }

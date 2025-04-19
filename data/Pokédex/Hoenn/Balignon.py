@@ -25,5 +25,7 @@ BALIGNON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 45
 }

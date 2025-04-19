@@ -30,5 +30,7 @@ INSÉCATEUR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 560
 }

@@ -36,5 +36,7 @@ TRIOPIKEUR = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'height': 7,
+    'weight': 333
 }

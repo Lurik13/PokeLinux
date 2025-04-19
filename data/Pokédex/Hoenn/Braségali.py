@@ -42,5 +42,7 @@ BRASÉGALI = {
                 'Psy'
             ]
         }
-    ]
+    ],
+    'height': 19,
+    'weight': 520
 }

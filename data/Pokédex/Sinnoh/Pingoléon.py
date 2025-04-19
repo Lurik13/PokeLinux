@@ -28,5 +28,7 @@ PINGOLÉON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 17,
+    'weight': 845
 }

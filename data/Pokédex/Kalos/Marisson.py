@@ -29,5 +29,7 @@ MARISSON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 4,
+    'weight': 90
 }

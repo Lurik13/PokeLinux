@@ -26,5 +26,7 @@ NIDORINA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 8,
+    'weight': 200
 }

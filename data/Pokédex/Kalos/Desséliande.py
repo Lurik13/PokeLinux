@@ -26,5 +26,7 @@ DESSÉLIANDE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 710
 }

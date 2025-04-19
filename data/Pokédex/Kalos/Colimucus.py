@@ -38,5 +38,7 @@ COLIMUCUS = {
                 'Sol'
             ]
         }
-    ]
+    ],
+    'height': 8,
+    'weight': 175
 }

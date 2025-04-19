@@ -29,5 +29,7 @@ ROITIFLAM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 16,
+    'weight': 1500
 }

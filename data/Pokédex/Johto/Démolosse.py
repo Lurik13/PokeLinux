@@ -38,5 +38,7 @@ DÉMOLOSSE = {
                 'Eau'
             ]
         }
-    ]
+    ],
+    'height': 14,
+    'weight': 350
 }

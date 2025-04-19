@@ -22,5 +22,7 @@ GRANBULL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 14,
+    'weight': 487
 }

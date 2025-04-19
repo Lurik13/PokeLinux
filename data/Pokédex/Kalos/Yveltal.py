@@ -21,5 +21,7 @@ YVELTAL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 58,
+    'weight': 2030
 }

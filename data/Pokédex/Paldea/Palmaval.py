@@ -30,5 +30,7 @@ PALMAVAL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 18,
+    'weight': 619
 }

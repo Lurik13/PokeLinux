@@ -26,5 +26,7 @@ GOLEMASTOC = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 28,
+    'weight': 3300
 }

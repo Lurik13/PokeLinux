@@ -19,5 +19,7 @@ TROUSSELIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 2,
+    'weight': 30
 }

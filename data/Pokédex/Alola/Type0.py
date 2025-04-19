@@ -21,5 +21,7 @@ TYPE0 = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 19,
+    'weight': 1205
 }

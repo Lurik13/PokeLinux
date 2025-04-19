@@ -26,5 +26,7 @@ GAMBEX = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 175
 }

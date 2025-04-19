@@ -25,5 +25,7 @@ MANDRILLON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 36,
+    'weight': 1500
 }

@@ -34,5 +34,7 @@ LIMONDE = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'height': 7,
+    'weight': 110
 }

@@ -24,5 +24,7 @@ DODRIO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 18,
+    'weight': 852
 }

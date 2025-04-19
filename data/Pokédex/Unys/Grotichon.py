@@ -29,5 +29,7 @@ GROTICHON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 10,
+    'weight': 555
 }

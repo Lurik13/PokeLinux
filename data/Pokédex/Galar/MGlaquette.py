@@ -31,5 +31,7 @@ MGLAQUETTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 15,
+    'weight': 582
 }

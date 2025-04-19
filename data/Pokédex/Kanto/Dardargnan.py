@@ -42,5 +42,7 @@ DARDARGNAN = {
                 'Psy'
             ]
         }
-    ]
+    ],
+    'height': 10,
+    'weight': 295
 }

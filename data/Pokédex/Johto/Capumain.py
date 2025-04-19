@@ -21,5 +21,7 @@ CAPUMAIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 8,
+    'weight': 115
 }

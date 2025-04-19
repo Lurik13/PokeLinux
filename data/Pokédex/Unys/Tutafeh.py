@@ -40,5 +40,7 @@ TUTAFEH = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'height': 5,
+    'weight': 15
 }

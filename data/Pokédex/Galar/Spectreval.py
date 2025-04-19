@@ -18,5 +18,7 @@ SPECTREVAL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 20,
+    'weight': 445
 }

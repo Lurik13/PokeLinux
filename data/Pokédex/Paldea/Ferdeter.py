@@ -19,5 +19,7 @@ FERDETER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'height': 25,
+    'weight': 3100
 }
