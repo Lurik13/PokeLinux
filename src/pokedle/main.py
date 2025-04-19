@@ -5,6 +5,8 @@ from src.pokedle.utils import console_print
 from src.pokedle.evolutions import try_evolutions
 from src.generate_data.generate_files import get_gen_region
 from src.utils import get_de_pokemon
+from src.pokedle.colours import *
+from src.pokedle.height_weight import try_height, try_weight
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
 
@@ -21,60 +23,66 @@ def find_pokemon_by_name(name, first_pokemon_id, last_pokemon_id):
             return key
     return 0
 
-GRAY = "\033[38;2;150;150;150;1m"
-GREEN = "\033[38;2;50;200;50m"
-BLUE = "\033[38;2;0;100;200m"
-RED = "\033[38;2;200;50;50m"
-RESET = "\033[0m"
-
 def try_types(types, mystery_types):
+    result = [None, None]
     for i in range(2):
-        console_print("Type " + str(i + 1) + " : ", True)
         if i == 1 and len(types) == 1:
             if len(mystery_types) == 1:
-                console_print("Aucun", True, GREEN)
+                result[1] = {'value': "Aucun", 'colour': GREEN}
             else:
-                console_print("Aucun", True, RED)
+                result[1] = {'value': "Aucun", 'colour': RED}
         else:
             if types[i] in mystery_types:
-                console_print(types[i], True, GREEN)
+                result[i] = {'value': types[i], 'colour': GREEN}
             else:
-                console_print(types[i], True, RED)
-        console_print("  |  ", True, GRAY)
+                result[i] = {'value': types[i], 'colour': RED}
+    return result
 
-def print_higher_or_lower(title, message, value, mystery_value):
-    console_print(title + " : ", True)
-    if value == mystery_value:
-        console_print(message, True, GREEN)
-    elif value > mystery_value:
-        console_print(message + ' ↓', True, RED)
-    else:
-        console_print(message + ' ↑', True, RED)
-    console_print("  |  ", True, GRAY)
+def get_centered_value(value, max_len, value_colour, lines_colour):
+    number_of_spaces = max_len + 2 - len(value)
+    left_spaces = number_of_spaces // 2
+    right_spaces = number_of_spaces - left_spaces
+    line = lines_colour + '│' + RESET
+    return line + ' ' * left_spaces + value_colour + value + RESET + ' ' * right_spaces + line
 
-def try_height(height, mystery_height):
-    meters = height // 10
-    centimeters = (height % 10) * 10
-    result = ""
-    if (meters):
-        result += str(meters) + 'm'
-        if (centimeters):
-            result += str(centimeters)
-    else:
-        result += str(centimeters) + 'cm'
-    print_higher_or_lower("Taille", result, height, mystery_height)
+def get_lines(is_top, max_len, colour):
+    if is_top:
+        return colour + '╭' + '─' * (max_len + 2) + '╮' + RESET
+    return colour + '╰' + '─' * (max_len + 2) + '╯' + RESET
 
-def try_weight(weight, mystery_weight):
-    # kilograms = weight // 10
-    # hectograms = weight % 10
-    result = ""
-    if (weight):
-        result += str(weight / 10) + 'kg'
-    print_higher_or_lower("Poids", result, weight, mystery_weight)
+def display_result(result):
+    static_data = [
+        {'id': 'pokemon', 'max_len': 12, 'colour': result['pokemon']['colour']},
+        {'id': 'first_type', 'max_len': 8, 'colour': result['first_type']['colour']},
+        {'id': 'second_type', 'max_len': 8, 'colour': result['second_type']['colour']},
+        {'id': 'evolution_stage', 'max_len': 1, 'colour': result['evolution_stage']['colour']},
+        {'id': 'height', 'max_len': 6, 'colour': result['height']['colour']},
+        {'id': 'weight', 'max_len': 9, 'colour': result['weight']['colour']},
+    ]
+    top_lines = ""
+    for row in static_data:
+        top_lines += get_lines(True, row['max_len'], row['colour'])
+    print(top_lines)
+
+    mid_rows = ""
+    for row in static_data:
+        mid_rows += get_centered_value(result[row['id']]['value'], row['max_len'], row['colour'], row['colour'])
+    print(mid_rows)
+
+    bottom_lines = ""
+    for row in static_data:
+        bottom_lines += get_lines(False, row['max_len'], row['colour'])
+    print(bottom_lines)
+
+    # ╔═╗║╚╝
+    # print('╭─────────────╮╭───────────╮╭─────────────────╮')
+    # print('│             ││   Jungle  ││  Terres arides  │')
+    # print('│   Ville     ││   Forêt   ││     Grotte      │')
+    # print('│             ││           ││      Ciel       │')
+    # print('╰─────────────╯╰───────────╯╰─────────────────╯')
 
 
-
-def pokedle(gen_number):
+def pokedle(gen_number, cols, lines):
     gen_number = int(gen_number)
     first_pokemon_id = GENERATIONS[gen_number]['pokemon_range'][0]
     last_pokemon_id = GENERATIONS[gen_number]['pokemon_range'][1]
@@ -90,10 +98,15 @@ def pokedle(gen_number):
         # else:
         pokemon_id_tried = find_pokemon_by_name(new_try, first_pokemon_id, last_pokemon_id)
         if pokemon_id_tried > 0:
-            try_types(POKEMON[pokemon_id_tried]['types'], mystery_pokemon['types'])
-            try_evolutions(pokemon_id_tried, mystery_pokemon)
-            try_height(POKEMON[pokemon_id_tried]['height'], mystery_pokemon['height'])
-            try_weight(POKEMON[pokemon_id_tried]['weight'], mystery_pokemon['weight'])
+            result = {}
+            result['pokemon'] = {'value': POKEMON[pokemon_id_tried]['french_name'], 'colour': WHITE}
+            tried_types = try_types(POKEMON[pokemon_id_tried]['types'], mystery_pokemon['types'])
+            result['first_type'] = tried_types[0]
+            result['second_type'] = tried_types[1]
+            result['evolution_stage'] = try_evolutions(pokemon_id_tried, mystery_pokemon)
+            result['height'] = try_height(POKEMON[pokemon_id_tried]['height'], mystery_pokemon['height'])
+            result['weight'] = try_weight(POKEMON[pokemon_id_tried]['weight'], mystery_pokemon['weight'])
+            display_result(result)
         elif pokemon_id_tried < 0:
             console_print(f"Les {new_try} ne vivent pas dans la région " + \
                 f"{get_de_pokemon(get_gen_region(GENERATIONS[gen_number]['name']))} !", False, RED)

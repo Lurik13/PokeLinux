@@ -1,15 +1,13 @@
 import asyncio
 import pickle
-from src.generate_data.generate_files import generate_folder, generate_pokedex
-from src.anki.anki_utils import *
+from generate_data.generate_files import generate_pokedex
+from anki.anki_utils import *
 import genanki # type: ignore
 import sys
-from src.anki.print import *
-from src.generate_data.generate_evolutions_file import generate_evolutions_file
-from data.Knowledge.evolutions import EVOLUTIONS
-from src.anki.generate_deck import add_evolutions, add_pokemons, get_anki_deck
-from src.utils import get_starters
-from src.pokedle.main import pokedle
+from anki.print import *
+from anki.generate_deck import get_anki_deck
+from utils import get_starters
+from pokedle.main import pokedle
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
 
@@ -49,7 +47,7 @@ COMMANDS = [
     }
 ]
 
-def parsing_gen(function):
+def parsing_gen(function, cols = None, lines = None):
     valid = False
     print("Veuillez indiquer le numéro d'une génération. 0 pour sortir.")
     while not valid:
@@ -65,10 +63,12 @@ def parsing_gen(function):
             valid = True
         else:
             valid = True
-            function(gen_number)
+            if (cols):
+                function(gen_number, cols, lines)
+            else:
+                function(gen_number)
 
 if __name__ == "__main__":
-    # generate_evolutions_file(POKEMON)
     try:
         print("Que souhaitez-vous faire ? Voici l'inventaire des commandes disponibles :")
         display_commands()
@@ -84,7 +84,7 @@ if __name__ == "__main__":
                 case "get_anki_deck":
                     parsing_gen(get_anki_deck)
                 case "pokedle":
-                    parsing_gen(pokedle)
+                    parsing_gen(pokedle, sys.argv[1], sys.argv[2])
                 case "get_starters":
                     get_starters()
                 case "reset_data":

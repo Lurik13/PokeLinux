@@ -119,28 +119,6 @@ def get_forms(species):
 
 
 ###############################################################################
-######################    HEIGHT AND WEIGHT FUNCTIONS    ######################
-###############################################################################
-# def get_height(height):
-# 	meters = height // 10
-# 	centimeters = (height % 10) * 10
-# 	result = ""
-# 	if (meters):
-# 		result += str(meters) + 'm'
-# 		if (centimeters):
-# 			result += str(centimeters)
-# 	else:
-# 		result += str(centimeters) + 'cm'
-# 	return result
-
-# def get_weight(weight):
-# 	kilograms = weight // 10
-# 	hectograms = (weight % 10)
-# 	return weight / 10
-
-
-
-###############################################################################
 #############################    MAIN FUNCTION    #############################
 ###############################################################################
 def get_pokemon_data(pokemon_id):
