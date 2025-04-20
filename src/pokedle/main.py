@@ -1,6 +1,8 @@
 import pickle
 from random import randint
 from data.Knowledge.generations import GENERATIONS
+from data.Knowledge.colours import COLOURS
+from data.Knowledge.habitats import HABITATS
 from src.pokedle.utils import console_print
 from src.pokedle.evolutions import try_evolutions
 from src.generate_data.generate_files import get_gen_region
@@ -59,6 +61,11 @@ def display_result(result):
         {'id': 'height', 'max_len': 6, 'colour': result['height']['colour']},
         {'id': 'weight', 'max_len': 9, 'colour': result['weight']['colour']},
     ]
+    dynamic_data = [
+        {'id': 'colour', 'max_len': 6, 'colour': result['pokemon']['colour']},
+        {'id': 'habitat', 'max_len': 15, 'colour': result['first_type']['colour']},
+    ]
+
     top_lines = ""
     for row in static_data:
         top_lines += get_lines(True, row['max_len'], row['colour'])
