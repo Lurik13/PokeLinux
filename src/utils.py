@@ -13,6 +13,8 @@ def get_de_pokemon(name):
 def get_starters():
     for i in range(1, len(GENERATIONS) + 1):
         first_pokemon_id = GENERATIONS[i]['pokemon_range'][0]
+        if i == 5:
+            first_pokemon_id += 1
         print(get_gen_region(GENERATIONS[i]['name']) + ":")
         for j in range(first_pokemon_id, first_pokemon_id + 9):
             print(get_pokemon_in_colour(POKEMON[j]['french_name'], POKEMON[j]['types']), end='', flush=True)

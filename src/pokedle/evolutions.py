@@ -1,6 +1,5 @@
 import pickle
 from data.Knowledge.evolutions import EVOLUTIONS
-from src.pokedle.utils import console_print
 from src.pokedle.colours import *
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
