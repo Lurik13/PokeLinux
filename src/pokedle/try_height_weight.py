@@ -1,4 +1,4 @@
-from src.pokedle.colours import *
+from src.pokedle.utils import *
 
 def get_higher_or_lower(message, value, mystery_value):
     if value == mystery_value:

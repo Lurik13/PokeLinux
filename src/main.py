@@ -1,8 +1,6 @@
-import asyncio
 import pickle
 from generate_data.generate_files import generate_pokedex
 from anki.anki_utils import *
-import genanki # type: ignore
 import sys
 from anki.print import *
 from anki.generate_deck import get_anki_deck
