@@ -2,6 +2,10 @@ COSMOG = {
     'number': '0789',
     'french_name': 'Cosmog',
     'english_name': 'Cosmog',
+    'description': 'Son corps est composé d’un gaz très volatile. Il croît lentement‚ en accumulant les poussières atmosphériques au gré de ses déplacements.',
+    'height': 2,
+    'weight': 1,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/789.png',
     'evolution_chain': [
         {
             'id': '0789',
@@ -20,7 +24,6 @@ COSMOG = {
             'name': 'Lunala'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/789.png',
     'types': [
         'Psy'
     ],
@@ -31,7 +34,5 @@ COSMOG = {
     ],
     'forms': [
         
-    ],
-    'height': 2,
-    'weight': 1
+    ]
 }

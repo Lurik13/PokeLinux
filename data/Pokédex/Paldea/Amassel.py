@@ -2,6 +2,10 @@ AMASSEL = {
     'number': '0933',
     'french_name': 'Amassel',
     'english_name': 'Naclstack',
+    'description': 'This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey’s body.',
+    'height': 6,
+    'weight': 1050,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/933.png',
     'evolution_chain': [
         {
             'id': '0932',
@@ -16,7 +20,6 @@ AMASSEL = {
             'name': 'Gigansel'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/933.png',
     'types': [
         'Roche'
     ],
@@ -29,7 +32,5 @@ AMASSEL = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 1050
+    ]
 }

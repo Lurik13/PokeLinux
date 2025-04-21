@@ -2,6 +2,10 @@ OHMASSACRE = {
     'number': '0604',
     'french_name': 'Ohmassacre',
     'english_name': 'Eelektross',
+    'description': 'Il peut sortir de l’eau à la force de ses bras pour attraper des proies sur la rive. Il retourne à l’eau en un instant.',
+    'height': 21,
+    'weight': 805,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/604.png',
     'evolution_chain': [
         {
             'id': '0602',
@@ -16,7 +20,6 @@ OHMASSACRE = {
             'name': 'Ohmassacre'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/604.png',
     'types': [
         'Électrik'
     ],
@@ -25,7 +28,5 @@ OHMASSACRE = {
     ],
     'forms': [
         
-    ],
-    'height': 21,
-    'weight': 805
+    ]
 }

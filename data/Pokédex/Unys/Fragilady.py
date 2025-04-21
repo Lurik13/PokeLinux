@@ -2,6 +2,10 @@ FRAGILADY = {
     'number': '0549',
     'french_name': 'Fragilady',
     'english_name': 'Lilligant',
+    'description': 'Même les Dresseurs confirmés ont du mal à faire éclore sa belle fleur. Un Pokémon apprécié des célébrités.',
+    'height': 11,
+    'weight': 163,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/549.png',
     'evolution_chain': [
         {
             'id': '0548',
@@ -12,7 +16,6 @@ FRAGILADY = {
             'name': 'Fragilady'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/549.png',
     'types': [
         'Plante'
     ],
@@ -40,7 +43,5 @@ FRAGILADY = {
                 'Fée'
             ]
         }
-    ],
-    'height': 11,
-    'weight': 163
+    ]
 }

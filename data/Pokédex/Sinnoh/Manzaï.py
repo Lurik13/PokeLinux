@@ -2,6 +2,10 @@ MANZAÏ = {
     'number': '0438',
     'french_name': 'Manzaï',
     'english_name': 'Bonsly',
+    'description': 'Adepte des climats secs‚ il régule son humidité en laissant couler ce qui ressemble à des larmes.',
+    'height': 5,
+    'weight': 150,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/438.png',
     'evolution_chain': [
         {
             'id': '0438',
@@ -12,7 +16,6 @@ MANZAÏ = {
             'name': 'Simularbre'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/438.png',
     'types': [
         'Roche'
     ],
@@ -25,7 +28,5 @@ MANZAÏ = {
     ],
     'forms': [
         
-    ],
-    'height': 5,
-    'weight': 150
+    ]
 }

@@ -2,6 +2,10 @@ ROUCOUPS = {
     'number': '0017',
     'french_name': 'Roucoups',
     'english_name': 'Pidgeotto',
+    'description': 'Il survole son vaste territoire en quête d’une proie avant de fondre sur elle toutes griffes en avant.',
+    'height': 11,
+    'weight': 300,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png',
     'evolution_chain': [
         {
             'id': '0016',
@@ -16,7 +20,6 @@ ROUCOUPS = {
             'name': 'Roucarnage'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png',
     'types': [
         'Normal',
         'Vol'
@@ -28,7 +31,5 @@ ROUCOUPS = {
     ],
     'forms': [
         
-    ],
-    'height': 11,
-    'weight': 300
+    ]
 }

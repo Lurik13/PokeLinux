@@ -2,13 +2,16 @@ MORPHÉO = {
     'number': '0351',
     'french_name': 'Morphéo',
     'english_name': 'Castform',
+    'description': 'Son aspect change avec la météo. On a récemment découvert que ses molécules étaient pareilles à l’eau.',
+    'height': 3,
+    'weight': 8,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/351.png',
     'evolution_chain': [
         {
             'id': '0351',
             'name': 'Morphéo'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/351.png',
     'types': [
         'Normal'
     ],
@@ -52,7 +55,5 @@ MORPHÉO = {
                 'Feu'
             ]
         }
-    ],
-    'height': 3,
-    'weight': 8
+    ]
 }

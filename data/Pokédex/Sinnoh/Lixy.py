@@ -2,6 +2,10 @@ LIXY = {
     'number': '0403',
     'french_name': 'Lixy',
     'english_name': 'Shinx',
+    'description': 'Ses muscles génèrent un courant électrique lorsqu’ils travaillent. Il s’illumine en cas de danger.',
+    'height': 5,
+    'weight': 95,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/403.png',
     'evolution_chain': [
         {
             'id': '0403',
@@ -16,7 +20,6 @@ LIXY = {
             'name': 'Luxray'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/403.png',
     'types': [
         'Électrik'
     ],
@@ -25,7 +28,5 @@ LIXY = {
     ],
     'forms': [
         
-    ],
-    'height': 5,
-    'weight': 95
+    ]
 }

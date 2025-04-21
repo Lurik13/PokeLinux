@@ -2,6 +2,10 @@ NINGALE = {
     'number': '0290',
     'french_name': 'Ningale',
     'english_name': 'Nincada',
+    'description': 'Il grandit sous terre et se repère grâce à ses antennes car ses yeux sont quasiment aveugles.',
+    'height': 5,
+    'weight': 55,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/290.png',
     'evolution_chain': [
         {
             'id': '0290',
@@ -16,7 +20,6 @@ NINGALE = {
             'name': 'Munja'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/290.png',
     'types': [
         'Insecte',
         'Sol'
@@ -29,7 +32,5 @@ NINGALE = {
     ],
     'forms': [
         
-    ],
-    'height': 5,
-    'weight': 55
+    ]
 }

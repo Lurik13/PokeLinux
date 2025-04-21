@@ -2,13 +2,16 @@ TÉNÉFIX = {
     'number': '0302',
     'french_name': 'Ténéfix',
     'english_name': 'Sableye',
+    'description': 'À force de manger des gemmes‚ les yeux de ce Pokémon des grottes obscures sont devenus des joyaux.',
+    'height': 5,
+    'weight': 110,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/302.png',
     'evolution_chain': [
         {
             'id': '0302',
             'name': 'Ténéfix'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/302.png',
     'types': [
         'Ténèbres',
         'Spectre'
@@ -28,7 +31,5 @@ TÉNÉFIX = {
                 'Fée'
             ]
         }
-    ],
-    'height': 5,
-    'weight': 110
+    ]
 }

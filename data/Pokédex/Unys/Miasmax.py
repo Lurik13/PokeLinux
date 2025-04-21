@@ -2,6 +2,10 @@ MIASMAX = {
     'number': '0569',
     'french_name': 'Miasmax',
     'english_name': 'Garbodor',
+    'description': 'Il étrangle ses ennemis avec son bras droit et les achève avec le gaz puant et empoisonné qu’il exhale par la bouche.',
+    'height': 19,
+    'weight': 1073,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/569.png',
     'evolution_chain': [
         {
             'id': '0568',
@@ -12,7 +16,6 @@ MIASMAX = {
             'name': 'Miasmax'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/569.png',
     'types': [
         'Poison'
     ],
@@ -27,7 +30,5 @@ MIASMAX = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 19,
-    'weight': 1073
+    ]
 }

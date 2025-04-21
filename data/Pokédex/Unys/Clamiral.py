@@ -2,6 +2,10 @@ CLAMIRAL = {
     'number': '0503',
     'french_name': 'Clamiral',
     'english_name': 'Samurott',
+    'description': 'Il peut terrasser ses ennemis d’un coup de la lame enchâssée dans son armure‚ et les faire taire d’un seul regard.',
+    'height': 15,
+    'weight': 946,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/503.png',
     'evolution_chain': [
         {
             'id': '0501',
@@ -16,7 +20,6 @@ CLAMIRAL = {
             'name': 'Clamiral'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/503.png',
     'types': [
         'Eau'
     ],
@@ -40,7 +43,5 @@ CLAMIRAL = {
                 'Fée'
             ]
         }
-    ],
-    'height': 15,
-    'weight': 946
+    ]
 }

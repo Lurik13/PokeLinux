@@ -2,6 +2,10 @@ DÉMOLOSSE = {
     'number': '0229',
     'french_name': 'Démolosse',
     'english_name': 'Houndoom',
+    'description': 'En colère‚ il crache des flammes contenant une toxine qui peut causer des dégâts irréversibles.',
+    'height': 14,
+    'weight': 350,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/229.png',
     'evolution_chain': [
         {
             'id': '0228',
@@ -12,7 +16,6 @@ DÉMOLOSSE = {
             'name': 'Démolosse'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/229.png',
     'types': [
         'Ténèbres',
         'Feu'
@@ -38,7 +41,5 @@ DÉMOLOSSE = {
                 'Eau'
             ]
         }
-    ],
-    'height': 14,
-    'weight': 350
+    ]
 }

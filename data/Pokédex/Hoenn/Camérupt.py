@@ -2,6 +2,10 @@ CAMÉRUPT = {
     'number': '0323',
     'french_name': 'Camérupt',
     'english_name': 'Camerupt',
+    'description': 'Il porte des volcans sur son dos. Quand le magma remonte‚ il frissonne et entre en éruption.',
+    'height': 19,
+    'weight': 2200,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/323.png',
     'evolution_chain': [
         {
             'id': '0322',
@@ -12,7 +16,6 @@ CAMÉRUPT = {
             'name': 'Camérupt'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/323.png',
     'types': [
         'Feu',
         'Sol'
@@ -34,7 +37,5 @@ CAMÉRUPT = {
                 'Sol'
             ]
         }
-    ],
-    'height': 19,
-    'weight': 2200
+    ]
 }

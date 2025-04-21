@@ -2,6 +2,10 @@ HYPOROI = {
     'number': '0230',
     'french_name': 'Hyporoi',
     'english_name': 'Kingdra',
+    'description': 'Chacun de ses déplacements provoque des tourbillons. Il vit dans les grottes sous-marines.',
+    'height': 18,
+    'weight': 1520,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/230.png',
     'evolution_chain': [
         {
             'id': '0116',
@@ -16,7 +20,6 @@ HYPOROI = {
             'name': 'Hyporoi'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/230.png',
     'types': [
         'Eau',
         'Dragon'
@@ -27,7 +30,5 @@ HYPOROI = {
     ],
     'forms': [
         
-    ],
-    'height': 18,
-    'weight': 1520
+    ]
 }

@@ -2,6 +2,10 @@ MÉDITIKKA = {
     'number': '0307',
     'french_name': 'Méditikka',
     'english_name': 'Meditite',
+    'description': 'Son entraînement d’ermite lui permet de léviter par le seul pouvoir de la méditation.',
+    'height': 6,
+    'weight': 112,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/307.png',
     'evolution_chain': [
         {
             'id': '0307',
@@ -12,7 +16,6 @@ MÉDITIKKA = {
             'name': 'Charmina'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/307.png',
     'types': [
         'Combat',
         'Psy'
@@ -24,7 +27,5 @@ MÉDITIKKA = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 112
+    ]
 }

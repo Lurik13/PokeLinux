@@ -2,6 +2,10 @@ LIANAJA = {
     'number': '0496',
     'french_name': 'Lianaja',
     'english_name': 'Servine',
+    'description': 'Il court comme s’il glissait sur le sol. Il déroute l’ennemi par ses mouvements et l’assomme d’un coup de liane.',
+    'height': 8,
+    'weight': 160,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/496.png',
     'evolution_chain': [
         {
             'id': '0495',
@@ -16,7 +20,6 @@ LIANAJA = {
             'name': 'Majaspic'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/496.png',
     'types': [
         'Plante'
     ],
@@ -29,7 +32,5 @@ LIANAJA = {
     ],
     'forms': [
         
-    ],
-    'height': 8,
-    'weight': 160
+    ]
 }

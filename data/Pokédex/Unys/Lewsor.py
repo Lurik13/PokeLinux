@@ -2,6 +2,10 @@ LEWSOR = {
     'number': '0605',
     'french_name': 'Lewsor',
     'english_name': 'Elgyem',
+    'description': 'Avec son puissant pouvoir psychique‚ il peut compresser le cerveau de ses ennemis et déclencher des migraines.',
+    'height': 5,
+    'weight': 90,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/605.png',
     'evolution_chain': [
         {
             'id': '0605',
@@ -12,7 +16,6 @@ LEWSOR = {
             'name': 'Neitram'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/605.png',
     'types': [
         'Psy'
     ],
@@ -23,7 +26,5 @@ LEWSOR = {
     ],
     'forms': [
         
-    ],
-    'height': 5,
-    'weight': 90
+    ]
 }

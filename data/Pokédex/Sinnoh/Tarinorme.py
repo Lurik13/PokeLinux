@@ -2,6 +2,10 @@ TARINORME = {
     'number': '0476',
     'french_name': 'Tarinorme',
     'english_name': 'Probopass',
+    'description': 'Il utilise sa force magnétique pour diriger trois petites unités appelées Mini-nez.',
+    'height': 14,
+    'weight': 3400,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/476.png',
     'evolution_chain': [
         {
             'id': '0299',
@@ -12,7 +16,6 @@ TARINORME = {
             'name': 'Tarinorme'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/476.png',
     'types': [
         'Roche',
         'Acier'
@@ -24,7 +27,5 @@ TARINORME = {
     ],
     'forms': [
         
-    ],
-    'height': 14,
-    'weight': 3400
+    ]
 }

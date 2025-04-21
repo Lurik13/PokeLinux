@@ -2,6 +2,10 @@ TENGALICE = {
     'number': '0275',
     'french_name': 'Tengalice',
     'english_name': 'Shiftry',
+    'description': 'D’un coup de sa feuille éventail‚ il génère des bourrasques de 30 m/s capables de souffler une maison.',
+    'height': 13,
+    'weight': 596,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/275.png',
     'evolution_chain': [
         {
             'id': '0273',
@@ -16,7 +20,6 @@ TENGALICE = {
             'name': 'Tengalice'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/275.png',
     'types': [
         'Plante',
         'Ténèbres'
@@ -32,7 +35,5 @@ TENGALICE = {
     ],
     'forms': [
         
-    ],
-    'height': 13,
-    'weight': 596
+    ]
 }

@@ -10,8 +10,8 @@ from data.Knowledge.others import *
 ############################    UTILS FUNCTIONS    ############################
 ###############################################################################
 def get_data(type, value):
-    url = f"https://pokeapi.co/api/v2/{type}/{value}/"
-    return requests.get(url).json()
+	url = f"https://pokeapi.co/api/v2/{type}/{value}/"
+	return requests.get(url).json()
 
 
 def get_french_name(pokemon_data):
@@ -119,6 +119,21 @@ def get_forms(species):
 
 
 ###############################################################################
+#########################    DESCRIPTION FUNCTION    ##########################
+###############################################################################
+def get_description(species):
+	description = None
+	for entry in species['flavor_text_entries']:
+		if description == None and entry['language']['name'] == 'en':
+			description = entry['flavor_text']
+		if entry['language']['name'] == 'fr':
+			description = entry['flavor_text']
+			break
+	return description.replace('\n', ' ').replace('\x0c', ' ').replace(',', '‚')
+
+
+
+###############################################################################
 #############################    MAIN FUNCTION    #############################
 ###############################################################################
 def get_pokemon_data(pokemon_id):
@@ -133,11 +148,12 @@ def get_pokemon_data(pokemon_id):
 		"number": f"{number:04}" ,
 		"french_name": french_name,
 		"english_name": pokemon["name"].capitalize(),
-		"evolution_chain": get_evolution_chain(species),
+		"description": get_description(species),
+		"height": pokemon['height'],
+		"weight": pokemon['weight'],
 		"sprite": SPRITE_URL.format(number),
+		"evolution_chain": get_evolution_chain(species),
 		"types": [TYPE_TRANSLATIONS[t] for t in types],
 		"weaknesses": list(weaknesses),
 		"forms": get_forms(species),
-		"height": pokemon['height'],
-		"weight": pokemon['weight']
 	}

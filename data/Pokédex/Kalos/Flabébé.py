@@ -2,6 +2,10 @@ FLABÉBÉ = {
     'number': '0669',
     'french_name': 'Flabébé',
     'english_name': 'Flabebe',
+    'description': 'Il confectionne la couronne qui orne sa tête en récoltant du pollen. Elle recèle de nombreuses propriétés curatives.',
+    'height': 1,
+    'weight': 1,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/669.png',
     'evolution_chain': [
         {
             'id': '0669',
@@ -16,7 +20,6 @@ FLABÉBÉ = {
             'name': 'Florges'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/669.png',
     'types': [
         'Fée'
     ],
@@ -26,7 +29,5 @@ FLABÉBÉ = {
     ],
     'forms': [
         
-    ],
-    'height': 1,
-    'weight': 1
+    ]
 }

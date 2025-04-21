@@ -2,6 +2,10 @@ PAPILUSION = {
     'number': '0012',
     'french_name': 'Papilusion',
     'english_name': 'Butterfree',
+    'description': 'Il raffole du nectar des fleurs. Il est capable de repérer la plus petite quantité de pollen.',
+    'height': 11,
+    'weight': 320,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png',
     'evolution_chain': [
         {
             'id': '0010',
@@ -16,7 +20,6 @@ PAPILUSION = {
             'name': 'Papilusion'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png',
     'types': [
         'Insecte',
         'Vol'
@@ -35,7 +38,5 @@ PAPILUSION = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 11,
-    'weight': 320
+    ]
 }

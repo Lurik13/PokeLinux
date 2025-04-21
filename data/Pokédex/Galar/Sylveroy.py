@@ -2,13 +2,16 @@ SYLVEROY = {
     'number': '0898',
     'french_name': 'Sylveroy',
     'english_name': 'Calyrex',
+    'description': 'Doté de pouvoirs de guérison et d’abondance‚ ce Pokémon miséricordieux régnait sur Galar il y a fort longtemps.',
+    'height': 11,
+    'weight': 77,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/898.png',
     'evolution_chain': [
         {
             'id': '0898',
             'name': 'Sylveroy'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/898.png',
     'types': [
         'Psy',
         'Plante'
@@ -51,7 +54,5 @@ SYLVEROY = {
                 'Ténèbres*'
             ]
         }
-    ],
-    'height': 11,
-    'weight': 77
+    ]
 }

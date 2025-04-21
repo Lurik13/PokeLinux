@@ -2,6 +2,10 @@ ESCROCO = {
     'number': '0552',
     'french_name': 'Escroco',
     'english_name': 'Krokorok',
+    'description': 'Ils vivent en petits groupes. La membrane qui couvre leurs yeux les protège du soleil.',
+    'height': 10,
+    'weight': 334,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/552.png',
     'evolution_chain': [
         {
             'id': '0551',
@@ -16,7 +20,6 @@ ESCROCO = {
             'name': 'Crocorible'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/552.png',
     'types': [
         'Sol',
         'Ténèbres'
@@ -31,7 +34,5 @@ ESCROCO = {
     ],
     'forms': [
         
-    ],
-    'height': 10,
-    'weight': 334
+    ]
 }

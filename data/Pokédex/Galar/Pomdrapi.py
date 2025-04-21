@@ -2,6 +2,10 @@ POMDRAPI = {
     'number': '0841',
     'french_name': 'Pomdrapi',
     'english_name': 'Flapple',
+    'description': 'Il a évolué après avoir mangé une pomme acide. Il concentre dans ses joues un liquide si corrosif qu’il peut provoquer des brûlures.',
+    'height': 3,
+    'weight': 10,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/841.png',
     'evolution_chain': [
         {
             'id': '0840',
@@ -24,7 +28,6 @@ POMDRAPI = {
             'name': 'Pomdorochi'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/841.png',
     'types': [
         'Plante',
         'Dragon'
@@ -44,7 +47,5 @@ POMDRAPI = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 3,
-    'weight': 10
+    ]
 }

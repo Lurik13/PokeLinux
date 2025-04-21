@@ -2,6 +2,10 @@ TRITOX = {
     'number': '0757',
     'french_name': 'Tritox',
     'english_name': 'Salandit',
+    'description': 'Il consume ses fluides corporels pour générer un gaz toxique qui étourdit ses ennemis. Il ne lui reste alors qu’à les achever.',
+    'height': 6,
+    'weight': 48,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/757.png',
     'evolution_chain': [
         {
             'id': '0757',
@@ -12,7 +16,6 @@ TRITOX = {
             'name': 'Malamandre'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/757.png',
     'types': [
         'Poison',
         'Feu'
@@ -25,7 +28,5 @@ TRITOX = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 48
+    ]
 }

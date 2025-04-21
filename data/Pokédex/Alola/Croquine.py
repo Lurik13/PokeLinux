@@ -2,6 +2,10 @@ CROQUINE = {
     'number': '0761',
     'french_name': 'Croquine',
     'english_name': 'Bounsweet',
+    'description': 'Une odeur terriblement appétissante émane du corps des Croquine. Alléchés‚ les Bazoucan rappliquent et les gobent goulument.',
+    'height': 3,
+    'weight': 32,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/761.png',
     'evolution_chain': [
         {
             'id': '0761',
@@ -16,7 +20,6 @@ CROQUINE = {
             'name': 'Sucreine'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/761.png',
     'types': [
         'Plante'
     ],
@@ -29,7 +32,5 @@ CROQUINE = {
     ],
     'forms': [
         
-    ],
-    'height': 3,
-    'weight': 32
+    ]
 }

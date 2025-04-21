@@ -2,6 +2,10 @@ KADABRA = {
     'number': '0064',
     'french_name': 'Kadabra',
     'english_name': 'Kadabra',
+    'description': 'Il fixe sa cuillère d’argent afin de concentrer son esprit et d’émettre un maximum d’ondes alpha.',
+    'height': 13,
+    'weight': 565,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png',
     'evolution_chain': [
         {
             'id': '0063',
@@ -16,7 +20,6 @@ KADABRA = {
             'name': 'Alakazam'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png',
     'types': [
         'Psy'
     ],
@@ -27,7 +30,5 @@ KADABRA = {
     ],
     'forms': [
         
-    ],
-    'height': 13,
-    'weight': 565
+    ]
 }

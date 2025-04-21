@@ -2,6 +2,10 @@ PIKACHU = {
     'number': '0025',
     'french_name': 'Pikachu',
     'english_name': 'Pikachu',
+    'description': 'Il lui arrive de remettre d’aplomb un Pikachu allié en lui envoyant une décharge électrique.',
+    'height': 4,
+    'weight': 60,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png',
     'evolution_chain': [
         {
             'id': '0172',
@@ -16,7 +20,6 @@ PIKACHU = {
             'name': 'Raichu'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png',
     'types': [
         'Électrik'
     ],
@@ -120,7 +123,5 @@ PIKACHU = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 4,
-    'weight': 60
+    ]
 }

@@ -2,6 +2,10 @@ WATTOUAT = {
     'number': '0179',
     'french_name': 'Wattouat',
     'english_name': 'Mareep',
+    'description': 'Sa laine fournie enfle lorsqu’il accumule de l’électricité statique. Son contact peut choquer. ',
+    'height': 6,
+    'weight': 78,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/179.png',
     'evolution_chain': [
         {
             'id': '0179',
@@ -16,7 +20,6 @@ WATTOUAT = {
             'name': 'Pharamp'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/179.png',
     'types': [
         'Électrik'
     ],
@@ -25,7 +28,5 @@ WATTOUAT = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 78
+    ]
 }

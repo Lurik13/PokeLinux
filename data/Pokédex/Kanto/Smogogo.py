@@ -2,6 +2,10 @@ SMOGOGO = {
     'number': '0110',
     'french_name': 'Smogogo',
     'english_name': 'Weezing',
+    'description': 'Il grandit en absorbant les gaz des détritus. Des triplés existent‚ bien qu’ils soient fort rares.',
+    'height': 12,
+    'weight': 95,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png',
     'evolution_chain': [
         {
             'id': '0109',
@@ -12,7 +16,6 @@ SMOGOGO = {
             'name': 'Smogogo'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png',
     'types': [
         'Poison'
     ],
@@ -34,7 +37,5 @@ SMOGOGO = {
                 'Acier'
             ]
         }
-    ],
-    'height': 12,
-    'weight': 95
+    ]
 }

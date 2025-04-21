@@ -2,13 +2,16 @@ TAPATOÈS = {
     'number': '0931',
     'french_name': 'Tapatoès',
     'english_name': 'Squawkabilly-green-plumage',
+    'description': 'These Pokémon prefer to live in cities. They form flocks based on the color of their feathers‚ and they fight over territory.',
+    'height': 6,
+    'weight': 24,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/931.png',
     'evolution_chain': [
         {
             'id': '0931',
             'name': 'Tapatoès'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/931.png',
     'types': [
         'Normal',
         'Vol'
@@ -58,7 +61,5 @@ TAPATOÈS = {
                 'Glace'
             ]
         }
-    ],
-    'height': 6,
-    'weight': 24
+    ]
 }

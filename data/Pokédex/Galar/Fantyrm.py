@@ -2,6 +2,10 @@ FANTYRM = {
     'number': '0885',
     'french_name': 'Fantyrm',
     'english_name': 'Dreepy',
+    'description': 'Revenu à la vie sous forme de Pokémon Spectre‚ il erre au-dessus de la mer dans laquelle il vivait autrefois.',
+    'height': 5,
+    'weight': 20,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/885.png',
     'evolution_chain': [
         {
             'id': '0885',
@@ -16,7 +20,6 @@ FANTYRM = {
             'name': 'Lanssorien'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/885.png',
     'types': [
         'Dragon',
         'Spectre'
@@ -30,7 +33,5 @@ FANTYRM = {
     ],
     'forms': [
         
-    ],
-    'height': 5,
-    'weight': 20
+    ]
 }

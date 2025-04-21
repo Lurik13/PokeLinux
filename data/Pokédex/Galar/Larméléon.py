@@ -2,6 +2,10 @@ LARMÉLÉON = {
     'number': '0816',
     'french_name': 'Larméléon',
     'english_name': 'Sobble',
+    'description': 'Quand il a peur‚ il pleure des larmes contenant une substance lacrymogène d’une puissance équivalente à celle de cent oignons.',
+    'height': 3,
+    'weight': 40,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/816.png',
     'evolution_chain': [
         {
             'id': '0816',
@@ -16,7 +20,6 @@ LARMÉLÉON = {
             'name': 'Lézargus'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/816.png',
     'types': [
         'Eau'
     ],
@@ -26,7 +29,5 @@ LARMÉLÉON = {
     ],
     'forms': [
         
-    ],
-    'height': 3,
-    'weight': 40
+    ]
 }

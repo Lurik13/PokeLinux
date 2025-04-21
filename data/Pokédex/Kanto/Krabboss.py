@@ -2,6 +2,10 @@ KRABBOSS = {
     'number': '0099',
     'french_name': 'Krabboss',
     'english_name': 'Kingler',
+    'description': 'Sa grande pince possède une puissance de 10 000 chevaux. Son poids la rend difficile à manier.',
+    'height': 13,
+    'weight': 600,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png',
     'evolution_chain': [
         {
             'id': '0098',
@@ -12,7 +16,6 @@ KRABBOSS = {
             'name': 'Krabboss'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png',
     'types': [
         'Eau'
     ],
@@ -27,7 +30,5 @@ KRABBOSS = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 13,
-    'weight': 600
+    ]
 }

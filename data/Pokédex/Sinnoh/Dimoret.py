@@ -2,6 +2,10 @@ DIMORET = {
     'number': '0461',
     'french_name': 'Dimoret',
     'english_name': 'Weavile',
+    'description': 'L’évolution l’a rendu encore plus retors. Il communique en griffant des signes dans les pierres.',
+    'height': 11,
+    'weight': 340,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/461.png',
     'evolution_chain': [
         {
             'id': '0215',
@@ -16,7 +20,6 @@ DIMORET = {
             'name': 'Farfurex'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/461.png',
     'types': [
         'Ténèbres',
         'Glace'
@@ -31,7 +34,5 @@ DIMORET = {
     ],
     'forms': [
         
-    ],
-    'height': 11,
-    'weight': 340
+    ]
 }

@@ -2,6 +2,10 @@ NIDOKING = {
     'number': '0034',
     'french_name': 'Nidoking',
     'english_name': 'Nidoking',
+    'description': 'Un coup de sa puissante queue peut briser un poteau téléphonique comme une allumette.',
+    'height': 14,
+    'weight': 620,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png',
     'evolution_chain': [
         {
             'id': '0032',
@@ -16,7 +20,6 @@ NIDOKING = {
             'name': 'Nidoking'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png',
     'types': [
         'Poison',
         'Sol'
@@ -29,7 +32,5 @@ NIDOKING = {
     ],
     'forms': [
         
-    ],
-    'height': 14,
-    'weight': 620
+    ]
 }

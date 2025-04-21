@@ -2,6 +2,10 @@ COUPENOTTE = {
     'number': '0610',
     'french_name': 'Coupenotte',
     'english_name': 'Axew',
+    'description': 'Il broie les Baies à grands coups de crocs. Ceux-ci repoussent plusieurs fois‚ toujours plus forts et aiguisés.',
+    'height': 6,
+    'weight': 180,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/610.png',
     'evolution_chain': [
         {
             'id': '0610',
@@ -16,7 +20,6 @@ COUPENOTTE = {
             'name': 'Tranchodon'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/610.png',
     'types': [
         'Dragon'
     ],
@@ -27,7 +30,5 @@ COUPENOTTE = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 180
+    ]
 }

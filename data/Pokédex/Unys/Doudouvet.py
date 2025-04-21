@@ -2,6 +2,10 @@ DOUDOUVET = {
     'number': '0546',
     'french_name': 'Doudouvet',
     'english_name': 'Cottonee',
+    'description': 'Si on l’attaque‚ il projette un nuage de coton. L’ennemi le confond avec lui‚ ce qui permet à Doudouvet de s’enfuir.',
+    'height': 3,
+    'weight': 6,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/546.png',
     'evolution_chain': [
         {
             'id': '0546',
@@ -12,7 +16,6 @@ DOUDOUVET = {
             'name': 'Farfaduvet'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/546.png',
     'types': [
         'Plante',
         'Fée'
@@ -26,7 +29,5 @@ DOUDOUVET = {
     ],
     'forms': [
         
-    ],
-    'height': 3,
-    'weight': 6
+    ]
 }

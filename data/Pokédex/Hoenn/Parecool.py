@@ -2,6 +2,10 @@ PARECOOL = {
     'number': '0287',
     'french_name': 'Parecool',
     'english_name': 'Slakoth',
+    'description': 'Il passe le plus clair de son temps affalé. Rien qu’à le voir‚ on a envie de bâiller.',
+    'height': 8,
+    'weight': 240,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/287.png',
     'evolution_chain': [
         {
             'id': '0287',
@@ -16,7 +20,6 @@ PARECOOL = {
             'name': 'Monaflèmit'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/287.png',
     'types': [
         'Normal'
     ],
@@ -25,7 +28,5 @@ PARECOOL = {
     ],
     'forms': [
         
-    ],
-    'height': 8,
-    'weight': 240
+    ]
 }

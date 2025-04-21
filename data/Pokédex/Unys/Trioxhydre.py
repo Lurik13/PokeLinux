@@ -2,6 +2,10 @@ TRIOXHYDRE = {
     'number': '0635',
     'french_name': 'Trioxhydre',
     'english_name': 'Hydreigon',
+    'description': 'Un Pokémon violent qui patrouille le ciel avec ses six ailes et se jette sur tout ce qui bouge‚ pensant voir un ennemi.',
+    'height': 18,
+    'weight': 1600,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/635.png',
     'evolution_chain': [
         {
             'id': '0633',
@@ -16,7 +20,6 @@ TRIOXHYDRE = {
             'name': 'Trioxhydre'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/635.png',
     'types': [
         'Ténèbres',
         'Dragon'
@@ -30,7 +33,5 @@ TRIOXHYDRE = {
     ],
     'forms': [
         
-    ],
-    'height': 18,
-    'weight': 1600
+    ]
 }

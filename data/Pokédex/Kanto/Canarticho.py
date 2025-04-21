@@ -2,6 +2,10 @@ CANARTICHO = {
     'number': '0083',
     'french_name': 'Canarticho',
     'english_name': 'Farfetchd',
+    'description': 'Il ne peut pas vivre sans son légume‚ c’est pourquoi il le protégera au péril de sa vie.',
+    'height': 8,
+    'weight': 150,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png',
     'evolution_chain': [
         {
             'id': '0083',
@@ -12,7 +16,6 @@ CANARTICHO = {
             'name': 'Palarticho'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png',
     'types': [
         'Normal',
         'Vol'
@@ -35,7 +38,5 @@ CANARTICHO = {
                 'Fée'
             ]
         }
-    ],
-    'height': 8,
-    'weight': 150
+    ]
 }

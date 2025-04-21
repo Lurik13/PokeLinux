@@ -2,6 +2,10 @@ ANGOLIATH = {
     'number': '0861',
     'french_name': 'Angoliath',
     'english_name': 'Grimmsnarl',
+    'description': 'Il enroule ses cheveux autour de son corps pour augmenter sa masse musculaire‚ ce qui lui donne assez de force pour enserrer un Mackogneur.',
+    'height': 15,
+    'weight': 610,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/861.png',
     'evolution_chain': [
         {
             'id': '0859',
@@ -16,7 +20,6 @@ ANGOLIATH = {
             'name': 'Angoliath'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/861.png',
     'types': [
         'Ténèbres',
         'Fée'
@@ -33,7 +36,5 @@ ANGOLIATH = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 15,
-    'weight': 610
+    ]
 }

@@ -2,6 +2,10 @@ GOLGOPATHE = {
     'number': '0689',
     'french_name': 'Golgopathe',
     'english_name': 'Barbaracle',
+    'description': 'Après évolution‚ les deux Opermine laissent place à sept créatures qui ont la puissance cumulée de sept Opermine.',
+    'height': 13,
+    'weight': 960,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/689.png',
     'evolution_chain': [
         {
             'id': '0688',
@@ -12,7 +16,6 @@ GOLGOPATHE = {
             'name': 'Golgopathe'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/689.png',
     'types': [
         'Roche',
         'Eau'
@@ -25,7 +28,5 @@ GOLGOPATHE = {
     ],
     'forms': [
         
-    ],
-    'height': 13,
-    'weight': 960
+    ]
 }

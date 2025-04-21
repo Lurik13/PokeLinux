@@ -2,6 +2,10 @@ GRILLEPATTES = {
     'number': '0850',
     'french_name': 'Grillepattes',
     'english_name': 'Sizzlipede',
+    'description': 'Il produit de la chaleur grâce au gaz inflammable qu’il emmagasine dans son corps. La partie jaune de son abdomen est particulièrement brûlante.',
+    'height': 7,
+    'weight': 10,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/850.png',
     'evolution_chain': [
         {
             'id': '0850',
@@ -12,7 +16,6 @@ GRILLEPATTES = {
             'name': 'Scolocendre'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/850.png',
     'types': [
         'Feu',
         'Insecte'
@@ -24,7 +27,5 @@ GRILLEPATTES = {
     ],
     'forms': [
         
-    ],
-    'height': 7,
-    'weight': 10
+    ]
 }

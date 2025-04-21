@@ -2,6 +2,10 @@ VOLTORBE = {
     'number': '0100',
     'french_name': 'Voltorbe',
     'english_name': 'Voltorb',
+    'description': 'Il ressemble à une Poké Ball. Ce Pokémon dangereux peut exploser ou s’électrifier au toucher.',
+    'height': 5,
+    'weight': 104,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png',
     'evolution_chain': [
         {
             'id': '0100',
@@ -12,7 +16,6 @@ VOLTORBE = {
             'name': 'Électrode'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png',
     'types': [
         'Électrik'
     ],
@@ -34,7 +37,5 @@ VOLTORBE = {
                 'Glace'
             ]
         }
-    ],
-    'height': 5,
-    'weight': 104
+    ]
 }

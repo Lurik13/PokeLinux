@@ -2,6 +2,10 @@ KAPOERA = {
     'number': '0237',
     'french_name': 'Kapoera',
     'english_name': 'Hitmontop',
+    'description': 'Il combat en tournoyant comme une toupie. La force centrifuge décuple sa puissance destructrice.',
+    'height': 14,
+    'weight': 480,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/237.png',
     'evolution_chain': [
         {
             'id': '0236',
@@ -20,7 +24,6 @@ KAPOERA = {
             'name': 'Kapoera'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/237.png',
     'types': [
         'Combat'
     ],
@@ -31,7 +34,5 @@ KAPOERA = {
     ],
     'forms': [
         
-    ],
-    'height': 14,
-    'weight': 480
+    ]
 }

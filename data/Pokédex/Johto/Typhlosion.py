@@ -2,6 +2,10 @@ TYPHLOSION = {
     'number': '0157',
     'french_name': 'Typhlosion',
     'english_name': 'Typhlosion',
+    'description': 'Il attaque en projetant des flammes. Il se dissimule derrière les vagues de chaleur qu’il produit.',
+    'height': 17,
+    'weight': 795,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/157.png',
     'evolution_chain': [
         {
             'id': '0155',
@@ -16,7 +20,6 @@ TYPHLOSION = {
             'name': 'Typhlosion'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/157.png',
     'types': [
         'Feu'
     ],
@@ -41,7 +44,5 @@ TYPHLOSION = {
                 'Ténèbres'
             ]
         }
-    ],
-    'height': 17,
-    'weight': 795
+    ]
 }

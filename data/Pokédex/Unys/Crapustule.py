@@ -2,6 +2,10 @@ CRAPUSTULE = {
     'number': '0537',
     'french_name': 'Crapustule',
     'english_name': 'Seismitoad',
+    'description': 'Il fait gicler un liquide paralysant des pustules sur sa tête‚ et attaque ses ennemis à coups de vibrations.',
+    'height': 15,
+    'weight': 620,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/537.png',
     'evolution_chain': [
         {
             'id': '0535',
@@ -16,7 +20,6 @@ CRAPUSTULE = {
             'name': 'Crapustule'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/537.png',
     'types': [
         'Eau',
         'Sol'
@@ -26,7 +29,5 @@ CRAPUSTULE = {
     ],
     'forms': [
         
-    ],
-    'height': 15,
-    'weight': 620
+    ]
 }

@@ -2,6 +2,10 @@ ONIGLALI = {
     'number': '0362',
     'french_name': 'Oniglali',
     'english_name': 'Glalie',
+    'description': 'Il empêche ses proies de prendre la fuite en gelant instantanément l’humidité de l’air.',
+    'height': 15,
+    'weight': 2565,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/362.png',
     'evolution_chain': [
         {
             'id': '0361',
@@ -16,7 +20,6 @@ ONIGLALI = {
             'name': 'Momartik'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/362.png',
     'types': [
         'Glace'
     ],
@@ -40,7 +43,5 @@ ONIGLALI = {
                 'Feu'
             ]
         }
-    ],
-    'height': 15,
-    'weight': 2565
+    ]
 }

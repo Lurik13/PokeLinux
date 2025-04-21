@@ -2,13 +2,16 @@ DEOXYS = {
     'number': '0386',
     'french_name': 'Deoxys',
     'english_name': 'Deoxys-normal',
+    'description': 'Il vient d’un virus extraterrestre arrivé avec une météorite et ayant subi une mutation génétique.',
+    'height': 17,
+    'weight': 608,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/386.png',
     'evolution_chain': [
         {
             'id': '0386',
             'name': 'Deoxys'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/386.png',
     'types': [
         'Psy'
     ],
@@ -54,7 +57,5 @@ DEOXYS = {
                 'Ténèbres'
             ]
         }
-    ],
-    'height': 17,
-    'weight': 608
+    ]
 }

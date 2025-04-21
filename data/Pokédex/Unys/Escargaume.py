@@ -2,6 +2,10 @@ ESCARGAUME = {
     'number': '0616',
     'french_name': 'Escargaume',
     'english_name': 'Shelmet',
+    'description': 'Quand on l’attaque‚ il referme sa visière pour se défendre‚ et projette un poison visqueux.',
+    'height': 4,
+    'weight': 77,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/616.png',
     'evolution_chain': [
         {
             'id': '0616',
@@ -12,7 +16,6 @@ ESCARGAUME = {
             'name': 'Limaspeed'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/616.png',
     'types': [
         'Insecte'
     ],
@@ -23,7 +26,5 @@ ESCARGAUME = {
     ],
     'forms': [
         
-    ],
-    'height': 4,
-    'weight': 77
+    ]
 }

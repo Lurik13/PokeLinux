@@ -2,6 +2,10 @@ TOGETIC = {
     'number': '0176',
     'french_name': 'Togetic',
     'english_name': 'Togetic',
+    'description': 'Il parcourt le monde pour distribuer de la joie aux êtres bons.',
+    'height': 6,
+    'weight': 32,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/176.png',
     'evolution_chain': [
         {
             'id': '0175',
@@ -16,7 +20,6 @@ TOGETIC = {
             'name': 'Togekiss'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/176.png',
     'types': [
         'Fée',
         'Vol'
@@ -30,7 +33,5 @@ TOGETIC = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 32
+    ]
 }

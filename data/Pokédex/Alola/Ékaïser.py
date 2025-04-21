@@ -2,6 +2,10 @@
     'number': '0784',
     'french_name': 'Ékaïser',
     'english_name': 'Kommo-o',
+    'description': 'Quand il voit un ennemi‚ il cherche à l’intimider en faisant sonner les écailles de sa queue. Les plus faibles perdent contenance et s’enfuient.',
+    'height': 16,
+    'weight': 782,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/784.png',
     'evolution_chain': [
         {
             'id': '0782',
@@ -16,7 +20,6 @@
             'name': 'Ékaïser'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/784.png',
     'types': [
         'Dragon',
         'Combat'
@@ -44,7 +47,5 @@
                 'Psy'
             ]
         }
-    ],
-    'height': 16,
-    'weight': 782
+    ]
 }

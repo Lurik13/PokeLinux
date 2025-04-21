@@ -2,13 +2,16 @@ TAUROS = {
     'number': '0128',
     'french_name': 'Tauros',
     'english_name': 'Tauros',
+    'description': 'Après avoir choisi sa cible‚ il fonce dessus tête baissée. Il est réputé pour sa nature violente.',
+    'height': 14,
+    'weight': 884,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png',
     'evolution_chain': [
         {
             'id': '0128',
             'name': 'Tauros'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png',
     'types': [
         'Normal'
     ],
@@ -57,7 +60,5 @@ TAUROS = {
                 'Électrik'
             ]
         }
-    ],
-    'height': 14,
-    'weight': 884
+    ]
 }

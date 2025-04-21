@@ -2,6 +2,10 @@ CHENISELLE = {
     'number': '0413',
     'french_name': 'Cheniselle',
     'english_name': 'Wormadam-plant',
+    'description': 'À l’évolution‚ son corps absorbe les matériaux à proximité et peut ainsi présenter divers aspects.',
+    'height': 5,
+    'weight': 65,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/413.png',
     'evolution_chain': [
         {
             'id': '0412',
@@ -16,7 +20,6 @@ CHENISELLE = {
             'name': 'Papilord'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/413.png',
     'types': [
         'Insecte',
         'Plante'
@@ -55,7 +58,5 @@ CHENISELLE = {
                 'Feu*'
             ]
         }
-    ],
-    'height': 5,
-    'weight': 65
+    ]
 }

@@ -2,6 +2,10 @@ FLORAVOL = {
     'number': '0188',
     'french_name': 'Floravol',
     'english_name': 'Skiploom',
+    'description': 'Il fleurit lorsque les températures remontent. Il flotte dans le ciel  pour absorber les rayons du soleil.',
+    'height': 6,
+    'weight': 10,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/188.png',
     'evolution_chain': [
         {
             'id': '0187',
@@ -16,7 +20,6 @@ FLORAVOL = {
             'name': 'Cotovol'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/188.png',
     'types': [
         'Plante',
         'Vol'
@@ -30,7 +33,5 @@ FLORAVOL = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 10
+    ]
 }

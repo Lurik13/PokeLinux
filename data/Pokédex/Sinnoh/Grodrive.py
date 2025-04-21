@@ -2,6 +2,10 @@ GRODRIVE = {
     'number': '0426',
     'french_name': 'Grodrive',
     'english_name': 'Drifblim',
+    'description': 'Des nuées de Grodrive dérivent dans le ciel au crépuscule. Ils disparaissent dès qu’on les voit.',
+    'height': 12,
+    'weight': 150,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/426.png',
     'evolution_chain': [
         {
             'id': '0425',
@@ -12,7 +16,6 @@ GRODRIVE = {
             'name': 'Grodrive'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/426.png',
     'types': [
         'Spectre',
         'Vol'
@@ -26,7 +29,5 @@ GRODRIVE = {
     ],
     'forms': [
         
-    ],
-    'height': 12,
-    'weight': 150
+    ]
 }

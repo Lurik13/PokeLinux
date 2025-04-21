@@ -2,13 +2,16 @@ NECROZMA = {
     'number': '0800',
     'french_name': 'Necrozma',
     'english_name': 'Necrozma',
+    'description': 'Une créature endormie sous terre. On suppose qu’il s’agit d’une Ultra-Chimère et qu’elle serait venue d’un autre monde‚ il y a bien longtemps.',
+    'height': 24,
+    'weight': 2300,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/800.png',
     'evolution_chain': [
         {
             'id': '0800',
             'name': 'Necrozma'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/800.png',
     'types': [
         'Psy'
     ],
@@ -60,7 +63,5 @@ NECROZMA = {
                 'Fée'
             ]
         }
-    ],
-    'height': 24,
-    'weight': 2300
+    ]
 }

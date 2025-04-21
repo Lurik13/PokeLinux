@@ -2,13 +2,16 @@ MÉTÉNO = {
     'number': '0774',
     'french_name': 'Météno',
     'english_name': 'Minior-red-meteor',
+    'description': 'Il vivait dans la couche d’ozone‚ avant que sa carapace‚ devenue trop lourde‚ ne finisse par le faire chuter sur la terre ferme.',
+    'height': 3,
+    'weight': 400,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/774.png',
     'evolution_chain': [
         {
             'id': '0774',
             'name': 'Météno'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/774.png',
     'types': [
         'Roche',
         'Vol'
@@ -216,7 +219,5 @@ MÉTÉNO = {
                 'Glace'
             ]
         }
-    ],
-    'height': 3,
-    'weight': 400
+    ]
 }

@@ -2,6 +2,10 @@ BRINDIBOU = {
     'number': '0722',
     'french_name': 'Brindibou',
     'english_name': 'Rowlet',
+    'description': 'Ce Pokémon ne baisse jamais sa garde. Pendant la journée‚ il accumule de l’énergie par photosynthèse‚ pour mieux agir la nuit venue.',
+    'height': 3,
+    'weight': 15,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/722.png',
     'evolution_chain': [
         {
             'id': '0722',
@@ -16,7 +20,6 @@ BRINDIBOU = {
             'name': 'Archéduc'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/722.png',
     'types': [
         'Plante',
         'Vol'
@@ -30,7 +33,5 @@ BRINDIBOU = {
     ],
     'forms': [
         
-    ],
-    'height': 3,
-    'weight': 15
+    ]
 }

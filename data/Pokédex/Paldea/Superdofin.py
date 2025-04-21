@@ -2,6 +2,10 @@ SUPERDOFIN = {
     'number': '0964',
     'french_name': 'Superdofin',
     'english_name': 'Palafin-zero',
+    'description': 'This Pokémon changes its appearance if it hears its allies calling for help. Palafin will never show anybody its moment of transformation.',
+    'height': 13,
+    'weight': 602,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/964.png',
     'evolution_chain': [
         {
             'id': '0963',
@@ -12,7 +16,6 @@ SUPERDOFIN = {
             'name': 'Superdofin'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/964.png',
     'types': [
         'Eau'
     ],
@@ -32,7 +35,5 @@ SUPERDOFIN = {
                 'Électrik'
             ]
         }
-    ],
-    'height': 13,
-    'weight': 602
+    ]
 }

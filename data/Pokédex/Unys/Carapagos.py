@@ -2,6 +2,10 @@ CARAPAGOS = {
     'number': '0564',
     'french_name': 'Carapagos',
     'english_name': 'Tirtouga',
+    'description': 'Il a été recréé à partir d’un fossile préhistorique. Il peut plonger jusqu’à 1 000 mètres de profondeur.',
+    'height': 7,
+    'weight': 165,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/564.png',
     'evolution_chain': [
         {
             'id': '0564',
@@ -12,7 +16,6 @@ CARAPAGOS = {
             'name': 'Mégapagos'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/564.png',
     'types': [
         'Eau',
         'Roche'
@@ -25,7 +28,5 @@ CARAPAGOS = {
     ],
     'forms': [
         
-    ],
-    'height': 7,
-    'weight': 165
+    ]
 }

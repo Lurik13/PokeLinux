@@ -2,6 +2,10 @@ TORGAMORD = {
     'number': '0834',
     'french_name': 'Torgamord',
     'english_name': 'Drednaw',
+    'description': 'De nature très violente‚ il mord fermement ses proies avec sa mâchoire‚ assez puissante pour broyer une barre de fer.',
+    'height': 10,
+    'weight': 1155,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/834.png',
     'evolution_chain': [
         {
             'id': '0833',
@@ -12,7 +16,6 @@ TORGAMORD = {
             'name': 'Torgamord'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/834.png',
     'types': [
         'Eau',
         'Roche'
@@ -30,7 +33,5 @@ TORGAMORD = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 10,
-    'weight': 1155
+    ]
 }

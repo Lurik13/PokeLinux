@@ -2,6 +2,10 @@ MAGICARPE = {
     'number': '0129',
     'french_name': 'Magicarpe',
     'english_name': 'Magikarp',
+    'description': 'Un vénérable Magicarpe peut franchir une montagne en utilisant Trempette. Mais c’est tout...',
+    'height': 9,
+    'weight': 100,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png',
     'evolution_chain': [
         {
             'id': '0129',
@@ -12,7 +16,6 @@ MAGICARPE = {
             'name': 'Léviator'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png',
     'types': [
         'Eau'
     ],
@@ -22,7 +25,5 @@ MAGICARPE = {
     ],
     'forms': [
         
-    ],
-    'height': 9,
-    'weight': 100
+    ]
 }

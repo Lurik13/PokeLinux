@@ -2,13 +2,16 @@ PLUMELINE = {
     'number': '0741',
     'french_name': 'Plumeline',
     'english_name': 'Oricorio-baile',
+    'description': 'Il réunit ses ailes pour générer du feu. Sa chorégraphie envoûtante noie l’ennemi sous un torrent de flammes.',
+    'height': 6,
+    'weight': 34,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/741.png',
     'evolution_chain': [
         {
             'id': '0741',
             'name': 'Plumeline'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/741.png',
     'types': [
         'Feu',
         'Vol'
@@ -61,7 +64,5 @@ PLUMELINE = {
                 'Glace'
             ]
         }
-    ],
-    'height': 6,
-    'weight': 34
+    ]
 }

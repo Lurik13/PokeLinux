@@ -2,6 +2,10 @@ BRUYVERNE = {
     'number': '0715',
     'french_name': 'Bruyverne',
     'english_name': 'Noivern',
+    'description': 'Les nuits sans lune‚ il quadrille le ciel à la recherche d’une proie. Dans l’obscurité‚ aucun Pokémon ne peut rivaliser avec lui.',
+    'height': 15,
+    'weight': 850,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/715.png',
     'evolution_chain': [
         {
             'id': '0714',
@@ -12,7 +16,6 @@ BRUYVERNE = {
             'name': 'Bruyverne'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/715.png',
     'types': [
         'Vol',
         'Dragon'
@@ -25,7 +28,5 @@ BRUYVERNE = {
     ],
     'forms': [
         
-    ],
-    'height': 15,
-    'weight': 850
+    ]
 }

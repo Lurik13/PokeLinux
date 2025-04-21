@@ -2,6 +2,10 @@ PICASSAUT = {
     'number': '0731',
     'french_name': 'Picassaut',
     'english_name': 'Pikipek',
+    'description': 'Il creuse les arbres à raison de seize coups de bec par seconde. Le trou creusé lui sert ensuite à stocker des provisions ou à faire son nid.',
+    'height': 3,
+    'weight': 12,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/731.png',
     'evolution_chain': [
         {
             'id': '0731',
@@ -16,7 +20,6 @@ PICASSAUT = {
             'name': 'Bazoucan'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/731.png',
     'types': [
         'Normal',
         'Vol'
@@ -28,7 +31,5 @@ PICASSAUT = {
     ],
     'forms': [
         
-    ],
-    'height': 3,
-    'weight': 12
+    ]
 }

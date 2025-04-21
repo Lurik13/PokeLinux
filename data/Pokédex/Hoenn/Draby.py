@@ -2,6 +2,10 @@ DRABY = {
     'number': '0371',
     'french_name': 'Draby',
     'english_name': 'Bagon',
+    'description': 'Il rêve de pouvoir voler un jour. Pour l’heure‚ il s’entraîne en sautant du haut des falaises.',
+    'height': 6,
+    'weight': 421,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/371.png',
     'evolution_chain': [
         {
             'id': '0371',
@@ -16,7 +20,6 @@ DRABY = {
             'name': 'Drattak'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/371.png',
     'types': [
         'Dragon'
     ],
@@ -27,7 +30,5 @@ DRABY = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 421
+    ]
 }

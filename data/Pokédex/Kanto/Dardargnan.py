@@ -2,6 +2,10 @@ DARDARGNAN = {
     'number': '0015',
     'french_name': 'Dardargnan',
     'english_name': 'Beedrill',
+    'description': 'Il virevolte rapidement autour de l’ennemi et frappe de son dard empoisonné avant de décamper.',
+    'height': 10,
+    'weight': 295,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png',
     'evolution_chain': [
         {
             'id': '0013',
@@ -16,7 +20,6 @@ DARDARGNAN = {
             'name': 'Dardargnan'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png',
     'types': [
         'Insecte',
         'Poison'
@@ -42,7 +45,5 @@ DARDARGNAN = {
                 'Psy'
             ]
         }
-    ],
-    'height': 10,
-    'weight': 295
+    ]
 }

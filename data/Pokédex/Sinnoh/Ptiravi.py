@@ -2,6 +2,10 @@ PTIRAVI = {
     'number': '0440',
     'french_name': 'Ptiravi',
     'english_name': 'Happiny',
+    'description': 'Ce Pokémon ne se sépare jamais de son petit caillou et a tendance à traîner dans les pieds des gens.',
+    'height': 6,
+    'weight': 244,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/440.png',
     'evolution_chain': [
         {
             'id': '0440',
@@ -16,7 +20,6 @@ PTIRAVI = {
             'name': 'Leuphorie'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/440.png',
     'types': [
         'Normal'
     ],
@@ -25,7 +28,5 @@ PTIRAVI = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 244
+    ]
 }

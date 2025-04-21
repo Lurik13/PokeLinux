@@ -2,6 +2,10 @@ SHIFOURS = {
     'number': '0892',
     'french_name': 'Shifours',
     'english_name': 'Urshifu-single-strike',
+    'description': 'Adepte des techniques pouvant mettre K.O. en un seul coup‚ il se jette sur son adversaire et le frappe de son poing robuste.',
+    'height': 19,
+    'weight': 1050,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/892.png',
     'evolution_chain': [
         {
             'id': '0891',
@@ -12,7 +16,6 @@ SHIFOURS = {
             'name': 'Shifours'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/892.png',
     'types': [
         'Combat',
         'Ténèbres'
@@ -50,7 +53,5 @@ SHIFOURS = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 19,
-    'weight': 1050
+    ]
 }

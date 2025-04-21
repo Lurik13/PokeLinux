@@ -2,6 +2,10 @@ RATTATA = {
     'number': '0019',
     'french_name': 'Rattata',
     'english_name': 'Rattata',
+    'description': 'D’une prudence extrême‚ sa nature robuste lui permet de s’adapter à tous les terrains.',
+    'height': 3,
+    'weight': 35,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png',
     'evolution_chain': [
         {
             'id': '0019',
@@ -12,7 +16,6 @@ RATTATA = {
             'name': 'Rattatac'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png',
     'types': [
         'Normal'
     ],
@@ -33,7 +36,5 @@ RATTATA = {
                 'Fée'
             ]
         }
-    ],
-    'height': 3,
-    'weight': 35
+    ]
 }

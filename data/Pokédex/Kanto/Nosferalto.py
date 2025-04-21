@@ -2,6 +2,10 @@ NOSFERALTO = {
     'number': '0042',
     'french_name': 'Nosferalto',
     'english_name': 'Golbat',
+    'description': 'Ses crocs acérés et creux peuvent pénétrer la plus épaisse des peaux et sucer le sang de la victime.',
+    'height': 16,
+    'weight': 550,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png',
     'evolution_chain': [
         {
             'id': '0041',
@@ -16,7 +20,6 @@ NOSFERALTO = {
             'name': 'Nostenfer'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png',
     'types': [
         'Poison',
         'Vol'
@@ -29,7 +32,5 @@ NOSFERALTO = {
     ],
     'forms': [
         
-    ],
-    'height': 16,
-    'weight': 550
+    ]
 }

@@ -2,6 +2,10 @@ COXYCLAQUE = {
     'number': '0166',
     'french_name': 'Coxyclaque',
     'english_name': 'Ledian',
+    'description': 'Il tire sa force de la lumière des étoiles. Plus il y en a et plus ses motifs dorsaux sont grands.',
+    'height': 14,
+    'weight': 356,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/166.png',
     'evolution_chain': [
         {
             'id': '0165',
@@ -12,7 +16,6 @@ COXYCLAQUE = {
             'name': 'Coxyclaque'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/166.png',
     'types': [
         'Insecte',
         'Vol'
@@ -26,7 +29,5 @@ COXYCLAQUE = {
     ],
     'forms': [
         
-    ],
-    'height': 14,
-    'weight': 356
+    ]
 }

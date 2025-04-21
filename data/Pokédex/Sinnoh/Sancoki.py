@@ -2,6 +2,10 @@ SANCOKI = {
     'number': '0422',
     'french_name': 'Sancoki',
     'english_name': 'Shellos',
+    'description': 'Un étrange liquide mauve s’échappe de son corps‚ ne lui appuyez pas dessus.',
+    'height': 3,
+    'weight': 63,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/422.png',
     'evolution_chain': [
         {
             'id': '0422',
@@ -12,7 +16,6 @@ SANCOKI = {
             'name': 'Tritosor'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/422.png',
     'types': [
         'Eau'
     ],
@@ -22,7 +25,5 @@ SANCOKI = {
     ],
     'forms': [
         
-    ],
-    'height': 3,
-    'weight': 63
+    ]
 }

@@ -2,6 +2,10 @@ DRACKHAUS = {
     'number': '0372',
     'french_name': 'Drackhaus',
     'english_name': 'Shelgon',
+    'description': 'Ses cellules ont commencé à changer dans sa robuste coquille. Il la perd en évoluant.',
+    'height': 11,
+    'weight': 1105,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/372.png',
     'evolution_chain': [
         {
             'id': '0371',
@@ -16,7 +20,6 @@ DRACKHAUS = {
             'name': 'Drattak'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/372.png',
     'types': [
         'Dragon'
     ],
@@ -27,7 +30,5 @@ DRACKHAUS = {
     ],
     'forms': [
         
-    ],
-    'height': 11,
-    'weight': 1105
+    ]
 }

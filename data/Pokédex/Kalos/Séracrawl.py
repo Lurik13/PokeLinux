@@ -2,6 +2,10 @@ SÉRACRAWL = {
     'number': '0713',
     'french_name': 'Séracrawl',
     'english_name': 'Avalugg',
+    'description': 'Son immense corps recouvert de glace est aussi solide que de l’acier. Quand il se déplace‚ il écrase tout qui se trouve sur son passage.',
+    'height': 20,
+    'weight': 5050,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/713.png',
     'evolution_chain': [
         {
             'id': '0712',
@@ -12,7 +16,6 @@ SÉRACRAWL = {
             'name': 'Séracrawl'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/713.png',
     'types': [
         'Glace'
     ],
@@ -39,7 +42,5 @@ SÉRACRAWL = {
                 'Plante'
             ]
         }
-    ],
-    'height': 20,
-    'weight': 5050
+    ]
 }

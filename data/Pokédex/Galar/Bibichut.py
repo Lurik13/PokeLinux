@@ -2,6 +2,10 @@ BIBICHUT = {
     'number': '0856',
     'french_name': 'Bibichut',
     'english_name': 'Hatenna',
+    'description': 'La protubérance sur sa tête lui permet de percevoir les émotions des êtres vivants. Il n’accorde sa confiance qu’aux gens calmes.',
+    'height': 4,
+    'weight': 34,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/856.png',
     'evolution_chain': [
         {
             'id': '0856',
@@ -16,7 +20,6 @@ BIBICHUT = {
             'name': 'Sorcilence'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/856.png',
     'types': [
         'Psy'
     ],
@@ -27,7 +30,5 @@ BIBICHUT = {
     ],
     'forms': [
         
-    ],
-    'height': 4,
-    'weight': 34
+    ]
 }

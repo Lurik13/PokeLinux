@@ -2,6 +2,10 @@ CORVAILLUS = {
     'number': '0823',
     'french_name': 'Corvaillus',
     'english_name': 'Corviknight',
+    'description': 'Il n’a aucun rival dans le ciel de Galar. L’aspect intimidant de son corps d’acier noir et lustré inspire la crainte chez ses ennemis.',
+    'height': 22,
+    'weight': 750,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/823.png',
     'evolution_chain': [
         {
             'id': '0821',
@@ -16,7 +20,6 @@ CORVAILLUS = {
             'name': 'Corvaillus'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/823.png',
     'types': [
         'Vol',
         'Acier'
@@ -32,7 +35,5 @@ CORVAILLUS = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 22,
-    'weight': 750
+    ]
 }

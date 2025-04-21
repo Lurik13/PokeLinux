@@ -2,13 +2,16 @@
     'number': '0145',
     'french_name': 'Électhor',
     'english_name': 'Zapdos',
+    'description': 'Un Pokémon Oiseau légendaire dont on dit qu’il vit dans les nuages d’orage. Il contrôle la foudre.',
+    'height': 16,
+    'weight': 526,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png',
     'evolution_chain': [
         {
             'id': '0145',
             'name': 'Électhor'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png',
     'types': [
         'Électrik',
         'Vol'
@@ -33,7 +36,5 @@
                 'Glace'
             ]
         }
-    ],
-    'height': 16,
-    'weight': 526
+    ]
 }

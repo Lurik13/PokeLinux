@@ -2,13 +2,16 @@ TERAPAGOS = {
     'number': '1024',
     'french_name': 'Terapagos',
     'english_name': 'Terapagos',
+    'description': 'Terapagos protects itself using its power to transform energy into hard crystals. This Pokémon is the source of the Terastal phenomenon.',
+    'height': 2,
+    'weight': 65,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1024.png',
     'evolution_chain': [
         {
             'id': '1024',
             'name': 'Terapagos'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1024.png',
     'types': [
         'Normal'
     ],
@@ -36,7 +39,5 @@ TERAPAGOS = {
                 'Combat'
             ]
         }
-    ],
-    'height': 2,
-    'weight': 65
+    ]
 }

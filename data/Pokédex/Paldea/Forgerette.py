@@ -2,6 +2,10 @@ FORGERETTE = {
     'number': '0957',
     'french_name': 'Forgerette',
     'english_name': 'Tinkatink',
+    'description': 'It swings its handmade hammer around to protect itself‚ but the hammer is often stolen by Pokémon that eat metal.',
+    'height': 4,
+    'weight': 89,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/957.png',
     'evolution_chain': [
         {
             'id': '0957',
@@ -16,7 +20,6 @@ FORGERETTE = {
             'name': 'Forgelina'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/957.png',
     'types': [
         'Fée',
         'Acier'
@@ -27,7 +30,5 @@ FORGERETTE = {
     ],
     'forms': [
         
-    ],
-    'height': 4,
-    'weight': 89
+    ]
 }

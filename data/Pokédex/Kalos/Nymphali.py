@@ -2,6 +2,10 @@ NYMPHALI = {
     'number': '0700',
     'french_name': 'Nymphali',
     'english_name': 'Sylveon',
+    'description': 'Pour arrêter le combat‚ il émet des ondes apaisantes avec ses rubans.',
+    'height': 10,
+    'weight': 235,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png',
     'evolution_chain': [
         {
             'id': '0133',
@@ -40,7 +44,6 @@ NYMPHALI = {
             'name': 'Nymphali'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png',
     'types': [
         'Fée'
     ],
@@ -50,7 +53,5 @@ NYMPHALI = {
     ],
     'forms': [
         
-    ],
-    'height': 10,
-    'weight': 235
+    ]
 }

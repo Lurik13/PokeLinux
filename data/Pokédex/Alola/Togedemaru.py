@@ -2,13 +2,16 @@ TOGEDEMARU = {
     'number': '0777',
     'french_name': 'Togedemaru',
     'english_name': 'Togedemaru',
+    'description': 'Les épines de ce Pokémon sont normalement baissées‚ mais quand il s’énerve‚ elles se dressent afin de pourfendre ses agresseurs.',
+    'height': 3,
+    'weight': 33,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/777.png',
     'evolution_chain': [
         {
             'id': '0777',
             'name': 'Togedemaru'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/777.png',
     'types': [
         'Électrik',
         'Acier'
@@ -32,7 +35,5 @@ TOGEDEMARU = {
                 'Feu'
             ]
         }
-    ],
-    'height': 3,
-    'weight': 33
+    ]
 }

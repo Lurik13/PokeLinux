@@ -2,6 +2,10 @@ CARMADURA = {
     'number': '0936',
     'french_name': 'Carmadura',
     'english_name': 'Armarouge',
+    'description': 'Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.',
+    'height': 15,
+    'weight': 850,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/936.png',
     'evolution_chain': [
         {
             'id': '0935',
@@ -16,7 +20,6 @@ CARMADURA = {
             'name': 'Malvalame'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/936.png',
     'types': [
         'Feu',
         'Psy'
@@ -30,7 +33,5 @@ CARMADURA = {
     ],
     'forms': [
         
-    ],
-    'height': 15,
-    'weight': 850
+    ]
 }

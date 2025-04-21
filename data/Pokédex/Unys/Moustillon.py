@@ -2,6 +2,10 @@ MOUSTILLON = {
     'number': '0501',
     'french_name': 'Moustillon',
     'english_name': 'Oshawott',
+    'description': 'Il combat avec le coupillage de son ventre. Il peut parer un assaut et immédiatement contre-attaquer.',
+    'height': 5,
+    'weight': 59,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/501.png',
     'evolution_chain': [
         {
             'id': '0501',
@@ -16,7 +20,6 @@ MOUSTILLON = {
             'name': 'Clamiral'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/501.png',
     'types': [
         'Eau'
     ],
@@ -26,7 +29,5 @@ MOUSTILLON = {
     ],
     'forms': [
         
-    ],
-    'height': 5,
-    'weight': 59
+    ]
 }

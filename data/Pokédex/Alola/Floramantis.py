@@ -2,6 +2,10 @@ FLORAMANTIS = {
     'number': '0754',
     'french_name': 'Floramantis',
     'english_name': 'Lurantis',
+    'description': 'Préserver ses couleurs éclatantes requiert un travail titanesque. On trouve tout de même des gens assez fous pour s’y atteler.',
+    'height': 9,
+    'weight': 185,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/754.png',
     'evolution_chain': [
         {
             'id': '0753',
@@ -12,7 +16,6 @@ FLORAMANTIS = {
             'name': 'Floramantis'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/754.png',
     'types': [
         'Plante'
     ],
@@ -38,7 +41,5 @@ FLORAMANTIS = {
                 'Glace'
             ]
         }
-    ],
-    'height': 9,
-    'weight': 185
+    ]
 }

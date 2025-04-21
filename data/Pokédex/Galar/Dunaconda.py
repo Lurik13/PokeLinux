@@ -2,6 +2,10 @@ DUNACONDA = {
     'number': '0844',
     'french_name': 'Dunaconda',
     'english_name': 'Sandaconda',
+    'description': 'Il peut expulser 100 kg de sable de ses narines en compressant tout son corps. Quand il est à court de sable‚ il a tendance à se dérober.',
+    'height': 38,
+    'weight': 655,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/844.png',
     'evolution_chain': [
         {
             'id': '0843',
@@ -12,7 +16,6 @@ DUNACONDA = {
             'name': 'Dunaconda'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/844.png',
     'types': [
         'Sol'
     ],
@@ -28,7 +31,5 @@ DUNACONDA = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 38,
-    'weight': 655
+    ]
 }

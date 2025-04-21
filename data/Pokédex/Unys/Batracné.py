@@ -2,6 +2,10 @@ BATRACNÉ = {
     'number': '0536',
     'french_name': 'Batracné',
     'english_name': 'Palpitoad',
+    'description': 'Quand il fait vibrer la bosse sur sa tête‚ il provoque des ondulations dans l’eau‚ mais aussi des tremblements de terre.',
+    'height': 8,
+    'weight': 170,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/536.png',
     'evolution_chain': [
         {
             'id': '0535',
@@ -16,7 +20,6 @@ BATRACNÉ = {
             'name': 'Crapustule'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/536.png',
     'types': [
         'Eau',
         'Sol'
@@ -26,7 +29,5 @@ BATRACNÉ = {
     ],
     'forms': [
         
-    ],
-    'height': 8,
-    'weight': 170
+    ]
 }

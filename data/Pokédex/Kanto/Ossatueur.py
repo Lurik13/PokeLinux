@@ -2,6 +2,10 @@ OSSATUEUR = {
     'number': '0105',
     'french_name': 'Ossatueur',
     'english_name': 'Marowak',
+    'description': 'Ce Pokémon sauvage possède des os depuis sa naissance. Il s’en sert pour combattre avec dextérité.',
+    'height': 10,
+    'weight': 450,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png',
     'evolution_chain': [
         {
             'id': '0104',
@@ -12,7 +16,6 @@ OSSATUEUR = {
             'name': 'Ossatueur'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png',
     'types': [
         'Sol'
     ],
@@ -52,7 +55,5 @@ OSSATUEUR = {
                 'Ténèbres'
             ]
         }
-    ],
-    'height': 10,
-    'weight': 450
+    ]
 }

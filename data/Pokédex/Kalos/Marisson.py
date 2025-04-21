@@ -2,6 +2,10 @@ MARISSON = {
     'number': '0650',
     'french_name': 'Marisson',
     'english_name': 'Chespin',
+    'description': 'Lorsqu’il rassemble ses forces‚ les piquants souples qui recouvrent sa tête deviennent si durs et acérés qu’ils pourraient transpercer un rocher.',
+    'height': 4,
+    'weight': 90,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/650.png',
     'evolution_chain': [
         {
             'id': '0650',
@@ -16,7 +20,6 @@ MARISSON = {
             'name': 'Blindépique'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/650.png',
     'types': [
         'Plante'
     ],
@@ -29,7 +32,5 @@ MARISSON = {
     ],
     'forms': [
         
-    ],
-    'height': 4,
-    'weight': 90
+    ]
 }

@@ -2,6 +2,10 @@ MALAMANDRE = {
     'number': '0758',
     'french_name': 'Malamandre',
     'english_name': 'Salazzle',
+    'description': 'Curieusement‚ cette espèce ne compte que des femelles. Ces dernières aiment s’entourer de nombreux admirateurs Tritox mâles.',
+    'height': 12,
+    'weight': 222,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/758.png',
     'evolution_chain': [
         {
             'id': '0757',
@@ -12,7 +16,6 @@ MALAMANDRE = {
             'name': 'Malamandre'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/758.png',
     'types': [
         'Poison',
         'Feu'
@@ -38,7 +41,5 @@ MALAMANDRE = {
                 'Eau'
             ]
         }
-    ],
-    'height': 12,
-    'weight': 222
+    ]
 }

@@ -2,6 +2,10 @@ GRAVALANCH = {
     'number': '0075',
     'french_name': 'Gravalanch',
     'english_name': 'Graveler',
+    'description': 'Il dévale les montagnes pour se déplacer. Une fois qu’il a pris tout son élan‚ dur dur de l’arrêter!',
+    'height': 10,
+    'weight': 1050,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png',
     'evolution_chain': [
         {
             'id': '0074',
@@ -16,7 +20,6 @@ GRAVALANCH = {
             'name': 'Grolem'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png',
     'types': [
         'Roche',
         'Sol'
@@ -44,7 +47,5 @@ GRAVALANCH = {
                 'Plante'
             ]
         }
-    ],
-    'height': 10,
-    'weight': 1050
+    ]
 }

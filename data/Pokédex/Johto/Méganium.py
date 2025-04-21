@@ -2,6 +2,10 @@ MÉGANIUM = {
     'number': '0154',
     'french_name': 'Méganium',
     'english_name': 'Meganium',
+    'description': 'Son souffle a l’incroyable capacité de ranimer les plantes et les fleurs flétries.',
+    'height': 18,
+    'weight': 1005,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/154.png',
     'evolution_chain': [
         {
             'id': '0152',
@@ -16,7 +20,6 @@ MÉGANIUM = {
             'name': 'Méganium'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/154.png',
     'types': [
         'Plante'
     ],
@@ -29,7 +32,5 @@ MÉGANIUM = {
     ],
     'forms': [
         
-    ],
-    'height': 18,
-    'weight': 1005
+    ]
 }

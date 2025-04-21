@@ -2,6 +2,10 @@ GALLAME = {
     'number': '0475',
     'french_name': 'Gallame',
     'english_name': 'Gallade',
+    'description': 'Comme il peut lire les pensées de ses adversaires‚ il frappe toujours en premier.',
+    'height': 16,
+    'weight': 520,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/475.png',
     'evolution_chain': [
         {
             'id': '0280',
@@ -20,7 +24,6 @@ GALLAME = {
             'name': 'Gallame'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/475.png',
     'types': [
         'Psy',
         'Combat'
@@ -44,7 +47,5 @@ GALLAME = {
                 'Fée'
             ]
         }
-    ],
-    'height': 16,
-    'weight': 520
+    ]
 }

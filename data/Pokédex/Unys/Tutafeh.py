@@ -2,6 +2,10 @@ TUTAFEH = {
     'number': '0562',
     'french_name': 'Tutafeh',
     'english_name': 'Yamask',
+    'description': 'Le motif de son masque est son visage quand il était humain. Parfois‚ il le regarde et se met à pleurer.',
+    'height': 5,
+    'weight': 15,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/562.png',
     'evolution_chain': [
         {
             'id': '0562',
@@ -16,7 +20,6 @@ TUTAFEH = {
             'name': 'Tutétékri'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/562.png',
     'types': [
         'Spectre'
     ],
@@ -40,7 +43,5 @@ TUTAFEH = {
                 'Ténèbres'
             ]
         }
-    ],
-    'height': 5,
-    'weight': 15
+    ]
 }

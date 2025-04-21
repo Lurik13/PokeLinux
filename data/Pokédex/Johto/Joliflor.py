@@ -2,6 +2,10 @@ JOLIFLOR = {
     'number': '0182',
     'french_name': 'Joliflor',
     'english_name': 'Bellossom',
+    'description': 'À la fin de la saison des pluies‚ il sort danser en plein air‚ attiré par la chaleur du soleil.',
+    'height': 4,
+    'weight': 58,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/182.png',
     'evolution_chain': [
         {
             'id': '0043',
@@ -20,7 +24,6 @@ JOLIFLOR = {
             'name': 'Joliflor'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/182.png',
     'types': [
         'Plante'
     ],
@@ -33,7 +36,5 @@ JOLIFLOR = {
     ],
     'forms': [
         
-    ],
-    'height': 4,
-    'weight': 58
+    ]
 }

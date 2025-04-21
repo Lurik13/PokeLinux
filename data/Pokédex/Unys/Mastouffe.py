@@ -2,6 +2,10 @@ MASTOUFFE = {
     'number': '0508',
     'french_name': 'Mastouffe',
     'english_name': 'Stoutland',
+    'description': 'Il sauve les gens bloqués dans les montagnes par des tempêtes de neige. Ses longs poils le protègent du froid.',
+    'height': 12,
+    'weight': 610,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/508.png',
     'evolution_chain': [
         {
             'id': '0506',
@@ -16,7 +20,6 @@ MASTOUFFE = {
             'name': 'Mastouffe'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/508.png',
     'types': [
         'Normal'
     ],
@@ -25,7 +28,5 @@ MASTOUFFE = {
     ],
     'forms': [
         
-    ],
-    'height': 12,
-    'weight': 610
+    ]
 }

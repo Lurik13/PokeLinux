@@ -2,6 +2,10 @@ GRANIVOL = {
     'number': '0187',
     'french_name': 'Granivol',
     'english_name': 'Hoppip',
+    'description': 'Il dérive avec le vent. Sa présence en nombre dans les champs et les montagnes annonce le printemps.',
+    'height': 4,
+    'weight': 5,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/187.png',
     'evolution_chain': [
         {
             'id': '0187',
@@ -16,7 +20,6 @@ GRANIVOL = {
             'name': 'Cotovol'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/187.png',
     'types': [
         'Plante',
         'Vol'
@@ -30,7 +33,5 @@ GRANIVOL = {
     ],
     'forms': [
         
-    ],
-    'height': 4,
-    'weight': 5
+    ]
 }

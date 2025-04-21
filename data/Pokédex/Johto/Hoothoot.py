@@ -2,6 +2,10 @@ HOOTHOOT = {
     'number': '0163',
     'french_name': 'Hoothoot',
     'english_name': 'Hoothoot',
+    'description': 'Il hulule chaque jour à la même heure. Dans certaines cultures‚ il incarne la sagesse.',
+    'height': 7,
+    'weight': 212,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/163.png',
     'evolution_chain': [
         {
             'id': '0163',
@@ -12,7 +16,6 @@ HOOTHOOT = {
             'name': 'Noarfang'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/163.png',
     'types': [
         'Normal',
         'Vol'
@@ -24,7 +27,5 @@ HOOTHOOT = {
     ],
     'forms': [
         
-    ],
-    'height': 7,
-    'weight': 212
+    ]
 }

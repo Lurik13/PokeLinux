@@ -2,6 +2,10 @@ ROIGADA = {
     'number': '0199',
     'french_name': 'Roigada',
     'english_name': 'Slowking',
+    'description': 'La morsure de Kokiyas a fait de lui un génie dont l’intelligence rivalise avec celle d’un prix Nobel.',
+    'height': 20,
+    'weight': 795,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/199.png',
     'evolution_chain': [
         {
             'id': '0079',
@@ -16,7 +20,6 @@ ROIGADA = {
             'name': 'Roigada'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/199.png',
     'types': [
         'Eau',
         'Psy'
@@ -42,7 +45,5 @@ ROIGADA = {
                 'Ténèbres'
             ]
         }
-    ],
-    'height': 20,
-    'weight': 795
+    ]
 }

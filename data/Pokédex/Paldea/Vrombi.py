@@ -2,6 +2,10 @@ VROMBI = {
     'number': '0965',
     'french_name': 'Vrombi',
     'english_name': 'Varoom',
+    'description': 'It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.',
+    'height': 10,
+    'weight': 350,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/965.png',
     'evolution_chain': [
         {
             'id': '0965',
@@ -12,7 +16,6 @@ VROMBI = {
             'name': 'Vrombotor'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/965.png',
     'types': [
         'Acier',
         'Poison'
@@ -23,7 +26,5 @@ VROMBI = {
     ],
     'forms': [
         
-    ],
-    'height': 10,
-    'weight': 350
+    ]
 }

@@ -2,6 +2,10 @@ SCORPLANE = {
     'number': '0207',
     'french_name': 'Scorplane',
     'english_name': 'Gligar',
+    'description': 'Il fend l’air et fond sur sa proie pour s’agripper à son visage et la frapper avec son dard.',
+    'height': 11,
+    'weight': 648,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/207.png',
     'evolution_chain': [
         {
             'id': '0207',
@@ -12,7 +16,6 @@ SCORPLANE = {
             'name': 'Scorvol'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/207.png',
     'types': [
         'Sol',
         'Vol'
@@ -23,7 +26,5 @@ SCORPLANE = {
     ],
     'forms': [
         
-    ],
-    'height': 11,
-    'weight': 648
+    ]
 }

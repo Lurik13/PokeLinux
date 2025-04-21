@@ -2,6 +2,10 @@ FORGELLA = {
     'number': '0958',
     'french_name': 'Forgella',
     'english_name': 'Tinkatuff',
+    'description': 'This Pokémon will attack groups of Pawniard and Bisharp‚ gathering metal from them in order to create a large and sturdy hammer.',
+    'height': 7,
+    'weight': 591,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/958.png',
     'evolution_chain': [
         {
             'id': '0957',
@@ -16,7 +20,6 @@ FORGELLA = {
             'name': 'Forgelina'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/958.png',
     'types': [
         'Fée',
         'Acier'
@@ -27,7 +30,5 @@ FORGELLA = {
     ],
     'forms': [
         
-    ],
-    'height': 7,
-    'weight': 591
+    ]
 }

@@ -2,6 +2,10 @@ MAJASPIC = {
     'number': '0497',
     'french_name': 'Majaspic',
     'english_name': 'Serperior',
+    'description': 'Il peut paralyser l’ennemi d’un regard. Il amplifie l’énergie du soleil dans son corps.',
+    'height': 33,
+    'weight': 630,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/497.png',
     'evolution_chain': [
         {
             'id': '0495',
@@ -16,7 +20,6 @@ MAJASPIC = {
             'name': 'Majaspic'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/497.png',
     'types': [
         'Plante'
     ],
@@ -29,7 +32,5 @@ MAJASPIC = {
     ],
     'forms': [
         
-    ],
-    'height': 33,
-    'weight': 630
+    ]
 }

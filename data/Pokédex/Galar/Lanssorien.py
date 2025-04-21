@@ -2,6 +2,10 @@ LANSSORIEN = {
     'number': '0887',
     'french_name': 'Lanssorien',
     'english_name': 'Dragapult',
+    'description': 'Il vit en compagnie de Fantyrm qui logent dans les trous de ses cornes. Quand il passe à l’attaque‚ il les propulse à la vitesse du son.',
+    'height': 30,
+    'weight': 500,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/887.png',
     'evolution_chain': [
         {
             'id': '0885',
@@ -16,7 +20,6 @@ LANSSORIEN = {
             'name': 'Lanssorien'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/887.png',
     'types': [
         'Dragon',
         'Spectre'
@@ -30,7 +33,5 @@ LANSSORIEN = {
     ],
     'forms': [
         
-    ],
-    'height': 30,
-    'weight': 500
+    ]
 }

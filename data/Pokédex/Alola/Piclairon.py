@@ -2,6 +2,10 @@ PICLAIRON = {
     'number': '0732',
     'french_name': 'Piclairon',
     'english_name': 'Trumbeak',
+    'description': 'Il garde toujours dans son bec les pépins des fruits qu’il mange‚ ce qui lui permet de faire feu dès qu’un ennemi se présente.',
+    'height': 6,
+    'weight': 148,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/732.png',
     'evolution_chain': [
         {
             'id': '0731',
@@ -16,7 +20,6 @@ PICLAIRON = {
             'name': 'Bazoucan'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/732.png',
     'types': [
         'Normal',
         'Vol'
@@ -28,7 +31,5 @@ PICLAIRON = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 148
+    ]
 }

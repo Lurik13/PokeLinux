@@ -2,6 +2,10 @@ IXON = {
     'number': '0862',
     'french_name': 'Ixon',
     'english_name': 'Obstagoon',
+    'description': 'Il possède une puissance vocale remarquable. On appelle Blocage sa technique qui consiste à intimider l’ennemi avec son cri guttural.',
+    'height': 16,
+    'weight': 460,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/862.png',
     'evolution_chain': [
         {
             'id': '0263',
@@ -16,7 +20,6 @@ IXON = {
             'name': 'Ixon'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/862.png',
     'types': [
         'Ténèbres',
         'Normal'
@@ -28,7 +31,5 @@ IXON = {
     ],
     'forms': [
         
-    ],
-    'height': 16,
-    'weight': 460
+    ]
 }

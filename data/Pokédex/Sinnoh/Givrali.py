@@ -2,6 +2,10 @@ GIVRALI = {
     'number': '0471',
     'french_name': 'Givrali',
     'english_name': 'Glaceon',
+    'description': 'Il ajuste la température de son corps pour créer un vent de glace en gelant l’air qui l’entoure.',
+    'height': 8,
+    'weight': 259,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png',
     'evolution_chain': [
         {
             'id': '0133',
@@ -40,7 +44,6 @@ GIVRALI = {
             'name': 'Nymphali'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png',
     'types': [
         'Glace'
     ],
@@ -52,7 +55,5 @@ GIVRALI = {
     ],
     'forms': [
         
-    ],
-    'height': 8,
-    'weight': 259
+    ]
 }

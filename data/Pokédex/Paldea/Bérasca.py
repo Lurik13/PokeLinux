@@ -2,6 +2,10 @@ BÉRASCA = {
     'number': '0954',
     'french_name': 'Bérasca',
     'english_name': 'Rabsca',
+    'description': 'The body that supports the ball barely moves. Therefore‚ it is thought that the true body of this Pokémon is actually inside the ball.',
+    'height': 3,
+    'weight': 35,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/954.png',
     'evolution_chain': [
         {
             'id': '0953',
@@ -12,7 +16,6 @@ BÉRASCA = {
             'name': 'Bérasca'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/954.png',
     'types': [
         'Insecte',
         'Psy'
@@ -27,7 +30,5 @@ BÉRASCA = {
     ],
     'forms': [
         
-    ],
-    'height': 3,
-    'weight': 35
+    ]
 }

@@ -2,6 +2,10 @@ MIAOUSS = {
     'number': '0052',
     'french_name': 'Miaouss',
     'english_name': 'Meowth',
+    'description': 'Son regard s’anime à la vue d’un objet brillant. C’est un Pokémon nocturne.',
+    'height': 4,
+    'weight': 42,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png',
     'evolution_chain': [
         {
             'id': '0052',
@@ -16,7 +20,6 @@ MIAOUSS = {
             'name': 'Berserkatt'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png',
     'types': [
         'Normal'
     ],
@@ -54,7 +57,5 @@ MIAOUSS = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 4,
-    'weight': 42
+    ]
 }

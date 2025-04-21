@@ -2,6 +2,10 @@ KIRLIA = {
     'number': '0281',
     'french_name': 'Kirlia',
     'english_name': 'Kirlia',
+    'description': 'Quand il sent la joie de son Dresseur‚ il se met à danser‚ débordant d’énergie.',
+    'height': 8,
+    'weight': 202,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/281.png',
     'evolution_chain': [
         {
             'id': '0280',
@@ -20,7 +24,6 @@ KIRLIA = {
             'name': 'Gallame'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/281.png',
     'types': [
         'Psy',
         'Fée'
@@ -32,7 +35,5 @@ KIRLIA = {
     ],
     'forms': [
         
-    ],
-    'height': 8,
-    'weight': 202
+    ]
 }

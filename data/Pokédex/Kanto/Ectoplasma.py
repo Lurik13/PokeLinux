@@ -2,6 +2,10 @@ ECTOPLASMA = {
     'number': '0094',
     'french_name': 'Ectoplasma',
     'english_name': 'Gengar',
+    'description': 'Si vous croisez un regard inquiétant qui perce la nuit‚ c’est sûrement un Ectoplasma.',
+    'height': 15,
+    'weight': 405,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png',
     'evolution_chain': [
         {
             'id': '0092',
@@ -16,7 +20,6 @@ ECTOPLASMA = {
             'name': 'Ectoplasma'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png',
     'types': [
         'Spectre',
         'Poison'
@@ -48,7 +51,5 @@ ECTOPLASMA = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 15,
-    'weight': 405
+    ]
 }

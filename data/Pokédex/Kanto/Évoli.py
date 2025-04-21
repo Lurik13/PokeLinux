@@ -2,6 +2,10 @@
     'number': '0133',
     'french_name': 'Évoli',
     'english_name': 'Eevee',
+    'description': 'Son ADN particulier lui permet de s’adapter très rapidement à son environnement.',
+    'height': 3,
+    'weight': 65,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png',
     'evolution_chain': [
         {
             'id': '0133',
@@ -40,7 +44,6 @@
             'name': 'Nymphali'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png',
     'types': [
         'Normal'
     ],
@@ -64,7 +67,5 @@
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 3,
-    'weight': 65
+    ]
 }

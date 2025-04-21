@@ -2,6 +2,10 @@ SPECTRUM = {
     'number': '0093',
     'french_name': 'Spectrum',
     'english_name': 'Haunter',
+    'description': 'Il adore se tapir dans l’ombre et faire frissonner ses proies en leur touchant l’épaule.',
+    'height': 16,
+    'weight': 1,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png',
     'evolution_chain': [
         {
             'id': '0092',
@@ -16,7 +20,6 @@ SPECTRUM = {
             'name': 'Ectoplasma'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png',
     'types': [
         'Spectre',
         'Poison'
@@ -29,7 +32,5 @@ SPECTRUM = {
     ],
     'forms': [
         
-    ],
-    'height': 16,
-    'weight': 1
+    ]
 }

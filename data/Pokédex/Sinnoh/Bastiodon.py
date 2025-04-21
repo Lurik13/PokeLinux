@@ -2,6 +2,10 @@ BASTIODON = {
     'number': '0411',
     'french_name': 'Bastiodon',
     'english_name': 'Bastiodon',
+    'description': 'En groupe‚ ils protègent leurs petits en formant autour d’eux une impénétrable muraille.',
+    'height': 13,
+    'weight': 1495,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/411.png',
     'evolution_chain': [
         {
             'id': '0410',
@@ -12,7 +16,6 @@ BASTIODON = {
             'name': 'Bastiodon'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/411.png',
     'types': [
         'Roche',
         'Acier'
@@ -24,7 +27,5 @@ BASTIODON = {
     ],
     'forms': [
         
-    ],
-    'height': 13,
-    'weight': 1495
+    ]
 }

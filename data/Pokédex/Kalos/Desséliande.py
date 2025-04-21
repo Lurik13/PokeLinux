@@ -2,6 +2,10 @@ DESSÉLIANDE = {
     'number': '0709',
     'french_name': 'Desséliande',
     'english_name': 'Trevenant',
+    'description': 'Commande aux autres arbres. Il emprisonne jusqu’à la fin de leurs jours les humains qui abîment la forêt.',
+    'height': 15,
+    'weight': 710,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/709.png',
     'evolution_chain': [
         {
             'id': '0708',
@@ -12,7 +16,6 @@ DESSÉLIANDE = {
             'name': 'Desséliande'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/709.png',
     'types': [
         'Spectre',
         'Plante'
@@ -26,7 +29,5 @@ DESSÉLIANDE = {
     ],
     'forms': [
         
-    ],
-    'height': 15,
-    'weight': 710
+    ]
 }

@@ -2,6 +2,10 @@ SEPIATOP = {
     'number': '0686',
     'french_name': 'Sepiatop',
     'english_name': 'Inkay',
+    'description': 'Éblouis par les points lumineux qui clignotent sur son corps‚ les ennemis perdent toute envie de se battre.',
+    'height': 4,
+    'weight': 35,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/686.png',
     'evolution_chain': [
         {
             'id': '0686',
@@ -12,7 +16,6 @@ SEPIATOP = {
             'name': 'Sepiatroce'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/686.png',
     'types': [
         'Ténèbres',
         'Psy'
@@ -23,7 +26,5 @@ SEPIATOP = {
     ],
     'forms': [
         
-    ],
-    'height': 4,
-    'weight': 35
+    ]
 }

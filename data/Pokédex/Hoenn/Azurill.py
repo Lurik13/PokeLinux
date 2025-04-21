@@ -2,6 +2,10 @@ AZURILL = {
     'number': '0298',
     'french_name': 'Azurill',
     'english_name': 'Azurill',
+    'description': 'Sa queue est plus rebondissante qu’une balle du même nom. C’est aussi une massue très puissante.',
+    'height': 2,
+    'weight': 20,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/298.png',
     'evolution_chain': [
         {
             'id': '0298',
@@ -16,7 +20,6 @@ AZURILL = {
             'name': 'Azumarill'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/298.png',
     'types': [
         'Normal',
         'Fée'
@@ -27,7 +30,5 @@ AZURILL = {
     ],
     'forms': [
         
-    ],
-    'height': 2,
-    'weight': 20
+    ]
 }

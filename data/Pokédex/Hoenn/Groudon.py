@@ -2,13 +2,16 @@ GROUDON = {
     'number': '0383',
     'french_name': 'Groudon',
     'english_name': 'Groudon',
+    'description': 'Il dormait dans le magma souterrain depuis sa lutte féroce contre Kyogre‚ il y a longtemps de cela.',
+    'height': 35,
+    'weight': 9500,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/383.png',
     'evolution_chain': [
         {
             'id': '0383',
             'name': 'Groudon'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/383.png',
     'types': [
         'Sol'
     ],
@@ -30,7 +33,5 @@ GROUDON = {
                 'Sol'
             ]
         }
-    ],
-    'height': 35,
-    'weight': 9500
+    ]
 }

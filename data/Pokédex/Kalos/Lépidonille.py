@@ -2,6 +2,10 @@ LÉPIDONILLE = {
     'number': '0664',
     'french_name': 'Lépidonille',
     'english_name': 'Scatterbug',
+    'description': 'Lorsqu’il est poursuivi par un Pokémon Oiseau‚ il projette une poudre noire qui paralyse tous ceux qu’elle touche.',
+    'height': 3,
+    'weight': 25,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png',
     'evolution_chain': [
         {
             'id': '0664',
@@ -16,7 +20,6 @@ LÉPIDONILLE = {
             'name': 'Prismillon'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png',
     'types': [
         'Insecte'
     ],
@@ -27,7 +30,5 @@ LÉPIDONILLE = {
     ],
     'forms': [
         
-    ],
-    'height': 3,
-    'weight': 25
+    ]
 }

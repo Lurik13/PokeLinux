@@ -2,6 +2,10 @@ TÊTAMPOULE = {
     'number': '0938',
     'french_name': 'Têtampoule',
     'english_name': 'Tadbulb',
+    'description': 'Tadbulb shakes its tail to generate electricity. If it senses danger‚ it will make its head blink on and off to alert its allies.',
+    'height': 3,
+    'weight': 4,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/938.png',
     'evolution_chain': [
         {
             'id': '0938',
@@ -12,7 +16,6 @@ TÊTAMPOULE = {
             'name': 'Ampibidou'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/938.png',
     'types': [
         'Électrik'
     ],
@@ -21,7 +24,5 @@ TÊTAMPOULE = {
     ],
     'forms': [
         
-    ],
-    'height': 3,
-    'weight': 4
+    ]
 }

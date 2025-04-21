@@ -2,6 +2,10 @@ LOUGAROC = {
     'number': '0745',
     'french_name': 'Lougaroc',
     'english_name': 'Lycanroc-midday',
+    'description': 'Il fait tourner en bourrique ses ennemis à cause de sa vitesse. Outre ses crocs et ses griffes‚ il peut compter sur le roc acéré de sa crinière.',
+    'height': 8,
+    'weight': 250,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/745.png',
     'evolution_chain': [
         {
             'id': '0744',
@@ -12,7 +16,6 @@ LOUGAROC = {
             'name': 'Lougaroc'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/745.png',
     'types': [
         'Roche'
     ],
@@ -52,7 +55,5 @@ LOUGAROC = {
                 'Plante'
             ]
         }
-    ],
-    'height': 8,
-    'weight': 250
+    ]
 }

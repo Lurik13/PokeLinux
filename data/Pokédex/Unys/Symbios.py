@@ -2,6 +2,10 @@ SYMBIOS = {
     'number': '0579',
     'french_name': 'Symbios',
     'english_name': 'Reuniclus',
+    'description': 'Quand ils se tiennent par la main‚ leurs cerveaux forment un réseau qui démultiplie leurs pouvoirs psychiques.',
+    'height': 10,
+    'weight': 201,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/579.png',
     'evolution_chain': [
         {
             'id': '0577',
@@ -16,7 +20,6 @@ SYMBIOS = {
             'name': 'Symbios'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/579.png',
     'types': [
         'Psy'
     ],
@@ -27,7 +30,5 @@ SYMBIOS = {
     ],
     'forms': [
         
-    ],
-    'height': 10,
-    'weight': 201
+    ]
 }

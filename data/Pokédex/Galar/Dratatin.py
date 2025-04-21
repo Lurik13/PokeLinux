@@ -2,6 +2,10 @@ DRATATIN = {
     'number': '0842',
     'french_name': 'Dratatin',
     'english_name': 'Appletun',
+    'description': 'Il a évolué après avoir mangé une pomme sucrée. Il attire ses proies‚ les Pokémon Insecte‚ en dégageant un parfum mielleux.',
+    'height': 4,
+    'weight': 130,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/842.png',
     'evolution_chain': [
         {
             'id': '0840',
@@ -24,7 +28,6 @@ DRATATIN = {
             'name': 'Pomdorochi'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/842.png',
     'types': [
         'Plante',
         'Dragon'
@@ -44,7 +47,5 @@ DRATATIN = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 4,
-    'weight': 130
+    ]
 }

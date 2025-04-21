@@ -2,6 +2,10 @@ PYROLI = {
     'number': '0136',
     'french_name': 'Pyroli',
     'english_name': 'Flareon',
+    'description': 'L’air qu’il inspire est chauffé par la glande enflammée de son corps‚ atteignant les 1 700 °C.',
+    'height': 9,
+    'weight': 250,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png',
     'evolution_chain': [
         {
             'id': '0133',
@@ -40,7 +44,6 @@ PYROLI = {
             'name': 'Nymphali'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png',
     'types': [
         'Feu'
     ],
@@ -51,7 +54,5 @@ PYROLI = {
     ],
     'forms': [
         
-    ],
-    'height': 9,
-    'weight': 250
+    ]
 }

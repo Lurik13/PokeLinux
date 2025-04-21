@@ -2,6 +2,10 @@ GALEKING = {
     'number': '0306',
     'french_name': 'Galeking',
     'english_name': 'Aggron',
+    'description': 'Il creuse des galeries à travers la pierre avec ses cornes d’acier pour trouver le fer qu’il apprécie.',
+    'height': 21,
+    'weight': 3600,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/306.png',
     'evolution_chain': [
         {
             'id': '0304',
@@ -16,7 +20,6 @@ GALEKING = {
             'name': 'Galeking'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/306.png',
     'types': [
         'Acier',
         'Roche'
@@ -39,7 +42,5 @@ GALEKING = {
                 'Feu'
             ]
         }
-    ],
-    'height': 21,
-    'weight': 3600
+    ]
 }

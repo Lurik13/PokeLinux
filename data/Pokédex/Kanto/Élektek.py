@@ -2,6 +2,10 @@
     'number': '0125',
     'french_name': 'Élektek',
     'english_name': 'Electabuzz',
+    'description': 'Il fait tournoyer ses bras pour donner de la force à ses coups. Profitez-en pour filer!',
+    'height': 11,
+    'weight': 300,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png',
     'evolution_chain': [
         {
             'id': '0239',
@@ -16,7 +20,6 @@
             'name': 'Élekable'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png',
     'types': [
         'Électrik'
     ],
@@ -25,7 +28,5 @@
     ],
     'forms': [
         
-    ],
-    'height': 11,
-    'weight': 300
+    ]
 }

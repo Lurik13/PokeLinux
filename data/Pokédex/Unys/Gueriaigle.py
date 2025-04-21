@@ -2,6 +2,10 @@ GUERIAIGLE = {
     'number': '0628',
     'french_name': 'Gueriaigle',
     'english_name': 'Braviary',
+    'description': 'Pour les siens‚ il combat au mépris du danger. Il est capable de soulever une voiture haut dans le ciel.',
+    'height': 15,
+    'weight': 410,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/628.png',
     'evolution_chain': [
         {
             'id': '0627',
@@ -12,7 +16,6 @@ GUERIAIGLE = {
             'name': 'Gueriaigle'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/628.png',
     'types': [
         'Normal',
         'Vol'
@@ -38,7 +41,5 @@ GUERIAIGLE = {
                 'Glace'
             ]
         }
-    ],
-    'height': 15,
-    'weight': 410
+    ]
 }

@@ -2,6 +2,10 @@ ASTRONELLE = {
     'number': '0826',
     'french_name': 'Astronelle',
     'english_name': 'Orbeetle',
+    'description': 'Il est renommé pour son intelligence. Son gros cerveau est un indicateur de la puissance de ses pouvoirs psychiques.',
+    'height': 4,
+    'weight': 408,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/826.png',
     'evolution_chain': [
         {
             'id': '0824',
@@ -16,7 +20,6 @@ ASTRONELLE = {
             'name': 'Astronelle'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/826.png',
     'types': [
         'Insecte',
         'Psy'
@@ -36,7 +39,5 @@ ASTRONELLE = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 4,
-    'weight': 408
+    ]
 }

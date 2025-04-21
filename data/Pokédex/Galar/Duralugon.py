@@ -2,6 +2,10 @@ DURALUGON = {
     'number': '0884',
     'french_name': 'Duralugon',
     'english_name': 'Duraludon',
+    'description': 'Son corps‚ semblable à du métal poli‚ allie légèreté et solidité. Malheureusement‚ il rouille facilement.',
+    'height': 18,
+    'weight': 400,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/884.png',
     'evolution_chain': [
         {
             'id': '0884',
@@ -12,7 +16,6 @@ DURALUGON = {
             'name': 'Pondralugon'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/884.png',
     'types': [
         'Acier',
         'Dragon'
@@ -28,7 +31,5 @@ DURALUGON = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 18,
-    'weight': 400
+    ]
 }

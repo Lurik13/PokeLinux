@@ -2,6 +2,10 @@ PITROUILLE = {
     'number': '0710',
     'french_name': 'Pitrouille',
     'english_name': 'Pumpkaboo-average',
+    'description': 'Ce Pokémon est né du mariage d’un esprit piégé dans le monde des vivants et d’une citrouille. Il commence à s’animer au coucher du soleil.',
+    'height': 4,
+    'weight': 50,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/710.png',
     'evolution_chain': [
         {
             'id': '0710',
@@ -12,7 +16,6 @@ PITROUILLE = {
             'name': 'Banshitrouye'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/710.png',
     'types': [
         'Spectre',
         'Plante'
@@ -70,7 +73,5 @@ PITROUILLE = {
                 'Glace'
             ]
         }
-    ],
-    'height': 4,
-    'weight': 50
+    ]
 }

@@ -2,6 +2,10 @@ DARUMACHO = {
     'number': '0555',
     'french_name': 'Darumacho',
     'english_name': 'Darmanitan-standard',
+    'description': 'Il entretient des flammes à 1 400 °C dans son corps. De quoi détruire un camion-benne d’un coup de poing!',
+    'height': 13,
+    'weight': 929,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/555.png',
     'evolution_chain': [
         {
             'id': '0554',
@@ -12,7 +16,6 @@ DARUMACHO = {
             'name': 'Darumacho'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/555.png',
     'types': [
         'Feu'
     ],
@@ -64,7 +67,5 @@ DARUMACHO = {
                 'Eau'
             ]
         }
-    ],
-    'height': 13,
-    'weight': 929
+    ]
 }

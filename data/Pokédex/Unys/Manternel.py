@@ -2,6 +2,10 @@ MANTERNEL = {
     'number': '0542',
     'french_name': 'Manternel',
     'english_name': 'Leavanny',
+    'description': 'Quand il trouve de petits Pokémon‚ il leur coud des vêtements de feuilles en utilisant ses coupoirs et son fil adhésif.',
+    'height': 12,
+    'weight': 205,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/542.png',
     'evolution_chain': [
         {
             'id': '0540',
@@ -16,7 +20,6 @@ MANTERNEL = {
             'name': 'Manternel'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/542.png',
     'types': [
         'Insecte',
         'Plante'
@@ -31,7 +34,5 @@ MANTERNEL = {
     ],
     'forms': [
         
-    ],
-    'height': 12,
-    'weight': 205
+    ]
 }

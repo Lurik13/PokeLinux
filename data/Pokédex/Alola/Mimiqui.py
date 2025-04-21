@@ -2,13 +2,16 @@ MIMIQUI = {
     'number': '0778',
     'french_name': 'Mimiqui',
     'english_name': 'Mimikyu-disguised',
+    'description': 'Sa véritable apparence est inconnue. Les chercheurs qui ont vu sous son déguisement sont littéralement morts de peur.',
+    'height': 2,
+    'weight': 7,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/778.png',
     'evolution_chain': [
         {
             'id': '0778',
             'name': 'Mimiqui'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/778.png',
     'types': [
         'Spectre',
         'Fée'
@@ -54,7 +57,5 @@ MIMIQUI = {
                 'Acier'
             ]
         }
-    ],
-    'height': 2,
-    'weight': 7
+    ]
 }

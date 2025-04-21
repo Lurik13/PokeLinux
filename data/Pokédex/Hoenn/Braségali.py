@@ -2,6 +2,10 @@ BRASÉGALI = {
     'number': '0257',
     'french_name': 'Braségali',
     'english_name': 'Blaziken',
+    'description': 'Des flammes fusent de ses poignets et ses coups brûlent l’ennemi.',
+    'height': 19,
+    'weight': 520,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/257.png',
     'evolution_chain': [
         {
             'id': '0255',
@@ -16,7 +20,6 @@ BRASÉGALI = {
             'name': 'Braségali'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/257.png',
     'types': [
         'Feu',
         'Combat'
@@ -42,7 +45,5 @@ BRASÉGALI = {
                 'Psy'
             ]
         }
-    ],
-    'height': 19,
-    'weight': 520
+    ]
 }

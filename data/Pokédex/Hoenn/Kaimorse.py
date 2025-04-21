@@ -2,6 +2,10 @@ KAIMORSE = {
     'number': '0365',
     'french_name': 'Kaimorse',
     'english_name': 'Walrein',
+    'description': 'Il brise la glace avec ses grosses défenses. Sa graisse le protège du froid‚ mais aussi des attaques.',
+    'height': 14,
+    'weight': 1506,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/365.png',
     'evolution_chain': [
         {
             'id': '0363',
@@ -16,7 +20,6 @@ KAIMORSE = {
             'name': 'Kaimorse'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/365.png',
     'types': [
         'Glace',
         'Eau'
@@ -29,7 +32,5 @@ KAIMORSE = {
     ],
     'forms': [
         
-    ],
-    'height': 14,
-    'weight': 1506
+    ]
 }

@@ -2,6 +2,10 @@ PALMAVAL = {
     'number': '0914',
     'french_name': 'Palmaval',
     'english_name': 'Quaquaval',
+    'description': 'A single kick from a Quaquaval can send a truck rolling. This Pokémon uses its powerful legs to perform striking dances from far-off lands.',
+    'height': 18,
+    'weight': 619,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/914.png',
     'evolution_chain': [
         {
             'id': '0912',
@@ -16,7 +20,6 @@ PALMAVAL = {
             'name': 'Palmaval'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/914.png',
     'types': [
         'Eau',
         'Combat'
@@ -30,7 +33,5 @@ PALMAVAL = {
     ],
     'forms': [
         
-    ],
-    'height': 18,
-    'weight': 619
+    ]
 }

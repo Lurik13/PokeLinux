@@ -2,13 +2,16 @@ NIGOSIER = {
     'number': '0845',
     'french_name': 'Nigosier',
     'english_name': 'Cramorant',
+    'description': 'Il est assez puissant pour terrasser un ennemi d’un seul coup‚ mais il est tellement nigaud qu’il oublie contre qui il se bat.',
+    'height': 8,
+    'weight': 180,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/845.png',
     'evolution_chain': [
         {
             'id': '0845',
             'name': 'Nigosier'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/845.png',
     'types': [
         'Vol',
         'Eau'
@@ -42,7 +45,5 @@ NIGOSIER = {
                 'Roche'
             ]
         }
-    ],
-    'height': 8,
-    'weight': 180
+    ]
 }

@@ -2,6 +2,10 @@ TORTIPOUSS = {
     'number': '0387',
     'french_name': 'Tortipouss',
     'english_name': 'Turtwig',
+    'description': 'La coquille sur son dos est faite de terre. Plus il est en bonne santé‚ plus elle est humide.',
+    'height': 4,
+    'weight': 102,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/387.png',
     'evolution_chain': [
         {
             'id': '0387',
@@ -16,7 +20,6 @@ TORTIPOUSS = {
             'name': 'Torterra'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/387.png',
     'types': [
         'Plante'
     ],
@@ -29,7 +32,5 @@ TORTIPOUSS = {
     ],
     'forms': [
         
-    ],
-    'height': 4,
-    'weight': 102
+    ]
 }

@@ -2,6 +2,10 @@ EMBRYLEX = {
     'number': '0246',
     'french_name': 'Embrylex',
     'english_name': 'Larvitar',
+    'description': 'Un Pokémon qui se nourrit de terre. Après avoir dévoré une montagne‚ il s’endort pour grandir.',
+    'height': 6,
+    'weight': 720,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/246.png',
     'evolution_chain': [
         {
             'id': '0246',
@@ -16,7 +20,6 @@ EMBRYLEX = {
             'name': 'Tyranocif'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/246.png',
     'types': [
         'Roche',
         'Sol'
@@ -31,7 +34,5 @@ EMBRYLEX = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 720
+    ]
 }

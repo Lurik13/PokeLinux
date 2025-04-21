@@ -2,6 +2,10 @@ CHOCHODILE = {
     'number': '0909',
     'french_name': 'Chochodile',
     'english_name': 'Fuecoco',
+    'description': 'It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.',
+    'height': 4,
+    'weight': 98,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/909.png',
     'evolution_chain': [
         {
             'id': '0909',
@@ -16,7 +20,6 @@ CHOCHODILE = {
             'name': 'Flâmigator'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/909.png',
     'types': [
         'Feu'
     ],
@@ -27,7 +30,5 @@ CHOCHODILE = {
     ],
     'forms': [
         
-    ],
-    'height': 4,
-    'weight': 98
+    ]
 }

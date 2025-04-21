@@ -2,6 +2,10 @@ TARTARD = {
     'number': '0062',
     'french_name': 'Tartard',
     'english_name': 'Poliwrath',
+    'description': 'Il possède de sacrés biscoteaux. Il peut parcourir sans relâche l’Océan Pacifique.',
+    'height': 13,
+    'weight': 540,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png',
     'evolution_chain': [
         {
             'id': '0060',
@@ -20,7 +24,6 @@ TARTARD = {
             'name': 'Tarpaud'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png',
     'types': [
         'Eau',
         'Combat'
@@ -34,7 +37,5 @@ TARTARD = {
     ],
     'forms': [
         
-    ],
-    'height': 13,
-    'weight': 540
+    ]
 }

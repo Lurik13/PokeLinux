@@ -2,6 +2,10 @@ LEVEINARD = {
     'number': '0113',
     'french_name': 'Leveinard',
     'english_name': 'Chansey',
+    'description': 'Ce Pokémon très serviable distribue ses œufs hautement nutritifs aux humains et Pokémon blessés.',
+    'height': 11,
+    'weight': 346,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png',
     'evolution_chain': [
         {
             'id': '0440',
@@ -16,7 +20,6 @@ LEVEINARD = {
             'name': 'Leuphorie'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png',
     'types': [
         'Normal'
     ],
@@ -25,7 +28,5 @@ LEVEINARD = {
     ],
     'forms': [
         
-    ],
-    'height': 11,
-    'weight': 346
+    ]
 }

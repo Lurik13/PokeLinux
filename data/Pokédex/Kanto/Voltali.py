@@ -2,6 +2,10 @@ VOLTALI = {
     'number': '0135',
     'french_name': 'Voltali',
     'english_name': 'Jolteon',
+    'description': 'Face au danger‚ il fait appel à l’électricité pour dresser ses poils et lancer des décharges.',
+    'height': 8,
+    'weight': 245,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png',
     'evolution_chain': [
         {
             'id': '0133',
@@ -40,7 +44,6 @@ VOLTALI = {
             'name': 'Nymphali'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png',
     'types': [
         'Électrik'
     ],
@@ -49,7 +52,5 @@ VOLTALI = {
     ],
     'forms': [
         
-    ],
-    'height': 8,
-    'weight': 245
+    ]
 }

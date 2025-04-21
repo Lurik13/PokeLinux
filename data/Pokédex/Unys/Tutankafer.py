@@ -2,6 +2,10 @@ TUTANKAFER = {
     'number': '0563',
     'french_name': 'Tutankafer',
     'english_name': 'Cofagrigus',
+    'description': 'Il paraît qu’il avale les gens et les transforme en momies. Il adore manger des lingots d’or.',
+    'height': 17,
+    'weight': 765,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/563.png',
     'evolution_chain': [
         {
             'id': '0562',
@@ -16,7 +20,6 @@ TUTANKAFER = {
             'name': 'Tutétékri'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/563.png',
     'types': [
         'Spectre'
     ],
@@ -26,7 +29,5 @@ TUTANKAFER = {
     ],
     'forms': [
         
-    ],
-    'height': 17,
-    'weight': 765
+    ]
 }

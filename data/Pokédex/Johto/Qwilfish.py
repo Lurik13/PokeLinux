@@ -2,6 +2,10 @@ QWILFISH = {
     'number': '0211',
     'french_name': 'Qwilfish',
     'english_name': 'Qwilfish',
+    'description': 'Il envoie ses piquants empoisonnés à la ronde. Sa forme sphérique en fait un piètre nageur.',
+    'height': 5,
+    'weight': 39,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/211.png',
     'evolution_chain': [
         {
             'id': '0211',
@@ -12,7 +16,6 @@ QWILFISH = {
             'name': 'Qwilpik'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/211.png',
     'types': [
         'Eau',
         'Poison'
@@ -34,7 +37,5 @@ QWILFISH = {
                 'Sol'
             ]
         }
-    ],
-    'height': 5,
-    'weight': 39
+    ]
 }

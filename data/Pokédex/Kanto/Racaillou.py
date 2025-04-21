@@ -2,6 +2,10 @@ RACAILLOU = {
     'number': '0074',
     'french_name': 'Racaillou',
     'english_name': 'Geodude',
+    'description': 'Au repos‚ rien ne le distingue d’un vulgaire caillou. Malheur à ceux qui lui marchent dessus par mégarde!',
+    'height': 4,
+    'weight': 200,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png',
     'evolution_chain': [
         {
             'id': '0074',
@@ -16,7 +20,6 @@ RACAILLOU = {
             'name': 'Grolem'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png',
     'types': [
         'Roche',
         'Sol'
@@ -44,7 +47,5 @@ RACAILLOU = {
                 'Plante'
             ]
         }
-    ],
-    'height': 4,
-    'weight': 200
+    ]
 }

@@ -2,6 +2,10 @@ ALAKAZAM = {
     'number': '0065',
     'french_name': 'Alakazam',
     'english_name': 'Alakazam',
+    'description': 'On dit que les cuillères qu’il tient en permanence ont été créées par la puissance de son esprit.',
+    'height': 15,
+    'weight': 480,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png',
     'evolution_chain': [
         {
             'id': '0063',
@@ -16,7 +20,6 @@ ALAKAZAM = {
             'name': 'Alakazam'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png',
     'types': [
         'Psy'
     ],
@@ -38,7 +41,5 @@ ALAKAZAM = {
                 'Ténèbres'
             ]
         }
-    ],
-    'height': 15,
-    'weight': 480
+    ]
 }

@@ -2,6 +2,10 @@ RHINASTOC = {
     'number': '0464',
     'french_name': 'Rhinastoc',
     'english_name': 'Rhyperior',
+    'description': 'Il peut lancer des pierres à une vitesse saisissante en bandant et relâchant ses muscles en un éclair.',
+    'height': 24,
+    'weight': 2828,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/464.png',
     'evolution_chain': [
         {
             'id': '0111',
@@ -16,7 +20,6 @@ RHINASTOC = {
             'name': 'Rhinastoc'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/464.png',
     'types': [
         'Sol',
         'Roche'
@@ -31,7 +34,5 @@ RHINASTOC = {
     ],
     'forms': [
         
-    ],
-    'height': 24,
-    'weight': 2828
+    ]
 }

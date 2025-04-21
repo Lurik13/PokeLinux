@@ -2,6 +2,10 @@ TYGNON = {
     'number': '0107',
     'french_name': 'Tygnon',
     'english_name': 'Hitmonchan',
+    'description': 'Même le béton cède sous ses  poings dévastateurs. Au combat‚ il s’essouffle au bout de 3 minutes.',
+    'height': 14,
+    'weight': 502,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png',
     'evolution_chain': [
         {
             'id': '0236',
@@ -20,7 +24,6 @@ TYGNON = {
             'name': 'Kapoera'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png',
     'types': [
         'Combat'
     ],
@@ -31,7 +34,5 @@ TYGNON = {
     ],
     'forms': [
         
-    ],
-    'height': 14,
-    'weight': 502
+    ]
 }

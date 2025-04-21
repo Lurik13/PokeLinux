@@ -2,6 +2,10 @@ ANCHWATT = {
     'number': '0602',
     'french_name': 'Anchwatt',
     'english_name': 'Tynamo',
+    'description': 'Tout seuls‚ ils ne dégagent pas beaucoup d’électricité‚ mais un banc d’Anchwatt produit la même puissance qu’un éclair.',
+    'height': 2,
+    'weight': 3,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/602.png',
     'evolution_chain': [
         {
             'id': '0602',
@@ -16,7 +20,6 @@ ANCHWATT = {
             'name': 'Ohmassacre'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/602.png',
     'types': [
         'Électrik'
     ],
@@ -25,7 +28,5 @@ ANCHWATT = {
     ],
     'forms': [
         
-    ],
-    'height': 2,
-    'weight': 3
+    ]
 }

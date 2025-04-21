@@ -2,6 +2,10 @@ SALAMÈCHE = {
     'number': '0004',
     'french_name': 'Salamèche',
     'english_name': 'Charmander',
+    'description': 'La flamme de sa queue symbolise sa vitalité. Elle est intense quand il est en bonne santé.',
+    'height': 6,
+    'weight': 85,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png',
     'evolution_chain': [
         {
             'id': '0004',
@@ -16,7 +20,6 @@ SALAMÈCHE = {
             'name': 'Dracaufeu'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png',
     'types': [
         'Feu'
     ],
@@ -27,7 +30,5 @@ SALAMÈCHE = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 85
+    ]
 }

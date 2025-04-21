@@ -2,6 +2,10 @@ PHYLLALI = {
     'number': '0470',
     'french_name': 'Phyllali',
     'english_name': 'Leafeon',
+    'description': 'Il utilise la photosynthèse comme une plante et a aussi tendance à éviter le combat à tout prix.',
+    'height': 10,
+    'weight': 255,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/470.png',
     'evolution_chain': [
         {
             'id': '0133',
@@ -40,7 +44,6 @@ PHYLLALI = {
             'name': 'Nymphali'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/470.png',
     'types': [
         'Plante'
     ],
@@ -53,7 +56,5 @@ PHYLLALI = {
     ],
     'forms': [
         
-    ],
-    'height': 10,
-    'weight': 255
+    ]
 }

@@ -2,6 +2,10 @@ CHARMILLON = {
     'number': '0267',
     'french_name': 'Charmillon',
     'english_name': 'Beautifly',
+    'description': 'Malgré les apparences‚ il est très agressif et attaque avec sa trompe quand on le dérange.',
+    'height': 10,
+    'weight': 284,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/267.png',
     'evolution_chain': [
         {
             'id': '0265',
@@ -24,7 +28,6 @@ CHARMILLON = {
             'name': 'Papinox'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/267.png',
     'types': [
         'Insecte',
         'Vol'
@@ -38,7 +41,5 @@ CHARMILLON = {
     ],
     'forms': [
         
-    ],
-    'height': 10,
-    'weight': 284
+    ]
 }

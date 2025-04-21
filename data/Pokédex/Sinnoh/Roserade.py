@@ -2,6 +2,10 @@ ROSERADE = {
     'number': '0407',
     'french_name': 'Roserade',
     'english_name': 'Roserade',
+    'description': 'Ses mains contenant chacune des toxines différentes sont capables d’asséner de puissants coups.',
+    'height': 9,
+    'weight': 145,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/407.png',
     'evolution_chain': [
         {
             'id': '0406',
@@ -16,7 +20,6 @@ ROSERADE = {
             'name': 'Roserade'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/407.png',
     'types': [
         'Plante',
         'Poison'
@@ -29,7 +32,5 @@ ROSERADE = {
     ],
     'forms': [
         
-    ],
-    'height': 9,
-    'weight': 145
+    ]
 }

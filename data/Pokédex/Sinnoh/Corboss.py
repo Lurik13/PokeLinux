@@ -2,6 +2,10 @@ CORBOSS = {
     'number': '0430',
     'french_name': 'Corboss',
     'english_name': 'Honchkrow',
+    'description': 'Son cri profond peut invoquer une meute de Cornèbre. On l’appelle “le crieur de mauvais augure”.',
+    'height': 9,
+    'weight': 273,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/430.png',
     'evolution_chain': [
         {
             'id': '0198',
@@ -12,7 +16,6 @@ CORBOSS = {
             'name': 'Corboss'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/430.png',
     'types': [
         'Ténèbres',
         'Vol'
@@ -25,7 +28,5 @@ CORBOSS = {
     ],
     'forms': [
         
-    ],
-    'height': 9,
-    'weight': 273
+    ]
 }

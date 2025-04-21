@@ -2,6 +2,10 @@
     'number': '0101',
     'french_name': 'Électrode',
     'english_name': 'Electrode',
+    'description': 'Il se laisse porter par les vents lorsque son corps est gonflé d’électricité à en éclater.',
+    'height': 12,
+    'weight': 666,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png',
     'evolution_chain': [
         {
             'id': '0100',
@@ -12,7 +16,6 @@
             'name': 'Électrode'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png',
     'types': [
         'Électrik'
     ],
@@ -34,7 +37,5 @@
                 'Glace'
             ]
         }
-    ],
-    'height': 12,
-    'weight': 666
+    ]
 }

@@ -2,6 +2,10 @@ LUCARIO = {
     'number': '0448',
     'french_name': 'Lucario',
     'english_name': 'Lucario',
+    'description': 'Un spécimen bien entraîné peut sentir et identifier les émotions de quelqu’un à plus d’un kilomètre.',
+    'height': 12,
+    'weight': 540,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png',
     'evolution_chain': [
         {
             'id': '0447',
@@ -12,7 +16,6 @@ LUCARIO = {
             'name': 'Lucario'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png',
     'types': [
         'Combat',
         'Acier'
@@ -36,7 +39,5 @@ LUCARIO = {
                 'Feu'
             ]
         }
-    ],
-    'height': 12,
-    'weight': 540
+    ]
 }

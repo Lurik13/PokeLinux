@@ -2,6 +2,10 @@ LIMASPEED = {
     'number': '0617',
     'french_name': 'Limaspeed',
     'english_name': 'Accelgor',
+    'description': 'Quand son corps s’assèche‚ il faiblit. Il s’en prémunit en s’enroulant dans plusieurs couches d’une fine muqueuse.',
+    'height': 8,
+    'weight': 253,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/617.png',
     'evolution_chain': [
         {
             'id': '0616',
@@ -12,7 +16,6 @@ LIMASPEED = {
             'name': 'Limaspeed'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/617.png',
     'types': [
         'Insecte'
     ],
@@ -23,7 +26,5 @@ LIMASPEED = {
     ],
     'forms': [
         
-    ],
-    'height': 8,
-    'weight': 253
+    ]
 }

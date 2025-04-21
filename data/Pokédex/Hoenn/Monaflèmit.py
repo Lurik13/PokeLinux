@@ -2,6 +2,10 @@ MONAFLÈMIT = {
     'number': '0289',
     'french_name': 'Monaflèmit',
     'english_name': 'Slaking',
+    'description': 'Le Pokémon le plus fainéant du monde. Il s’allonge pour économiser ses forces et contre-attaquer.',
+    'height': 20,
+    'weight': 1305,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/289.png',
     'evolution_chain': [
         {
             'id': '0287',
@@ -16,7 +20,6 @@ MONAFLÈMIT = {
             'name': 'Monaflèmit'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/289.png',
     'types': [
         'Normal'
     ],
@@ -25,7 +28,5 @@ MONAFLÈMIT = {
     ],
     'forms': [
         
-    ],
-    'height': 20,
-    'weight': 1305
+    ]
 }

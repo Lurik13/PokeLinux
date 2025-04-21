@@ -2,6 +2,10 @@ SABELETTE = {
     'number': '0027',
     'french_name': 'Sabelette',
     'english_name': 'Sandshrew',
+    'description': 'Il vit sur des terres arides épargnées par la pluie. Il se roule en boule pour se protéger.',
+    'height': 6,
+    'weight': 120,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png',
     'evolution_chain': [
         {
             'id': '0027',
@@ -12,7 +16,6 @@ SABELETTE = {
             'name': 'Sablaireau'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png',
     'types': [
         'Sol'
     ],
@@ -35,7 +38,5 @@ SABELETTE = {
                 'Sol'
             ]
         }
-    ],
-    'height': 6,
-    'weight': 120
+    ]
 }

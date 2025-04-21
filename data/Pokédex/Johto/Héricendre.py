@@ -2,6 +2,10 @@ HÉRICENDRE = {
     'number': '0155',
     'french_name': 'Héricendre',
     'english_name': 'Cyndaquil',
+    'description': 'Ce Pokémon est un grand timide. Les flammes sur son dos s’intensifient lorsqu’il prend peur.',
+    'height': 5,
+    'weight': 79,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/155.png',
     'evolution_chain': [
         {
             'id': '0155',
@@ -16,7 +20,6 @@ HÉRICENDRE = {
             'name': 'Typhlosion'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/155.png',
     'types': [
         'Feu'
     ],
@@ -27,7 +30,5 @@ HÉRICENDRE = {
     ],
     'forms': [
         
-    ],
-    'height': 5,
-    'weight': 79
+    ]
 }

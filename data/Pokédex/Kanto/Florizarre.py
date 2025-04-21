@@ -2,6 +2,10 @@ FLORIZARRE = {
     'number': '0003',
     'french_name': 'Florizarre',
     'english_name': 'Venusaur',
+    'description': 'Le parfum de sa fleur se fait plus pénétrant les lendemains de pluie. Cela appâte les autres Pokémon.',
+    'height': 20,
+    'weight': 1000,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png',
     'evolution_chain': [
         {
             'id': '0001',
@@ -16,7 +20,6 @@ FLORIZARRE = {
             'name': 'Florizarre'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png',
     'types': [
         'Plante',
         'Poison'
@@ -48,7 +51,5 @@ FLORIZARRE = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 20,
-    'weight': 1000
+    ]
 }

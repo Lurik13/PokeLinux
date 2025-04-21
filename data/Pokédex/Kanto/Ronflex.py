@@ -2,6 +2,10 @@ RONFLEX = {
     'number': '0143',
     'french_name': 'Ronflex',
     'english_name': 'Snorlax',
+    'description': 'Une fois le ventre plein‚ il est trop amorphe pour lever le petit doigt. Sautez sur son ventre!',
+    'height': 21,
+    'weight': 4600,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png',
     'evolution_chain': [
         {
             'id': '0446',
@@ -12,7 +16,6 @@ RONFLEX = {
             'name': 'Ronflex'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png',
     'types': [
         'Normal'
     ],
@@ -26,7 +29,5 @@ RONFLEX = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 21,
-    'weight': 4600
+    ]
 }

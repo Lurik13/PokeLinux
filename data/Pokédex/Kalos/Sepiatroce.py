@@ -2,6 +2,10 @@ SEPIATROCE = {
     'number': '0687',
     'french_name': 'Sepiatroce',
     'english_name': 'Malamar',
+    'description': 'Doté des pouvoirs hypnotiques les plus puissants du règne des Pokémon‚ il manipule son adversaire à sa guise.',
+    'height': 15,
+    'weight': 470,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/687.png',
     'evolution_chain': [
         {
             'id': '0686',
@@ -12,7 +16,6 @@ SEPIATROCE = {
             'name': 'Sepiatroce'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/687.png',
     'types': [
         'Ténèbres',
         'Psy'
@@ -23,7 +26,5 @@ SEPIATROCE = {
     ],
     'forms': [
         
-    ],
-    'height': 15,
-    'weight': 470
+    ]
 }

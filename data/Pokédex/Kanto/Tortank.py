@@ -2,6 +2,10 @@ TORTANK = {
     'number': '0009',
     'french_name': 'Tortank',
     'english_name': 'Blastoise',
+    'description': 'Les trombes d’eau projetées par les canons de sa carapace peuvent percer le métal le plus résistant.',
+    'height': 16,
+    'weight': 855,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png',
     'evolution_chain': [
         {
             'id': '0007',
@@ -16,7 +20,6 @@ TORTANK = {
             'name': 'Tortank'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png',
     'types': [
         'Eau'
     ],
@@ -42,7 +45,5 @@ TORTANK = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 16,
-    'weight': 855
+    ]
 }

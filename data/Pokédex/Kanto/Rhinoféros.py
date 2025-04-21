@@ -2,6 +2,10 @@ RHINOFÉROS = {
     'number': '0112',
     'french_name': 'Rhinoféros',
     'english_name': 'Rhydon',
+    'description': 'La station debout a libéré ses pattes avant et l’a rendu plus intelligent‚ mais il est distrait.',
+    'height': 19,
+    'weight': 1200,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png',
     'evolution_chain': [
         {
             'id': '0111',
@@ -16,7 +20,6 @@ RHINOFÉROS = {
             'name': 'Rhinastoc'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png',
     'types': [
         'Sol',
         'Roche'
@@ -31,7 +34,5 @@ RHINOFÉROS = {
     ],
     'forms': [
         
-    ],
-    'height': 19,
-    'weight': 1200
+    ]
 }

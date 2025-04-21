@@ -2,6 +2,10 @@ BRAISILLON = {
     'number': '0662',
     'french_name': 'Braisillon',
     'english_name': 'Fletchinder',
+    'description': 'Il crache des étincelles pour brûler les hautes herbes et attraper les proies surprises qui tentent d’échapper à l’incendie.',
+    'height': 7,
+    'weight': 160,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/662.png',
     'evolution_chain': [
         {
             'id': '0661',
@@ -16,7 +20,6 @@ BRAISILLON = {
             'name': 'Flambusard'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/662.png',
     'types': [
         'Feu',
         'Vol'
@@ -28,7 +31,5 @@ BRAISILLON = {
     ],
     'forms': [
         
-    ],
-    'height': 7,
-    'weight': 160
+    ]
 }

@@ -2,6 +2,10 @@ GALOPA = {
     'number': '0078',
     'french_name': 'Galopa',
     'english_name': 'Rapidash',
+    'description': 'Au grand galop‚ sa crinière de feu disperse au vent une myriade d’étincelles ardentes.',
+    'height': 17,
+    'weight': 950,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png',
     'evolution_chain': [
         {
             'id': '0077',
@@ -12,7 +16,6 @@ GALOPA = {
             'name': 'Galopa'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png',
     'types': [
         'Feu'
     ],
@@ -35,7 +38,5 @@ GALOPA = {
                 'Acier'
             ]
         }
-    ],
-    'height': 17,
-    'weight': 950
+    ]
 }

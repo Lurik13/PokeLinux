@@ -2,6 +2,10 @@ SONISTRELLE = {
     'number': '0714',
     'french_name': 'Sonistrelle',
     'english_name': 'Noibat',
+    'description': 'Il apprécie les grottes les plus sombres. Ses grandes oreilles lui permettent de générer des ultrasons d’une fréquence de 200\u202f000 Hz.',
+    'height': 5,
+    'weight': 80,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/714.png',
     'evolution_chain': [
         {
             'id': '0714',
@@ -12,7 +16,6 @@ SONISTRELLE = {
             'name': 'Bruyverne'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/714.png',
     'types': [
         'Vol',
         'Dragon'
@@ -25,7 +28,5 @@ SONISTRELLE = {
     ],
     'forms': [
         
-    ],
-    'height': 5,
-    'weight': 80
+    ]
 }

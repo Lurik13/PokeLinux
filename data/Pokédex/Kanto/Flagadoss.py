@@ -2,6 +2,10 @@ FLAGADOSS = {
     'number': '0080',
     'french_name': 'Flagadoss',
     'english_name': 'Slowbro',
+    'description': 'Ce grand benêt connaît des éclairs de lucidité lorsque le Kokiyas de sa queue se met à mordre.',
+    'height': 16,
+    'weight': 785,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png',
     'evolution_chain': [
         {
             'id': '0079',
@@ -16,7 +20,6 @@ FLAGADOSS = {
             'name': 'Roigada'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png',
     'types': [
         'Eau',
         'Psy'
@@ -57,7 +60,5 @@ FLAGADOSS = {
                 'Ténèbres'
             ]
         }
-    ],
-    'height': 16,
-    'weight': 785
+    ]
 }

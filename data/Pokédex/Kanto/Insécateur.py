@@ -2,6 +2,10 @@ INSÉCATEUR = {
     'number': '0123',
     'french_name': 'Insécateur',
     'english_name': 'Scyther',
+    'description': 'À force de trancher des objets solides‚ les faux de ses bras sont très aiguisées.',
+    'height': 15,
+    'weight': 560,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png',
     'evolution_chain': [
         {
             'id': '0123',
@@ -16,7 +20,6 @@ INSÉCATEUR = {
             'name': 'Hachécateur'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png',
     'types': [
         'Insecte',
         'Vol'
@@ -30,7 +33,5 @@ INSÉCATEUR = {
     ],
     'forms': [
         
-    ],
-    'height': 15,
-    'weight': 560
+    ]
 }

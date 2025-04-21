@@ -2,6 +2,10 @@ ROSÉLIA = {
     'number': '0315',
     'french_name': 'Rosélia',
     'english_name': 'Roselia',
+    'description': 'Plus le Rosélia est en bonne santé et plus son parfum est agréable et relaxant pour son entourage.',
+    'height': 3,
+    'weight': 20,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/315.png',
     'evolution_chain': [
         {
             'id': '0406',
@@ -16,7 +20,6 @@ ROSÉLIA = {
             'name': 'Roserade'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/315.png',
     'types': [
         'Plante',
         'Poison'
@@ -29,7 +32,5 @@ ROSÉLIA = {
     ],
     'forms': [
         
-    ],
-    'height': 3,
-    'weight': 20
+    ]
 }

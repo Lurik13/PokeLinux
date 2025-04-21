@@ -2,6 +2,10 @@ CIZAYOX = {
     'number': '0212',
     'french_name': 'Cizayox',
     'english_name': 'Scizor',
+    'description': 'Les yeux sur ses pinces servent à intimider l’ennemi avant de passer à l’attaque.',
+    'height': 18,
+    'weight': 1180,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png',
     'evolution_chain': [
         {
             'id': '0123',
@@ -16,7 +20,6 @@ CIZAYOX = {
             'name': 'Hachécateur'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png',
     'types': [
         'Insecte',
         'Acier'
@@ -36,7 +39,5 @@ CIZAYOX = {
                 'Feu*'
             ]
         }
-    ],
-    'height': 18,
-    'weight': 1180
+    ]
 }

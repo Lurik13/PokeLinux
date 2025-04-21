@@ -2,6 +2,10 @@ BÉTOCHEF = {
     'number': '0534',
     'french_name': 'Bétochef',
     'english_name': 'Conkeldurr',
+    'description': 'On pense que la recette du ciment a été enseignée aux humains par un Bétochef il y a 2 000 ans.',
+    'height': 14,
+    'weight': 870,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/534.png',
     'evolution_chain': [
         {
             'id': '0532',
@@ -16,7 +20,6 @@ BÉTOCHEF = {
             'name': 'Bétochef'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/534.png',
     'types': [
         'Combat'
     ],
@@ -27,7 +30,5 @@ BÉTOCHEF = {
     ],
     'forms': [
         
-    ],
-    'height': 14,
-    'weight': 870
+    ]
 }

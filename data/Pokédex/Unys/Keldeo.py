@@ -2,13 +2,16 @@ KELDEO = {
     'number': '0647',
     'french_name': 'Keldeo',
     'english_name': 'Keldeo-ordinary',
+    'description': 'Il projette de l’eau depuis ses sabots et se déplace ainsi à grande vitesse. Sa botte secrète est le coup de sabot.',
+    'height': 14,
+    'weight': 485,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/647.png',
     'evolution_chain': [
         {
             'id': '0647',
             'name': 'Keldeo'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/647.png',
     'types': [
         'Eau',
         'Combat'
@@ -36,7 +39,5 @@ KELDEO = {
                 'Fée'
             ]
         }
-    ],
-    'height': 14,
-    'weight': 485
+    ]
 }

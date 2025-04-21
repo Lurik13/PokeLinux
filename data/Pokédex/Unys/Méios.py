@@ -2,6 +2,10 @@ MÉIOS = {
     'number': '0578',
     'french_name': 'Méios',
     'english_name': 'Duosion',
+    'description': 'Il possède deux cerveaux séparés qui le font parfois agir de façon totalement incohérente.',
+    'height': 6,
+    'weight': 80,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/578.png',
     'evolution_chain': [
         {
             'id': '0577',
@@ -16,7 +20,6 @@ MÉIOS = {
             'name': 'Symbios'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/578.png',
     'types': [
         'Psy'
     ],
@@ -27,7 +30,5 @@ MÉIOS = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 80
+    ]
 }

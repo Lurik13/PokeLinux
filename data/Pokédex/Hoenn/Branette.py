@@ -2,6 +2,10 @@ BRANETTE = {
     'number': '0354',
     'french_name': 'Branette',
     'english_name': 'Banette',
+    'description': 'Une poupée mue par la tristesse qui la ronge depuis qu’on l’a délaissée. Elle recherche son propriétaire.',
+    'height': 11,
+    'weight': 125,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/354.png',
     'evolution_chain': [
         {
             'id': '0353',
@@ -12,7 +16,6 @@ BRANETTE = {
             'name': 'Branette'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/354.png',
     'types': [
         'Spectre'
     ],
@@ -32,7 +35,5 @@ BRANETTE = {
                 'Ténèbres'
             ]
         }
-    ],
-    'height': 11,
-    'weight': 125
+    ]
 }

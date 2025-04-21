@@ -2,13 +2,16 @@ SINISTRAIL = {
     'number': '0781',
     'french_name': 'Sinistrail',
     'english_name': 'Dhelmise',
+    'description': 'Avec un bon coup d’ancre bien senti‚ il peut même assommer un Wailord. Son véritable corps est la partie composée de limon.',
+    'height': 39,
+    'weight': 2100,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/781.png',
     'evolution_chain': [
         {
             'id': '0781',
             'name': 'Sinistrail'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/781.png',
     'types': [
         'Spectre',
         'Plante'
@@ -22,7 +25,5 @@ SINISTRAIL = {
     ],
     'forms': [
         
-    ],
-    'height': 39,
-    'weight': 2100
+    ]
 }

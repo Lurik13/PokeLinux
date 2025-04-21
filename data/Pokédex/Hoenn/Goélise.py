@@ -2,6 +2,10 @@ GOÉLISE = {
     'number': '0278',
     'french_name': 'Goélise',
     'english_name': 'Wingull',
+    'description': 'Il utilise les courants ascendants pour planer en altitude. Son bec lui sert à transporter la nourriture.',
+    'height': 6,
+    'weight': 95,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/278.png',
     'evolution_chain': [
         {
             'id': '0278',
@@ -12,7 +16,6 @@ GOÉLISE = {
             'name': 'Bekipan'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/278.png',
     'types': [
         'Eau',
         'Vol'
@@ -23,7 +26,5 @@ GOÉLISE = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 95
+    ]
 }

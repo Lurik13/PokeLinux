@@ -2,6 +2,10 @@ LUCANON = {
     'number': '0738',
     'french_name': 'Lucanon',
     'english_name': 'Vikavolt',
+    'description': 'Il virevolte dans tous les sens‚ guettant la faille pour frapper. Il concentre l’électricité dans ses grandes mandibules pour foudroyer l’ennemi.',
+    'height': 15,
+    'weight': 450,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/738.png',
     'evolution_chain': [
         {
             'id': '0736',
@@ -16,7 +20,6 @@ LUCANON = {
             'name': 'Lucanon'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/738.png',
     'types': [
         'Insecte',
         'Électrik'
@@ -38,7 +41,5 @@ LUCANON = {
                 'Feu'
             ]
         }
-    ],
-    'height': 15,
-    'weight': 450
+    ]
 }

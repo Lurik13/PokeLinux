@@ -2,6 +2,10 @@ PERSIAN = {
     'number': '0053',
     'french_name': 'Persian',
     'english_name': 'Persian',
+    'description': 'Un Pokémon très snob. La taille du joyau qui orne son front alimente bien des débats parmi ses fans.',
+    'height': 10,
+    'weight': 320,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png',
     'evolution_chain': [
         {
             'id': '0052',
@@ -16,7 +20,6 @@ PERSIAN = {
             'name': 'Berserkatt'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png',
     'types': [
         'Normal'
     ],
@@ -36,7 +39,5 @@ PERSIAN = {
                 'Fée'
             ]
         }
-    ],
-    'height': 10,
-    'weight': 320
+    ]
 }

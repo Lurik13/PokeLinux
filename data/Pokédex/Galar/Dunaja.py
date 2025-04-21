@@ -2,6 +2,10 @@ DUNAJA = {
     'number': '0843',
     'french_name': 'Dunaja',
     'english_name': 'Silicobra',
+    'description': 'Il amasse le sable qu’il avale en creusant dans la poche de son cou. Elle peut en contenir jusqu’à huit kilos.',
+    'height': 22,
+    'weight': 76,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/843.png',
     'evolution_chain': [
         {
             'id': '0843',
@@ -12,7 +16,6 @@ DUNAJA = {
             'name': 'Dunaconda'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/843.png',
     'types': [
         'Sol'
     ],
@@ -23,7 +26,5 @@ DUNAJA = {
     ],
     'forms': [
         
-    ],
-    'height': 22,
-    'weight': 76
+    ]
 }

@@ -2,6 +2,10 @@ MMIME = {
     'number': '0122',
     'french_name': 'M. Mime',
     'english_name': 'Mr-mime',
+    'description': 'En modifiant les molécules de l’air du bout de ses doigts‚ il parvient à créer un mur invisible devant lui.',
+    'height': 13,
+    'weight': 545,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png',
     'evolution_chain': [
         {
             'id': '0439',
@@ -16,7 +20,6 @@ MMIME = {
             'name': 'M. Glaquette'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png',
     'types': [
         'Psy',
         'Fée'
@@ -43,7 +46,5 @@ MMIME = {
                 'Ténèbres'
             ]
         }
-    ],
-    'height': 13,
-    'weight': 545
+    ]
 }

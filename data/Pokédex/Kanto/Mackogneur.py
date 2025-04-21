@@ -2,6 +2,10 @@ MACKOGNEUR = {
     'number': '0068',
     'french_name': 'Mackogneur',
     'english_name': 'Machamp',
+    'description': 'La puissance et la rapidité de ses quatre bras puissants font des ravages sur ses adversaires.',
+    'height': 16,
+    'weight': 1300,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png',
     'evolution_chain': [
         {
             'id': '0066',
@@ -16,7 +20,6 @@ MACKOGNEUR = {
             'name': 'Mackogneur'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png',
     'types': [
         'Combat'
     ],
@@ -32,7 +35,5 @@ MACKOGNEUR = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 16,
-    'weight': 1300
+    ]
 }

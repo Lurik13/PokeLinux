@@ -2,6 +2,10 @@ GLAIVODO = {
     'number': '0998',
     'french_name': 'Glaivodo',
     'english_name': 'Baxcalibur',
+    'description': 'This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.',
+    'height': 21,
+    'weight': 2100,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/998.png',
     'evolution_chain': [
         {
             'id': '0996',
@@ -16,7 +20,6 @@ GLAIVODO = {
             'name': 'Glaivodo'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/998.png',
     'types': [
         'Dragon',
         'Glace'
@@ -30,7 +33,5 @@ GLAIVODO = {
     ],
     'forms': [
         
-    ],
-    'height': 21,
-    'weight': 2100
+    ]
 }

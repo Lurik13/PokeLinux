@@ -2,13 +2,16 @@ MOTISMA = {
     'number': '0479',
     'french_name': 'Motisma',
     'english_name': 'Rotom',
+    'description': 'Son corps parcouru d’électricité lui permet de prendre le contrôle de certains appareils ménagers.',
+    'height': 3,
+    'weight': 3,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/479.png',
     'evolution_chain': [
         {
             'id': '0479',
             'name': 'Motisma'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/479.png',
     'types': [
         'Électrik',
         'Spectre'
@@ -84,7 +87,5 @@ MOTISMA = {
                 'Glace'
             ]
         }
-    ],
-    'height': 3,
-    'weight': 3
+    ]
 }

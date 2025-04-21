@@ -2,6 +2,10 @@ RAMOLOSS = {
     'number': '0079',
     'french_name': 'Ramoloss',
     'english_name': 'Slowpoke',
+    'description': 'Bien que lent‚ c’est un pêcheur adroit qui utilise sa queue. Elle est insensible aux morsures.',
+    'height': 12,
+    'weight': 360,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png',
     'evolution_chain': [
         {
             'id': '0079',
@@ -16,7 +20,6 @@ RAMOLOSS = {
             'name': 'Roigada'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png',
     'types': [
         'Eau',
         'Psy'
@@ -41,7 +44,5 @@ RAMOLOSS = {
                 'Ténèbres'
             ]
         }
-    ],
-    'height': 12,
-    'weight': 360
+    ]
 }

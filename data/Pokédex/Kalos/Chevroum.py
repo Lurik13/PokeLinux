@@ -2,6 +2,10 @@ CHEVROUM = {
     'number': '0673',
     'french_name': 'Chevroum',
     'english_name': 'Gogoat',
+    'description': 'Quand son Dresseur le tient par une corne‚ il est capable de deviner ses plus subtils changements d’humeur et de s’y adapter.',
+    'height': 17,
+    'weight': 910,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/673.png',
     'evolution_chain': [
         {
             'id': '0672',
@@ -12,7 +16,6 @@ CHEVROUM = {
             'name': 'Chevroum'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/673.png',
     'types': [
         'Plante'
     ],
@@ -25,7 +28,5 @@ CHEVROUM = {
     ],
     'forms': [
         
-    ],
-    'height': 17,
-    'weight': 910
+    ]
 }

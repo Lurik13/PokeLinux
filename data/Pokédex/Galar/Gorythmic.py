@@ -2,6 +2,10 @@ GORYTHMIC = {
     'number': '0812',
     'french_name': 'Gorythmic',
     'english_name': 'Rillaboom',
+    'description': 'Il contrôle le pouvoir de sa souche singulière en tapant en rythme dessus. Il se bat en manipulant des racines.',
+    'height': 21,
+    'weight': 900,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/812.png',
     'evolution_chain': [
         {
             'id': '0810',
@@ -16,7 +20,6 @@ GORYTHMIC = {
             'name': 'Gorythmic'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/812.png',
     'types': [
         'Plante'
     ],
@@ -34,7 +37,5 @@ GORYTHMIC = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 21,
-    'weight': 900
+    ]
 }

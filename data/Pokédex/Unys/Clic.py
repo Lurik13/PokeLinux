@@ -2,6 +2,10 @@ CLIC = {
     'number': '0600',
     'french_name': 'Clic',
     'english_name': 'Klang',
+    'description': 'Ils communiquent entre eux en changeant leur sens de rotation. Plus ils sont en colère‚ plus ils tournent vite.',
+    'height': 6,
+    'weight': 510,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/600.png',
     'evolution_chain': [
         {
             'id': '0599',
@@ -16,7 +20,6 @@ CLIC = {
             'name': 'Cliticlic'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/600.png',
     'types': [
         'Acier'
     ],
@@ -27,7 +30,5 @@ CLIC = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 510
+    ]
 }

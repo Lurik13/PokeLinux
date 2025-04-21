@@ -2,6 +2,10 @@ BALBUTO = {
     'number': '0343',
     'french_name': 'Balbuto',
     'english_name': 'Baltoy',
+    'description': 'Il se déplace en tournoyant sur son pied. Ce Pokémon rare fut découvert dans de vieilles ruines.',
+    'height': 5,
+    'weight': 215,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/343.png',
     'evolution_chain': [
         {
             'id': '0343',
@@ -12,7 +16,6 @@ BALBUTO = {
             'name': 'Kaorine'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/343.png',
     'types': [
         'Sol',
         'Psy'
@@ -27,7 +30,5 @@ BALBUTO = {
     ],
     'forms': [
         
-    ],
-    'height': 5,
-    'weight': 215
+    ]
 }

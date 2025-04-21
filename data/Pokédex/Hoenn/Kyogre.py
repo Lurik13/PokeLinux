@@ -2,13 +2,16 @@ KYOGRE = {
     'number': '0382',
     'french_name': 'Kyogre',
     'english_name': 'Kyogre',
+    'description': 'On dit qu’il a fait monter les eaux en causant des pluies diluviennes. Il somnolait dans une fosse marine.',
+    'height': 45,
+    'weight': 3520,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/382.png',
     'evolution_chain': [
         {
             'id': '0382',
             'name': 'Kyogre'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/382.png',
     'types': [
         'Eau'
     ],
@@ -28,7 +31,5 @@ KYOGRE = {
                 'Électrik'
             ]
         }
-    ],
-    'height': 45,
-    'weight': 3520
+    ]
 }

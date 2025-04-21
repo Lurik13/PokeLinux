@@ -2,6 +2,10 @@ FEUNARD = {
     'number': '0038',
     'french_name': 'Feunard',
     'english_name': 'Ninetales',
+    'description': 'On raconte que ses neuf queues détiennent un pouvoir mystique. Il peut vivre pendant mille ans.',
+    'height': 11,
+    'weight': 199,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png',
     'evolution_chain': [
         {
             'id': '0037',
@@ -12,7 +16,6 @@ FEUNARD = {
             'name': 'Feunard'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png',
     'types': [
         'Feu'
     ],
@@ -36,7 +39,5 @@ FEUNARD = {
                 'Poison'
             ]
         }
-    ],
-    'height': 11,
-    'weight': 199
+    ]
 }

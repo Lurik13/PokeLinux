@@ -2,6 +2,10 @@ CHAPOTUS = {
     'number': '0857',
     'french_name': 'Chapotus',
     'english_name': 'Hattrem',
+    'description': 'S’il ressent des émotions trop fortes‚ il en fera taire la source‚ quelle qu’elle soit‚ en utilisant des méthodes assez violentes.',
+    'height': 6,
+    'weight': 48,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/857.png',
     'evolution_chain': [
         {
             'id': '0856',
@@ -16,7 +20,6 @@ CHAPOTUS = {
             'name': 'Sorcilence'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/857.png',
     'types': [
         'Psy'
     ],
@@ -27,7 +30,5 @@ CHAPOTUS = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 48
+    ]
 }

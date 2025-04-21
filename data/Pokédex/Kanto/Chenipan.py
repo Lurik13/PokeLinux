@@ -2,6 +2,10 @@ CHENIPAN = {
     'number': '0010',
     'french_name': 'Chenipan',
     'english_name': 'Caterpie',
+    'description': 'Ses antennes rouges libèrent une puanteur qui repousse l’ennemi. Il grandit par mues régulières.',
+    'height': 3,
+    'weight': 29,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png',
     'evolution_chain': [
         {
             'id': '0010',
@@ -16,7 +20,6 @@ CHENIPAN = {
             'name': 'Papilusion'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png',
     'types': [
         'Insecte'
     ],
@@ -27,7 +30,5 @@ CHENIPAN = {
     ],
     'forms': [
         
-    ],
-    'height': 3,
-    'weight': 29
+    ]
 }

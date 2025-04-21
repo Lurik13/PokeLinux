@@ -2,6 +2,10 @@ DRACAUFEU = {
     'number': '0006',
     'french_name': 'Dracaufeu',
     'english_name': 'Charizard',
+    'description': 'On raconte que la flamme du Dracaufeu s’intensifie après un combat difficile.',
+    'height': 17,
+    'weight': 905,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png',
     'evolution_chain': [
         {
             'id': '0004',
@@ -16,7 +20,6 @@ DRACAUFEU = {
             'name': 'Dracaufeu'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png',
     'types': [
         'Feu',
         'Vol'
@@ -59,7 +62,5 @@ DRACAUFEU = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 17,
-    'weight': 905
+    ]
 }

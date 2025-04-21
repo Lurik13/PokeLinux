@@ -2,6 +2,10 @@ CANINOS = {
     'number': '0058',
     'french_name': 'Caninos',
     'english_name': 'Growlithe',
+    'description': 'Un Pokémon très loyal. Il restera immobile jusqu’à ce que son Dresseur lui donne un ordre.',
+    'height': 7,
+    'weight': 190,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png',
     'evolution_chain': [
         {
             'id': '0058',
@@ -12,7 +16,6 @@ CANINOS = {
             'name': 'Arcanin'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png',
     'types': [
         'Feu'
     ],
@@ -36,7 +39,5 @@ CANINOS = {
                 'Combat'
             ]
         }
-    ],
-    'height': 7,
-    'weight': 190
+    ]
 }

@@ -2,6 +2,10 @@ TRIOPIKEUR = {
     'number': '0051',
     'french_name': 'Triopikeur',
     'english_name': 'Dugtrio',
+    'description': 'Ses trois têtes creusent le sol à tour de rôle. Il peut atteindre des profondeurs de 100 kilomètres.',
+    'height': 7,
+    'weight': 333,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png',
     'evolution_chain': [
         {
             'id': '0050',
@@ -12,7 +16,6 @@ TRIOPIKEUR = {
             'name': 'Triopikeur'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png',
     'types': [
         'Sol'
     ],
@@ -36,7 +39,5 @@ TRIOPIKEUR = {
                 'Feu'
             ]
         }
-    ],
-    'height': 7,
-    'weight': 333
+    ]
 }

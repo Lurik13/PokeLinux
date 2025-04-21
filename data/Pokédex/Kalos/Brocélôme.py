@@ -2,6 +2,10 @@ BROCÉLÔME = {
     'number': '0708',
     'french_name': 'Brocélôme',
     'english_name': 'Phantump',
+    'description': 'Ce Pokémon apparaît lorsqu’un esprit possède un arbre en décomposition. Il vit dans les forêts où les humains n’osent pas s’aventurer.',
+    'height': 4,
+    'weight': 70,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/708.png',
     'evolution_chain': [
         {
             'id': '0708',
@@ -12,7 +16,6 @@ BROCÉLÔME = {
             'name': 'Desséliande'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/708.png',
     'types': [
         'Spectre',
         'Plante'
@@ -26,7 +29,5 @@ BROCÉLÔME = {
     ],
     'forms': [
         
-    ],
-    'height': 4,
-    'weight': 70
+    ]
 }

@@ -2,6 +2,10 @@ LUNALA = {
     'number': '0792',
     'french_name': 'Lunala',
     'english_name': 'Lunala',
+    'description': 'On suppose que c’est l’évolution de Cosmog lorsqu’il s’agit d’une femelle. Son troisième œil apparaît quand il s’envole vers un autre monde.',
+    'height': 40,
+    'weight': 1200,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/792.png',
     'evolution_chain': [
         {
             'id': '0789',
@@ -20,7 +24,6 @@ LUNALA = {
             'name': 'Lunala'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/792.png',
     'types': [
         'Psy',
         'Spectre'
@@ -31,7 +34,5 @@ LUNALA = {
     ],
     'forms': [
         
-    ],
-    'height': 40,
-    'weight': 1200
+    ]
 }

@@ -2,6 +2,10 @@ FEURISSON = {
     'number': '0156',
     'french_name': 'Feurisson',
     'english_name': 'Quilava',
+    'description': 'La chaleur de ses flammes intimide l’ennemi. Elles s’intensifient lorsqu’il se prépare à combattre.',
+    'height': 9,
+    'weight': 190,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/156.png',
     'evolution_chain': [
         {
             'id': '0155',
@@ -16,7 +20,6 @@ FEURISSON = {
             'name': 'Typhlosion'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/156.png',
     'types': [
         'Feu'
     ],
@@ -27,7 +30,5 @@ FEURISSON = {
     ],
     'forms': [
         
-    ],
-    'height': 9,
-    'weight': 190
+    ]
 }

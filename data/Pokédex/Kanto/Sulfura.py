@@ -2,13 +2,16 @@ SULFURA = {
     'number': '0146',
     'french_name': 'Sulfura',
     'english_name': 'Moltres',
+    'description': 'L’un des Pokémon Oiseaux légendaires. On dit que sa venue annonce l’arrivée du printemps.',
+    'height': 20,
+    'weight': 600,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png',
     'evolution_chain': [
         {
             'id': '0146',
             'name': 'Sulfura'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png',
     'types': [
         'Feu',
         'Vol'
@@ -33,7 +36,5 @@ SULFURA = {
                 'Glace'
             ]
         }
-    ],
-    'height': 20,
-    'weight': 600
+    ]
 }

@@ -2,6 +2,10 @@ AXOLOTO = {
     'number': '0194',
     'french_name': 'Axoloto',
     'english_name': 'Wooper',
+    'description': 'Sur la terre ferme‚ il couvre son corps d’un fluide toxique qui le protège de la déshydratation.',
+    'height': 4,
+    'weight': 85,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/194.png',
     'evolution_chain': [
         {
             'id': '0194',
@@ -16,7 +20,6 @@ AXOLOTO = {
             'name': 'Terraiste'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/194.png',
     'types': [
         'Eau',
         'Sol'
@@ -39,7 +42,5 @@ AXOLOTO = {
                 'Glace'
             ]
         }
-    ],
-    'height': 4,
-    'weight': 85
+    ]
 }

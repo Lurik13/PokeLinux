@@ -2,6 +2,10 @@
     'number': '0239',
     'french_name': 'Élekid',
     'english_name': 'Elekid',
+    'description': 'Un faible courant électrique circule entre ses cornes. Attention à ne pas y mettre la main!',
+    'height': 6,
+    'weight': 235,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/239.png',
     'evolution_chain': [
         {
             'id': '0239',
@@ -16,7 +20,6 @@
             'name': 'Élekable'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/239.png',
     'types': [
         'Électrik'
     ],
@@ -25,7 +28,5 @@
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 235
+    ]
 }

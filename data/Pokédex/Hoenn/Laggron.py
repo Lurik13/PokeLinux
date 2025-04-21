@@ -2,6 +2,10 @@ LAGGRON = {
     'number': '0260',
     'french_name': 'Laggron',
     'english_name': 'Swampert',
+    'description': 'Il peut traîner un grand bateau en nageant. Il assomme l’ennemi d’un grand coup de ses bras épais.',
+    'height': 15,
+    'weight': 819,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/260.png',
     'evolution_chain': [
         {
             'id': '0258',
@@ -16,7 +20,6 @@ LAGGRON = {
             'name': 'Laggron'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/260.png',
     'types': [
         'Eau',
         'Sol'
@@ -36,7 +39,5 @@ LAGGRON = {
                 'Plante*'
             ]
         }
-    ],
-    'height': 15,
-    'weight': 819
+    ]
 }

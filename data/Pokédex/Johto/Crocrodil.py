@@ -2,6 +2,10 @@ CROCRODIL = {
     'number': '0159',
     'french_name': 'Crocrodil',
     'english_name': 'Croconaw',
+    'description': 'Quand il mord‚ il ne lâche pas prise avant que ses crocs se brisent. Ils repoussent par la suite.',
+    'height': 11,
+    'weight': 250,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/159.png',
     'evolution_chain': [
         {
             'id': '0158',
@@ -16,7 +20,6 @@ CROCRODIL = {
             'name': 'Aligatueur'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/159.png',
     'types': [
         'Eau'
     ],
@@ -26,7 +29,5 @@ CROCRODIL = {
     ],
     'forms': [
         
-    ],
-    'height': 11,
-    'weight': 250
+    ]
 }

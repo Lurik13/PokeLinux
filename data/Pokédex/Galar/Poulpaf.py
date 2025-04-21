@@ -2,6 +2,10 @@ POULPAF = {
     'number': '0852',
     'french_name': 'Poulpaf',
     'english_name': 'Clobbopus',
+    'description': 'Il se rend sur la terre ferme pour se nourrir. Très curieux‚ son premier réflexe est de frapper tout ce qu’il voit avec ses tentacules.',
+    'height': 6,
+    'weight': 40,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/852.png',
     'evolution_chain': [
         {
             'id': '0852',
@@ -12,7 +16,6 @@ POULPAF = {
             'name': 'Krakos'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/852.png',
     'types': [
         'Combat'
     ],
@@ -23,7 +26,5 @@ POULPAF = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 40
+    ]
 }

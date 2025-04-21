@@ -2,6 +2,10 @@ SCOLOCENDRE = {
     'number': '0851',
     'french_name': 'Scolocendre',
     'english_name': 'Centiskorch',
+    'description': 'Quand il génère de la chaleur‚ sa température est d’environ 800 °C. Il se sert de son corps comme d’un fouet pour sauter sur ses ennemis.',
+    'height': 30,
+    'weight': 1200,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/851.png',
     'evolution_chain': [
         {
             'id': '0850',
@@ -12,7 +16,6 @@ SCOLOCENDRE = {
             'name': 'Scolocendre'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/851.png',
     'types': [
         'Feu',
         'Insecte'
@@ -29,7 +32,5 @@ SCOLOCENDRE = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 30,
-    'weight': 1200
+    ]
 }

@@ -2,6 +2,10 @@ BAGGAÏD = {
     'number': '0560',
     'french_name': 'Baggaïd',
     'english_name': 'Scrafty',
+    'description': 'Ils se regroupent pour rosser ceux qui pénètrent sur leur territoire. Ils crachent un venin corrosif.',
+    'height': 11,
+    'weight': 300,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/560.png',
     'evolution_chain': [
         {
             'id': '0559',
@@ -12,7 +16,6 @@ BAGGAÏD = {
             'name': 'Baggaïd'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/560.png',
     'types': [
         'Ténèbres',
         'Combat'
@@ -24,7 +27,5 @@ BAGGAÏD = {
     ],
     'forms': [
         
-    ],
-    'height': 11,
-    'weight': 300
+    ]
 }

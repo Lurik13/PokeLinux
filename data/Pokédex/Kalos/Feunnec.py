@@ -2,6 +2,10 @@ FEUNNEC = {
     'number': '0653',
     'french_name': 'Feunnec',
     'english_name': 'Fennekin',
+    'description': 'En cas de coup de fatigue‚ il grignote des rameaux pour recharger ses batteries. Ses oreilles dégagent une chaleur qui dépasse les 200 °C.',
+    'height': 4,
+    'weight': 94,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/653.png',
     'evolution_chain': [
         {
             'id': '0653',
@@ -16,7 +20,6 @@ FEUNNEC = {
             'name': 'Goupelin'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/653.png',
     'types': [
         'Feu'
     ],
@@ -27,7 +30,5 @@ FEUNNEC = {
     ],
     'forms': [
         
-    ],
-    'height': 4,
-    'weight': 94
+    ]
 }

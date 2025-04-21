@@ -2,13 +2,16 @@ ABSOL = {
     'number': '0359',
     'french_name': 'Absol',
     'english_name': 'Absol',
+    'description': 'La capacité de sa corne à sentir les catastrophes ayant trop attiré l’attention sur lui‚ il vit reclus.',
+    'height': 12,
+    'weight': 470,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/359.png',
     'evolution_chain': [
         {
             'id': '0359',
             'name': 'Absol'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/359.png',
     'types': [
         'Ténèbres'
     ],
@@ -30,7 +33,5 @@ ABSOL = {
                 'Fée'
             ]
         }
-    ],
-    'height': 12,
-    'weight': 470
+    ]
 }

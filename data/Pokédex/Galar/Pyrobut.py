@@ -2,6 +2,10 @@ PYROBUT = {
     'number': '0815',
     'french_name': 'Pyrobut',
     'english_name': 'Cinderace',
+    'description': 'Il drible avec des pierres pour en faire des ballons enflammés‚ avant de tirer sur ses adversaires pour les brûler.',
+    'height': 14,
+    'weight': 330,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/815.png',
     'evolution_chain': [
         {
             'id': '0813',
@@ -16,7 +20,6 @@ PYROBUT = {
             'name': 'Pyrobut'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/815.png',
     'types': [
         'Feu'
     ],
@@ -32,7 +35,5 @@ PYROBUT = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 14,
-    'weight': 330
+    ]
 }

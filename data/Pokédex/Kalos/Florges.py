@@ -2,6 +2,10 @@ FLORGES = {
     'number': '0671',
     'french_name': 'Florges',
     'english_name': 'Florges',
+    'description': 'Les jardins fleuris sont son territoire. Il se baigne dans l’énergie dégagée par les plantes en fleurs pour l’absorber.',
+    'height': 11,
+    'weight': 100,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/671.png',
     'evolution_chain': [
         {
             'id': '0669',
@@ -16,7 +20,6 @@ FLORGES = {
             'name': 'Florges'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/671.png',
     'types': [
         'Fée'
     ],
@@ -26,7 +29,5 @@ FLORGES = {
     ],
     'forms': [
         
-    ],
-    'height': 11,
-    'weight': 100
+    ]
 }

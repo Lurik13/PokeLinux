@@ -2,6 +2,10 @@ ARBOLIVA = {
     'number': '0930',
     'french_name': 'Arboliva',
     'english_name': 'Arboliva',
+    'description': 'This calm Pokémon is very compassionate. It will share its delicious‚ nutrient-rich oil with weakened Pokémon.',
+    'height': 14,
+    'weight': 482,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/930.png',
     'evolution_chain': [
         {
             'id': '0928',
@@ -16,7 +20,6 @@ ARBOLIVA = {
             'name': 'Arboliva'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/930.png',
     'types': [
         'Plante',
         'Normal'
@@ -31,7 +34,5 @@ ARBOLIVA = {
     ],
     'forms': [
         
-    ],
-    'height': 14,
-    'weight': 482
+    ]
 }

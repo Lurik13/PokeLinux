@@ -2,6 +2,10 @@ LAPOREILLE = {
     'number': '0427',
     'french_name': 'Laporeille',
     'english_name': 'Buneary',
+    'description': 'Ses oreilles repliées se déroulent avec une force capable de briser un gros rocher.',
+    'height': 4,
+    'weight': 55,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/427.png',
     'evolution_chain': [
         {
             'id': '0427',
@@ -12,7 +16,6 @@ LAPOREILLE = {
             'name': 'Lockpin'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/427.png',
     'types': [
         'Normal'
     ],
@@ -21,7 +24,5 @@ LAPOREILLE = {
     ],
     'forms': [
         
-    ],
-    'height': 4,
-    'weight': 55
+    ]
 }

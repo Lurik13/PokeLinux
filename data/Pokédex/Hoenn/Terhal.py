@@ -2,6 +2,10 @@ TERHAL = {
     'number': '0374',
     'french_name': 'Terhal',
     'english_name': 'Beldum',
+    'description': 'Il dégage un champ magnétique opposé à celui de la terre‚ ce qui lui permet de léviter.',
+    'height': 6,
+    'weight': 952,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/374.png',
     'evolution_chain': [
         {
             'id': '0374',
@@ -16,7 +20,6 @@ TERHAL = {
             'name': 'Métalosse'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/374.png',
     'types': [
         'Acier',
         'Psy'
@@ -29,7 +32,5 @@ TERHAL = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 952
+    ]
 }

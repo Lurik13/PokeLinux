@@ -2,6 +2,10 @@ SKITTY = {
     'number': '0300',
     'french_name': 'Skitty',
     'english_name': 'Skitty',
+    'description': 'Il poursuit tout ce qui bouge. On le voit parfois courir en cercle‚ chassant sa propre queue.',
+    'height': 6,
+    'weight': 110,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/300.png',
     'evolution_chain': [
         {
             'id': '0300',
@@ -12,7 +16,6 @@ SKITTY = {
             'name': 'Delcatty'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/300.png',
     'types': [
         'Normal'
     ],
@@ -21,7 +24,5 @@ SKITTY = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 110
+    ]
 }

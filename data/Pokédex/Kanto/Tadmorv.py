@@ -2,6 +2,10 @@ TADMORV = {
     'number': '0088',
     'french_name': 'Tadmorv',
     'english_name': 'Grimer',
+    'description': 'Il est né d’un torrent de boue exposé aux rayons X de la lune. Il vit dans les ordures.',
+    'height': 9,
+    'weight': 300,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png',
     'evolution_chain': [
         {
             'id': '0088',
@@ -12,7 +16,6 @@ TADMORV = {
             'name': 'Grotadmorv'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png',
     'types': [
         'Poison'
     ],
@@ -32,7 +35,5 @@ TADMORV = {
                 'Sol'
             ]
         }
-    ],
-    'height': 9,
-    'weight': 300
+    ]
 }

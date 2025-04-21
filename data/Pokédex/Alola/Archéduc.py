@@ -2,6 +2,10 @@ ARCHÉDUC = {
     'number': '0724',
     'french_name': 'Archéduc',
     'english_name': 'Decidueye',
+    'description': 'Les plumes de ses ailes lui servent de flèches. Sa précision au tir est si grande qu’il peut atteindre un gravillon à 100 m.',
+    'height': 16,
+    'weight': 366,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/724.png',
     'evolution_chain': [
         {
             'id': '0722',
@@ -16,7 +20,6 @@ ARCHÉDUC = {
             'name': 'Archéduc'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/724.png',
     'types': [
         'Plante',
         'Spectre'
@@ -45,7 +48,5 @@ ARCHÉDUC = {
                 'Fée'
             ]
         }
-    ],
-    'height': 16,
-    'weight': 366
+    ]
 }

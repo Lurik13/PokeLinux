@@ -2,6 +2,10 @@ MATOUFEU = {
     'number': '0726',
     'french_name': 'Matoufeu',
     'english_name': 'Torracat',
+    'description': 'Il porte à son cou une cloche de feu. Lorsqu’il crache des flammes‚ cette dernière se met à tinter bruyamment.',
+    'height': 7,
+    'weight': 250,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/726.png',
     'evolution_chain': [
         {
             'id': '0725',
@@ -16,7 +20,6 @@ MATOUFEU = {
             'name': 'Félinferno'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/726.png',
     'types': [
         'Feu'
     ],
@@ -27,7 +30,5 @@ MATOUFEU = {
     ],
     'forms': [
         
-    ],
-    'height': 7,
-    'weight': 250
+    ]
 }

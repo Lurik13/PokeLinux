@@ -2,6 +2,10 @@ MACRONIUM = {
     'number': '0153',
     'french_name': 'Macronium',
     'english_name': 'Bayleef',
+    'description': 'Le collier de bourgeons à son cou répand un arôme épicé qui vous donne du tonus.',
+    'height': 12,
+    'weight': 158,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/153.png',
     'evolution_chain': [
         {
             'id': '0152',
@@ -16,7 +20,6 @@ MACRONIUM = {
             'name': 'Méganium'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/153.png',
     'types': [
         'Plante'
     ],
@@ -29,7 +32,5 @@ MACRONIUM = {
     ],
     'forms': [
         
-    ],
-    'height': 12,
-    'weight': 158
+    ]
 }

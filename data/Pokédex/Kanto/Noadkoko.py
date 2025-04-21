@@ -2,6 +2,10 @@ NOADKOKO = {
     'number': '0103',
     'french_name': 'Noadkoko',
     'english_name': 'Exeggutor',
+    'description': 'On l’appelle “jungle sur pattes”. Si une tête devient trop grosse‚ elle tombe et produit un Noeunoeuf.',
+    'height': 20,
+    'weight': 1200,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png',
     'evolution_chain': [
         {
             'id': '0102',
@@ -12,7 +16,6 @@ NOADKOKO = {
             'name': 'Noadkoko'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png',
     'types': [
         'Plante',
         'Psy'
@@ -43,7 +46,5 @@ NOADKOKO = {
                 'Fée'
             ]
         }
-    ],
-    'height': 20,
-    'weight': 1200
+    ]
 }

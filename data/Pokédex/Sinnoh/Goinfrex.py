@@ -2,6 +2,10 @@ GOINFREX = {
     'number': '0446',
     'french_name': 'Goinfrex',
     'english_name': 'Munchlax',
+    'description': 'Obnubilé par sa quête incessante de nourriture‚ il oublie parfois qu’il en a caché dans sa fourrure.',
+    'height': 6,
+    'weight': 1050,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/446.png',
     'evolution_chain': [
         {
             'id': '0446',
@@ -12,7 +16,6 @@ GOINFREX = {
             'name': 'Ronflex'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/446.png',
     'types': [
         'Normal'
     ],
@@ -21,7 +24,5 @@ GOINFREX = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 1050
+    ]
 }

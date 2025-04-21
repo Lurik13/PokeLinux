@@ -2,6 +2,10 @@ LOCKPIN = {
     'number': '0428',
     'french_name': 'Lockpin',
     'english_name': 'Lopunny',
+    'description': 'Il est capable de décocher de puissants coups de pied si on touche à ses délicates oreilles.',
+    'height': 12,
+    'weight': 333,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/428.png',
     'evolution_chain': [
         {
             'id': '0427',
@@ -12,7 +16,6 @@ LOCKPIN = {
             'name': 'Lockpin'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/428.png',
     'types': [
         'Normal'
     ],
@@ -34,7 +37,5 @@ LOCKPIN = {
                 'Fée'
             ]
         }
-    ],
-    'height': 12,
-    'weight': 333
+    ]
 }

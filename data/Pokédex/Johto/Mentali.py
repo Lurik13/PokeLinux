@@ -2,6 +2,10 @@ MENTALI = {
     'number': '0196',
     'french_name': 'Mentali',
     'english_name': 'Espeon',
+    'description': 'Sa fourrure est si sensible qu’il peut détecter les vibrations de l’air et prédire le temps qu’il fera.',
+    'height': 9,
+    'weight': 265,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png',
     'evolution_chain': [
         {
             'id': '0133',
@@ -40,7 +44,6 @@ MENTALI = {
             'name': 'Nymphali'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png',
     'types': [
         'Psy'
     ],
@@ -51,7 +54,5 @@ MENTALI = {
     ],
     'forms': [
         
-    ],
-    'height': 9,
-    'weight': 265
+    ]
 }

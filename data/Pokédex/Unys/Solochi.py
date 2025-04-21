@@ -2,6 +2,10 @@ SOLOCHI = {
     'number': '0633',
     'french_name': 'Solochi',
     'english_name': 'Deino',
+    'description': 'Il mord tout ce qui bouge‚ et mange tout ce qu’il trouve. Il vaut mieux éviter de s’en approcher.',
+    'height': 8,
+    'weight': 173,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/633.png',
     'evolution_chain': [
         {
             'id': '0633',
@@ -16,7 +20,6 @@ SOLOCHI = {
             'name': 'Trioxhydre'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/633.png',
     'types': [
         'Ténèbres',
         'Dragon'
@@ -30,7 +33,5 @@ SOLOCHI = {
     ],
     'forms': [
         
-    ],
-    'height': 8,
-    'weight': 173
+    ]
 }

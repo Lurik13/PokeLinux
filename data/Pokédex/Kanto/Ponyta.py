@@ -2,6 +2,10 @@ PONYTA = {
     'number': '0077',
     'french_name': 'Ponyta',
     'english_name': 'Ponyta',
+    'description': 'Chancelantes à la naissance‚ ses pattes deviennent très vite sûres et solides à force de galoper.',
+    'height': 10,
+    'weight': 300,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png',
     'evolution_chain': [
         {
             'id': '0077',
@@ -12,7 +16,6 @@ PONYTA = {
             'name': 'Galopa'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png',
     'types': [
         'Feu'
     ],
@@ -34,7 +37,5 @@ PONYTA = {
                 'Ténèbres'
             ]
         }
-    ],
-    'height': 10,
-    'weight': 300
+    ]
 }

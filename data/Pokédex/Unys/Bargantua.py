@@ -2,6 +2,10 @@ BARGANTUA = {
     'number': '0550',
     'french_name': 'Bargantua',
     'english_name': 'Basculin-red-striped',
+    'description': 'Les bleus et les rouges se détestent cordialement et se battent dès qu’ils s’aperçoivent. Un Pokémon très violent.',
+    'height': 10,
+    'weight': 180,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/550.png',
     'evolution_chain': [
         {
             'id': '0550',
@@ -12,7 +16,6 @@ BARGANTUA = {
             'name': 'Paragruel'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/550.png',
     'types': [
         'Eau'
     ],
@@ -43,7 +46,5 @@ BARGANTUA = {
                 'Électrik'
             ]
         }
-    ],
-    'height': 10,
-    'weight': 180
+    ]
 }

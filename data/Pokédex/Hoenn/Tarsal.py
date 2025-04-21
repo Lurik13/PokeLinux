@@ -2,6 +2,10 @@ TARSAL = {
     'number': '0280',
     'french_name': 'Tarsal',
     'english_name': 'Ralts',
+    'description': 'Quand ses cornes captent les ondes positives d’un Pokémon ou d’un humain‚ son corps se réchauffe.',
+    'height': 4,
+    'weight': 66,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/280.png',
     'evolution_chain': [
         {
             'id': '0280',
@@ -20,7 +24,6 @@ TARSAL = {
             'name': 'Gallame'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/280.png',
     'types': [
         'Psy',
         'Fée'
@@ -32,7 +35,5 @@ TARSAL = {
     ],
     'forms': [
         
-    ],
-    'height': 4,
-    'weight': 66
+    ]
 }

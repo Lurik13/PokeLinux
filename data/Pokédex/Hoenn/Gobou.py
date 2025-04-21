@@ -2,6 +2,10 @@ GOBOU = {
     'number': '0258',
     'french_name': 'Gobou',
     'english_name': 'Mudkip',
+    'description': 'Il analyse le courant grâce à la nageoire sur sa tête. Il est assez fort pour soulever des rochers.',
+    'height': 4,
+    'weight': 76,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/258.png',
     'evolution_chain': [
         {
             'id': '0258',
@@ -16,7 +20,6 @@ GOBOU = {
             'name': 'Laggron'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/258.png',
     'types': [
         'Eau'
     ],
@@ -26,7 +29,5 @@ GOBOU = {
     ],
     'forms': [
         
-    ],
-    'height': 4,
-    'weight': 76
+    ]
 }

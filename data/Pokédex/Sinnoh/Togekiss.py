@@ -2,6 +2,10 @@ TOGEKISS = {
     'number': '0468',
     'french_name': 'Togekiss',
     'english_name': 'Togekiss',
+    'description': 'Il apprécie particulièrement les gens qui respectent les autres et évitent les conflits inutiles.',
+    'height': 15,
+    'weight': 380,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/468.png',
     'evolution_chain': [
         {
             'id': '0175',
@@ -16,7 +20,6 @@ TOGEKISS = {
             'name': 'Togekiss'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/468.png',
     'types': [
         'Fée',
         'Vol'
@@ -30,7 +33,5 @@ TOGEKISS = {
     ],
     'forms': [
         
-    ],
-    'height': 15,
-    'weight': 380
+    ]
 }

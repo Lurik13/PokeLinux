@@ -2,6 +2,10 @@ VISKUSE = {
     'number': '0592',
     'french_name': 'Viskuse',
     'english_name': 'Frillish',
+    'description': 'Il s’enfonce dans les profondeurs de la mer en emmenant son ennemi‚ qu’il ligote avec ses bras fins comme des voiles.',
+    'height': 12,
+    'weight': 330,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/592.png',
     'evolution_chain': [
         {
             'id': '0592',
@@ -12,7 +16,6 @@ VISKUSE = {
             'name': 'Moyade'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/592.png',
     'types': [
         'Eau',
         'Spectre'
@@ -25,7 +28,5 @@ VISKUSE = {
     ],
     'forms': [
         
-    ],
-    'height': 12,
-    'weight': 330
+    ]
 }

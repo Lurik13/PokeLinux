@@ -2,6 +2,10 @@ VENIPATTE = {
     'number': '0543',
     'french_name': 'Venipatte',
     'english_name': 'Venipede',
+    'description': 'Sa morsure est très venimeuse. Elle paralyse même les grands Pokémon Oiseaux‚ ses prédateurs.',
+    'height': 4,
+    'weight': 53,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/543.png',
     'evolution_chain': [
         {
             'id': '0543',
@@ -16,7 +20,6 @@ VENIPATTE = {
             'name': 'Brutapode'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/543.png',
     'types': [
         'Insecte',
         'Poison'
@@ -29,7 +32,5 @@ VENIPATTE = {
     ],
     'forms': [
         
-    ],
-    'height': 4,
-    'weight': 53
+    ]
 }

@@ -2,6 +2,10 @@ AQUALI = {
     'number': '0134',
     'french_name': 'Aquali',
     'english_name': 'Vaporeon',
+    'description': 'Sa composition moléculaire est proche de celle de l’eau‚ ce qui lui permet de se liquéfier.',
+    'height': 10,
+    'weight': 290,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png',
     'evolution_chain': [
         {
             'id': '0133',
@@ -40,7 +44,6 @@ AQUALI = {
             'name': 'Nymphali'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png',
     'types': [
         'Eau'
     ],
@@ -50,7 +53,5 @@ AQUALI = {
     ],
     'forms': [
         
-    ],
-    'height': 10,
-    'weight': 290
+    ]
 }

@@ -2,6 +2,10 @@ POMDOROCHI = {
     'number': '1019',
     'french_name': 'Pomdorochi',
     'english_name': 'Hydrapple',
+    'description': 'Seven syrpents live inside an apple made of syrup. The syrpent in the center is the commander.',
+    'height': 18,
+    'weight': 930,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1019.png',
     'evolution_chain': [
         {
             'id': '0840',
@@ -24,7 +28,6 @@ POMDOROCHI = {
             'name': 'Pomdorochi'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1019.png',
     'types': [
         'Plante',
         'Dragon'
@@ -39,7 +42,5 @@ POMDOROCHI = {
     ],
     'forms': [
         
-    ],
-    'height': 18,
-    'weight': 930
+    ]
 }

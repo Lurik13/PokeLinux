@@ -2,6 +2,10 @@ LUGULABRE = {
     'number': '0609',
     'french_name': 'Lugulabre',
     'english_name': 'Chandelure',
+    'description': 'Il brûle en aspirant les âmes‚ et hypnotise ses ennemis en faisant osciller les flammes de ses bras.',
+    'height': 10,
+    'weight': 343,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/609.png',
     'evolution_chain': [
         {
             'id': '0607',
@@ -16,7 +20,6 @@ LUGULABRE = {
             'name': 'Lugulabre'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/609.png',
     'types': [
         'Spectre',
         'Feu'
@@ -30,7 +33,5 @@ LUGULABRE = {
     ],
     'forms': [
         
-    ],
-    'height': 10,
-    'weight': 343
+    ]
 }

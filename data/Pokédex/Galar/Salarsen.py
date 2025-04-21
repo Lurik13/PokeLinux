@@ -2,6 +2,10 @@ SALARSEN = {
     'number': '0849',
     'french_name': 'Salarsen',
     'english_name': 'Toxtricity-amped',
+    'description': 'Lorsqu’il gratte l’excroissance sur son ventre pour produire de l’électricité‚ on peut entendre un son similaire à celui d’une guitare.',
+    'height': 16,
+    'weight': 400,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/849.png',
     'evolution_chain': [
         {
             'id': '0848',
@@ -12,7 +16,6 @@ SALARSEN = {
             'name': 'Salarsen'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/849.png',
     'types': [
         'Électrik',
         'Poison'
@@ -46,7 +49,5 @@ SALARSEN = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 16,
-    'weight': 400
+    ]
 }

@@ -2,6 +2,10 @@ TORTERRA = {
     'number': '0389',
     'french_name': 'Torterra',
     'english_name': 'Torterra',
+    'description': 'Certains petits Pokémon peuvent naître sur son dos et y passer toute leur vie.',
+    'height': 22,
+    'weight': 3100,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/389.png',
     'evolution_chain': [
         {
             'id': '0387',
@@ -16,7 +20,6 @@ TORTERRA = {
             'name': 'Torterra'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/389.png',
     'types': [
         'Plante',
         'Sol'
@@ -29,7 +32,5 @@ TORTERRA = {
     ],
     'forms': [
         
-    ],
-    'height': 22,
-    'weight': 3100
+    ]
 }

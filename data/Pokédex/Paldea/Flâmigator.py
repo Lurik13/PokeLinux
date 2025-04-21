@@ -2,6 +2,10 @@ FLÂMIGATOR = {
     'number': '0911',
     'french_name': 'Flâmigator',
     'english_name': 'Skeledirge',
+    'description': 'The fiery bird changes shape when Skeledirge sings. Rumor has it that the bird was born when the fireball on Skeledirge’s head gained a soul.',
+    'height': 16,
+    'weight': 3265,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/911.png',
     'evolution_chain': [
         {
             'id': '0909',
@@ -16,7 +20,6 @@ FLÂMIGATOR = {
             'name': 'Flâmigator'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/911.png',
     'types': [
         'Feu',
         'Spectre'
@@ -30,7 +33,5 @@ FLÂMIGATOR = {
     ],
     'forms': [
         
-    ],
-    'height': 16,
-    'weight': 3265
+    ]
 }

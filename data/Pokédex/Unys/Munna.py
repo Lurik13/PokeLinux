@@ -2,6 +2,10 @@ MUNNA = {
     'number': '0517',
     'french_name': 'Munna',
     'english_name': 'Munna',
+    'description': 'Quand Munna mange un rêve‚ celui-ci est aussitôt oublié par le rêveur. Il lévite en permanence.',
+    'height': 6,
+    'weight': 233,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/517.png',
     'evolution_chain': [
         {
             'id': '0517',
@@ -12,7 +16,6 @@ MUNNA = {
             'name': 'Mushana'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/517.png',
     'types': [
         'Psy'
     ],
@@ -23,7 +26,5 @@ MUNNA = {
     ],
     'forms': [
         
-    ],
-    'height': 6,
-    'weight': 233
+    ]
 }

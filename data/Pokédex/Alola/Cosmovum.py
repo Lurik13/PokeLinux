@@ -2,6 +2,10 @@ COSMOVUM = {
     'number': '0790',
     'french_name': 'Cosmovum',
     'english_name': 'Cosmoem',
+    'description': 'On pourrait le croire mort car il ne bouge pas du tout. Au toucher‚ il reste tiède. On le surnomme «\u202fcocon céleste\u202f» depuis l’Antiquité.',
+    'height': 1,
+    'weight': 9999,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/790.png',
     'evolution_chain': [
         {
             'id': '0789',
@@ -20,7 +24,6 @@ COSMOVUM = {
             'name': 'Lunala'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/790.png',
     'types': [
         'Psy'
     ],
@@ -31,7 +34,5 @@ COSMOVUM = {
     ],
     'forms': [
         
-    ],
-    'height': 1,
-    'weight': 9999
+    ]
 }

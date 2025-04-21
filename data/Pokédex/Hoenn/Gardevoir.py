@@ -2,6 +2,10 @@ GARDEVOIR = {
     'number': '0282',
     'french_name': 'Gardevoir',
     'english_name': 'Gardevoir',
+    'description': 'Prêt à tout pour protéger son Dresseur‚ il peut créer un mini trou noir par sa seule force mentale.',
+    'height': 16,
+    'weight': 484,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png',
     'evolution_chain': [
         {
             'id': '0280',
@@ -20,7 +24,6 @@ GARDEVOIR = {
             'name': 'Gallame'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png',
     'types': [
         'Psy',
         'Fée'
@@ -44,7 +47,5 @@ GARDEVOIR = {
                 'Acier'
             ]
         }
-    ],
-    'height': 16,
-    'weight': 484
+    ]
 }

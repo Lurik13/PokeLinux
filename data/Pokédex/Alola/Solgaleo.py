@@ -2,6 +2,10 @@ SOLGALEO = {
     'number': '0791',
     'french_name': 'Solgaleo',
     'english_name': 'Solgaleo',
+    'description': 'Il viendrait d’un autre monde. Tout son corps émet une puissante lumière qui peut changer la nuit la plus noire en un jour radieux.',
+    'height': 34,
+    'weight': 2300,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/791.png',
     'evolution_chain': [
         {
             'id': '0789',
@@ -20,7 +24,6 @@ SOLGALEO = {
             'name': 'Lunala'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/791.png',
     'types': [
         'Psy',
         'Acier'
@@ -33,7 +36,5 @@ SOLGALEO = {
     ],
     'forms': [
         
-    ],
-    'height': 34,
-    'weight': 2300
+    ]
 }

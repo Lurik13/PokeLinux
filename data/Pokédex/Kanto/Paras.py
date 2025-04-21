@@ -2,6 +2,10 @@ PARAS = {
     'number': '0046',
     'french_name': 'Paras',
     'english_name': 'Paras',
+    'description': 'Des champignons appelés “tochukaso” poussent sur son dos. Ils évoluent avec le Paras hôte.',
+    'height': 3,
+    'weight': 54,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png',
     'evolution_chain': [
         {
             'id': '0046',
@@ -12,7 +16,6 @@ PARAS = {
             'name': 'Parasect'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png',
     'types': [
         'Insecte',
         'Plante'
@@ -27,7 +30,5 @@ PARAS = {
     ],
     'forms': [
         
-    ],
-    'height': 3,
-    'weight': 54
+    ]
 }

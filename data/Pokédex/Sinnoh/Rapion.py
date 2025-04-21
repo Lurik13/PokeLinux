@@ -2,6 +2,10 @@ RAPION = {
     'number': '0451',
     'french_name': 'Rapion',
     'english_name': 'Skorupi',
+    'description': 'Il saisit sa proie avec les pinces de sa queue et lui injecte un poison. Il peut survivre un an sans manger.',
+    'height': 8,
+    'weight': 120,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/451.png',
     'evolution_chain': [
         {
             'id': '0451',
@@ -12,7 +16,6 @@ RAPION = {
             'name': 'Drascore'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/451.png',
     'types': [
         'Poison',
         'Insecte'
@@ -25,7 +28,5 @@ RAPION = {
     ],
     'forms': [
         
-    ],
-    'height': 8,
-    'weight': 120
+    ]
 }

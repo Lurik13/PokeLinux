@@ -2,6 +2,10 @@ HYPNOMADE = {
     'number': '0097',
     'french_name': 'Hypnomade',
     'english_name': 'Hypno',
+    'description': 'La vue de son pendule oscillant endort en trois secondes‚ même quand on vient de se réveiller.',
+    'height': 16,
+    'weight': 756,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png',
     'evolution_chain': [
         {
             'id': '0096',
@@ -12,7 +16,6 @@ HYPNOMADE = {
             'name': 'Hypnomade'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png',
     'types': [
         'Psy'
     ],
@@ -23,7 +26,5 @@ HYPNOMADE = {
     ],
     'forms': [
         
-    ],
-    'height': 16,
-    'weight': 756
+    ]
 }

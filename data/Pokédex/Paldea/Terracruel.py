@@ -2,6 +2,10 @@ TERRACRUEL = {
     'number': '0949',
     'french_name': 'Terracruel',
     'english_name': 'Toedscruel',
+    'description': 'These Pokémon gather into groups and form colonies deep within forests. They absolutely hate it when strangers approach.',
+    'height': 19,
+    'weight': 580,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/949.png',
     'evolution_chain': [
         {
             'id': '0948',
@@ -12,7 +16,6 @@ TERRACRUEL = {
             'name': 'Terracruel'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/949.png',
     'types': [
         'Sol',
         'Plante'
@@ -25,7 +28,5 @@ TERRACRUEL = {
     ],
     'forms': [
         
-    ],
-    'height': 19,
-    'weight': 580
+    ]
 }

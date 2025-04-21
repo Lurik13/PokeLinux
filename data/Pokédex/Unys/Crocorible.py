@@ -2,6 +2,10 @@ CROCORIBLE = {
     'number': '0553',
     'french_name': 'Crocorible',
     'english_name': 'Krookodile',
+    'description': 'Il ne laisse jamais échapper ses proies. Ses mâchoires surpuissantes peuvent broyer une voiture.',
+    'height': 15,
+    'weight': 963,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/553.png',
     'evolution_chain': [
         {
             'id': '0551',
@@ -16,7 +20,6 @@ CROCORIBLE = {
             'name': 'Crocorible'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/553.png',
     'types': [
         'Sol',
         'Ténèbres'
@@ -31,7 +34,5 @@ CROCORIBLE = {
     ],
     'forms': [
         
-    ],
-    'height': 15,
-    'weight': 963
+    ]
 }

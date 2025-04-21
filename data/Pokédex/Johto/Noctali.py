@@ -2,6 +2,10 @@ NOCTALI = {
     'number': '0197',
     'french_name': 'Noctali',
     'english_name': 'Umbreon',
+    'description': 'Quand il s’expose à la lumière de la lune‚ ses anneaux brillent et il obtient un mystérieux pouvoir.',
+    'height': 10,
+    'weight': 270,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png',
     'evolution_chain': [
         {
             'id': '0133',
@@ -40,7 +44,6 @@ NOCTALI = {
             'name': 'Nymphali'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png',
     'types': [
         'Ténèbres'
     ],
@@ -51,7 +54,5 @@ NOCTALI = {
     ],
     'forms': [
         
-    ],
-    'height': 10,
-    'weight': 270
+    ]
 }

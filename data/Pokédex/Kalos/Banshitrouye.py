@@ -2,6 +2,10 @@ BANSHITROUYE = {
     'number': '0711',
     'french_name': 'Banshitrouye',
     'english_name': 'Gourgeist-average',
+    'description': 'Les nuits de nouvelle lune‚ ce Pokémon erre dans les rues en chantant d’une voix lugubre. Ceux qui l’entendent sont maudits.',
+    'height': 9,
+    'weight': 125,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/711.png',
     'evolution_chain': [
         {
             'id': '0710',
@@ -12,7 +16,6 @@ BANSHITROUYE = {
             'name': 'Banshitrouye'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/711.png',
     'types': [
         'Spectre',
         'Plante'
@@ -70,7 +73,5 @@ BANSHITROUYE = {
                 'Glace'
             ]
         }
-    ],
-    'height': 9,
-    'weight': 125
+    ]
 }

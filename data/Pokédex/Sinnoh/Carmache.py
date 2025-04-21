@@ -2,6 +2,10 @@ CARMACHE = {
     'number': '0444',
     'french_name': 'Carmache',
     'english_name': 'Gabite',
+    'description': 'Toujours à la recherche d’objets brillants‚ il arpente les grottes pour constituer son butin.',
+    'height': 14,
+    'weight': 560,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/444.png',
     'evolution_chain': [
         {
             'id': '0443',
@@ -16,7 +20,6 @@ CARMACHE = {
             'name': 'Carchacrok'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/444.png',
     'types': [
         'Dragon',
         'Sol'
@@ -28,7 +31,5 @@ CARMACHE = {
     ],
     'forms': [
         
-    ],
-    'height': 14,
-    'weight': 560
+    ]
 }

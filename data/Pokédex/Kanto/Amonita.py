@@ -2,6 +2,10 @@ AMONITA = {
     'number': '0138',
     'french_name': 'Amonita',
     'english_name': 'Omanyte',
+    'description': 'Un Pokémon ramené à la vie par la science à partir d’un fossile. Il peuplait autrefois les mers.',
+    'height': 4,
+    'weight': 75,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png',
     'evolution_chain': [
         {
             'id': '0138',
@@ -12,7 +16,6 @@ AMONITA = {
             'name': 'Amonistar'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png',
     'types': [
         'Roche',
         'Eau'
@@ -25,7 +28,5 @@ AMONITA = {
     ],
     'forms': [
         
-    ],
-    'height': 4,
-    'weight': 75
+    ]
 }

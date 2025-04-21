@@ -2,6 +2,10 @@ DISPAREPTIL = {
     'number': '0886',
     'french_name': 'Dispareptil',
     'english_name': 'Drakloak',
+    'description': 'Il vole à une vitesse de 200 km/h et se bat aux côtés d’un Fantyrm‚ dont il prend soin jusqu’à son évolution.',
+    'height': 14,
+    'weight': 110,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/886.png',
     'evolution_chain': [
         {
             'id': '0885',
@@ -16,7 +20,6 @@ DISPAREPTIL = {
             'name': 'Lanssorien'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/886.png',
     'types': [
         'Dragon',
         'Spectre'
@@ -30,7 +33,5 @@ DISPAREPTIL = {
     ],
     'forms': [
         
-    ],
-    'height': 14,
-    'weight': 110
+    ]
 }

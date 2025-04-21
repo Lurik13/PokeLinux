@@ -2,6 +2,10 @@ ARGOUSTE = {
     'number': '0735',
     'french_name': 'Argouste',
     'english_name': 'Gumshoos',
+    'description': 'Lorsqu’il est sur les traces d’une proie‚ ce Pokémon n’est pas du genre à abandonner. Sauf le soir‚ lorsqu’il tombe de sommeil.',
+    'height': 7,
+    'weight': 142,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/735.png',
     'evolution_chain': [
         {
             'id': '0734',
@@ -12,7 +16,6 @@ ARGOUSTE = {
             'name': 'Argouste'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/735.png',
     'types': [
         'Normal'
     ],
@@ -30,7 +33,5 @@ ARGOUSTE = {
                 'Combat'
             ]
         }
-    ],
-    'height': 7,
-    'weight': 142
+    ]
 }

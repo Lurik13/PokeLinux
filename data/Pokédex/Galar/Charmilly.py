@@ -2,6 +2,10 @@ CHARMILLY = {
     'number': '0869',
     'french_name': 'Charmilly',
     'english_name': 'Alcremie',
+    'description': 'Il offre aux Dresseurs auxquels il accorde toute sa confiance des Baies décorées avec de la crème.',
+    'height': 3,
+    'weight': 5,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/869.png',
     'evolution_chain': [
         {
             'id': '0868',
@@ -12,7 +16,6 @@ CHARMILLY = {
             'name': 'Charmilly'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/869.png',
     'types': [
         'Fée'
     ],
@@ -27,7 +30,5 @@ CHARMILLY = {
             'types': None,
             'weaknesses': None
         }
-    ],
-    'height': 3,
-    'weight': 5
+    ]
 }

@@ -2,6 +2,10 @@ URSARING = {
     'number': '0217',
     'french_name': 'Ursaring',
     'english_name': 'Ursaring',
+    'description': 'Il marque de ses griffes les arbres de son territoire qui portent des Baies ou des fruits.',
+    'height': 18,
+    'weight': 1258,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/217.png',
     'evolution_chain': [
         {
             'id': '0216',
@@ -16,7 +20,6 @@ URSARING = {
             'name': 'Ursaking'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/217.png',
     'types': [
         'Normal'
     ],
@@ -25,7 +28,5 @@ URSARING = {
     ],
     'forms': [
         
-    ],
-    'height': 18,
-    'weight': 1258
+    ]
 }

@@ -2,6 +2,10 @@ ZIGZATON = {
     'number': '0263',
     'french_name': 'Zigzaton',
     'english_name': 'Zigzagoon',
+    'description': 'Il marche en zigzaguant et n’a pas son pareil pour trouver des objets dans l’herbe ou sous terre.',
+    'height': 4,
+    'weight': 175,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/263.png',
     'evolution_chain': [
         {
             'id': '0263',
@@ -16,7 +20,6 @@ ZIGZATON = {
             'name': 'Ixon'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/263.png',
     'types': [
         'Normal'
     ],
@@ -37,7 +40,5 @@ ZIGZATON = {
                 'Fée'
             ]
         }
-    ],
-    'height': 4,
-    'weight': 175
+    ]
 }

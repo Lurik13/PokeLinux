@@ -2,6 +2,10 @@ RAICHU = {
     'number': '0026',
     'french_name': 'Raichu',
     'english_name': 'Raichu',
+    'description': 'Il se protège des décharges grâce à sa queue qui dissipe l’électricité dans le sol.',
+    'height': 8,
+    'weight': 300,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png',
     'evolution_chain': [
         {
             'id': '0172',
@@ -16,7 +20,6 @@ RAICHU = {
             'name': 'Raichu'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png',
     'types': [
         'Électrik'
     ],
@@ -38,7 +41,5 @@ RAICHU = {
                 'Ténèbres'
             ]
         }
-    ],
-    'height': 8,
-    'weight': 300
+    ]
 }

@@ -2,6 +2,10 @@ PARASECT = {
     'number': '0047',
     'french_name': 'Parasect',
     'english_name': 'Parasect',
+    'description': 'Un champignon parasite plus gros que Parasect contrôle son corps. Il répand des spores empoisonnées.',
+    'height': 10,
+    'weight': 295,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png',
     'evolution_chain': [
         {
             'id': '0046',
@@ -12,7 +16,6 @@ PARASECT = {
             'name': 'Parasect'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png',
     'types': [
         'Insecte',
         'Plante'
@@ -27,7 +30,5 @@ PARASECT = {
     ],
     'forms': [
         
-    ],
-    'height': 10,
-    'weight': 295
+    ]
 }

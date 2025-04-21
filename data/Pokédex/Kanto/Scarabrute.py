@@ -2,13 +2,16 @@ SCARABRUTE = {
     'number': '0127',
     'french_name': 'Scarabrute',
     'english_name': 'Pinsir',
+    'description': 'Il serre les proies dans ses pinces pour les trancher en deux. S’il n’y arrive pas‚ il les jette au loin.',
+    'height': 15,
+    'weight': 550,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png',
     'evolution_chain': [
         {
             'id': '0127',
             'name': 'Scarabrute'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png',
     'types': [
         'Insecte'
     ],
@@ -33,7 +36,5 @@ SCARABRUTE = {
                 'Glace'
             ]
         }
-    ],
-    'height': 15,
-    'weight': 550
+    ]
 }

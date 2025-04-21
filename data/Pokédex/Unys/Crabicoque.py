@@ -2,6 +2,10 @@ CRABICOQUE = {
     'number': '0557',
     'french_name': 'Crabicoque',
     'english_name': 'Dwebble',
+    'description': 'Il peut facilement creuser son trou dans les pierres les plus dures grâce au liquide sécrété par sa bouche.',
+    'height': 3,
+    'weight': 145,
+    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/557.png',
     'evolution_chain': [
         {
             'id': '0557',
@@ -12,7 +16,6 @@ CRABICOQUE = {
             'name': 'Crabaraque'
         }
     ],
-    'sprite': 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/557.png',
     'types': [
         'Insecte',
         'Roche'
@@ -24,7 +27,5 @@ CRABICOQUE = {
     ],
     'forms': [
         
-    ],
-    'height': 3,
-    'weight': 145
+    ]
 }
