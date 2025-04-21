@@ -1,5 +1,8 @@
+import pickle
 import sys
 import unicodedata
+with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
+    POKEMON = pickle.load(executable)
 
 GRAY = "\033[38;2;150;150;150;1m"
 GREEN = "\033[38;2;50;200;50m"
@@ -34,3 +37,29 @@ def clear_lines(n):
     for _ in range(n):
         sys.stdout.write('\033[F\033[K')
     sys.stdout.flush()
+
+def find_pokemon_by_name(name):
+    new_mystery_name = normalize(name)
+    for key, data in POKEMON.items():
+        new_data_name = normalize(data["french_name"])
+        if new_data_name == new_mystery_name:
+            return key
+    return 0
+
+def is_correct_generation(try_id, first_pokemon_id, last_pokemon_id):
+    if try_id < first_pokemon_id or try_id > last_pokemon_id:
+        return False
+    return True
+
+def calculate_number_of_spaces(cols, custom_len = 0):
+    if custom_len:
+        return max((cols - custom_len) // 2, 0)
+    from src.pokedle.display import DATA
+    number_of_spaces = 0
+    for row in DATA:
+        number_of_spaces += 4 + row['max_len']
+    return max((cols - number_of_spaces) // 2, 0)
+
+def display_message(message, colour, cols):
+    number_of_spaces = calculate_number_of_spaces(cols)
+    console_print(" " * number_of_spaces + message, False, colour)

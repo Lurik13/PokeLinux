@@ -49,44 +49,46 @@ def get_centered_value(value, max_len, value_colour, lines_colour, line = '│')
 def get_lines(lines, max_len, colour):
     return colour + lines[0] + lines[1] * (max_len + 2) + lines[2] + RESET
 
-def display_caption():
+def display_caption(cols, lines):
+    number_of_spaces = calculate_number_of_spaces(cols)
     top_caption = ""
     for row in DATA:
         top_caption += get_lines("╔═╗", row['max_len'], WHITE)
-    print(top_caption)
+    print(" " * number_of_spaces + top_caption)
     mid_caption = ""
     for i in range(len(CATEGORIES)):
         mid_caption += get_centered_value(CATEGORIES[i], DATA[i]['max_len'], WHITE, WHITE, '║')
-    print(mid_caption)
+    print(" " * number_of_spaces + mid_caption)
     bottom_caption = ""
     for row in DATA:
         bottom_caption += get_lines("╚═╝", row['max_len'], WHITE)
-    print(bottom_caption)
+    print(" " * number_of_spaces + bottom_caption)
 
-def display_row(result):
+def display_row(result, cols, lines):
+    number_of_spaces = calculate_number_of_spaces(cols)
     top_lines = ""
     for row in DATA:
         if 'colour' in result[row['id']]:
             top_lines += get_lines("╭─╮", row['max_len'], result[row['id']]['colour'])
         else:
             top_lines += get_lines("╭─╮", row['max_len'], result[row['id']]['line_colour'])
-    print(top_lines)
+    print(" " * number_of_spaces + top_lines)
     mid_rows = ""
     for row in DATA:
         if 'colour' in result[row['id']]:
             mid_rows += get_centered_value(result[row['id']]['value'], row['max_len'], result[row['id']]['colour'], result[row['id']]['colour'])
         else:
             mid_rows += get_centered_value(result[row['id']]['value'], row['max_len'], result[row['id']]['text_colours'], result[row['id']]['line_colour'])
-    print(mid_rows)
+    print(" " * number_of_spaces + mid_rows)
     bottom_lines = ""
     for row in DATA:
         if 'colour' in result[row['id']]:
             bottom_lines += get_lines("╰─╯", row['max_len'], result[row['id']]['colour'])
         else:
             bottom_lines += get_lines("╰─╯", row['max_len'], result[row['id']]['line_colour'])
-    print(bottom_lines)
+    print(" " * number_of_spaces + bottom_lines)
 
-def display_table(pokemon_id_tried, mystery_pokemon):
+def display_table(pokemon_id_tried, mystery_pokemon, cols, lines):
     row = {}
     row['pokemon'] = {'value': POKEMON[pokemon_id_tried]['french_name'], 'colour': WHITE}
     tried_types = try_types(POKEMON[pokemon_id_tried]['types'], mystery_pokemon['types'])
@@ -97,4 +99,4 @@ def display_table(pokemon_id_tried, mystery_pokemon):
     row['weight'] = try_weight(POKEMON[pokemon_id_tried]['weight'], mystery_pokemon['weight'])
     row['colours'] = try_colours(COLOURS[pokemon_id_tried], COLOURS[int(mystery_pokemon['number'])])
     row['habitats'] = try_habitats(HABITATS[pokemon_id_tried], HABITATS[int(mystery_pokemon['number'])])
-    display_row(row)
+    display_row(row, cols, lines)
