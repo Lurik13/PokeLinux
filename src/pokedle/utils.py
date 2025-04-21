@@ -5,10 +5,15 @@ with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
 
 GRAY = "\033[38;2;150;150;150;1m"
-GREEN = "\033[38;2;50;200;50m"
 BLUE = "\033[38;2;0;100;200m"
-RED = "\033[38;2;200;50;50m"
+GREEN = "\033[38;2;50;200;50m"
+GREENYELLOW = "\033[38;2;100;200;50m"
+YELLOWGREEN = "\033[38;2;150;200;50m"
+YELLOW = "\033[38;2;200;200;50m"
+YELLOWORANGE = "\033[38;2;200;175;25m"
 ORANGE = "\033[38;2;200;150;0m"
+REDORANGE = "\033[38;2;200;100;25m"
+RED = "\033[38;2;200;50;50m"
 WHITE = "\033[38;2;255;255;255m"
 RESET = "\033[0m"
 

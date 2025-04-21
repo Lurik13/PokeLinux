@@ -2,6 +2,8 @@ import pickle
 from src.pokedle.utils import *
 from pokedle.try_evolutions import try_evolutions
 from pokedle.try_height_weight import try_height, try_weight
+from src.pokedle.try_generation import try_generation
+from src.pokedle.try_pokemon import try_pokemon
 from pokedle.try_others import *
 from data.Knowledge.colours import COLOURS
 from data.Knowledge.habitats import HABITATS
@@ -17,8 +19,9 @@ DATA = [
     {'id': 'weight', 'max_len': 9},
     {'id': 'colours', 'max_len': 14},
     {'id': 'habitats', 'max_len': 32},
+    {'id': 'generation', 'max_len': 3},
 ]
-CATEGORIES = ["POKÉMON", "TYPE 1", "TYPE 2", "ÉV.", "TAILLE", "POIDS", "COULEURS", "HABITATS"]
+CATEGORIES = ["POKÉMON", "TYPE 1", "TYPE 2", "ÉV.", "TAILLE", "POIDS", "COULEURS", "HABITATS", "GÉN"]
 
 
 def get_centered_value(value, max_len, value_colour, lines_colour, line = '│'):
@@ -90,7 +93,6 @@ def display_row(result, cols, lines):
 
 def display_table(pokemon_id_tried, mystery_pokemon, cols, lines):
     row = {}
-    row['pokemon'] = {'value': POKEMON[pokemon_id_tried]['french_name'], 'colour': WHITE}
     tried_types = try_types(POKEMON[pokemon_id_tried]['types'], mystery_pokemon['types'])
     row['first_type'] = tried_types[0]
     row['second_type'] = tried_types[1]
@@ -99,4 +101,6 @@ def display_table(pokemon_id_tried, mystery_pokemon, cols, lines):
     row['weight'] = try_weight(POKEMON[pokemon_id_tried]['weight'], mystery_pokemon['weight'])
     row['colours'] = try_colours(COLOURS[pokemon_id_tried], COLOURS[int(mystery_pokemon['number'])])
     row['habitats'] = try_habitats(HABITATS[pokemon_id_tried], HABITATS[int(mystery_pokemon['number'])])
+    row['generation'] = try_generation(pokemon_id_tried, int(mystery_pokemon['number']))
+    row['pokemon'] = try_pokemon(row, pokemon_id_tried)
     display_row(row, cols, lines)
