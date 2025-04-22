@@ -11,6 +11,43 @@ from prompt_toolkit.shortcuts import clear # type: ignore
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
 
+def pick_unique_letters(name, number_of_letters):
+    unique_letters = list(dict.fromkeys(name.upper()))
+    letters_array = []
+    for i in range(number_of_letters):
+        index = (i * 1357 + 42) % len(unique_letters)
+        letters_array.append(unique_letters[index])
+    return letters_array
+
+def print_clue(counter, mystery_pokemon, cols):
+    description = mystery_pokemon['description'].replace(mystery_pokemon['french_name'], '***').replace(mystery_pokemon['english_name'], '***')
+    if counter < 4:
+        display_message(f"Persévère ! Il te reste {4 - counter} essai{'s' if counter != 2 else ''} pour obtenir le premier indice.", BLUE, cols)
+    elif counter < 8:
+        display_message(description[:len(description)//2] + " [...]", BLUE, cols)
+    else:
+        display_message(description, BLUE, cols)
+    number_of_lines_to_clear = 1
+    letters = []
+    if counter >= 12:
+        letter_count = 0
+        if counter < 16:
+            letter_count = 1
+        elif counter < 20:
+            letter_count = 2
+        else:
+            letter_count = 3
+        letters = pick_unique_letters(mystery_pokemon['french_name'], letter_count)
+        if letter_count == 1:
+            display_message(f"Le pokémon mystère contient la lettre {letters[0]} dans son nom.", BLUE, cols)
+        elif letter_count == 2:
+            display_message(f"Le pokémon mystère contient les lettres {letters[0]} et {letters[1]} dans son nom.", BLUE, cols)
+        elif letter_count == 3:
+            display_message(f"Le pokémon mystère contient les lettres {letters[0]}, {letters[1]} et {letters[2]} dans son nom.", BLUE, cols)
+        number_of_lines_to_clear += 1
+    return number_of_lines_to_clear
+
+
 def input_loop(gen_number, mystery_pokemon, first_pokemon_id, last_pokemon_id, cols, lines):
     counter = 0
     remaining_pokemon_names = get_completer_array(first_pokemon_id, last_pokemon_id)
@@ -22,8 +59,7 @@ def input_loop(gen_number, mystery_pokemon, first_pokemon_id, last_pokemon_id, c
         clear_lines(number_of_lines_to_clear)
         number_of_lines_to_clear = 1
         if normalize(new_try) == "indice":
-            display_message(mystery_pokemon['description'][:counter*5], ORANGE, cols)
-            number_of_lines_to_clear += 1
+            number_of_lines_to_clear += print_clue(counter, mystery_pokemon, cols)
         else:
             pokemon_id_tried = find_pokemon_by_name(new_try)
             if not pokemon_id_tried:
@@ -54,7 +90,7 @@ def pokedle(gen_number, cols, lines):
     mystery_pokemon = POKEMON[randint(first_pokemon_id, last_pokemon_id)]
     clear()
     # print(mystery_pokemon['french_name']) ################
-    display_message('Si tu as besoin d\'aide, écris "Indice".', ORANGE, cols)
+    display_message('Si tu as besoin d\'aide, écris "Indice". Tu as le droit à un indice supplémentaire tous les 4 essais', BLUE, cols)
     display_caption(cols, lines)
     input_loop(gen_number, mystery_pokemon, first_pokemon_id, last_pokemon_id, cols, lines)
     number_of_spaces = calculate_number_of_spaces(cols)

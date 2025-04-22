@@ -3,7 +3,7 @@ from src.pokedle.utils import *
 
 def get_generation(pokemon_id):
     for gen in GENERATIONS:
-        if pokemon_id > GENERATIONS[gen]['pokemon_range'][0] and pokemon_id < GENERATIONS[gen]['pokemon_range'][1]:
+        if pokemon_id >= GENERATIONS[gen]['pokemon_range'][0] and pokemon_id <= GENERATIONS[gen]['pokemon_range'][1]:
             return gen
 
 def try_generation(pokemon_id_tried, mystery_id):
