@@ -47,6 +47,11 @@ def print_clue(counter, mystery_pokemon, cols):
         number_of_lines_to_clear += 1
     return number_of_lines_to_clear
 
+def get_new_mystery_pokemon(generations):
+    gen_number = generations[randint(0, len(generations) - 1)]
+    first_pokemon_id = GENERATIONS[gen_number]['pokemon_range'][0]
+    last_pokemon_id = GENERATIONS[gen_number]['pokemon_range'][1]
+    return POKEMON[randint(first_pokemon_id, last_pokemon_id)]
 
 def input_loop(generations, mystery_pokemon, cols, lines):
     counter = 0
@@ -56,6 +61,8 @@ def input_loop(generations, mystery_pokemon, cols, lines):
         completer = AccentInsensitiveCompleter(remaining_pokemon_names)
         number_of_spaces = calculate_number_of_spaces(cols)
         new_try = prompt(" " * number_of_spaces + "Pokémon : ", completer=completer, complete_while_typing=True)
+        if counter == 0 and normalize(new_try) == normalize(mystery_pokemon['french_name']):
+            mystery_pokemon = get_new_mystery_pokemon(generations)
         clear_lines(number_of_lines_to_clear)
         number_of_lines_to_clear = 1
         if normalize(new_try) == "indice":
@@ -72,7 +79,7 @@ def input_loop(generations, mystery_pokemon, cols, lines):
                         remaining_pokemon_names.remove(POKEMON[pokemon_id_tried]['french_name'])
                         display_table(pokemon_id_tried, mystery_pokemon, cols, lines)
                         if normalize(new_try) == normalize(mystery_pokemon['french_name']):
-                            message = f"Bien joué ! Tu as trouvé {mystery_pokemon['french_name']} en {counter} coup{'s' if counter != 1 else ''} !"
+                            message = f"Bien joué ! Tu as trouvé {mystery_pokemon['french_name']} en {counter} coups !"
                             display_message(message, GREEN, cols)
                             break
                     else:
@@ -109,10 +116,7 @@ def parsing_gens():
 
 def pokedle(cols, lines):
     generations = parsing_gens()
-    gen_number = generations[randint(0, len(generations) - 1)]
-    first_pokemon_id = GENERATIONS[gen_number]['pokemon_range'][0]
-    last_pokemon_id = GENERATIONS[gen_number]['pokemon_range'][1]
-    mystery_pokemon = POKEMON[randint(first_pokemon_id, last_pokemon_id)]
+    mystery_pokemon = get_new_mystery_pokemon(generations)
     clear()
     # print(mystery_pokemon['french_name']) ################
     display_message('Si tu as besoin d\'aide, écris "Indice". Tu as le droit à un indice supplémentaire tous les 4 essais', BLUE, cols)
