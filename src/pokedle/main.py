@@ -22,7 +22,7 @@ def pick_unique_letters(name, number_of_letters):
 def print_clue(counter, mystery_pokemon, cols):
     description = mystery_pokemon['description'].replace(mystery_pokemon['french_name'], '***').replace(mystery_pokemon['english_name'], '***')
     if counter < 4:
-        display_message(f"Persévère ! Il te reste {4 - counter} essai{'s' if counter != 2 else ''} pour obtenir le premier indice.", BLUE, cols)
+        display_message(f"Persévère ! Il te reste {4 - counter} essai{'s' if counter != 3 else ''} pour obtenir le premier indice.", BLUE, cols)
     elif counter < 8:
         display_message(description[:len(description)//2] + " [...]", BLUE, cols)
     else:
@@ -108,10 +108,8 @@ def parsing_gens():
     return [int(x) for x in gen_numbers]
 
 def pokedle(cols, lines):
-    
     generations = parsing_gens()
     gen_number = generations[randint(0, len(generations) - 1)]
-    print(gen_number) ######################################
     first_pokemon_id = GENERATIONS[gen_number]['pokemon_range'][0]
     last_pokemon_id = GENERATIONS[gen_number]['pokemon_range'][1]
     mystery_pokemon = POKEMON[randint(first_pokemon_id, last_pokemon_id)]
@@ -123,6 +121,5 @@ def pokedle(cols, lines):
     number_of_spaces = calculate_number_of_spaces(cols)
     want_to_continue = prompt(" " * number_of_spaces + 'Entre "Continuer" pour commencer une nouvelle partie.\n' + " " * number_of_spaces + 'Réponse : ')
     if want_to_continue.lower() == 'continuer':
-        from src.main import parsing_gen
         print('')
-        parsing_gen(pokedle, cols, lines)
+        pokedle(cols, lines)
