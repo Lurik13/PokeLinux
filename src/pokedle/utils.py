@@ -1,6 +1,8 @@
 import pickle
 import sys
 import unicodedata
+from data.Knowledge.generations import GENERATIONS
+from src.generate_data.generate_files import get_gen_region
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
 
@@ -51,10 +53,13 @@ def find_pokemon_by_name(name):
             return key
     return 0
 
-def is_correct_generation(try_id, first_pokemon_id, last_pokemon_id):
-    if try_id < first_pokemon_id or try_id > last_pokemon_id:
-        return False
-    return True
+def is_correct_generation(try_id, generations):
+    for gen in generations:
+        first_pokemon_id = GENERATIONS[gen]['pokemon_range'][0]
+        last_pokemon_id = GENERATIONS[gen]['pokemon_range'][1]
+        if try_id >= first_pokemon_id and try_id <= last_pokemon_id:
+            return gen
+    return 0
 
 def calculate_number_of_spaces(cols, custom_len = 0):
     if custom_len:
@@ -68,3 +73,10 @@ def calculate_number_of_spaces(cols, custom_len = 0):
 def display_message(message, colour, cols):
     number_of_spaces = calculate_number_of_spaces(cols)
     console_print(" " * number_of_spaces + message, False, colour)
+
+def get_generation_name_by_pokemon(pokemon_id):
+    for gen in GENERATIONS:
+        first_pokemon_id = GENERATIONS[gen]['pokemon_range'][0]
+        last_pokemon_id = GENERATIONS[gen]['pokemon_range'][1]
+        if pokemon_id >= first_pokemon_id and pokemon_id <= last_pokemon_id:
+            return get_gen_region(GENERATIONS[gen]['name'])

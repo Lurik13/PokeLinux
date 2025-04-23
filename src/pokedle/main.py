@@ -48,9 +48,9 @@ def print_clue(counter, mystery_pokemon, cols):
     return number_of_lines_to_clear
 
 
-def input_loop(gen_number, mystery_pokemon, first_pokemon_id, last_pokemon_id, cols, lines):
+def input_loop(generations, mystery_pokemon, cols, lines):
     counter = 0
-    remaining_pokemon_names = get_completer_array(first_pokemon_id, last_pokemon_id)
+    remaining_pokemon_names = get_completer_array(generations)
     number_of_lines_to_clear = 1
     while True:
         completer = AccentInsensitiveCompleter(remaining_pokemon_names)
@@ -67,7 +67,7 @@ def input_loop(gen_number, mystery_pokemon, first_pokemon_id, last_pokemon_id, c
                 number_of_lines_to_clear += 1
             else:
                 counter += 1
-                if is_correct_generation(pokemon_id_tried, first_pokemon_id, last_pokemon_id):
+                if is_correct_generation(pokemon_id_tried, generations):
                     if normalize(new_try) in normalize(remaining_pokemon_names):
                         remaining_pokemon_names.remove(POKEMON[pokemon_id_tried]['french_name'])
                         display_table(pokemon_id_tried, mystery_pokemon, cols, lines)
@@ -79,12 +79,39 @@ def input_loop(gen_number, mystery_pokemon, first_pokemon_id, last_pokemon_id, c
                         display_message(f"Tu as déjà tenté avec {POKEMON[pokemon_id_tried]['french_name']} et ça n'a pas marché...", RED, cols)
                         number_of_lines_to_clear += 1
                 else:
-                    display_message(f"Les {POKEMON[pokemon_id_tried]['french_name']} ne proviennent pas de la région " + \
-                        f"{get_de_pokemon(get_gen_region(GENERATIONS[gen_number]['name']))} !", RED, cols)
+                    display_message(f"Les {POKEMON[pokemon_id_tried]['french_name']} proviennent de la région " + \
+                        f"{get_de_pokemon(get_generation_name_by_pokemon(pokemon_id_tried))} !", RED, cols)
                     number_of_lines_to_clear += 1
 
-def pokedle(gen_number, cols, lines):
-    gen_number = int(gen_number)
+def are_gens_valids(gen_numbers):
+    for nb in gen_numbers:
+        if not len(nb):
+            print(RED + "Vous devez indiquer le numéro d'une génération." + RESET)
+            return False
+        elif nb.isnumeric() == False:
+            print(RED + f"'{nb}' n'est pas un numéro positif." + RESET)
+            return False
+        elif int(nb) == 0:
+            exit()
+        elif int(nb) not in GENERATIONS:
+            print(RED + f"La génération '{nb}' n'existe pas selon mes sources." + RESET)
+            return False
+    return True
+
+def parsing_gens():
+    valid = False
+    print("Veuillez indiquer le numéro d'une génération. 0 pour sortir.\nMettez des virgules si vous voulez plusieurs générations.")
+    while not valid:
+        print("Génération(s) : ", end='', flush=True)
+        gen_numbers = input().replace(' ', '').split(',')
+        valid = are_gens_valids(gen_numbers)
+    return [int(x) for x in gen_numbers]
+
+def pokedle(cols, lines):
+    
+    generations = parsing_gens()
+    gen_number = generations[randint(0, len(generations) - 1)]
+    print(gen_number) ######################################
     first_pokemon_id = GENERATIONS[gen_number]['pokemon_range'][0]
     last_pokemon_id = GENERATIONS[gen_number]['pokemon_range'][1]
     mystery_pokemon = POKEMON[randint(first_pokemon_id, last_pokemon_id)]
@@ -92,7 +119,7 @@ def pokedle(gen_number, cols, lines):
     # print(mystery_pokemon['french_name']) ################
     display_message('Si tu as besoin d\'aide, écris "Indice". Tu as le droit à un indice supplémentaire tous les 4 essais', BLUE, cols)
     display_caption(cols, lines)
-    input_loop(gen_number, mystery_pokemon, first_pokemon_id, last_pokemon_id, cols, lines)
+    input_loop(generations, mystery_pokemon, cols, lines)
     number_of_spaces = calculate_number_of_spaces(cols)
     want_to_continue = prompt(" " * number_of_spaces + 'Entre "Continuer" pour commencer une nouvelle partie.\n' + " " * number_of_spaces + 'Réponse : ')
     if want_to_continue.lower() == 'continuer':

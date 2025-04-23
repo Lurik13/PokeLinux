@@ -1,13 +1,17 @@
 import pickle
 from src.pokedle.utils import normalize
 from prompt_toolkit.completion import Completer, Completion # type: ignore
+from data.Knowledge.generations import GENERATIONS
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
 
-def get_completer_array(first_pokemon_id, last_pokemon_id):
+def get_completer_array(generations):
     array = []
-    for i in range(first_pokemon_id, last_pokemon_id + 1):
-        array.append(POKEMON[i]['french_name'])
+    for gen in generations:
+        first_pokemon_id = GENERATIONS[gen]['pokemon_range'][0]
+        last_pokemon_id = GENERATIONS[gen]['pokemon_range'][1]
+        for i in range(first_pokemon_id, last_pokemon_id + 1):
+            array.append(POKEMON[i]['french_name'])
     return array
 
 class AccentInsensitiveCompleter(Completer):

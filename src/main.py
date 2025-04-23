@@ -45,7 +45,7 @@ COMMANDS = [
     }
 ]
 
-def parsing_gen(function, cols = None, lines = None):
+def parsing_gen(function):
     valid = False
     print("Veuillez indiquer le numéro d'une génération. 0 pour sortir.")
     while not valid:
@@ -61,10 +61,7 @@ def parsing_gen(function, cols = None, lines = None):
             print(RED + f"La génération '{gen_number}' n'existe pas selon mes sources." + RESET)
         else:
             valid = True
-            if (cols):
-                function(gen_number, cols, lines)
-            else:
-                function(gen_number)
+            function(gen_number)
 
 if __name__ == "__main__":
     try:
@@ -81,7 +78,7 @@ if __name__ == "__main__":
                 case "get_anki_deck":
                     parsing_gen(get_anki_deck)
                 case "pokedle":
-                    parsing_gen(pokedle, int(sys.argv[1]), int(sys.argv[2]))
+                    pokedle(int(sys.argv[1]), int(sys.argv[2]))
                 case "get_starters":
                     get_starters()
                 case "reset_data":
