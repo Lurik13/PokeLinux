@@ -52,7 +52,7 @@ def get_centered_value(value, max_len, value_colour, lines_colour, line = '│')
 def get_lines(lines, max_len, colour):
     return colour + lines[0] + lines[1] * (max_len + 2) + lines[2] + RESET
 
-def display_caption(cols, lines):
+def display_caption(cols):
     number_of_spaces = calculate_number_of_spaces(cols)
     top_caption = ""
     for row in DATA:
@@ -67,7 +67,7 @@ def display_caption(cols, lines):
         bottom_caption += get_lines("╚═╝", row['max_len'], WHITE)
     print(" " * number_of_spaces + bottom_caption)
 
-def display_row(result, cols, lines):
+def display_row(result, cols):
     number_of_spaces = calculate_number_of_spaces(cols)
     top_lines = ""
     for row in DATA:
@@ -91,7 +91,7 @@ def display_row(result, cols, lines):
             bottom_lines += get_lines("╰─╯", row['max_len'], result[row['id']]['line_colour'])
     print(" " * number_of_spaces + bottom_lines)
 
-def display_table(pokemon_id_tried, mystery_pokemon, cols, lines):
+def display_table(pokemon_id_tried, mystery_pokemon, cols):
     row = {}
     tried_types = try_types(POKEMON[pokemon_id_tried]['types'], mystery_pokemon['types'])
     row['first_type'] = tried_types[0]
@@ -103,4 +103,4 @@ def display_table(pokemon_id_tried, mystery_pokemon, cols, lines):
     row['habitats'] = try_habitats(HABITATS[pokemon_id_tried], HABITATS[int(mystery_pokemon['number'])])
     row['generation'] = try_generation(pokemon_id_tried, int(mystery_pokemon['number']))
     row['pokemon'] = try_pokemon(row, pokemon_id_tried)
-    display_row(row, cols, lines)
+    display_row(row, cols)

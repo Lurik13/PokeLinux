@@ -15,11 +15,11 @@ def get_completer_array(generations):
     return array
 
 class AccentInsensitiveCompleter(Completer):
-    def __init__(self, pokemons_names):
-        self.pokemons_names = pokemons_names
+    def __init__(self, names):
+        self.names = names
 
     def get_completions(self, document, complete_event):
         normalized_input = normalize(document.text_before_cursor)
-        for name in self.pokemons_names:
+        for name in self.names:
             if normalize(name).startswith(normalized_input):
                 yield Completion(name, start_position=-len(document.text_before_cursor))

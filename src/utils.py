@@ -1,4 +1,5 @@
 import pickle
+import unicodedata
 from src.generate_data.generate_files import get_gen_region
 from src.anki.print import get_pokemon_in_colour
 from data.Knowledge.generations import GENERATIONS
@@ -23,3 +24,18 @@ def get_starters():
             elif j + 1 < first_pokemon_id + 9:
                 print(" → ", end='', flush=True)
         print("")
+
+def remove_accents(value):
+    return ''.join(
+            c for c in unicodedata.normalize('NFD', value)
+            if unicodedata.category(c) != 'Mn')
+
+def normalize(value):
+    if isinstance(value, str):
+        return remove_accents(value).lower()
+    else:
+        new_array = []
+        for i in range(len(value)):
+            new_value = remove_accents(value[i])
+            new_array.append(new_value.lower())
+        return new_array

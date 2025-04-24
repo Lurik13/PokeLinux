@@ -1,10 +1,12 @@
 import pickle
+from prompt_toolkit import prompt # type: ignore
 from generate_data.generate_files import generate_pokedex
 from anki.anki_utils import *
 import sys
 from anki.print import *
 from anki.generate_deck import get_anki_deck
-from utils import get_starters
+from pokedle.input import AccentInsensitiveCompleter
+from utils import get_starters, normalize
 from pokedle.main import pokedle
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
@@ -28,8 +30,8 @@ COMMANDS = [
         "description": "Génère les cartes Anki de tous les pokémons d'une génération.",
     },
     {
-              "name": "pokedle",
-              "description": "Lance un jeu pour deviner un pokémon.",
+        "name": "pokedle",
+        "description": "Lance un jeu pour deviner un pokémon.",
     },
     {
         "name": "get_starters",
@@ -65,27 +67,28 @@ def parsing_gen(function):
 
 if __name__ == "__main__":
     try:
+        input_choices = ['help', 'get_anki_deck', 'pokedle', 'get_starters', 'reset_data', 'exit']
+        completer = AccentInsensitiveCompleter(input_choices)
         print("Que souhaitez-vous faire ? Voici l'inventaire des commandes disponibles :")
         display_commands()
         invalid_command = True
         while invalid_command:
             invalid_command = False
-            print("\nCommande : ", end='', flush=True)
-            match input():
+            new_input = normalize(prompt('Commande : ', completer=completer, complete_while_typing=True))
+            match new_input:
                 case "help":
                     display_commands()
                     invalid_command = True
                 case "get_anki_deck":
                     parsing_gen(get_anki_deck)
                 case "pokedle":
-                    pokedle(int(sys.argv[1]), int(sys.argv[2]))
+                    pokedle(int(sys.argv[1]))
                 case "get_starters":
                     get_starters()
                 case "reset_data":
-                    print("Êtes-vous vraiment sûr de vouloir lancer cette commande ? Écrivez \"Oui\" pour confirmer. Autre chose pour annuler.")
-                    print("Confirmation : ", end='', flush=True)
-                    confirmation = input()
-                    if (confirmation == "Oui"):
+                    confirmation = prompt("Êtes-vous vraiment sûr de vouloir lancer cette commande ? Écrivez \"Oui\" pour confirmer. Autre chose pour annuler.\nConfirmation : ",
+                        completer=AccentInsensitiveCompleter(['Oui']), complete_while_typing=True)
+                    if (normalize(confirmation) == normalize("Oui")):
                         generate_pokedex()
                 case "exit":
                     break

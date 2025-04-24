@@ -53,7 +53,7 @@ def get_new_mystery_pokemon(generations):
     last_pokemon_id = GENERATIONS[gen_number]['pokemon_range'][1]
     return POKEMON[randint(first_pokemon_id, last_pokemon_id)]
 
-def input_loop(generations, mystery_pokemon, cols, lines):
+def input_loop(generations, mystery_pokemon, cols):
     counter = 0
     remaining_pokemon_names = get_completer_array(generations)
     number_of_lines_to_clear = 1
@@ -77,7 +77,7 @@ def input_loop(generations, mystery_pokemon, cols, lines):
                 if is_correct_generation(pokemon_id_tried, generations):
                     if normalize(new_try) in normalize(remaining_pokemon_names):
                         remaining_pokemon_names.remove(POKEMON[pokemon_id_tried]['french_name'])
-                        display_table(pokemon_id_tried, mystery_pokemon, cols, lines)
+                        display_table(pokemon_id_tried, mystery_pokemon, cols)
                         if normalize(new_try) == normalize(mystery_pokemon['french_name']):
                             message = f"Bien joué ! Tu as trouvé {mystery_pokemon['french_name']} en {counter} coups !"
                             display_message(message, GREEN, cols)
@@ -114,16 +114,28 @@ def parsing_gens():
         valid = are_gens_valids(gen_numbers)
     return [int(x) for x in gen_numbers]
 
-def pokedle(cols, lines):
+def pokedle(cols):
     generations = parsing_gens()
-    mystery_pokemon = get_new_mystery_pokemon(generations)
-    clear()
-    # print(mystery_pokemon['french_name']) ################
-    display_message('Si tu as besoin d\'aide, écris "Indice". Tu as le droit à un indice supplémentaire tous les 4 essais', BLUE, cols)
-    display_caption(cols, lines)
-    input_loop(generations, mystery_pokemon, cols, lines)
-    number_of_spaces = calculate_number_of_spaces(cols)
-    want_to_continue = prompt(" " * number_of_spaces + 'Entre "Continuer" pour commencer une nouvelle partie.\n' + " " * number_of_spaces + 'Réponse : ')
-    if want_to_continue.lower() == 'continuer':
-        print('')
-        pokedle(cols, lines)
+    input_choices = ['Rejouer avec les mêmes générations', 'Changer de générations', 'Quitter']
+    completer = AccentInsensitiveCompleter(input_choices)
+    while True:
+        mystery_pokemon = get_new_mystery_pokemon(generations)
+        clear()
+        display_message('Si tu as besoin d\'aide, écris "Indice". Tu as le droit à un indice supplémentaire tous les 4 essais', BLUE, cols)
+        display_caption(cols)
+        input_loop(generations, mystery_pokemon, cols)
+        number_of_spaces = calculate_number_of_spaces(cols)
+        want_to_continue = prompt(
+            " " * number_of_spaces + 'On rejoue ? Utilise le TAB pour voir les propositions.\n' + " " * number_of_spaces + 'Réponse : ',
+            completer=completer, complete_while_typing=True)
+        while True:
+            if normalize(want_to_continue.lower()) == normalize(input_choices[0]):
+                break
+            if normalize(want_to_continue.lower()) == normalize(input_choices[1]):
+                generations = parsing_gens()
+                break
+            if normalize(want_to_continue.lower()) == normalize(input_choices[2]):
+                return
+            want_to_continue = prompt(" " * number_of_spaces + 'Réponse invalide. Utilise le TAB pour voir les propositions.\n' + " " * number_of_spaces + 'Réponse : ',
+                completer=completer, complete_while_typing=True)
+            

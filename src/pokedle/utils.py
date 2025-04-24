@@ -1,8 +1,8 @@
 import pickle
 import sys
-import unicodedata
 from data.Knowledge.generations import GENERATIONS
 from src.generate_data.generate_files import get_gen_region
+from utils import normalize
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
 
@@ -24,21 +24,6 @@ def console_print(message, should_flush = False, color = GRAY):
         print(color + message + RESET, end='', flush=should_flush)
     else:
         print(color + message + RESET)
-
-def remove_accents(value):
-    return ''.join(
-            c for c in unicodedata.normalize('NFD', value)
-            if unicodedata.category(c) != 'Mn')
-
-def normalize(value):
-    if isinstance(value, str):
-        return remove_accents(value).lower()
-    else:
-        new_array = []
-        for i in range(len(value)):
-            new_value = remove_accents(value[i])
-            new_array.append(new_value.lower())
-        return new_array
 
 def clear_lines(n):
     for _ in range(n):
