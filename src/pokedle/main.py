@@ -1,3 +1,4 @@
+import asyncio
 import pickle
 from random import randint
 from data.Knowledge.generations import GENERATIONS
@@ -122,7 +123,7 @@ def pokedle(cols):
         mystery_pokemon = get_new_mystery_pokemon(generations)
         clear()
         display_message('Si tu as besoin d\'aide, écris "Indice". Tu as le droit à un indice supplémentaire tous les 4 essais', BLUE, cols)
-        display_caption(cols)
+        asyncio.run(display_caption(cols))
         input_loop(generations, mystery_pokemon, cols)
         number_of_spaces = calculate_number_of_spaces(cols)
         want_to_continue = prompt(
