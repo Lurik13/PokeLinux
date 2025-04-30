@@ -29,5 +29,6 @@ FLOBIO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

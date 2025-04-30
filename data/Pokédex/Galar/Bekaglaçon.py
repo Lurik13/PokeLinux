@@ -35,5 +35,6 @@ BEKAGLAÇON = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

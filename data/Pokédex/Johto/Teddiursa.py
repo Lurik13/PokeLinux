@@ -28,5 +28,6 @@ TEDDIURSA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

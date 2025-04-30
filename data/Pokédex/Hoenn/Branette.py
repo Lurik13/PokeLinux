@@ -35,5 +35,6 @@ BRANETTE = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -26,5 +26,6 @@ GRORET = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

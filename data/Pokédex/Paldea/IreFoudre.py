@@ -24,5 +24,6 @@ IREFOUDRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

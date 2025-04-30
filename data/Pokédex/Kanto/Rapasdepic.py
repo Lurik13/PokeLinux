@@ -27,5 +27,6 @@ RAPASDEPIC = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

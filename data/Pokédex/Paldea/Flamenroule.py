@@ -25,5 +25,6 @@ FLAMENROULE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

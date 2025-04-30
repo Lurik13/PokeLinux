@@ -34,5 +34,6 @@ ZAMAZENTA = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

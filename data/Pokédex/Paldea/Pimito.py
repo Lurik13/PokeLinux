@@ -28,5 +28,6 @@ PIMITO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

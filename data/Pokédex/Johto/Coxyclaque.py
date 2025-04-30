@@ -29,5 +29,6 @@ COXYCLAQUE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

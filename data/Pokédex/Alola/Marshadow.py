@@ -24,5 +24,6 @@ MARSHADOW = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

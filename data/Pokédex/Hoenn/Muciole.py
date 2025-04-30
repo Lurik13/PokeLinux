@@ -22,5 +22,6 @@ MUCIOLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

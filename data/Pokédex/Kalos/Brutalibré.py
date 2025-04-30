@@ -25,5 +25,6 @@ BRUTALIBRÉ = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -29,5 +29,6 @@ FLORGES = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

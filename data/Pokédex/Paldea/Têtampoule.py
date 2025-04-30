@@ -24,5 +24,6 @@ TÊTAMPOULE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

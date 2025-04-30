@@ -27,5 +27,6 @@ PIÉTACÉ = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

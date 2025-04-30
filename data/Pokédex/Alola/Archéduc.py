@@ -48,5 +48,6 @@ ARCHÉDUC = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

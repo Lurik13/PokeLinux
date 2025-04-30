@@ -33,5 +33,6 @@ PTITARD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

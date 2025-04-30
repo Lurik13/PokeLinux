@@ -28,5 +28,6 @@ PORYGON2 = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

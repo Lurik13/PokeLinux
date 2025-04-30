@@ -30,5 +30,6 @@ BALBUTO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

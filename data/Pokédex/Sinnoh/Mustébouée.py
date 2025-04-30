@@ -25,5 +25,6 @@ MUSTÉBOUÉE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

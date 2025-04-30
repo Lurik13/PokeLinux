@@ -32,5 +32,6 @@ CANDINE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

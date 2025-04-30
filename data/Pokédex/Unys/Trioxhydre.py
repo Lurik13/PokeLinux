@@ -33,5 +33,6 @@ TRIOXHYDRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

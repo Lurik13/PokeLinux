@@ -26,5 +26,6 @@ LAKMÉCYGNE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -32,5 +32,6 @@ MÉTANG = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

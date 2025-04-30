@@ -27,5 +27,6 @@ VENALGUE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

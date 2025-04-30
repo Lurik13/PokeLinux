@@ -24,5 +24,6 @@ SAPEREAU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

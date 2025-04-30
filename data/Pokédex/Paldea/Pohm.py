@@ -28,5 +28,6 @@ POHM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

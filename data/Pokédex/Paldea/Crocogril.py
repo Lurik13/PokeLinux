@@ -30,5 +30,6 @@ CROCOGRIL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

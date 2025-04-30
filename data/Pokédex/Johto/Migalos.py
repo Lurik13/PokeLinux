@@ -28,5 +28,6 @@ MIGALOS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

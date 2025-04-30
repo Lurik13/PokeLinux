@@ -33,5 +33,6 @@ GOUPELIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

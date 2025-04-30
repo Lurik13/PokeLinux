@@ -26,5 +26,6 @@ BOURRINOS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

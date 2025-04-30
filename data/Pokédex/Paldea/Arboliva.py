@@ -34,5 +34,6 @@ ARBOLIVA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

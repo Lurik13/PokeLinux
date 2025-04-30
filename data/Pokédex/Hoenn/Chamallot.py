@@ -26,5 +26,6 @@ CHAMALLOT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

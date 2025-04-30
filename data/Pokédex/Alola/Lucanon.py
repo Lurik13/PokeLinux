@@ -41,5 +41,6 @@ LUCANON = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

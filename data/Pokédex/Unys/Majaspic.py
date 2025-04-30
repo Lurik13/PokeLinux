@@ -32,5 +32,6 @@ MAJASPIC = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

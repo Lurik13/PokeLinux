@@ -54,5 +54,6 @@ SYLVEROY = {
                 'Ténèbres*'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

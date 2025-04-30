@@ -24,5 +24,6 @@ COUDLANGUE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

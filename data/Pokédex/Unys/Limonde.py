@@ -37,5 +37,6 @@ LIMONDE = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

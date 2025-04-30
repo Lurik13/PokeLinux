@@ -20,5 +20,6 @@ WATTAPIK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

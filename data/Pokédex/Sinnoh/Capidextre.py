@@ -24,5 +24,6 @@ CAPIDEXTRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

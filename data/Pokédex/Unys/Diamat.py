@@ -33,5 +33,6 @@ DIAMAT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

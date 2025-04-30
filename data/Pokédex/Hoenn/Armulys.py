@@ -38,5 +38,6 @@ ARMULYS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

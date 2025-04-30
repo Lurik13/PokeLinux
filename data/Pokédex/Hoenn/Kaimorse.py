@@ -32,5 +32,6 @@ KAIMORSE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

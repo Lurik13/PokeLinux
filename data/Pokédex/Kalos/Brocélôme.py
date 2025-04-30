@@ -29,5 +29,6 @@ BROCÉLÔME = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

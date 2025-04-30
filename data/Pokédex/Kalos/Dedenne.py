@@ -22,5 +22,6 @@ DEDENNE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

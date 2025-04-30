@@ -30,5 +30,6 @@ BÉRASCA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

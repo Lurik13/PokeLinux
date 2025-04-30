@@ -28,5 +28,6 @@ KRAVARECH = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

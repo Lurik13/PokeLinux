@@ -35,5 +35,6 @@ TENGALICE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -34,5 +34,6 @@ LUNALA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

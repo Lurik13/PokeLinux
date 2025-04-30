@@ -32,5 +32,6 @@ LIANAJA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

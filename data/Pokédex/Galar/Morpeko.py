@@ -37,5 +37,6 @@ MORPEKO = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

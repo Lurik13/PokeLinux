@@ -28,5 +28,6 @@ VAUTUTRICE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

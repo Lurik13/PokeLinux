@@ -29,5 +29,6 @@ SERPANG = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

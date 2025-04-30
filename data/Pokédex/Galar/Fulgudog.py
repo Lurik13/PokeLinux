@@ -24,5 +24,6 @@ FULGUDOG = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

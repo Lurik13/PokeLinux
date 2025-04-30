@@ -39,5 +39,6 @@ AMOVÉNUS = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

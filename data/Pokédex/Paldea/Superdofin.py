@@ -35,5 +35,6 @@ SUPERDOFIN = {
                 'Électrik'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

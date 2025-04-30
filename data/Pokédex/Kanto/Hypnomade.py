@@ -26,5 +26,6 @@ HYPNOMADE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

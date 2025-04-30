@@ -33,5 +33,6 @@ FLÂMIGATOR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

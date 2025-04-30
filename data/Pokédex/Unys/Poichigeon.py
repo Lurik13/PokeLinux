@@ -31,5 +31,6 @@ POICHIGEON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

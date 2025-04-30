@@ -24,5 +24,6 @@ FOUINAR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

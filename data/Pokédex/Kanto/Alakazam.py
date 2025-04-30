@@ -41,5 +41,6 @@ ALAKAZAM = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

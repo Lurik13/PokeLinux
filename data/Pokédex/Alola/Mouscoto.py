@@ -24,5 +24,6 @@ MOUSCOTO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -29,5 +29,6 @@ MÉLOFÉE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

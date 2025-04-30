@@ -29,5 +29,6 @@ THÉFFROYABLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -21,5 +21,6 @@ LOVDISC = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -38,5 +38,6 @@ GALOPA = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

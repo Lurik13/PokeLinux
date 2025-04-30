@@ -25,5 +25,6 @@ PHIONE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

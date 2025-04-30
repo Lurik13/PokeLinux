@@ -26,5 +26,6 @@ MUSHANA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

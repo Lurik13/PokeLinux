@@ -33,5 +33,6 @@ FULGURIS = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

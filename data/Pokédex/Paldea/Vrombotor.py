@@ -26,5 +26,6 @@ VROMBOTOR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

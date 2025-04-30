@@ -25,5 +25,6 @@ POISSOROY = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

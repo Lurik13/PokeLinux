@@ -27,5 +27,6 @@ ROCDEFER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

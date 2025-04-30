@@ -26,5 +26,6 @@ TAGTAG = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

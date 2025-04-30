@@ -30,5 +30,6 @@ PTYRANIDUR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -29,5 +29,6 @@ NATU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

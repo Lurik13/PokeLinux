@@ -24,5 +24,6 @@ DRAÏEUL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

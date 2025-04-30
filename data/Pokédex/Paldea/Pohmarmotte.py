@@ -31,5 +31,6 @@ POHMARMOTTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

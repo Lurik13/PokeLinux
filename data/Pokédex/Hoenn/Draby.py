@@ -30,5 +30,6 @@ DRABY = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -25,5 +25,6 @@ SANCOKI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

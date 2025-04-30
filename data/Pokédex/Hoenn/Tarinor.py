@@ -28,5 +28,6 @@ TARINOR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -30,5 +30,6 @@ LARVIBULE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

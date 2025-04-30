@@ -39,5 +39,6 @@ PTÉRA = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

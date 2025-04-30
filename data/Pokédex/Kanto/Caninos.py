@@ -39,5 +39,6 @@ CANINOS = {
                 'Combat'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -20,5 +20,6 @@ KECLEON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

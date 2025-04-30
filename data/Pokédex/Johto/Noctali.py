@@ -54,5 +54,6 @@ NOCTALI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

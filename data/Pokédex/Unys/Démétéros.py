@@ -33,5 +33,6 @@ DÉMÉTÉROS = {
                 'Eau'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

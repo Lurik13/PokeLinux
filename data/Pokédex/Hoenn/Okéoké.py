@@ -26,5 +26,6 @@ OKÉOKÉ = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -26,5 +26,6 @@ LÉBOULÉROU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -24,5 +24,6 @@ GALVAGON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

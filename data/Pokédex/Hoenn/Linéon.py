@@ -40,5 +40,6 @@ LINÉON = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

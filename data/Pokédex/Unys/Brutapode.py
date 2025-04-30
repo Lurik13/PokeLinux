@@ -32,5 +32,6 @@ BRUTAPODE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -26,5 +26,6 @@ TOXIZAP = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

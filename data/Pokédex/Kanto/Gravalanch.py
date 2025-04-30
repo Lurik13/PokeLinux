@@ -47,5 +47,6 @@ GRAVALANCH = {
                 'Plante'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

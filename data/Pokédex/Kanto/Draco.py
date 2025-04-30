@@ -30,5 +30,6 @@ DRACO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

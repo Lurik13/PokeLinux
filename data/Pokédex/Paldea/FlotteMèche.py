@@ -22,5 +22,6 @@ FLOTTEMÈCHE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

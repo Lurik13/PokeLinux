@@ -24,5 +24,6 @@ RONGOURMAND = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

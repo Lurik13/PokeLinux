@@ -27,5 +27,6 @@ BAGGIGUANE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

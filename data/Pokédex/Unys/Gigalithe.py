@@ -32,5 +32,6 @@ GIGALITHE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

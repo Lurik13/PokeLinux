@@ -23,5 +23,6 @@ FEUPERÇANT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -24,5 +24,6 @@ CHINCHIDOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

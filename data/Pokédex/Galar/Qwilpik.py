@@ -25,5 +25,6 @@ QWILPIK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

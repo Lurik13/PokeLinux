@@ -26,5 +26,6 @@ VIRIDIUM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -31,5 +31,6 @@ VIBRANINF = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -26,5 +26,6 @@ BEKIPAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

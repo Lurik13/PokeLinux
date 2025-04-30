@@ -33,5 +33,6 @@ LANSSORIEN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

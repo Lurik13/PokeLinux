@@ -30,5 +30,6 @@ DRAGMARA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

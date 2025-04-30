@@ -27,5 +27,6 @@ SCOVILAIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

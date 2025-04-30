@@ -32,5 +32,6 @@ HERBIZARRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

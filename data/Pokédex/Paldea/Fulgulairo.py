@@ -26,5 +26,6 @@ FULGULAIRO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

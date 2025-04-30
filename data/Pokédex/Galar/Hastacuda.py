@@ -25,5 +25,6 @@ HASTACUDA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

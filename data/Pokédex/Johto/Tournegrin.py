@@ -28,5 +28,6 @@ TOURNEGRIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

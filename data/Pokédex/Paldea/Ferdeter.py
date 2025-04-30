@@ -22,5 +22,6 @@ FERDETER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -28,5 +28,6 @@ TERRACOOL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

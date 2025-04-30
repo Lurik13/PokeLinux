@@ -32,5 +32,6 @@ SUCREINE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

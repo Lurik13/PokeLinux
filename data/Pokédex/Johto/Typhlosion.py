@@ -44,5 +44,6 @@ TYPHLOSION = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

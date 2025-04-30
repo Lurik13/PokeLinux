@@ -33,5 +33,6 @@ COCHIGNON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

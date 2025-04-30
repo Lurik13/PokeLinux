@@ -28,5 +28,6 @@ CHEVROUM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

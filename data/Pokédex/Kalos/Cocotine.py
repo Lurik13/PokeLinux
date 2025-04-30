@@ -25,5 +25,6 @@ COCOTINE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

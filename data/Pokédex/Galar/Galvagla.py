@@ -24,5 +24,6 @@ GALVAGLA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

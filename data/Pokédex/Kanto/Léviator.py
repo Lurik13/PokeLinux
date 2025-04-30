@@ -40,5 +40,6 @@ LÉVIATOR = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

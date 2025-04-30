@@ -30,5 +30,6 @@ NUCLÉOS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -33,5 +33,6 @@ TARPAUD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

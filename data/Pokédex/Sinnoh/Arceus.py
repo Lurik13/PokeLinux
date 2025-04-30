@@ -20,5 +20,6 @@ ARCEUS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

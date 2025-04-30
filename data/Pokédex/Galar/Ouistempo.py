@@ -32,5 +32,6 @@ OUISTEMPO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -33,5 +33,6 @@ NINJASK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

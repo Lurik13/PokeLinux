@@ -53,5 +53,6 @@ AQUALI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

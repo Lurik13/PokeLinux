@@ -33,5 +33,6 @@ GROUDON = {
                 'Sol'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

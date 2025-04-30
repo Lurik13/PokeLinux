@@ -30,5 +30,6 @@ BERSERKATT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

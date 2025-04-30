@@ -29,5 +29,6 @@ COLHOMARD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

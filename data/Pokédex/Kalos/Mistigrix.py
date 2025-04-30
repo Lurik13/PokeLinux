@@ -37,5 +37,6 @@ MISTIGRIX = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

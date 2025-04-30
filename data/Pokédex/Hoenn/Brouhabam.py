@@ -28,5 +28,6 @@ BROUHABAM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

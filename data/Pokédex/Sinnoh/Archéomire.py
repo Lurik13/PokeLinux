@@ -28,5 +28,6 @@ ARCHÉOMIRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

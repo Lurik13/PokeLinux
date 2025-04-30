@@ -26,5 +26,6 @@ SOPORIFIK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

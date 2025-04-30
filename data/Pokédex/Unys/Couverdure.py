@@ -34,5 +34,6 @@ COUVERDURE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -28,5 +28,6 @@ NOUNOURSON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

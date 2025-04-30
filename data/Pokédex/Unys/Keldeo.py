@@ -39,5 +39,6 @@ KELDEO = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

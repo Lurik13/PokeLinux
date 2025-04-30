@@ -21,5 +21,6 @@ SPECTREVAL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

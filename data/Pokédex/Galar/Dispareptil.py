@@ -33,5 +33,6 @@ DISPAREPTIL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -27,5 +27,6 @@ HOOTHOOT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

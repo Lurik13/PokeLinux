@@ -30,5 +30,6 @@ PARAS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

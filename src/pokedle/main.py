@@ -81,6 +81,7 @@ def input_loop(generations, mystery_pokemon, cols):
                         if normalize(new_try) == normalize(mystery_pokemon['french_name']):
                             message = f"Bien joué ! Tu as trouvé {mystery_pokemon['french_name']} en {counter} coups !"
                             display_message(message, GREEN, cols)
+#                             save_in_pokedex(mystery_pokemon)
                             break
                     else:
                         display_message(f"Tu as déjà tenté avec {POKEMON[pokemon_id_tried]['french_name']} et ça n'a pas marché...", RED, cols)

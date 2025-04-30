@@ -30,5 +30,6 @@ FORGELLA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

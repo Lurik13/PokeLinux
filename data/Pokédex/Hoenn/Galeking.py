@@ -42,5 +42,6 @@ GALEKING = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

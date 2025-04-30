@@ -32,5 +32,6 @@ GÉOLITHE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

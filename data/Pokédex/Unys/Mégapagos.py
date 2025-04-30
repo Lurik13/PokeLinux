@@ -28,5 +28,6 @@ MÉGAPAGOS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

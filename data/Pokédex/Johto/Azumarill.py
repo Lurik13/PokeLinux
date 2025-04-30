@@ -31,5 +31,6 @@ AZUMARILL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

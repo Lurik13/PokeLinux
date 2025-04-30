@@ -40,5 +40,6 @@ PAPINOX = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

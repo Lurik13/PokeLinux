@@ -41,5 +41,6 @@ MALAMANDRE = {
                 'Eau'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

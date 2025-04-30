@@ -24,5 +24,6 @@ CAPUMAIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

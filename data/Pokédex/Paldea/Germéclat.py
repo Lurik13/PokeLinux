@@ -28,5 +28,6 @@ GERMÉCLAT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

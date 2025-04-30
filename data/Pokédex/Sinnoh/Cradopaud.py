@@ -27,5 +27,6 @@ CRADOPAUD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

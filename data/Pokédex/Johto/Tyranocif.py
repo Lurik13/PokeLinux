@@ -51,5 +51,6 @@ TYRANOCIF = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

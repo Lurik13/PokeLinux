@@ -53,5 +53,6 @@ NYMPHALI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

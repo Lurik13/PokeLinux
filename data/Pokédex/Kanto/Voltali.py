@@ -52,5 +52,6 @@ VOLTALI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -31,5 +31,6 @@ NÉNUPIOT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -32,5 +32,6 @@ SPECTRUM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

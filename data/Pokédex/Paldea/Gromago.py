@@ -28,5 +28,6 @@ GROMAGO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

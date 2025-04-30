@@ -30,5 +30,6 @@ COLOSSINGE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

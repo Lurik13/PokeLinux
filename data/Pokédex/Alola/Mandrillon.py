@@ -28,5 +28,6 @@ MANDRILLON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

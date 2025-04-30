@@ -43,5 +43,6 @@ FRAGILADY = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

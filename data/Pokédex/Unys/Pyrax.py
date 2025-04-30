@@ -27,5 +27,6 @@ PYRAX = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

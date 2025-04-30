@@ -30,5 +30,6 @@ CHENIPAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -41,5 +41,6 @@ PARAGRUEL = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

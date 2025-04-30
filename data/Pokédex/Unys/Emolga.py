@@ -22,5 +22,6 @@ EMOLGA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

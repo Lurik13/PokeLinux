@@ -32,5 +32,6 @@ BOUSTIFLOR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

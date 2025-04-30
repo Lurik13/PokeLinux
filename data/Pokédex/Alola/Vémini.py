@@ -25,5 +25,6 @@ VÉMINI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

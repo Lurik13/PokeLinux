@@ -26,5 +26,6 @@ LEWSOR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -30,5 +30,6 @@ LIPPOUTOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

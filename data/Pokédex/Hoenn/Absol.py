@@ -33,5 +33,6 @@ ABSOL = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

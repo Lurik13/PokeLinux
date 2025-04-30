@@ -34,5 +34,6 @@ OLIVINI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

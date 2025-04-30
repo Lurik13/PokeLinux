@@ -27,5 +27,6 @@ ARMALDO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

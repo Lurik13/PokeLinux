@@ -33,5 +33,6 @@ WIMESSIR = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

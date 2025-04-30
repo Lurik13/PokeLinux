@@ -31,5 +31,6 @@ ROUCOOL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

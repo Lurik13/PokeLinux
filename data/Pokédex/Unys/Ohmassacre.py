@@ -28,5 +28,6 @@ OHMASSACRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

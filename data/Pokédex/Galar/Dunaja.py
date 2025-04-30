@@ -26,5 +26,6 @@ DUNAJA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

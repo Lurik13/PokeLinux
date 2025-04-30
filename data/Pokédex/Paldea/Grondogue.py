@@ -26,5 +26,6 @@ GRONDOGUE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

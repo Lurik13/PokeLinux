@@ -26,5 +26,6 @@ GRIBOURAIGNE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -30,5 +30,6 @@ OUVRIFIER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

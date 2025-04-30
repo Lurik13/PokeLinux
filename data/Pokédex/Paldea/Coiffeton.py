@@ -29,5 +29,6 @@ COIFFETON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

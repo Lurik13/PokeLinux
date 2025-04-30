@@ -57,5 +57,6 @@ DEOXYS = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

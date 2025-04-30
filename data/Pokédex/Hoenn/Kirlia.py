@@ -35,5 +35,6 @@ KIRLIA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

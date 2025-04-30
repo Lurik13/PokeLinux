@@ -28,5 +28,6 @@ OPERMINE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

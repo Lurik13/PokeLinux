@@ -30,5 +30,6 @@ SCRUTELLA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

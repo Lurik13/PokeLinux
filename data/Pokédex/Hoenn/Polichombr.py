@@ -25,5 +25,6 @@ POLICHOMBR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

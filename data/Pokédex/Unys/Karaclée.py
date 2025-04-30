@@ -22,5 +22,6 @@ KARACLÉE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

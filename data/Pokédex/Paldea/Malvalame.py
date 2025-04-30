@@ -33,5 +33,6 @@ MALVALAME = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

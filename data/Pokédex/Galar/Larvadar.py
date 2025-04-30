@@ -30,5 +30,6 @@ LARVADAR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

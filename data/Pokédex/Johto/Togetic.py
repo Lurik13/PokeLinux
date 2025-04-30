@@ -33,5 +33,6 @@ TOGETIC = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

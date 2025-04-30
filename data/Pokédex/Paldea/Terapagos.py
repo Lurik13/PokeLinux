@@ -39,5 +39,6 @@ TERAPAGOS = {
                 'Combat'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

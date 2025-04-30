@@ -32,5 +32,6 @@ COCONFORT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

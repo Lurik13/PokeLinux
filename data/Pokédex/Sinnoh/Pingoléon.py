@@ -31,5 +31,6 @@ PINGOLÉON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

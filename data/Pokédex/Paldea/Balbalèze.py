@@ -27,5 +27,6 @@ BALBALÈZE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

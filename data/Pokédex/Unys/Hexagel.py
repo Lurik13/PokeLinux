@@ -23,5 +23,6 @@ HEXAGEL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

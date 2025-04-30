@@ -28,5 +28,6 @@ LUXIO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

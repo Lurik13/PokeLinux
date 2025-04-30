@@ -28,5 +28,6 @@ MALOSSE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

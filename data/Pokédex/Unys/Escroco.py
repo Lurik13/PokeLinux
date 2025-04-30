@@ -34,5 +34,6 @@ ESCROCO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -84,5 +84,6 @@ KORAIDON = {
                 'Dragon'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

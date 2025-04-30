@@ -34,5 +34,6 @@ YMPHECT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

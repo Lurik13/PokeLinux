@@ -23,5 +23,6 @@ RESHIRAM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

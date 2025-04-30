@@ -26,5 +26,6 @@ HIPPODOCUS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

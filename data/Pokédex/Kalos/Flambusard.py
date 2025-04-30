@@ -31,5 +31,6 @@ FLAMBUSARD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

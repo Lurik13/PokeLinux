@@ -34,5 +34,6 @@ DIMORET = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

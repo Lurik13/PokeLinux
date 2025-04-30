@@ -45,5 +45,6 @@ NIGOSIER = {
                 'Roche'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -25,5 +25,6 @@ MUSTÉFLOTT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

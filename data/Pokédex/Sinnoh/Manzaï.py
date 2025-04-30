@@ -28,5 +28,6 @@ MANZAÏ = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

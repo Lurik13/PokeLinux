@@ -32,5 +32,6 @@ SELUTIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

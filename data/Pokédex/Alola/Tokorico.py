@@ -22,5 +22,6 @@ TOKORICO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

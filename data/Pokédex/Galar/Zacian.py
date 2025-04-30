@@ -32,5 +32,6 @@ ZACIAN = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

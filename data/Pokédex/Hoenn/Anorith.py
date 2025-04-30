@@ -27,5 +27,6 @@ ANORITH = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

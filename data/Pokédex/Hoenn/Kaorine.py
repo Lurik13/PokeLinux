@@ -30,5 +30,6 @@ KAORINE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

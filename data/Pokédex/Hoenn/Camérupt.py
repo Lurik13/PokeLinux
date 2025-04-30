@@ -37,5 +37,6 @@ CAMÉRUPT = {
                 'Sol'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

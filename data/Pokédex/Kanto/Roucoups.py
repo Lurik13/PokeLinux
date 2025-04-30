@@ -31,5 +31,6 @@ ROUCOUPS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

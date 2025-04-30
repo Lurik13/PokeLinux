@@ -36,5 +36,6 @@ ORTIDE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -28,5 +28,6 @@ ARCHÉODONG = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

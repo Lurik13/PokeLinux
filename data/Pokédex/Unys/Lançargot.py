@@ -25,5 +25,6 @@ LANÇARGOT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

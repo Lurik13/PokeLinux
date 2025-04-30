@@ -31,5 +31,6 @@ COLOMBEAU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

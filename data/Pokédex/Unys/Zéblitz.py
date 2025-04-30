@@ -24,5 +24,6 @@ ZÉBLITZ = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

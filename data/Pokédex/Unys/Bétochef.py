@@ -30,5 +30,6 @@ BÉTOCHEF = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

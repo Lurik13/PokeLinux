@@ -30,5 +30,6 @@ RONDOUDOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

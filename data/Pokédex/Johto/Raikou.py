@@ -20,5 +20,6 @@ RAIKOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

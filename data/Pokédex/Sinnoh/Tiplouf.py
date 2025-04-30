@@ -29,5 +29,6 @@ TIPLOUF = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

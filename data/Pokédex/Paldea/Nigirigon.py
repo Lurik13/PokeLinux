@@ -45,5 +45,6 @@ NIGIRIGON = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

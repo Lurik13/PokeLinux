@@ -42,5 +42,6 @@ AXOLOTO = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

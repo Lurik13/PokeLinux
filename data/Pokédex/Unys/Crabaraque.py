@@ -27,5 +27,6 @@ CRABARAQUE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

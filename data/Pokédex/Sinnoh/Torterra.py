@@ -32,5 +32,6 @@ TORTERRA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

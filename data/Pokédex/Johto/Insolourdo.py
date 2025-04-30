@@ -24,5 +24,6 @@ INSOLOURDO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -32,5 +32,6 @@ CHIMPENFEU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

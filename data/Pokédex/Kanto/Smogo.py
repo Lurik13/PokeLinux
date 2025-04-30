@@ -25,5 +25,6 @@ SMOGO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

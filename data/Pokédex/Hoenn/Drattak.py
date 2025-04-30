@@ -45,5 +45,6 @@ DRATTAK = {
                 'Roche'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

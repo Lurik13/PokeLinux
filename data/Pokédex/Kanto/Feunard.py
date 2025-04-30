@@ -39,5 +39,6 @@ FEUNARD = {
                 'Poison'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

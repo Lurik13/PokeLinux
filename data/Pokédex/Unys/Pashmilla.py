@@ -24,5 +24,6 @@ PASHMILLA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

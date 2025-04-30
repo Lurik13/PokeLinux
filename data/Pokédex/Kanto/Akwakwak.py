@@ -25,5 +25,6 @@ AKWAKWAK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -30,5 +30,6 @@ COUPENOTTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

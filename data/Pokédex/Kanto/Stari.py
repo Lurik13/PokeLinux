@@ -25,5 +25,6 @@ STARI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

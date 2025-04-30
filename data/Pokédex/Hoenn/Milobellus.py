@@ -25,5 +25,6 @@ MILOBELLUS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

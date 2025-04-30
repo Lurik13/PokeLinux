@@ -30,5 +30,6 @@ MACHOC = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

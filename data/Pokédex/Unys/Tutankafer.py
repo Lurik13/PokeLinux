@@ -29,5 +29,6 @@ TUTANKAFER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

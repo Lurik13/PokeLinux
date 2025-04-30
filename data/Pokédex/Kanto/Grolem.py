@@ -47,5 +47,6 @@ GROLEM = {
                 'Plante'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

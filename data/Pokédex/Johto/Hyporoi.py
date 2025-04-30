@@ -30,5 +30,6 @@ HYPOROI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

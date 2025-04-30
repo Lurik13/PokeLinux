@@ -36,5 +36,6 @@ SCARABRUTE = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

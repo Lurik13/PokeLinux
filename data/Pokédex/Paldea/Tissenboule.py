@@ -26,5 +26,6 @@ TISSENBOULE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

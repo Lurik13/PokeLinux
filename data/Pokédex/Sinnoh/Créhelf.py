@@ -22,5 +22,6 @@ CRÉHELF = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

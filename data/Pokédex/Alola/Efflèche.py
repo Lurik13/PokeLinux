@@ -33,5 +33,6 @@ EFFLÈCHE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

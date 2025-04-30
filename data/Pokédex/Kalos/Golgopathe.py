@@ -28,5 +28,6 @@ GOLGOPATHE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

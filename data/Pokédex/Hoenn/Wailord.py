@@ -25,5 +25,6 @@ WAILORD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

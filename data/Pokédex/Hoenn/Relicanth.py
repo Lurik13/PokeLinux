@@ -24,5 +24,6 @@ RELICANTH = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

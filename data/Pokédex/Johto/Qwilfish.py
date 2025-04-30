@@ -37,5 +37,6 @@ QWILFISH = {
                 'Sol'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

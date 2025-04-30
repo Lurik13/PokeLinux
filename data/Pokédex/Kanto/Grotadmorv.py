@@ -35,5 +35,6 @@ GROTADMORV = {
                 'Sol'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

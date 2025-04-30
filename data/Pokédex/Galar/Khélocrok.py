@@ -25,5 +25,6 @@ KHÉLOCROK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

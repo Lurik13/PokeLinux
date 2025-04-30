@@ -29,5 +29,6 @@ CRAPUSTULE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

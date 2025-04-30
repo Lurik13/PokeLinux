@@ -30,5 +30,6 @@ MATOUFEU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

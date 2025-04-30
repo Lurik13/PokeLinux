@@ -25,5 +25,6 @@ OCTILLERY = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

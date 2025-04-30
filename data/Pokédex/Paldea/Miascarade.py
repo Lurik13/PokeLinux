@@ -35,5 +35,6 @@ MIASCARADE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

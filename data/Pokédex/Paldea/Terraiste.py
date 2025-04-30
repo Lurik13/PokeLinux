@@ -32,5 +32,6 @@ TERRAISTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

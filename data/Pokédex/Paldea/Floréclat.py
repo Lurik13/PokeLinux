@@ -28,5 +28,6 @@ FLORÉCLAT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

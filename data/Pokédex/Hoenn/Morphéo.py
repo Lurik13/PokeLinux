@@ -55,5 +55,6 @@ MORPHÉO = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -25,5 +25,6 @@ ARBOK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -26,5 +26,6 @@ FLAMOUTAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

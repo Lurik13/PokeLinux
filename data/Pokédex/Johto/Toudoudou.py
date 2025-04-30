@@ -30,5 +30,6 @@ TOUDOUDOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -24,5 +24,6 @@ HOTTEDEFER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -20,5 +20,6 @@ MANGRIFF = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

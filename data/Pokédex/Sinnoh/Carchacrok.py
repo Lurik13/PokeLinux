@@ -43,5 +43,6 @@ CARCHACROK = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

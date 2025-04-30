@@ -28,5 +28,6 @@ LEVEINARD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -31,5 +31,6 @@ NANMÉOUÏE = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

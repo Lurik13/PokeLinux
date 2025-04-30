@@ -20,5 +20,6 @@ POSIPI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

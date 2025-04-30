@@ -43,5 +43,6 @@ SHARPEDO = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

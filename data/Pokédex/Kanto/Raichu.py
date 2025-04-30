@@ -41,5 +41,6 @@ RAICHU = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

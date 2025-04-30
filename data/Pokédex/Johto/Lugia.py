@@ -25,5 +25,6 @@ LUGIA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

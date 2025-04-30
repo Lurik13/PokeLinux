@@ -26,5 +26,6 @@ ZAPÉTREL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

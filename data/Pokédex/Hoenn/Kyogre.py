@@ -31,5 +31,6 @@ KYOGRE = {
                 'Électrik'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

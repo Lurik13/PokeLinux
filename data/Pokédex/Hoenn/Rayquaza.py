@@ -37,5 +37,6 @@ RAYQUAZA = {
                 'Roche'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

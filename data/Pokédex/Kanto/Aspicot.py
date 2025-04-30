@@ -32,5 +32,6 @@ ASPICOT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

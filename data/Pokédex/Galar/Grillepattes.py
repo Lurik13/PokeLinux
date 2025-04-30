@@ -27,5 +27,6 @@ GRILLEPATTES = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

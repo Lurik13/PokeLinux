@@ -28,5 +28,6 @@ KABUTOPS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

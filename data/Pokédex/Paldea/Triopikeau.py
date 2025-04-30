@@ -25,5 +25,6 @@ TRIOPIKEAU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

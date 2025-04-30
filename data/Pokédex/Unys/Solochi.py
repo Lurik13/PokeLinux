@@ -33,5 +33,6 @@ SOLOCHI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

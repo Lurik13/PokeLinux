@@ -21,5 +21,6 @@ MAMANBO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

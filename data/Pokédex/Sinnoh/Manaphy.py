@@ -25,5 +25,6 @@ MANAPHY = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

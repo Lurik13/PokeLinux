@@ -30,5 +30,6 @@ PARASECT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

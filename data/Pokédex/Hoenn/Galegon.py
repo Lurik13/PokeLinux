@@ -31,5 +31,6 @@ GALEGON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

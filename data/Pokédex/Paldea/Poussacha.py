@@ -32,5 +32,6 @@ POUSSACHA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

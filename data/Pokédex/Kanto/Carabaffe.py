@@ -29,5 +29,6 @@ CARABAFFE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -25,5 +25,6 @@ SNUBBULL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

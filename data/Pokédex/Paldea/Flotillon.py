@@ -26,5 +26,6 @@ FLOTILLON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

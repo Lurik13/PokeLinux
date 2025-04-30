@@ -29,5 +29,6 @@ GOBOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

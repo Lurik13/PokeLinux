@@ -38,5 +38,6 @@ CANARTICHO = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

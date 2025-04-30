@@ -30,5 +30,6 @@ CHAPOTUS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

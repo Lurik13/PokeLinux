@@ -87,5 +87,6 @@ MOTISMA = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

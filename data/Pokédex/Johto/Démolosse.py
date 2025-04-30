@@ -41,5 +41,6 @@ DÉMOLOSSE = {
                 'Eau'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

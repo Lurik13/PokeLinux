@@ -27,5 +27,6 @@ SARMURAÏ = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

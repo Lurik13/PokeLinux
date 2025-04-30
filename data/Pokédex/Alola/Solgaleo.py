@@ -36,5 +36,6 @@ SOLGALEO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

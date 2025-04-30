@@ -24,5 +24,6 @@ LAPOREILLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

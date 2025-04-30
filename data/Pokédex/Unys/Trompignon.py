@@ -28,5 +28,6 @@ TROMPIGNON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

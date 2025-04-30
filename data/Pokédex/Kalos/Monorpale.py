@@ -32,5 +32,6 @@ MONORPALE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

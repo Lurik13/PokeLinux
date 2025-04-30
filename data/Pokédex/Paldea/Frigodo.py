@@ -33,5 +33,6 @@ FRIGODO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

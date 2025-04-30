@@ -41,5 +41,6 @@ COLIMUCUS = {
                 'Sol'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

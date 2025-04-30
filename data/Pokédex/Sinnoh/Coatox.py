@@ -27,5 +27,6 @@ COATOX = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

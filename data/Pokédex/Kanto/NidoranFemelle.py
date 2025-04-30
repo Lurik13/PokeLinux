@@ -29,5 +29,6 @@ NIDORANFEMELLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

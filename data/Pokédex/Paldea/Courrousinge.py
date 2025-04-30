@@ -32,5 +32,6 @@ COURROUSINGE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

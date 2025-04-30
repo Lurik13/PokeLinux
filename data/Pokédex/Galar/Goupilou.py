@@ -26,5 +26,6 @@ GOUPILOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

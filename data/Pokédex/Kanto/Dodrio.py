@@ -27,5 +27,6 @@ DODRIO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

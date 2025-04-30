@@ -28,5 +28,6 @@ FEUILLAJOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

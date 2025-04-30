@@ -25,5 +25,6 @@ MOUFOUETTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

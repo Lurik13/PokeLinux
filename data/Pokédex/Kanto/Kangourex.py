@@ -29,5 +29,6 @@ KANGOUREX = {
                 'Combat'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

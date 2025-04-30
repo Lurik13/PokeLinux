@@ -24,5 +24,6 @@ ZEKROM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

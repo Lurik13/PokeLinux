@@ -20,5 +20,6 @@ MÉTAMORPH = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

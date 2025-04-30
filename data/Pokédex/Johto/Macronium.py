@@ -32,5 +32,6 @@ MACRONIUM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

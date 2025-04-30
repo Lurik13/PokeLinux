@@ -54,5 +54,6 @@ KYUREM = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -35,5 +35,6 @@ TADMORV = {
                 'Sol'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -24,5 +24,6 @@ CADOIZO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

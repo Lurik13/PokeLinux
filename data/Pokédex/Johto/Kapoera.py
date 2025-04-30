@@ -34,5 +34,6 @@ KAPOERA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

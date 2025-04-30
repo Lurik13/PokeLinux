@@ -30,5 +30,6 @@ FEUNNEC = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -24,5 +24,6 @@ ZÉROÏD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

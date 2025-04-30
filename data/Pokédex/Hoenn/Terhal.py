@@ -32,5 +32,6 @@ TERHAL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

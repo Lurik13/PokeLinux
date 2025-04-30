@@ -29,5 +29,6 @@ ARROZARD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -30,5 +30,6 @@ FORGELINA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

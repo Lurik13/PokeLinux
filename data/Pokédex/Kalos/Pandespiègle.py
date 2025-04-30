@@ -26,5 +26,6 @@ PANDESPIÈGLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

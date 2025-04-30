@@ -33,5 +33,6 @@ COTOVOL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

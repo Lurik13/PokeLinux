@@ -26,5 +26,6 @@ PALARTICHO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

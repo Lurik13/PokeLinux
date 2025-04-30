@@ -33,5 +33,6 @@ MOMARTIK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

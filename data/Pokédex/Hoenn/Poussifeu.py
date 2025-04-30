@@ -30,5 +30,6 @@ POUSSIFEU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

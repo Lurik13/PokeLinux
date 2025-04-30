@@ -24,5 +24,6 @@ YVELTAL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

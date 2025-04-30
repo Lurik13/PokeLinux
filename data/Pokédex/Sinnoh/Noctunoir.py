@@ -29,5 +29,6 @@ NOCTUNOIR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

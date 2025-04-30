@@ -29,5 +29,6 @@ GOLEMASTOC = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

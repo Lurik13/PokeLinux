@@ -33,5 +33,6 @@ ARGOUSTE = {
                 'Combat'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

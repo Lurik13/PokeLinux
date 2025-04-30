@@ -30,5 +30,6 @@ LÉPIDONILLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

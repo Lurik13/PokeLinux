@@ -32,5 +32,6 @@ MÉGANIUM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

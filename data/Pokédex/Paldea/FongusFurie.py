@@ -27,5 +27,6 @@ FONGUSFURIE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

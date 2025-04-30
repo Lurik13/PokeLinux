@@ -33,5 +33,6 @@ PALMAVAL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

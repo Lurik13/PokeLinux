@@ -30,5 +30,6 @@ FÉROSINGE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

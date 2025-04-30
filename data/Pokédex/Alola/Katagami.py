@@ -22,5 +22,6 @@ KATAGAMI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

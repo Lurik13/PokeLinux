@@ -32,5 +32,6 @@ TORTIPOUSS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

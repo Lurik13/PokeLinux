@@ -28,5 +28,6 @@ PICHU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

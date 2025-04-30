@@ -20,5 +20,6 @@ CÂBLIFÈRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

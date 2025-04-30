@@ -29,5 +29,6 @@ MOUSTILLON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

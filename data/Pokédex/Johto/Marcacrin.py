@@ -33,5 +33,6 @@ MARCACRIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

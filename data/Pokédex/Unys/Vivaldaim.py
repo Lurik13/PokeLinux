@@ -30,5 +30,6 @@ VIVALDAIM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

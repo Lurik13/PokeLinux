@@ -23,5 +23,6 @@ CARATROC = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -37,5 +37,6 @@ SMOGOGO = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

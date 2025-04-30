@@ -28,5 +28,6 @@ LEUPHORIE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

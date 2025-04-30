@@ -24,5 +24,6 @@ CHAFFREUX = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

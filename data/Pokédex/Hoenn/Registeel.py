@@ -22,5 +22,6 @@ REGISTEEL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

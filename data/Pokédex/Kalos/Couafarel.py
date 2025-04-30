@@ -20,5 +20,6 @@ COUAFAREL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

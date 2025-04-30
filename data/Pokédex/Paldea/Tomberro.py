@@ -25,5 +25,6 @@ TOMBERRO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

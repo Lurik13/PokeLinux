@@ -156,4 +156,5 @@ def get_pokemon_data(pokemon_id):
 		"types": [TYPE_TRANSLATIONS[t] for t in types],
 		"weaknesses": list(weaknesses),
 		"forms": get_forms(species),
+		"pokedle_found": False,
 	}

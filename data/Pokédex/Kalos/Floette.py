@@ -39,5 +39,6 @@ FLOETTE = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

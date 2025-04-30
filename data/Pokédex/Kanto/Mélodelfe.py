@@ -29,5 +29,6 @@ MÉLODELFE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

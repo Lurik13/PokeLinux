@@ -25,5 +25,6 @@ DÉLESTIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

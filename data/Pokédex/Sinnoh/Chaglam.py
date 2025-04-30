@@ -24,5 +24,6 @@ CHAGLAM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

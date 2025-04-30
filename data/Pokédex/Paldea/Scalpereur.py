@@ -31,5 +31,6 @@ SCALPEREUR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

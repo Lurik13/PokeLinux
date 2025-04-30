@@ -28,5 +28,6 @@ CRUSTABRI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -36,5 +36,6 @@ SULFURA = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -31,5 +31,6 @@ IXON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

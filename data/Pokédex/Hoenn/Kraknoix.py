@@ -30,5 +30,6 @@ KRAKNOIX = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

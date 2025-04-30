@@ -26,5 +26,6 @@ TIBOUDET = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

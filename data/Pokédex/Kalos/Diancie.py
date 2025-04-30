@@ -37,5 +37,6 @@ DIANCIE = {
                 'Plante'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

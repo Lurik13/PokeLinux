@@ -30,5 +30,6 @@ MACHOPEUR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

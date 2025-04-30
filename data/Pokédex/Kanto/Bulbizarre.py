@@ -32,5 +32,6 @@ BULBIZARRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

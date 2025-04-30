@@ -27,5 +27,6 @@ SOVKIPOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

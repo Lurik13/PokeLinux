@@ -33,5 +33,6 @@ FAMIGNOL = {
                 'Combat'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

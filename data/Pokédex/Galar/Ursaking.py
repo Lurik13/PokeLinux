@@ -45,5 +45,6 @@ URSAKING = {
                 'Combat'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

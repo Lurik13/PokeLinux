@@ -28,5 +28,6 @@ SIMULARBRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

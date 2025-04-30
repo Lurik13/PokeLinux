@@ -22,5 +22,6 @@ JUDOKRAK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

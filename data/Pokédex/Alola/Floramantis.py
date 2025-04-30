@@ -41,5 +41,6 @@ FLORAMANTIS = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

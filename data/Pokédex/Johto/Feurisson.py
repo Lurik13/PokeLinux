@@ -30,5 +30,6 @@ FEURISSON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

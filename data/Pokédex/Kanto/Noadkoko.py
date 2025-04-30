@@ -46,5 +46,6 @@ NOADKOKO = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

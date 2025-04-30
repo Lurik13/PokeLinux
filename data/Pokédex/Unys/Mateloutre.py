@@ -29,5 +29,6 @@ MATELOUTRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

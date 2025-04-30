@@ -32,5 +32,6 @@ VENIPATTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

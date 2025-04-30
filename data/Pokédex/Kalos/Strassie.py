@@ -24,5 +24,6 @@ STRASSIE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

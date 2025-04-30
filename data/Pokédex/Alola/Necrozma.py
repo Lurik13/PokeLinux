@@ -63,5 +63,6 @@ NECROZMA = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

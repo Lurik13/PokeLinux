@@ -22,5 +22,6 @@ DARKRAI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

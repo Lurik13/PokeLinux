@@ -29,5 +29,6 @@ MASKADRA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

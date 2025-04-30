@@ -25,5 +25,6 @@ EMBROCHET = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

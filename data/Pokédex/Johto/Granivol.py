@@ -33,5 +33,6 @@ GRANIVOL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

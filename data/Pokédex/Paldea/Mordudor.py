@@ -35,5 +35,6 @@ MORDUDOR = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

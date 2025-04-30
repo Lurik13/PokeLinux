@@ -24,5 +24,6 @@ ROUEDEFER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

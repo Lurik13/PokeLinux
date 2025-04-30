@@ -22,5 +22,6 @@ MEW = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

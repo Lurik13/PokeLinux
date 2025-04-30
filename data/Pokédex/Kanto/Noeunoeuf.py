@@ -31,5 +31,6 @@ NOEUNOEUF = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

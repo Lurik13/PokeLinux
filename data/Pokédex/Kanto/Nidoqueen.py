@@ -32,5 +32,6 @@ NIDOQUEEN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

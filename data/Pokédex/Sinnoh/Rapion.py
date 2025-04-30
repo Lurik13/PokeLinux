@@ -28,5 +28,6 @@ RAPION = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

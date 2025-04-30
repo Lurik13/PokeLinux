@@ -30,5 +30,6 @@ ONIX = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -29,5 +29,6 @@ ALIGATUEUR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

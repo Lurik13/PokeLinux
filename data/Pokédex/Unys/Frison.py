@@ -20,5 +20,6 @@ FRISON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -37,5 +37,6 @@ SCARHINO = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

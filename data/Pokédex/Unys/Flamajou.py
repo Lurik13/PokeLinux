@@ -26,5 +26,6 @@ FLAMAJOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

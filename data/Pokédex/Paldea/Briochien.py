@@ -25,5 +25,6 @@ BRIOCHIEN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

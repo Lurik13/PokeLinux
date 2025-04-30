@@ -27,5 +27,6 @@ ARAQUA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

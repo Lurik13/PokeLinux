@@ -28,5 +28,6 @@ TOURNICOTON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

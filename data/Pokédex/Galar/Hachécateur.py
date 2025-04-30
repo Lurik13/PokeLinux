@@ -31,5 +31,6 @@ HACHÉCATEUR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

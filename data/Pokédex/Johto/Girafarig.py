@@ -26,5 +26,6 @@ GIRAFARIG = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

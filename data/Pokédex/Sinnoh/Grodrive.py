@@ -29,5 +29,6 @@ GRODRIVE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -28,5 +28,6 @@ SAQUEDENEU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

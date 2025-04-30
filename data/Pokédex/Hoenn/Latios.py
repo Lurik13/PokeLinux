@@ -41,5 +41,6 @@ LATIOS = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

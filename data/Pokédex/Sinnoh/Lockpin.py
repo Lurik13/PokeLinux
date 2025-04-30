@@ -37,5 +37,6 @@ LOCKPIN = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

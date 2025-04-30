@@ -41,5 +41,6 @@ MUPLODOCUS = {
                 'Sol'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

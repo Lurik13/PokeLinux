@@ -29,5 +29,6 @@ ARKÉAPTI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

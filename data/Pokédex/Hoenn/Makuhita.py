@@ -26,5 +26,6 @@ MAKUHITA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

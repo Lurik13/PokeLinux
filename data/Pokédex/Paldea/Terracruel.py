@@ -28,5 +28,6 @@ TERRACRUEL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

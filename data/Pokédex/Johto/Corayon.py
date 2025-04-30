@@ -38,5 +38,6 @@ CORAYON = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

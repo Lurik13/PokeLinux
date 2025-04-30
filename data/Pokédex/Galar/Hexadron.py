@@ -22,5 +22,6 @@ HEXADRON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

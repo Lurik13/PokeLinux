@@ -33,5 +33,6 @@ BORÉAS = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

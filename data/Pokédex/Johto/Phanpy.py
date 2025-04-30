@@ -26,5 +26,6 @@ PHANPY = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

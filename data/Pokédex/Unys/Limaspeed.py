@@ -26,5 +26,6 @@ LIMASPEED = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

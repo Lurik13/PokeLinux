@@ -29,5 +29,6 @@ YANMA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

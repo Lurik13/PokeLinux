@@ -26,5 +26,6 @@ MYGAVOLT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

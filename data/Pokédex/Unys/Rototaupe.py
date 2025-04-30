@@ -26,5 +26,6 @@ ROTOTAUPE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

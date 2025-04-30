@@ -27,5 +27,6 @@ PIAFABEC = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

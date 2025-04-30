@@ -34,5 +34,6 @@ TYGNON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

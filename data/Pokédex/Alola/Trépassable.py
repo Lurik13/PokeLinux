@@ -29,5 +29,6 @@ TRÉPASSABLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

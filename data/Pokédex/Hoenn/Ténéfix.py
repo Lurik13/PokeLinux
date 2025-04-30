@@ -31,5 +31,6 @@ TÉNÉFIX = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -30,5 +30,6 @@ AMAGARA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

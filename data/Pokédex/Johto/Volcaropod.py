@@ -28,5 +28,6 @@ VOLCAROPOD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -26,5 +26,6 @@ LANTURN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

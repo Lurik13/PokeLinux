@@ -24,5 +24,6 @@ EXCELANGUE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -22,5 +22,6 @@ REGIDRAGO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

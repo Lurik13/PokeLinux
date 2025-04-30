@@ -22,5 +22,6 @@ SERPENTEEAU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

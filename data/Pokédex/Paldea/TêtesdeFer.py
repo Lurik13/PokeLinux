@@ -24,5 +24,6 @@ TÊTESDEFER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -26,5 +26,6 @@ GRAHYÈNA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

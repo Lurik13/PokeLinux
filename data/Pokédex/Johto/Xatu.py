@@ -29,5 +29,6 @@ XATU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

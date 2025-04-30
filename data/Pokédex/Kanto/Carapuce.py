@@ -29,5 +29,6 @@ CARAPUCE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

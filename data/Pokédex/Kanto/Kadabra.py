@@ -30,5 +30,6 @@ KADABRA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

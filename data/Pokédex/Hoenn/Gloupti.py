@@ -25,5 +25,6 @@ GLOUPTI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

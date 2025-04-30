@@ -22,5 +22,6 @@ AIRMURE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

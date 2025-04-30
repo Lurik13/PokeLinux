@@ -29,5 +29,6 @@ MÉLO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

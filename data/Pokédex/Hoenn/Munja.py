@@ -33,5 +33,6 @@ MUNJA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

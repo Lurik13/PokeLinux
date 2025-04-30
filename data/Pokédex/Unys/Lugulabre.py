@@ -33,5 +33,6 @@ LUGULABRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -30,5 +30,6 @@ PÉRÉGRAIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

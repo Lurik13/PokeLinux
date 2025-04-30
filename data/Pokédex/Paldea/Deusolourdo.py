@@ -33,5 +33,6 @@ DEUSOLOURDO = {
                 'Combat'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

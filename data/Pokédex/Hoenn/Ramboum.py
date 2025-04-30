@@ -28,5 +28,6 @@ RAMBOUM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

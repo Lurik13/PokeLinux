@@ -24,5 +24,6 @@ MOUMOUFLON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -33,5 +33,6 @@ PRISMILLON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

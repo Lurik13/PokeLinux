@@ -28,5 +28,6 @@ LUXRAY = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -23,5 +23,6 @@ FORTUSIMIA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

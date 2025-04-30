@@ -38,5 +38,6 @@ SHAYMIN = {
                 'Roche'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

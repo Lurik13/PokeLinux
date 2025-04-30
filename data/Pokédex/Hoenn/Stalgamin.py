@@ -31,5 +31,6 @@ STALGAMIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

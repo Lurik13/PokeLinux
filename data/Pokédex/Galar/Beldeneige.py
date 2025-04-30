@@ -28,5 +28,6 @@ BELDENEIGE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

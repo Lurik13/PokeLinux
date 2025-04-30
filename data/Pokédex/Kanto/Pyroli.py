@@ -54,5 +54,6 @@ PYROLI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -28,5 +28,6 @@ CERIFLOR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

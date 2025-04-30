@@ -30,5 +30,6 @@ CHENITI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

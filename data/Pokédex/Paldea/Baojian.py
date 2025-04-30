@@ -26,5 +26,6 @@ BAOJIAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

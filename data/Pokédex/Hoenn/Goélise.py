@@ -26,5 +26,6 @@ GOÉLISE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

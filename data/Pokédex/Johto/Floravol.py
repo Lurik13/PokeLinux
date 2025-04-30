@@ -33,5 +33,6 @@ FLORAVOL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

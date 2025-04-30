@@ -45,5 +45,6 @@ BRASÉGALI = {
                 'Psy'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

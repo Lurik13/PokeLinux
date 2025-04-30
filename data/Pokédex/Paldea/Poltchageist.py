@@ -29,5 +29,6 @@ POLTCHAGEIST = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

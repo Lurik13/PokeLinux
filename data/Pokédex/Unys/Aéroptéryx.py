@@ -29,5 +29,6 @@ AÉROPTÉRYX = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -21,5 +21,6 @@ SÉVIPER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

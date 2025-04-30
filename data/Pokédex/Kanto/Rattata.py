@@ -36,5 +36,6 @@ RATTATA = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

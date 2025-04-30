@@ -27,5 +27,6 @@ PRÉDASTÉRIE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -39,5 +39,6 @@ TAUPIQUEUR = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

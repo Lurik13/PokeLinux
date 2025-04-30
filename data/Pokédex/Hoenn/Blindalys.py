@@ -38,5 +38,6 @@ BLINDALYS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

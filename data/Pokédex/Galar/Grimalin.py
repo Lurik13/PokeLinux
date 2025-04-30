@@ -31,5 +31,6 @@ GRIMALIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

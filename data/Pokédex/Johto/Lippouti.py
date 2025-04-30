@@ -30,5 +30,6 @@ LIPPOUTI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -28,5 +28,6 @@ LAINERGIE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

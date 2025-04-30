@@ -46,5 +46,6 @@ MMIME = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

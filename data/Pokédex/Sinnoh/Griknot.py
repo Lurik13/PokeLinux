@@ -31,5 +31,6 @@ GRIKNOT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

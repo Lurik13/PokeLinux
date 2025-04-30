@@ -33,5 +33,6 @@ PALKIA = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -22,5 +22,6 @@ QUARTERMAC = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

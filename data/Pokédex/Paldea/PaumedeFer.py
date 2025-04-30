@@ -23,5 +23,6 @@ PAUMEDEFER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

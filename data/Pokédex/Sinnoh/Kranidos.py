@@ -28,5 +28,6 @@ KRANIDOS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

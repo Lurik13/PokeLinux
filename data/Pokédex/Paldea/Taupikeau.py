@@ -25,5 +25,6 @@ TAUPIKEAU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

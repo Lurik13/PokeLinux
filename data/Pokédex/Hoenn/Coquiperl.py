@@ -29,5 +29,6 @@ COQUIPERL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

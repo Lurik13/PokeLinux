@@ -36,5 +36,6 @@ ZOROARK = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

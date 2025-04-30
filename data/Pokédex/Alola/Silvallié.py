@@ -24,5 +24,6 @@ SILVALLIÉ = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

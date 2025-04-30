@@ -20,5 +20,6 @@ NÉGAPI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

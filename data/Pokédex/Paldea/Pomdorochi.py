@@ -42,5 +42,6 @@ POMDOROCHI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

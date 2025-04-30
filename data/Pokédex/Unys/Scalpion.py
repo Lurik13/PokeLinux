@@ -31,5 +31,6 @@ SCALPION = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

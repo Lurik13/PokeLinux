@@ -57,5 +57,6 @@ MIMIQUI = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

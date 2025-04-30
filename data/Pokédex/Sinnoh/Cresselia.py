@@ -22,5 +22,6 @@ CRESSELIA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

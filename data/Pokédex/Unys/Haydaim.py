@@ -30,5 +30,6 @@ HAYDAIM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -23,5 +23,6 @@ FÉLICANIS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

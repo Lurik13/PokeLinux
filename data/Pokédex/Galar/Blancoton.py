@@ -28,5 +28,6 @@ BLANCOTON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

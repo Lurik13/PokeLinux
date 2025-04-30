@@ -27,5 +27,6 @@ GRELAÇON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

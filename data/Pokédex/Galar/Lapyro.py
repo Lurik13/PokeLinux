@@ -30,5 +30,6 @@ LAPYRO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -20,5 +20,6 @@ ZERAORA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

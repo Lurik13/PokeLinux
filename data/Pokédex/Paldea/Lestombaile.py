@@ -24,5 +24,6 @@ LESTOMBAILE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

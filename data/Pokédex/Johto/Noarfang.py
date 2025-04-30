@@ -27,5 +27,6 @@ NOARFANG = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -32,5 +32,6 @@ ARCKO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

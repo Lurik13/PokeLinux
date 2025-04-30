@@ -28,5 +28,6 @@ PTIRAVI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

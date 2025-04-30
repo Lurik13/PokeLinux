@@ -32,5 +32,6 @@ ROSÉLIA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

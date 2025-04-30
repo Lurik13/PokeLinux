@@ -28,5 +28,6 @@ BRUYVERNE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

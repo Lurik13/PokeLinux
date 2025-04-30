@@ -26,5 +26,6 @@ GALVARAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

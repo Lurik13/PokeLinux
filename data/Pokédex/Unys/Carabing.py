@@ -26,5 +26,6 @@ CARABING = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -26,5 +26,6 @@ NOACIER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

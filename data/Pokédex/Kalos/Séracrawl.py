@@ -42,5 +42,6 @@ SÉRACRAWL = {
                 'Plante'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

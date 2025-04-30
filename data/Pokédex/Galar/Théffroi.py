@@ -25,5 +25,6 @@ THÉFFROI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

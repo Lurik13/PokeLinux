@@ -22,5 +22,6 @@ BAMBOISELLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

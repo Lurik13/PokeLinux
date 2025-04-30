@@ -29,5 +29,6 @@ CANARBELLO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

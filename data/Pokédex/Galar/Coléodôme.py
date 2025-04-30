@@ -34,5 +34,6 @@ COLÉODÔME = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

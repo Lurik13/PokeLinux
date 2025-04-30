@@ -26,5 +26,6 @@ KORILLON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

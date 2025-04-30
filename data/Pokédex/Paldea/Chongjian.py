@@ -27,5 +27,6 @@ CHONGJIAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

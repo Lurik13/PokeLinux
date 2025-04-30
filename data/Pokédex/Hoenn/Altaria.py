@@ -41,5 +41,6 @@ ALTARIA = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

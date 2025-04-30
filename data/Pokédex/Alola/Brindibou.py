@@ -33,5 +33,6 @@ BRINDIBOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

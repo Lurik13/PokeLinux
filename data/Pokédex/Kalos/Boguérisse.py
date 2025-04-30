@@ -32,5 +32,6 @@ BOGUÉRISSE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

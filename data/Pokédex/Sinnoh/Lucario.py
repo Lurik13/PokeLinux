@@ -39,5 +39,6 @@ LUCARIO = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

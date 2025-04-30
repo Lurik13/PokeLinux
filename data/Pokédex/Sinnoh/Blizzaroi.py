@@ -47,5 +47,6 @@ BLIZZAROI = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

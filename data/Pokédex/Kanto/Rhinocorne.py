@@ -34,5 +34,6 @@ RHINOCORNE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -27,5 +27,6 @@ TENTACOOL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

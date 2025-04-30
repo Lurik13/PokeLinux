@@ -30,5 +30,6 @@ FLAMIAOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

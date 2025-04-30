@@ -41,5 +41,6 @@ CHARMILLON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

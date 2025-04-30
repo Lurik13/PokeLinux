@@ -28,5 +28,6 @@ PORYGONZ = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

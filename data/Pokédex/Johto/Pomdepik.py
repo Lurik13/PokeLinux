@@ -26,5 +26,6 @@ POMDEPIK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

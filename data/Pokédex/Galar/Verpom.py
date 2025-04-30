@@ -42,5 +42,6 @@ VERPOM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

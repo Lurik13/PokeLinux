@@ -43,5 +43,6 @@ ZARUDE = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

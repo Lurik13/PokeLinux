@@ -28,5 +28,6 @@ CORNÈBRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

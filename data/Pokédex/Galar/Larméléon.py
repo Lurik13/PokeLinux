@@ -29,5 +29,6 @@ LARMÉLÉON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

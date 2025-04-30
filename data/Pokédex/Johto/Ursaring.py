@@ -28,5 +28,6 @@ URSARING = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

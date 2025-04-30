@@ -32,5 +32,6 @@ NODULITHE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

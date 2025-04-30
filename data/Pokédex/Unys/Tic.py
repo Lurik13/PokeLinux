@@ -30,5 +30,6 @@ TIC = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

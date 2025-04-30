@@ -26,5 +26,6 @@ ROUBLENARD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

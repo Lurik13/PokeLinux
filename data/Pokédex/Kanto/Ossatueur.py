@@ -55,5 +55,6 @@ OSSATUEUR = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

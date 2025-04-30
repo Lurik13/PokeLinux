@@ -31,5 +31,6 @@ CACTURNE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

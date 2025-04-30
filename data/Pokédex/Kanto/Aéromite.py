@@ -28,5 +28,6 @@ AÉROMITE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

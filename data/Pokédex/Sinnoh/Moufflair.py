@@ -25,5 +25,6 @@ MOUFFLAIR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

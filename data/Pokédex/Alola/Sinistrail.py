@@ -25,5 +25,6 @@ SINISTRAIL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

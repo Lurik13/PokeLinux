@@ -39,5 +39,6 @@ ARCANIN = {
                 'Combat'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

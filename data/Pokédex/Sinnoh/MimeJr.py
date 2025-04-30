@@ -31,5 +31,6 @@ MIMEJR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

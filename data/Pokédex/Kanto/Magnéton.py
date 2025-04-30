@@ -31,5 +31,6 @@ MAGNÉTON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

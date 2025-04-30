@@ -47,5 +47,6 @@ RACAILLOU = {
                 'Plante'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

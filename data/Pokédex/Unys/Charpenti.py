@@ -30,5 +30,6 @@ CHARPENTI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

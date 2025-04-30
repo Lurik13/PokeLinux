@@ -38,5 +38,6 @@ SABELETTE = {
                 'Sol'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

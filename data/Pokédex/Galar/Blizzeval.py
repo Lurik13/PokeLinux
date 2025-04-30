@@ -23,5 +23,6 @@ BLIZZEVAL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

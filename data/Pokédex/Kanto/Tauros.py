@@ -60,5 +60,6 @@ TAUROS = {
                 'Électrik'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

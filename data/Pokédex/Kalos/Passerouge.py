@@ -31,5 +31,6 @@ PASSEROUGE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

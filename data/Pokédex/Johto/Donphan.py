@@ -26,5 +26,6 @@ DONPHAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

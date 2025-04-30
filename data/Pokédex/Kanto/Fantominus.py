@@ -32,5 +32,6 @@ FANTOMINUS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

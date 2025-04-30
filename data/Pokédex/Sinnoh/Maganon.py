@@ -30,5 +30,6 @@ MAGANON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

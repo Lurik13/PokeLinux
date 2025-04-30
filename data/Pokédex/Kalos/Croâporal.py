@@ -29,5 +29,6 @@ CROÂPORAL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -28,5 +28,6 @@ MIMITOSS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

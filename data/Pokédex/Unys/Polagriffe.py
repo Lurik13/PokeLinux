@@ -27,5 +27,6 @@ POLAGRIFFE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

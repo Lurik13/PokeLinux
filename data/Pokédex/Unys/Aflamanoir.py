@@ -22,5 +22,6 @@ AFLAMANOIR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

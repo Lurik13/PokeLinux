@@ -23,5 +23,6 @@ AMAAMA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

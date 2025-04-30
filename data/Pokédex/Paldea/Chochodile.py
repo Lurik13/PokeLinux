@@ -30,5 +30,6 @@ CHOCHODILE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -30,5 +30,6 @@ GRUIKUI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

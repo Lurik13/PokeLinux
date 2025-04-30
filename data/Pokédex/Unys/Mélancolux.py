@@ -33,5 +33,6 @@ MÉLANCOLUX = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

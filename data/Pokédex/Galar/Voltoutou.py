@@ -24,5 +24,6 @@ VOLTOUTOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

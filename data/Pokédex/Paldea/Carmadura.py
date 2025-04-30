@@ -33,5 +33,6 @@ CARMADURA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

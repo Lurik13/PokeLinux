@@ -26,5 +26,6 @@ CHARIBARI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -25,5 +25,6 @@ BARPAU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

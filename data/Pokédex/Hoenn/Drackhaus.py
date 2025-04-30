@@ -30,5 +30,6 @@ DRACKHAUS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

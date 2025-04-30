@@ -30,5 +30,6 @@ CHAPIGNON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -39,5 +39,6 @@ CIZAYOX = {
                 'Feu*'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

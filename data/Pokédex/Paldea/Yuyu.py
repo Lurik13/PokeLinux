@@ -24,5 +24,6 @@ YUYU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

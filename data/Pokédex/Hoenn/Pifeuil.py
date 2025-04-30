@@ -35,5 +35,6 @@ PIFEUIL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -32,5 +32,6 @@ GIGANSEL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

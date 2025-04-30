@@ -25,5 +25,6 @@ MIAMIASME = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

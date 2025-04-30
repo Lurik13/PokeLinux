@@ -26,5 +26,6 @@ VROMBI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

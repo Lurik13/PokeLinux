@@ -40,5 +40,6 @@ ZIGZATON = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

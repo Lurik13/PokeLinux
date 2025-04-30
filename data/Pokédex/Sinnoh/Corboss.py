@@ -28,5 +28,6 @@ CORBOSS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

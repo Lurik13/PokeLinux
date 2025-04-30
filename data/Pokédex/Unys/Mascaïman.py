@@ -34,5 +34,6 @@ MASCAÏMAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

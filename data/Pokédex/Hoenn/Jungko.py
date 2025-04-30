@@ -47,5 +47,6 @@ JUNGKO = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -42,5 +42,6 @@ POMDRAMOUR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

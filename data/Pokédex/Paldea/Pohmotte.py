@@ -31,5 +31,6 @@ POHMOTTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

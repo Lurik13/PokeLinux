@@ -32,5 +32,6 @@ DIMOCLÈS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

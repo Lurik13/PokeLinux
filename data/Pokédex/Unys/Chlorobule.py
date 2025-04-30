@@ -28,5 +28,6 @@ CHLOROBULE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

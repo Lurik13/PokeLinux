@@ -29,5 +29,6 @@ YANMEGA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

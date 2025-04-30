@@ -32,5 +32,6 @@ AMASSEL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -25,5 +25,6 @@ KRABBY = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

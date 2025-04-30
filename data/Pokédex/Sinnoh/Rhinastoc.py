@@ -34,5 +34,6 @@ RHINASTOC = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

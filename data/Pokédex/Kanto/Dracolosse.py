@@ -32,5 +32,6 @@ DRACOLOSSE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

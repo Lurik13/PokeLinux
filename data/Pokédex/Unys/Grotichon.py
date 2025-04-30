@@ -32,5 +32,6 @@ GROTICHON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

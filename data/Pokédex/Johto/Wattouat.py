@@ -28,5 +28,6 @@ WATTOUAT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

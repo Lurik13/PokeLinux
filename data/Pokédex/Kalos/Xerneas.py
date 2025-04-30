@@ -21,5 +21,6 @@ XERNEAS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

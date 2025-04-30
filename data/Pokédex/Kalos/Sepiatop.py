@@ -26,5 +26,6 @@ SEPIATOP = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

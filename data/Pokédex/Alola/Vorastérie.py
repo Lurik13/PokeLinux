@@ -27,5 +27,6 @@ VORASTÉRIE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

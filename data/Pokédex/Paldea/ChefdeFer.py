@@ -24,5 +24,6 @@ CHEFDEFER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

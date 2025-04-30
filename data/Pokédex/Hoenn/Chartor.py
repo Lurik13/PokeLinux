@@ -22,5 +22,6 @@ CHARTOR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

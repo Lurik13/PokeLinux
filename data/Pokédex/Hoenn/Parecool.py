@@ -28,5 +28,6 @@ PARECOOL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

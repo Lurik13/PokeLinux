@@ -27,5 +27,6 @@ BAGGAÏD = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

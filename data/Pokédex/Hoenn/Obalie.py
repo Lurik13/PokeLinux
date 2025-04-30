@@ -32,5 +32,6 @@ OBALIE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

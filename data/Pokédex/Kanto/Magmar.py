@@ -30,5 +30,6 @@ MAGMAR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

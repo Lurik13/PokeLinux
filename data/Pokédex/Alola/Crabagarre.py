@@ -26,5 +26,6 @@ CRABAGARRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

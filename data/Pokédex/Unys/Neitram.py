@@ -26,5 +26,6 @@ NEITRAM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

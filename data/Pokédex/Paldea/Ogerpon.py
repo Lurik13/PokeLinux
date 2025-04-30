@@ -63,5 +63,6 @@ OGERPON = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -27,5 +27,6 @@ SOLAROC = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

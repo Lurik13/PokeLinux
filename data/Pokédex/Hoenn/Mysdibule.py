@@ -33,5 +33,6 @@ MYSDIBULE = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

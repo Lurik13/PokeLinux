@@ -30,5 +30,6 @@ GRODOUDOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

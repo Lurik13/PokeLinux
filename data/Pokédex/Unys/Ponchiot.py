@@ -28,5 +28,6 @@ PONCHIOT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

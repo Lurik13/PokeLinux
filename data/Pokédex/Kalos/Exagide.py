@@ -45,5 +45,6 @@ EXAGIDE = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

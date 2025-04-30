@@ -25,5 +25,6 @@ GARDEDEFER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

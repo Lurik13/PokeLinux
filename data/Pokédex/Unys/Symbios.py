@@ -30,5 +30,6 @@ SYMBIOS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

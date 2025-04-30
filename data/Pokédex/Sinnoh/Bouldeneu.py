@@ -28,5 +28,6 @@ BOULDENEU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

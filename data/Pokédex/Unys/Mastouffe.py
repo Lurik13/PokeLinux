@@ -28,5 +28,6 @@ MASTOUFFE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

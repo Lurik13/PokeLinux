@@ -36,5 +36,6 @@ ZORUA = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

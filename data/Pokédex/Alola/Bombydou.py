@@ -29,5 +29,6 @@ BOMBYDOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

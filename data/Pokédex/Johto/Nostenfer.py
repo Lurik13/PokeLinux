@@ -32,5 +32,6 @@ NOSTENFER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

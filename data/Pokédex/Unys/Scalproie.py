@@ -31,5 +31,6 @@ SCALPROIE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

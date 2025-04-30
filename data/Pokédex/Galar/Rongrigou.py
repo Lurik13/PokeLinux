@@ -24,5 +24,6 @@ RONGRIGOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

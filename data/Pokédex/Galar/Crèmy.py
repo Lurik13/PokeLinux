@@ -25,5 +25,6 @@ CRÈMY = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

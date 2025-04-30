@@ -28,5 +28,6 @@ CHUCHMUR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

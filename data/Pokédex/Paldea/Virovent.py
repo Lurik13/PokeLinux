@@ -29,5 +29,6 @@ VIROVENT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -28,5 +28,6 @@ LIXY = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

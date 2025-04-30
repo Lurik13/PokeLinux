@@ -43,5 +43,6 @@ CLAMIRAL = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -39,5 +39,6 @@ TARENBULLE = {
                 'Roche'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -46,5 +46,6 @@ BARGANTUA = {
                 'Électrik'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

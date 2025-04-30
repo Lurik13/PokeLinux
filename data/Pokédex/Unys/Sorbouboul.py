@@ -31,5 +31,6 @@ SORBOUBOUL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

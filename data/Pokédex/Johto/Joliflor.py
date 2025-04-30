@@ -36,5 +36,6 @@ JOLIFLOR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

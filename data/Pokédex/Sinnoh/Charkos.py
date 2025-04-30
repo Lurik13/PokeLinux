@@ -28,5 +28,6 @@ CHARKOS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

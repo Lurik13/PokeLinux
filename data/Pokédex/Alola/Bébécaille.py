@@ -30,5 +30,6 @@ BÉBÉCAILLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

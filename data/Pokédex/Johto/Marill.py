@@ -31,5 +31,6 @@ MARILL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

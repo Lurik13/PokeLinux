@@ -26,5 +26,6 @@ OSSELAIT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

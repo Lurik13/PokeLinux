@@ -27,5 +27,6 @@ FURAIGLON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -31,5 +31,6 @@ FOURBELIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

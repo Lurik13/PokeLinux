@@ -49,5 +49,6 @@ RATTATAC = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

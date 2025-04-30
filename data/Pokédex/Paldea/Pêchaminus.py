@@ -24,5 +24,6 @@ PÊCHAMINUS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

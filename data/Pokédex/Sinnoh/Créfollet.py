@@ -22,5 +22,6 @@ CRÉFOLLET = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

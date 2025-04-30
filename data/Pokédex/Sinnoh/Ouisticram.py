@@ -30,5 +30,6 @@ OUISTICRAM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

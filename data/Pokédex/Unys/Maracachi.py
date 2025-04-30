@@ -24,5 +24,6 @@ MARACACHI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

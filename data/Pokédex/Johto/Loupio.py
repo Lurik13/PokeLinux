@@ -26,5 +26,6 @@ LOUPIO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

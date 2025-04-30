@@ -31,5 +31,6 @@ ORATORIA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

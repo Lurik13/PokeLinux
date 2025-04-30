@@ -30,5 +30,6 @@ SIDÉRELLA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

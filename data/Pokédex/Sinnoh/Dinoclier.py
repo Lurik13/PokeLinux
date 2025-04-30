@@ -27,5 +27,6 @@ DINOCLIER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

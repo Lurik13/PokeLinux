@@ -26,5 +26,6 @@ MEDHYÈNA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

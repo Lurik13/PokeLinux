@@ -22,5 +22,6 @@ HYDRAGON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

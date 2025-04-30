@@ -29,5 +29,6 @@ CARVANHA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

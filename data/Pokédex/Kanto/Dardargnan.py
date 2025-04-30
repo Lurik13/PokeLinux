@@ -45,5 +45,6 @@ DARDARGNAN = {
                 'Psy'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

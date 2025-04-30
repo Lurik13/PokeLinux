@@ -23,5 +23,6 @@ PIJAKO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

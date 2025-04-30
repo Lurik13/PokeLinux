@@ -32,5 +32,6 @@ CHÉTIFLOR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

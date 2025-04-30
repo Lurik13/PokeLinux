@@ -26,5 +26,6 @@ FORTIVOIRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

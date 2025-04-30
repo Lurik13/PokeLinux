@@ -33,5 +33,6 @@ TÊTARTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -41,5 +41,6 @@ PHARAMP = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

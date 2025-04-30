@@ -36,5 +36,6 @@ MYSTHERBE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

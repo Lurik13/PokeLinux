@@ -28,5 +28,6 @@ LAMPÉROIE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

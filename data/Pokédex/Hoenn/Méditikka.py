@@ -27,5 +27,6 @@ MÉDITIKKA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

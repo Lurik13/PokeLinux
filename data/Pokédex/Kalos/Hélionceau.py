@@ -28,5 +28,6 @@ HÉLIONCEAU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

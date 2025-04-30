@@ -28,5 +28,6 @@ FEUILOUTAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

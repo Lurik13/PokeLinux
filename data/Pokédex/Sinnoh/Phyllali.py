@@ -56,5 +56,6 @@ PHYLLALI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

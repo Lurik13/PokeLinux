@@ -24,5 +24,6 @@ DOLMAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

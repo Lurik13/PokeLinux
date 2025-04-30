@@ -32,5 +32,6 @@ FÉLINFERNO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -24,5 +24,6 @@ GOURMELET = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

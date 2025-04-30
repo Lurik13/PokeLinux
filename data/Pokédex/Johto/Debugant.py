@@ -34,5 +34,6 @@ DEBUGANT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -27,5 +27,6 @@ VERTDEFER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

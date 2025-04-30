@@ -27,5 +27,6 @@ DODUO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

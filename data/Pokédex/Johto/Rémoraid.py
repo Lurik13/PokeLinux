@@ -25,5 +25,6 @@ RÉMORAID = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

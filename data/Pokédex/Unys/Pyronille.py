@@ -27,5 +27,6 @@ PYRONILLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

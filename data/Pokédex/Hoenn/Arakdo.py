@@ -27,5 +27,6 @@ ARAKDO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

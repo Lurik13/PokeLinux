@@ -60,5 +60,6 @@ FLAGADOSS = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

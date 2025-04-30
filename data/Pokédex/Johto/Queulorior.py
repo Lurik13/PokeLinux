@@ -20,5 +20,6 @@ QUEULORIOR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

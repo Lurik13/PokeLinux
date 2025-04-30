@@ -34,5 +34,6 @@ COSMOVUM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

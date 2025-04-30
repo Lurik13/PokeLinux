@@ -44,5 +44,6 @@ RAMOLOSS = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

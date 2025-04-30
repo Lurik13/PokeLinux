@@ -30,5 +30,6 @@ SALAMÈCHE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

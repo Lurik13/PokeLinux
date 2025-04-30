@@ -28,5 +28,6 @@ ANCHWATT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

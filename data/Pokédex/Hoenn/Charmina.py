@@ -39,5 +39,6 @@ CHARMINA = {
                 'Spectre'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

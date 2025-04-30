@@ -21,5 +21,6 @@ GENESECT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -26,5 +26,6 @@ WUSHOURS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

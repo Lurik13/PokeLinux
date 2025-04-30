@@ -32,5 +32,6 @@ NIDOKING = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

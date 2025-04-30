@@ -29,5 +29,6 @@ APIREINE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

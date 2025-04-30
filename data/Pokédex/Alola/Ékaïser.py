@@ -47,5 +47,6 @@
                 'Psy'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

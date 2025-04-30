@@ -46,5 +46,6 @@ MEWTWO = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -30,5 +30,6 @@ FLAMBINO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

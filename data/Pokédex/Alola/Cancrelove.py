@@ -24,5 +24,6 @@ CANCRELOVE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -26,5 +26,6 @@ COUANETON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -25,5 +25,6 @@ FLINGOUSTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -28,5 +28,6 @@ PONCHIEN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

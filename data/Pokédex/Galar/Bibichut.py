@@ -30,5 +30,6 @@ BIBICHUT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

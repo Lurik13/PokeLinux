@@ -31,5 +31,6 @@ MAGNÉTI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

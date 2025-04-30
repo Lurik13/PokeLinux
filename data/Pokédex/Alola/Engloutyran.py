@@ -25,5 +25,6 @@ ENGLOUTYRAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

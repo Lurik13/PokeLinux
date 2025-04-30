@@ -26,5 +26,6 @@ CRIKZIK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

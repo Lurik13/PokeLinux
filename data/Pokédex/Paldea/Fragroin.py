@@ -33,5 +33,6 @@ FRAGROIN = {
                 'Combat'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

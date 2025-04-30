@@ -32,5 +32,6 @@ BOSKARA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -24,5 +24,6 @@ MOUMOUTON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

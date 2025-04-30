@@ -33,5 +33,6 @@ DIALGA = {
                 'Sol'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

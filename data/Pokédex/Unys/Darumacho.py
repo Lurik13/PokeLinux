@@ -67,5 +67,6 @@ DARUMACHO = {
                 'Eau'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

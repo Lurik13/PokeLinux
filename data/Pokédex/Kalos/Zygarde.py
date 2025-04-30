@@ -74,5 +74,6 @@ ZYGARDE = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

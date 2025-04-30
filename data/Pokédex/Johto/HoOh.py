@@ -23,5 +23,6 @@ HOOH = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

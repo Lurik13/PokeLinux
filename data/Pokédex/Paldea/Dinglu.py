@@ -26,5 +26,6 @@ DINGLU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

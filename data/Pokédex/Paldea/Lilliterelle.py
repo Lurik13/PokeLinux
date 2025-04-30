@@ -26,5 +26,6 @@ LILLITERELLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

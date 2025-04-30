@@ -28,5 +28,6 @@ CARAPAGOS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

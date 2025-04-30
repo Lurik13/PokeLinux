@@ -26,5 +26,6 @@ LIMAGMA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

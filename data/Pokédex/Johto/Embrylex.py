@@ -34,5 +34,6 @@ EMBRYLEX = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

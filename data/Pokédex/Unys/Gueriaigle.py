@@ -41,5 +41,6 @@ GUERIAIGLE = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

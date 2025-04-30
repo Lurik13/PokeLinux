@@ -26,5 +26,6 @@ IGUOLTA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

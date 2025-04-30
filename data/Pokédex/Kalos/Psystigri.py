@@ -26,5 +26,6 @@ PSYSTIGRI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

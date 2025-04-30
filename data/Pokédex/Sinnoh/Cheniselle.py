@@ -58,5 +58,6 @@ CHENISELLE = {
                 'Feu*'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

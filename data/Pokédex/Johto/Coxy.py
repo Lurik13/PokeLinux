@@ -29,5 +29,6 @@ COXY = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

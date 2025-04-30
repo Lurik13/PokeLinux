@@ -31,5 +31,6 @@ SORBOUL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

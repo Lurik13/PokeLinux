@@ -28,5 +28,6 @@ HÉLIATRONC = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

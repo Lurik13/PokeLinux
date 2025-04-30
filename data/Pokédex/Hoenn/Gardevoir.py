@@ -47,5 +47,6 @@ GARDEVOIR = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

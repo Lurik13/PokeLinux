@@ -21,5 +21,6 @@ FERMITE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

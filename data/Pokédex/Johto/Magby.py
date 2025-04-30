@@ -30,5 +30,6 @@ MAGBY = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

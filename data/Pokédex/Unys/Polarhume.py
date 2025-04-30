@@ -27,5 +27,6 @@ POLARHUME = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

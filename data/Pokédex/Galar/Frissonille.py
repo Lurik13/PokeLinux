@@ -28,5 +28,6 @@ FRISSONILLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

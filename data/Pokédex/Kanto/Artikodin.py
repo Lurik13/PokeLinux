@@ -38,5 +38,6 @@ ARTIKODIN = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

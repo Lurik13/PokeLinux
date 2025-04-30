@@ -31,5 +31,6 @@ PICLAIRON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

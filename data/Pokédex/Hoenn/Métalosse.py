@@ -45,5 +45,6 @@ MÉTALOSSE = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

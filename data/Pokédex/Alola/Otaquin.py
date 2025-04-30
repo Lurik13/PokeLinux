@@ -29,5 +29,6 @@ OTAQUIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

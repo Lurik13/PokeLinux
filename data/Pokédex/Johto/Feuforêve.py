@@ -25,5 +25,6 @@ FEUFORÊVE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

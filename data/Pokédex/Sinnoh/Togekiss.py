@@ -33,5 +33,6 @@ TOGEKISS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

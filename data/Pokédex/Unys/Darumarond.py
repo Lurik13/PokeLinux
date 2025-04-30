@@ -38,5 +38,6 @@ DARUMAROND = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

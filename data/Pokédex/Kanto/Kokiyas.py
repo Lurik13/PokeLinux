@@ -25,5 +25,6 @@ KOKIYAS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

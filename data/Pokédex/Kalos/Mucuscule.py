@@ -30,5 +30,6 @@ MUCUSCULE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -28,5 +28,6 @@ MIMIGAL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

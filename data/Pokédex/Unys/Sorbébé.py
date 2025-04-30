@@ -31,5 +31,6 @@ SORBÉBÉ = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

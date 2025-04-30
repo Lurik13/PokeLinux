@@ -35,5 +35,6 @@ MELOETTA = {
                 'Fée'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

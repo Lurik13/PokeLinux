@@ -28,5 +28,6 @@ KABUTO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

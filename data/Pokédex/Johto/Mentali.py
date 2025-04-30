@@ -54,5 +54,6 @@ MENTALI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

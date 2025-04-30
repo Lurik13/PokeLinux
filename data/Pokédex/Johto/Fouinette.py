@@ -24,5 +24,6 @@ FOUINETTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -23,5 +23,6 @@ COBALTIUM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

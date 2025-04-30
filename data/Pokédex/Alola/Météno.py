@@ -219,5 +219,6 @@ MÉTÉNO = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

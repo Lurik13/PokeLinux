@@ -25,5 +25,6 @@ VICTINI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -23,5 +23,6 @@ VOLCANION = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -27,5 +27,6 @@ NIRONDELLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -27,5 +27,6 @@ TYLTON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

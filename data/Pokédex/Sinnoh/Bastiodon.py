@@ -27,5 +27,6 @@ BASTIODON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

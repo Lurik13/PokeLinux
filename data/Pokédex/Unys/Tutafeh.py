@@ -43,5 +43,6 @@ TUTAFEH = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

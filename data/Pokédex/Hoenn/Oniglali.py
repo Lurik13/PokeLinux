@@ -43,5 +43,6 @@ ONIGLALI = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

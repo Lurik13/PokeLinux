@@ -33,5 +33,6 @@ FANTYRM = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

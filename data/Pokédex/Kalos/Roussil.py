@@ -30,5 +30,6 @@ ROUSSIL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

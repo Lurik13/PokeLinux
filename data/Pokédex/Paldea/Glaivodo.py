@@ -33,5 +33,6 @@ GLAIVODO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -32,5 +32,6 @@ NOSFERAPTI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

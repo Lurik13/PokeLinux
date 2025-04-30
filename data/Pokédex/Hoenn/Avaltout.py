@@ -25,5 +25,6 @@ AVALTOUT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

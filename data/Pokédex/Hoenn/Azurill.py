@@ -30,5 +30,6 @@ AZURILL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

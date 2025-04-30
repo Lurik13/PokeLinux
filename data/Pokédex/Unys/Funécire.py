@@ -33,5 +33,6 @@ FUNÉCIRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -32,5 +32,6 @@ MARISSON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

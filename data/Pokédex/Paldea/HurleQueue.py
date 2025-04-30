@@ -23,5 +23,6 @@ HURLEQUEUE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

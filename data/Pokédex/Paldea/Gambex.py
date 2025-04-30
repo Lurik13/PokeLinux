@@ -29,5 +29,6 @@ GAMBEX = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

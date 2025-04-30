@@ -24,5 +24,6 @@ PELAGESABLÉ = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

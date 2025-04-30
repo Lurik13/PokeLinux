@@ -29,5 +29,6 @@ APITRINI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

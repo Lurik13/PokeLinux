@@ -32,5 +32,6 @@ VIPÉLIERRE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

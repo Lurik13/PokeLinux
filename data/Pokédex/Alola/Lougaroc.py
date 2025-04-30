@@ -55,5 +55,6 @@ LOUGAROC = {
                 'Plante'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

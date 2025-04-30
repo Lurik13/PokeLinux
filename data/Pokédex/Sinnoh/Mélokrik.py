@@ -26,5 +26,6 @@ MÉLOKRIK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

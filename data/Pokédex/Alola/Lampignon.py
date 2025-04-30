@@ -29,5 +29,6 @@ LAMPIGNON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

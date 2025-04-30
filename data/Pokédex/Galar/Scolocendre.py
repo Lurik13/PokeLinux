@@ -32,5 +32,6 @@ SCOLOCENDRE = {
             'types': None,
             'weaknesses': None
         }
-    ]
+    ],
+    'pokedle_found': False
 }

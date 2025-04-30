@@ -21,5 +21,6 @@ CONCOMBAFFE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -30,5 +30,6 @@ MESMÉRELLA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

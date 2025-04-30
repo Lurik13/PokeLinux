@@ -31,5 +31,6 @@ LIBÉGON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

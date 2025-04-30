@@ -25,5 +25,6 @@ CRYPTÉRO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

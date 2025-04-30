@@ -41,5 +41,6 @@ STEELIX = {
                 'Eau'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

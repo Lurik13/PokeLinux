@@ -20,5 +20,6 @@ REGIGIGAS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

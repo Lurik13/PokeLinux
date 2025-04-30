@@ -34,5 +34,6 @@ MGLAQUETTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

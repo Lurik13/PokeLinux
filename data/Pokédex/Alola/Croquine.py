@@ -32,5 +32,6 @@ CROQUINE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

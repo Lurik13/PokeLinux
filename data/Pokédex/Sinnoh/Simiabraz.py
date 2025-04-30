@@ -32,5 +32,6 @@ SIMIABRAZ = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

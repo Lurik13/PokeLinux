@@ -22,5 +22,6 @@ LUMIVOLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

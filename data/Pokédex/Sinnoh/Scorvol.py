@@ -26,5 +26,6 @@ SCORVOL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

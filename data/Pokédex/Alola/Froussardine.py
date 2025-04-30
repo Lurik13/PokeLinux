@@ -31,5 +31,6 @@ FROUSSARDINE = {
                 'Électrik'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

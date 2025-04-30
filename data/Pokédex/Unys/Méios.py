@@ -30,5 +30,6 @@ MÉIOS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

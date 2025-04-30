@@ -30,5 +30,6 @@ CHARBAMBIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

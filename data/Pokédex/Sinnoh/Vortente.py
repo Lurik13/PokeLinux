@@ -24,5 +24,6 @@ VORTENTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

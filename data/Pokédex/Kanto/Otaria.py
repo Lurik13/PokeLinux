@@ -25,5 +25,6 @@ OTARIA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

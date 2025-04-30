@@ -30,5 +30,6 @@ REPTINCEL = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

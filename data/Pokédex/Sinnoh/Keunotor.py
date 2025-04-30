@@ -24,5 +24,6 @@ KEUNOTOR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

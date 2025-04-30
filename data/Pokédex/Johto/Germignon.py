@@ -32,5 +32,6 @@ GERMIGNON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

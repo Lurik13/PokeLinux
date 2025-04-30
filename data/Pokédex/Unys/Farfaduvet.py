@@ -29,5 +29,6 @@ FARFADUVET = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

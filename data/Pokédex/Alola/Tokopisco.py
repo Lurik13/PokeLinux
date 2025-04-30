@@ -23,5 +23,6 @@ TOKOPISCO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

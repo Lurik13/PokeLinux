@@ -33,5 +33,6 @@ CRYODO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -32,5 +32,6 @@ PHOGLEUR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

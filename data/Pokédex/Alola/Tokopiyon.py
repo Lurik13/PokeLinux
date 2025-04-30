@@ -23,5 +23,6 @@ TOKOPIYON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

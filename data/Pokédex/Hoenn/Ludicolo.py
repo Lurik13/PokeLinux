@@ -31,5 +31,6 @@ LUDICOLO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

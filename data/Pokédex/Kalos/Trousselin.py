@@ -22,5 +22,6 @@ TROUSSELIN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

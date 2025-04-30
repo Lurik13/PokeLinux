@@ -30,5 +30,6 @@ CRABOMINABLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -27,5 +27,6 @@ CRABICOQUE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

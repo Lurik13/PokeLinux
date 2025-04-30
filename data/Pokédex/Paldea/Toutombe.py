@@ -25,5 +25,6 @@ TOUTOMBE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

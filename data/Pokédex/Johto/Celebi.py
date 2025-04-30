@@ -27,5 +27,6 @@ CELEBI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

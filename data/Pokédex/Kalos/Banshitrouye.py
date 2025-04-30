@@ -73,5 +73,6 @@ BANSHITROUYE = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

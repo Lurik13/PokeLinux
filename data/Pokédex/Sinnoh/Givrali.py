@@ -55,5 +55,6 @@ GIVRALI = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

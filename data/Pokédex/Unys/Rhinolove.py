@@ -29,5 +29,6 @@ RHINOLOVE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

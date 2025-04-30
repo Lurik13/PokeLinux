@@ -26,5 +26,6 @@ DOGRINO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -32,5 +32,6 @@ ROZBOUTON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

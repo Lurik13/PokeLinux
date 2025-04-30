@@ -43,5 +43,6 @@ RUBOMBELLE = {
                 'Acier'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

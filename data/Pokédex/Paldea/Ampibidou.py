@@ -24,5 +24,6 @@ AMPIBIDOU = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

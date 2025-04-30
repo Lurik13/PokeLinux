@@ -24,5 +24,6 @@ DELCATTY = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

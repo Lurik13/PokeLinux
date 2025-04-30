@@ -29,5 +29,6 @@ ROSABYSS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

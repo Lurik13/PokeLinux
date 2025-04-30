@@ -24,5 +24,6 @@ REGIROCK = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

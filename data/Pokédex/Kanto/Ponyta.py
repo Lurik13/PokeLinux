@@ -37,5 +37,6 @@ PONYTA = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

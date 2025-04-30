@@ -29,5 +29,6 @@ CHOVSOURIR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

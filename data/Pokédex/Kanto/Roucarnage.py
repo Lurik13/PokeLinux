@@ -43,5 +43,6 @@ ROUCARNAGE = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

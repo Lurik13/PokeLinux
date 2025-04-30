@@ -29,5 +29,6 @@ NIDORINA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

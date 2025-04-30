@@ -31,5 +31,6 @@ CARMACHE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

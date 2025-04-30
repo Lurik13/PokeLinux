@@ -25,5 +25,6 @@ ABO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

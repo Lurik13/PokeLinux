@@ -26,5 +26,6 @@ KRAKOS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -21,5 +21,6 @@ OYACATA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -29,5 +29,6 @@ BACABOUH = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

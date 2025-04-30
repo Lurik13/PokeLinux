@@ -31,5 +31,6 @@ DÉFLAISAN = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

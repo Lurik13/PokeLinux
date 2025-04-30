@@ -30,5 +30,6 @@ BLEUSEILLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

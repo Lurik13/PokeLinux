@@ -32,5 +32,6 @@ WAGOMINE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

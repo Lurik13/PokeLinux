@@ -26,5 +26,6 @@ POULPAF = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -35,5 +35,6 @@ TOGEDEMARU = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

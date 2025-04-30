@@ -33,5 +33,6 @@ MAGEARNA = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

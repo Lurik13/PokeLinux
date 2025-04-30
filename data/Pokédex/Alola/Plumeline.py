@@ -64,5 +64,6 @@ PLUMELINE = {
                 'Glace'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

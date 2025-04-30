@@ -25,5 +25,6 @@ CUPCANAILLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

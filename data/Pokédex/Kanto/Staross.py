@@ -29,5 +29,6 @@ STAROSS = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

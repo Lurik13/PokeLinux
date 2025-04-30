@@ -27,5 +27,6 @@ SÉLÉROC = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

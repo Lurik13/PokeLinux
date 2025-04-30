@@ -30,5 +30,6 @@ ABRA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

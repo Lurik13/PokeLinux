@@ -29,5 +29,6 @@ SPODODO = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

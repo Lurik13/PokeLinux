@@ -30,5 +30,6 @@ TRANCHODON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

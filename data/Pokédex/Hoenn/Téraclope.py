@@ -29,5 +29,6 @@ TÉRACLOPE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

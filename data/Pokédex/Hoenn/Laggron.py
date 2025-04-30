@@ -39,5 +39,6 @@ LAGGRON = {
                 'Plante*'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

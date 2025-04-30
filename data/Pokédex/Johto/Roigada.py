@@ -45,5 +45,6 @@ ROIGADA = {
                 'Ténèbres'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

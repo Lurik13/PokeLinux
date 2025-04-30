@@ -24,5 +24,6 @@ RAMPEAILES = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

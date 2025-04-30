@@ -29,5 +29,6 @@ PRINPLOUF = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -26,5 +26,6 @@ KUNGFOUINE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -26,5 +26,6 @@ FILENTRAPPE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

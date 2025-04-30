@@ -28,5 +28,6 @@ SONISTRELLE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

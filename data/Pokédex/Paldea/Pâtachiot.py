@@ -25,5 +25,6 @@ PÂTACHIOT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

@@ -24,5 +24,6 @@ MIRADAR = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

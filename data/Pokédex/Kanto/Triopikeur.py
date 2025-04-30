@@ -39,5 +39,6 @@ TRIOPIKEUR = {
                 'Feu'
             ]
         }
-    ]
+    ],
+    'pokedle_found': False
 }

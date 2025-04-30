@@ -20,5 +20,6 @@ SPINDA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

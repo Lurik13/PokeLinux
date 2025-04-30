@@ -24,5 +24,6 @@ MANGLOUTON = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

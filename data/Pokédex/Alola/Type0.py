@@ -24,5 +24,6 @@ TYPE0 = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

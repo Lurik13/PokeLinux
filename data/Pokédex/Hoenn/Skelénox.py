@@ -29,5 +29,6 @@ SKELÉNOX = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

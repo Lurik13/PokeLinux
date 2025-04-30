@@ -31,5 +31,6 @@ PICASSAUT = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

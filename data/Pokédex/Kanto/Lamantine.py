@@ -28,5 +28,6 @@ LAMANTINE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

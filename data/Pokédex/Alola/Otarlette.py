@@ -29,5 +29,6 @@ OTARLETTE = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

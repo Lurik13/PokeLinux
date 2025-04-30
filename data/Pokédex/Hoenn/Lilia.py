@@ -28,5 +28,6 @@ LILIA = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }

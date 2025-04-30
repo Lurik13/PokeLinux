@@ -30,5 +30,6 @@ CHRYSACIER = {
     ],
     'forms': [
         
-    ]
+    ],
+    'pokedle_found': False
 }
