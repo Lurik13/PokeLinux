@@ -1,13 +1,13 @@
 import pickle
+from prompt_toolkit import prompt # type: ignore
+from prompt_toolkit.shortcuts import clear # type: ignore
 from random import randint
 from data.Knowledge.generations import GENERATIONS
 from src.pokedle.display import display_caption, display_table
-from src.pokedle.utils import *
-from src.generate_data.generate_files import get_gen_region
+from src.pokedle.input import get_completer_array, AccentInsensitiveCompleter
+from src.pokedle.utils import BLUE, RED, GREEN, RESET, \
+    display_message, calculate_number_of_spaces, normalize, clear_lines, find_pokemon_by_name, is_correct_generation, get_generation_name_by_pokemon
 from src.utils import get_de_pokemon
-from src.pokedle.input import *
-from prompt_toolkit import prompt # type: ignore
-from prompt_toolkit.shortcuts import clear # type: ignore
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
 

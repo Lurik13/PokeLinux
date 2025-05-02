@@ -1,8 +1,8 @@
 import pickle
 import unicodedata
-from src.generate_data.generate_files import get_gen_region
-from src.anki.print import get_pokemon_in_colour
 from data.Knowledge.generations import GENERATIONS
+from src.anki.print import get_pokemon_in_colour
+from src.generate_data.generate_files import get_gen_region
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
 

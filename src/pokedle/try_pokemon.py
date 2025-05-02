@@ -1,4 +1,5 @@
-from src.pokedle.utils import *
+import pickle
+from src.pokedle.utils import GREEN, GREENYELLOW, YELLOWGREEN, YELLOW, YELLOWORANGE, ORANGE, REDORANGE, RED
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
 

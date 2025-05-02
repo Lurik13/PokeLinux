@@ -1,12 +1,12 @@
 import pickle
-from src.pokedle.utils import *
-from pokedle.try_evolutions import try_evolutions
-from pokedle.try_height_weight import try_height, try_weight
-from src.pokedle.try_generation import try_generation
-from src.pokedle.try_pokemon import try_pokemon
-from pokedle.try_others import *
 from data.Knowledge.colours import COLOURS
 from data.Knowledge.habitats import HABITATS
+from src.pokedle.try_evolutions import try_evolutions
+from src.pokedle.try_generation import try_generation
+from src.pokedle.try_height_weight import try_height, try_weight
+from src.pokedle.try_others import try_types, try_colours, try_habitats
+from src.pokedle.try_pokemon import try_pokemon
+from src.pokedle.utils import RESET, WHITE, calculate_number_of_spaces
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
 

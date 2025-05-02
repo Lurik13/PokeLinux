@@ -1,5 +1,5 @@
 from data.Knowledge.generations import GENERATIONS
-from src.pokedle.utils import *
+from src.pokedle.utils import GREEN, RED
 
 def get_generation(pokemon_id):
     for gen in GENERATIONS:

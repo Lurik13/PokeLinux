@@ -1,9 +1,5 @@
-import os
-import sys
 import asyncio
-
-sys.path.append(os.path.abspath('../..'))
-from data.Knowledge.generations import *
+from data.Knowledge.generations import GENERATIONS
 from data.Knowledge.others import TYPE_COLOURS
 
 async def print_text_slowly(text, delay = 0.005):

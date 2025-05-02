@@ -1,4 +1,4 @@
-from src.pokedle.utils import *
+from src.pokedle.utils import GREEN, RED, ORANGE
 
 def try_types(types, mystery_types):
     result = [None, None]

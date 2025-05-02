@@ -2,7 +2,7 @@ import pickle
 import sys
 from data.Knowledge.generations import GENERATIONS
 from src.generate_data.generate_files import get_gen_region
-from utils import normalize
+from src.utils import normalize
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
 

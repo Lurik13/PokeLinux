@@ -1,12 +1,9 @@
-import shutil
-import sys
+from genericpath import exists
 import os
 import pickle
-from genericpath import exists
-
-sys.path.append(os.path.abspath(''))
-from data.Knowledge.generations import *
-from generate_data.get_data import get_pokemon_data
+import shutil
+from data.Knowledge.generations import GENERATIONS
+from src.generate_data.get_data import get_pokemon_data
 
 def get_gen_region(gen_name):
 	words = gen_name.strip().split()

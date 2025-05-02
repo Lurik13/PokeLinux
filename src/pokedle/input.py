@@ -1,7 +1,7 @@
 import pickle
-from src.pokedle.utils import normalize
 from prompt_toolkit.completion import Completer, Completion # type: ignore
 from data.Knowledge.generations import GENERATIONS
+from src.pokedle.utils import normalize
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
 

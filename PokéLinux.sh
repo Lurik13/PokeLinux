@@ -1,1 +1,1 @@
-python3 ./src/main.py $(tput cols)
+python3 ./main.py $(tput cols)

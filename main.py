@@ -1,20 +1,15 @@
 import pickle
 from prompt_toolkit import prompt # type: ignore
-from generate_data.generate_files import generate_pokedex
-from anki.anki_utils import *
 import sys
-from anki.print import *
-from anki.generate_deck import get_anki_deck
-from pokedle.input import AccentInsensitiveCompleter
-from utils import get_starters, normalize
-from pokedle.main import pokedle
+from data.Knowledge.generations import GENERATIONS
+from src.anki.generate_deck import get_anki_deck
+from src.generate_data.generate_files import generate_pokedex
+from src.pokedle.input import AccentInsensitiveCompleter
+from src.pokedle.main import pokedle
+from src.pokedle.utils import BLUE, RED, RESET
+from src.utils import get_starters, normalize
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
-
-RED = "\033[38;2;210;30;30m"
-BLUE = "\033[38;2;0;100;200m"
-RESET = "\033[0m"
-
 
 def display_commands():
     for command in COMMANDS:

@@ -1,9 +1,6 @@
 import requests # type: ignore
-import sys
-import os
-sys.path.append(os.path.abspath('..'))
-from data.Knowledge.damages import *
-from data.Knowledge.others import *
+from data.Knowledge.damages import DAMAGE_MULTIPLIER, DAMAGE_RELATIONS
+from data.Knowledge.others import TYPE_TRANSLATIONS, SPRITE_URL
 
 
 ###############################################################################

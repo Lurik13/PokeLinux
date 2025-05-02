@@ -1,14 +1,11 @@
 import asyncio
-import os
-import pickle
-import sys
 import genanki # type: ignore
-sys.path.append(os.path.abspath('../..'))
-from src.generate_data.generate_files import generate_folder
-from src.anki.anki_utils import add_card_to_anki, add_model_to_anki
-from src.anki.print import print_download, print_pokemon
+import pickle
 from data.Knowledge.evolutions import EVOLUTIONS
 from data.Knowledge.generations import GENERATIONS
+from src.anki.anki_utils import add_card_to_anki, add_model_to_anki
+from src.anki.print import print_download, print_pokemon
+from src.generate_data.generate_files import generate_folder
 from src.utils import get_de_pokemon
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
