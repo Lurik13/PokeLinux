@@ -78,7 +78,7 @@ def input_loop(generations, mystery_pokemon, cols):
             else:
                 counter += 1
                 if is_correct_generation(pokemon_id_tried, generations):
-                    if normalize(new_try) in normalize(remaining_pokemon_names):
+                    if normalize(POKEMON[pokemon_id_tried]['french_name']) in normalize(remaining_pokemon_names):
                         remaining_pokemon_names.remove(POKEMON[pokemon_id_tried]['french_name'])
                         display_table(pokemon_id_tried, mystery_pokemon, cols)
                         if normalize(new_try) == normalize(mystery_pokemon['french_name']):

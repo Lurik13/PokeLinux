@@ -33,8 +33,8 @@ def clear_lines(n):
 def find_pokemon_by_name(name):
     new_mystery_name = normalize(name)
     for key, data in POKEMON.items():
-        new_data_name = normalize(data["french_name"])
-        if new_data_name == new_mystery_name:
+        if new_mystery_name == normalize(data["french_name"]) \
+                or new_mystery_name == normalize(data["english_name"]):
             return key
     return 0
 
