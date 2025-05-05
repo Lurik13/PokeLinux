@@ -5,7 +5,7 @@ from random import randint
 from data.Knowledge.generations import GENERATIONS
 from src.pokedle.display import display_caption, display_table
 from src.pokedle.input import get_completer_array, AccentInsensitiveCompleter
-from src.pokedle.utils import BLUE, RED, GREEN, RESET, \
+from src.pokedle.utils import BLUE, RED, GREEN, WHITE, RESET, \
     display_message, calculate_number_of_spaces, normalize, clear_lines, find_pokemon_by_name, is_correct_generation, get_generation_name_by_pokemon
 from src.utils import get_de_pokemon
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
@@ -67,6 +67,9 @@ def input_loop(generations, mystery_pokemon, cols):
         number_of_lines_to_clear = 1
         if normalize(new_try) == "indice":
             number_of_lines_to_clear += print_clue(counter, mystery_pokemon, cols)
+        elif normalize(new_try) == "abandonner":
+            display_message(f"Le pokémon mystère était {mystery_pokemon['french_name']} !", WHITE, cols)
+            break
         else:
             pokemon_id_tried = find_pokemon_by_name(new_try)
             if not pokemon_id_tried:

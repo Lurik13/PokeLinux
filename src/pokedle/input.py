@@ -12,6 +12,8 @@ def get_completer_array(generations):
         last_pokemon_id = GENERATIONS[gen]['pokemon_range'][1]
         for i in range(first_pokemon_id, last_pokemon_id + 1):
             array.append(POKEMON[i]['french_name'])
+    array.append('Indice')
+    array.append('Abandonner')
     return array
 
 class AccentInsensitiveCompleter(Completer):
