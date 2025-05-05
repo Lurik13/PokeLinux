@@ -1,3 +1,7 @@
+import os
+PROJECT_ROOT = os.path.dirname(os.path.realpath(__file__))
+os.chdir(PROJECT_ROOT)
+
 import pickle
 from prompt_toolkit import prompt # type: ignore
 import sys
