@@ -95,6 +95,12 @@ if __name__ == "__main__":
                     print("Commande introuvable. Pour rappel, voici les commandes disponibles :")
                     display_commands()
                     invalid_command = True
-        
+
     except ValueError as ve:
         print("Error:", ve)
+
+    except KeyboardInterrupt:
+        sys.exit(0)
+
+    except EOFError:
+        sys.exit(0)
