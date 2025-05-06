@@ -3,6 +3,7 @@ from prompt_toolkit import prompt # type: ignore
 from prompt_toolkit.shortcuts import clear # type: ignore
 from random import randint
 from data.Knowledge.generations import GENERATIONS
+from src.pokedle.clue import display_clue
 from src.pokedle.display import display_caption, display_table
 from src.pokedle.input import get_completer_array, AccentInsensitiveCompleter
 from src.pokedle.utils import BLUE, RED, GREEN, WHITE, RESET, \
@@ -10,42 +11,6 @@ from src.pokedle.utils import BLUE, RED, GREEN, WHITE, RESET, \
 from src.utils import get_de_pokemon
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
-
-def pick_unique_letters(name, number_of_letters):
-    unique_letters = list(dict.fromkeys(name.upper()))
-    letters_array = []
-    for i in range(number_of_letters):
-        index = (i * 1357 + 42) % len(unique_letters)
-        letters_array.append(unique_letters[index])
-    return letters_array
-
-def print_clue(counter, mystery_pokemon, cols):
-    description = mystery_pokemon['description'].replace(mystery_pokemon['french_name'], '***').replace(mystery_pokemon['english_name'], '***')
-    if counter < 4:
-        display_message(f"Persévère ! Il te reste {4 - counter} essai{'s' if counter != 3 else ''} pour obtenir le premier indice.", BLUE, cols)
-    elif counter < 8:
-        display_message(description[:len(description)//2] + " [...]", BLUE, cols)
-    else:
-        display_message(description, BLUE, cols)
-    number_of_lines_to_clear = 1
-    letters = []
-    if counter >= 12:
-        letter_count = 0
-        if counter < 16:
-            letter_count = 1
-        elif counter < 20:
-            letter_count = 2
-        else:
-            letter_count = 3
-        letters = pick_unique_letters(mystery_pokemon['french_name'], letter_count)
-        if letter_count == 1:
-            display_message(f"Le pokémon mystère contient la lettre {letters[0]} dans son nom.", BLUE, cols)
-        elif letter_count == 2:
-            display_message(f"Le pokémon mystère contient les lettres {letters[0]} et {letters[1]} dans son nom.", BLUE, cols)
-        elif letter_count == 3:
-            display_message(f"Le pokémon mystère contient les lettres {letters[0]}, {letters[1]} et {letters[2]} dans son nom.", BLUE, cols)
-        number_of_lines_to_clear += 1
-    return number_of_lines_to_clear
 
 def get_new_mystery_pokemon(generations):
     gen_number = generations[randint(0, len(generations) - 1)]
@@ -66,7 +31,7 @@ def input_loop(generations, mystery_pokemon, cols):
         clear_lines(number_of_lines_to_clear)
         number_of_lines_to_clear = 1
         if normalize(new_try) == "indice":
-            number_of_lines_to_clear += print_clue(counter, mystery_pokemon, cols)
+            number_of_lines_to_clear += display_clue(counter, mystery_pokemon, cols)
         elif normalize(new_try) == "abandonner":
             display_message(f"Le pokémon mystère était {mystery_pokemon['french_name']} !", WHITE, cols)
             break

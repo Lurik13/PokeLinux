@@ -7,7 +7,7 @@ with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
 
 GRAY = "\033[38;2;150;150;150;1m"
-BLUE = "\033[38;2;0;100;200m"
+BLUE = "\033[38;2;50;130;200m"
 GREEN = "\033[38;2;50;200;50m"
 GREENYELLOW = "\033[38;2;100;200;50m"
 YELLOWGREEN = "\033[38;2;150;200;50m"
