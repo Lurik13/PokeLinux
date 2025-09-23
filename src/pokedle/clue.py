@@ -42,6 +42,7 @@ def get_weaknesses_line(number_of_weaknesses_by_line, remaining_weakness, max_le
             i += 1
     return line
 
+#1voltali 2otaria 3osselait 4rafflesia, 5tartard, 6rhinoferos, 7noeunoeuf
 def get_weaknesses_list(mystery_pokemon, max_len):
     remaining_weakness = mystery_pokemon['weaknesses']
     max_len = DATA[1]['max_len']
@@ -73,54 +74,38 @@ def get_weaknesses_list(mystery_pokemon, max_len):
             for i in range(3):
                 lines[i] = get_weaknesses_line(5, remaining_weakness, max_len)
             return [lines[0], lines[1], lines[2]]
-    #     if len(line + ', ' + weakness) < max_len:
-    #         line += ', ' + weakness
-    #     else:
-    #         lines.append(line)
-    #         line = weakness
-
-    # lines.append(line)
-
-    # for l in lines:
-    #     print(" " * (number_of_spaces + DATA[0]['max_len'] + 4) + '│' + center_in_cell(max_len, l) + '│')
-
-# Insecte*, Ténèbres
-# Spectre, Poison
-# Glace, Vol, Feu
-
-# │   Insecte*, Vol    │
-# │    Poison, Feu     │
-# │   Glace, Spectre   │
-# │      Ténèbres      │
 
 def display_clue(counter, mystery_pokemon, cols):
-    # faiblesses, lettres, description
+    # DISPLAY CAPTION
     top_lines = ""
-    titre = ""
+    title = ""
     mid_lines = ""
     lines_len = 0
     for i in range(len(CATEGORIES)):
         lines_len += DATA[i]['max_len'] + 4
         top_lines += get_lines("┌─┐", DATA[i]['max_len'], BLUE)
-        titre += get_centered_value(CATEGORIES[i], DATA[i]['max_len'], BLUE, BLUE, '│')
+        title += get_centered_value(CATEGORIES[i], DATA[i]['max_len'], BLUE, BLUE, '│')
         mid_lines += get_lines("├─┤", DATA[i]['max_len'], BLUE)
     number_of_spaces = calculate_number_of_spaces(cols, lines_len)
     print(" " * number_of_spaces + top_lines)
-    print(" " * number_of_spaces + titre)
+    print(" " * number_of_spaces + title)
     print(" " * number_of_spaces + mid_lines)
     # weaknesses = POKEMON[102]['weaknesses'][0]
     # for weakness in POKEMON[102]['weaknesses'][1:]:
     #     if len(weaknesses + ', ' + weakness) < DATA[1]['max_len']:
     #         weaknesses += ', ' + weakness
     # print(" " * (number_of_spaces + DATA[0]['max_len'] + 4) + '│' + center_in_cell(DATA[1]['max_len'], weaknesses) + '│')
-    weaknesses_list = get_weaknesses_list(POKEMON[102], DATA[1]['max_len']) #1voltali 2otaria 3osselait 4rafflesia, 5tartard, 6rhinoferos, 7noeunoeuf
-    # weaknesses_list = get_weaknesses_list(mystery_pokemon, DATA[1]['max_len'])
+    weaknesses_list = get_weaknesses_list(mystery_pokemon, DATA[1]['max_len'])
+    letters_list = pick_unique_letters(mystery_pokemon['french_name'], 3)
     for i in range(3):
+        line_to_print = " " * (number_of_spaces + DATA[0]['max_len'] + 4)
         if i < len(weaknesses_list):
-            print(" " * (number_of_spaces + DATA[0]['max_len'] + 4) + '│' + center_in_cell(DATA[1]['max_len'], weaknesses_list[i]) + '│')
+            line_to_print += '│' + center_in_cell(DATA[1]['max_len'], weaknesses_list[i]) + '│'
         else:
-            print(" " * (number_of_spaces + DATA[0]['max_len'] + 4) + '│' + center_in_cell(DATA[1]['max_len'], "") + '│')
-    print(weaknesses_list)
+            line_to_print += '│' + center_in_cell(DATA[1]['max_len'], "") + '│'
+        line_to_print += '│' + center_in_cell(DATA[2]['max_len'], letters_list[i]) + '│'
+        print(line_to_print)
+    print(POKEMON[667]['description'])
     # display_message(get_lines("┌─┐", 5, BLUE), BLUE, cols)
     # display_message(get_centered_value('Lett.', 5, BLUE, BLUE, '│'), BLUE, cols)
     # display_message(get_lines("├─┤", 5, BLUE), BLUE, cols)
