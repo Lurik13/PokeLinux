@@ -3,7 +3,7 @@ from prompt_toolkit import prompt # type: ignore
 from prompt_toolkit.shortcuts import clear # type: ignore
 from random import randint
 from data.Knowledge.generations import GENERATIONS
-from src.pokedle.clue import display_clue
+from src.pokedle.clue import display_hints
 from src.pokedle.display import display_caption, display_table
 from src.pokedle.input import get_completer_array, AccentInsensitiveCompleter
 from src.pokedle.utils import BLUE, RED, GREEN, WHITE, RESET, \
@@ -31,7 +31,7 @@ def input_loop(generations, mystery_pokemon, cols):
         clear_lines(number_of_lines_to_clear)
         number_of_lines_to_clear = 1
         if normalize(new_try) == "indice":
-            number_of_lines_to_clear += display_clue(counter, mystery_pokemon, cols)
+            number_of_lines_to_clear += display_hints(counter, mystery_pokemon, cols)
         elif normalize(new_try) == "abandonner":
             display_message(f"Le pokémon mystère était {mystery_pokemon['french_name']} !", WHITE, cols)
             break

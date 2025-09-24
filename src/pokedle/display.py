@@ -24,7 +24,7 @@ DATA = [
 CATEGORIES = ["POKÉMON", "TYPE 1", "TYPE 2", "ÉV.", "TAILLE", "POIDS", "COULEURS", "HABITATS", "GÉN"]
 
 
-def get_centered_value(value, max_len, value_colour, lines_colour, line = '│'):
+def get_centered_value(value, max_len, value_colour, lines_colour, line1 = '│', line2 = '│'):
     if isinstance(value, list):
         list_to_string = ""
         for values in value:
@@ -34,22 +34,25 @@ def get_centered_value(value, max_len, value_colour, lines_colour, line = '│')
         number_of_spaces = max_len + 2 - len(value)
     left_spaces = number_of_spaces // 2
     right_spaces = number_of_spaces - left_spaces
-    line = lines_colour + line + RESET
+    line1 = lines_colour + line1 + RESET
+    line2 = lines_colour + line2 + RESET
     if isinstance(value, str):
-        return line + ' ' * left_spaces + value_colour + value + RESET + ' ' * right_spaces + line
+        return line1 + ' ' * left_spaces + value_colour + value + RESET + ' ' * right_spaces + line2
     else:
         if isinstance(value_colour, str):
-            return line + ' ' * left_spaces + value_colour + list_to_string[:-2] + RESET + ' ' * right_spaces + line
+            return line1 + ' ' * left_spaces + value_colour + list_to_string[:-2] + RESET + ' ' * right_spaces + line2
         else:
-            result = line + ' ' * left_spaces
+            result = line1 + ' ' * left_spaces
             for i in range(len(value)):
                 result += value_colour[i] + value[i] + RESET
                 if i + 1 < len(value):
                     result += lines_colour + ', ' + RESET
-            result += ' ' * right_spaces + line
+            result += ' ' * right_spaces + line2
             return result
 
 def get_lines(lines, max_len, colour):
+    if len(lines) == 2:
+        return colour + lines[0] * (max_len + 2) + lines[1] + RESET
     return colour + lines[0] + lines[1] * (max_len + 2) + lines[2] + RESET
 
 def display_caption(cols):
@@ -60,7 +63,7 @@ def display_caption(cols):
     print(" " * number_of_spaces + top_caption)
     mid_caption = ""
     for i in range(len(CATEGORIES)):
-        mid_caption += get_centered_value(CATEGORIES[i], DATA[i]['max_len'], WHITE, WHITE, '║')
+        mid_caption += get_centered_value(CATEGORIES[i], DATA[i]['max_len'], WHITE, WHITE, '║', '║')
     print(" " * number_of_spaces + mid_caption)
     bottom_caption = ""
     for row in DATA:

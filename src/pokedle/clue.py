@@ -5,12 +5,11 @@ with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
 
 DATA = [
-    {'id': 'clue', 'max_len': 6},
     {'id': 'weaknesses', 'max_len': 18}, #ramoloss noeunoeuf
     {'id': 'letters', 'max_len': 7},
     {'id': 'description', 'max_len': 65}, #hélionceau cerbyllin
 ]
-CATEGORIES = ["Indice", "Faiblesses", "Lettres", "Description"]
+CATEGORIES = ["Faiblesses", "Lettres", "Description"]
 
 def center_in_cell(max_len, value):
     number_of_spaces = max((max_len + 2 - len(value)) // 2, 0)
@@ -68,7 +67,7 @@ def get_weaknesses_list(mystery_pokemon):
             return [lines[0], lines[1], lines[2]]
 
 def pick_unique_letters(name, number_of_letters):
-    unique_letters = list(dict.fromkeys(name.upper()))
+    unique_letters = [c for c in dict.fromkeys(name.upper()) if c.isalpha()]
     letters_array = []
     for i in range(number_of_letters):
         index = (i * 1357 + 42) % len(unique_letters)
@@ -76,9 +75,9 @@ def pick_unique_letters(name, number_of_letters):
     return letters_array
 
 def get_description_lines(description, pokemon_name):
-    max_len = DATA[3]['max_len']
     lines = ['', '', '']
     description = description.replace(pokemon_name, '***')
+    max_len = len(description) / 3 + 5
     if (len(description) <= max_len):
         lines[1] = description
     else:
@@ -88,51 +87,61 @@ def get_description_lines(description, pokemon_name):
             if (len(lines[line_number]) + len(words[i]) > max_len):
                 line_number += 1
             if (len(lines[line_number]) + len(words[i]) < max_len and i < len(words) - 1
-                    and len(lines[line_number]) + len(words[i]) + len(words[i + 1]) < max_len):
+                    and len(lines[line_number]) + len(words[i]) + len(words[i + 1]) <= max_len):
                 lines[line_number] += words[i] + " "
             else:
                 lines[line_number] += words[i]
     return lines
 
-def display_clue(counter, mystery_pokemon, cols):
+def display_hints(counter, mystery_pokemon, cols):
     # DISPLAY CAPTION
-    top_lines = ""
+    top_lines = BLUE + "┌"
     title = ""
-    mid_lines = ""
+    mid_lines = BLUE + "├"
+    mid_bottom_lines = "├"
+    bottom_lines = BLUE + "└"
     lines_len = 0
+    max_category_len = 0
     for i in range(len(CATEGORIES)):
-        lines_len += DATA[i]['max_len'] + 4
-        top_lines += get_lines("┌─┐", DATA[i]['max_len'], BLUE)
-        title += get_centered_value(CATEGORIES[i], DATA[i]['max_len'], BLUE, BLUE, '│')
-        mid_lines += get_lines("├─┤", DATA[i]['max_len'], BLUE)
+        max_category_len = DATA[i]['max_len']
+        if i == len(CATEGORIES) - 1:
+            max_category_len = int(len(mystery_pokemon['description']) / 3 + 6)
+        lines_len += max_category_len + 2
+        top_lines += get_lines("─┬", max_category_len, BLUE)
+        title += get_centered_value(CATEGORIES[i], max_category_len, BLUE, BLUE, '│', '')
+        mid_lines += get_lines("─┼", max_category_len, BLUE)
+        mid_bottom_lines += get_lines("─┴", max_category_len, BLUE)
+    bottom_lines += get_lines("─┘", lines_len, BLUE)
     number_of_spaces = calculate_number_of_spaces(cols, lines_len)
-    print(" " * number_of_spaces + top_lines)
-    print(" " * number_of_spaces + title)
-    print(" " * number_of_spaces + mid_lines)
-    # weaknesses = POKEMON[102]['weaknesses'][0]
-    # for weakness in POKEMON[102]['weaknesses'][1:]:
-    #     if len(weaknesses + ', ' + weakness) < DATA[1]['max_len']:
-    #         weaknesses += ', ' + weakness
-    # print(" " * (number_of_spaces + DATA[0]['max_len'] + 4) + '│' + center_in_cell(DATA[1]['max_len'], weaknesses) + '│')
+    print(" " * number_of_spaces + top_lines[:-5] + '┐')
+    print(" " * number_of_spaces + title + BLUE + '│')
+    print(" " * number_of_spaces + mid_lines[:-5] + '┤')
+
+    # DISPLAY HINTS
     weaknesses_list = get_weaknesses_list(mystery_pokemon)
     letters_list = pick_unique_letters(mystery_pokemon['french_name'], 3)
-    description_lines = get_description_lines(POKEMON[55]['description'], mystery_pokemon['french_name'])
+    description_lines = get_description_lines(mystery_pokemon['description'], mystery_pokemon['french_name'])
     for i in range(3):
-        line_to_print = " " * (number_of_spaces + DATA[0]['max_len'] + 4)
+        line_to_print = " "  * number_of_spaces + '│'
         if i < len(weaknesses_list):
-            line_to_print += '│' + center_in_cell(DATA[1]['max_len'], weaknesses_list[i]) + '│'
+            line_to_print += center_in_cell(DATA[0]['max_len'], weaknesses_list[i]) + '│'
         else:
-            line_to_print += '│' + center_in_cell(DATA[1]['max_len'], "") + '│'
-        line_to_print += '│' + center_in_cell(DATA[2]['max_len'], letters_list[i]) + '│'
-        line_to_print += '│' + center_in_cell(DATA[3]['max_len'], description_lines[i]) + '│'
-        print(line_to_print)
-    print(POKEMON[667]['description'])
+            line_to_print += center_in_cell(DATA[0]['max_len'], "") + '│'
+        line_to_print += center_in_cell(DATA[1]['max_len'], letters_list[i]) + '│'
+        line_to_print += center_in_cell(max_category_len, description_lines[i]) + '│'
+        print(BLUE + line_to_print)
+
+    print(" " * number_of_spaces + mid_bottom_lines[:-5] + '┤')
+    hint = f"Prochain indice dans {counter} essai{'s' if counter > 1 else ''}"
+    title = get_centered_value(hint, lines_len, BLUE, BLUE)
+    print(" " * number_of_spaces + title)
+    print(" " * number_of_spaces + bottom_lines[:-5] + '┘')
     # display_message(get_lines("┌─┐", 5, BLUE), BLUE, cols)
     # display_message(get_centered_value('Lett.', 5, BLUE, BLUE, '│'), BLUE, cols)
     # display_message(get_lines("├─┤", 5, BLUE), BLUE, cols)
     # display_message(get_centered_value('L', 5, BLUE, BLUE, '│'), BLUE, cols)
     # display_message(get_lines("└─┘", 5, BLUE), BLUE, cols)
-    return 0
+    return 9
     # description = mystery_pokemon['description'].replace(mystery_pokemon['french_name'], '***').replace(mystery_pokemon['english_name'], '***')
     # if counter < 4:
     #     display_message(f"Persévère ! Il te reste {4 - counter} essai{'s' if counter != 3 else ''} pour obtenir le premier indice.", BLUE, cols)
