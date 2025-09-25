@@ -3,7 +3,7 @@ from prompt_toolkit import prompt # type: ignore
 from prompt_toolkit.shortcuts import clear # type: ignore
 from random import randint
 from data.Knowledge.generations import GENERATIONS
-from src.pokedle.clue import display_hints
+from src.pokedle.hints import display_hints
 from src.pokedle.display import display_caption, display_table
 from src.pokedle.input import get_completer_array, AccentInsensitiveCompleter
 from src.pokedle.utils import BLUE, RED, GREEN, WHITE, RESET, \
