@@ -35,8 +35,8 @@ def get_weaknesses_line(number_of_weaknesses_by_line, remaining_weakness, max_le
 
 #1voltali 2otaria 3osselait 4rafflesia, 5tartard, 6rhinoferos, 7noeunoeuf
 def get_weaknesses_list(mystery_pokemon):
-    remaining_weakness = mystery_pokemon['weaknesses']
-    max_len = DATA[1]['max_len']
+    remaining_weakness = mystery_pokemon['weaknesses'].copy()
+    max_len = DATA[0]['max_len']
     lines = ['', '', '']
     match len(remaining_weakness):
         case 0:
