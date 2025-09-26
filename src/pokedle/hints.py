@@ -93,6 +93,27 @@ def get_description_lines(description, pokemon_name):
                 lines[line_number] += words[i]
     return lines
 
+def unlock_hint(table, moves, counter):
+    counter = int(counter / 3)
+    i = 0
+    while (moves != counter and i < 3):
+        if (table[i] != ''):
+            moves += 1
+        i += 1
+    while (i < 3):
+        table[i] = ""
+        i += 1
+    return moves
+
+def unlock_hints_by_counter(counter, weaknesses_list, letters_list, description_lines):
+    unlocked_weaknesses = weaknesses_list
+    unlocked_letters = letters_list
+    unlocked_description = description_lines
+    moves = unlock_hint(unlocked_weaknesses, 0, counter)
+    moves = unlock_hint(unlocked_letters, moves, counter)
+    unlock_hint(unlocked_description, moves, counter)
+    return unlocked_weaknesses, unlocked_letters, unlocked_description
+
 def display_hints(counter, mystery_pokemon, cols):
     # DISPLAY CAPTION
     top_lines = BLUE + "┌"
@@ -121,6 +142,11 @@ def display_hints(counter, mystery_pokemon, cols):
     weaknesses_list = get_weaknesses_list(mystery_pokemon)
     letters_list = pick_unique_letters(mystery_pokemon['french_name'], 3)
     description_lines = get_description_lines(mystery_pokemon['description'], mystery_pokemon['french_name'])
+    hint = f"Prochain indice dans {3 - counter % 3} essai{'s' if 3 - counter % 3 > 1 else ''}"
+    if (counter >= 9 * 3 - weaknesses_list.count('') * 3):
+        hint = f"Tu disposes de tous les indices !"
+    weaknesses_list, letters_list, description_lines = \
+        unlock_hints_by_counter(counter, weaknesses_list, letters_list, description_lines)
     for i in range(3):
         line_to_print = " "  * number_of_spaces + '│'
         if i < len(weaknesses_list):
@@ -132,39 +158,7 @@ def display_hints(counter, mystery_pokemon, cols):
         print(BLUE + line_to_print)
 
     print(" " * number_of_spaces + mid_bottom_lines[:-5] + '┤')
-    hint = f"Prochain indice dans {counter} essai{'s' if counter > 1 else ''}"
     title = get_centered_value(hint, lines_len, BLUE, BLUE)
     print(" " * number_of_spaces + title)
     print(" " * number_of_spaces + bottom_lines[:-5] + '┘')
-    # display_message(get_lines("┌─┐", 5, BLUE), BLUE, cols)
-    # display_message(get_centered_value('Lett.', 5, BLUE, BLUE, '│'), BLUE, cols)
-    # display_message(get_lines("├─┤", 5, BLUE), BLUE, cols)
-    # display_message(get_centered_value('L', 5, BLUE, BLUE, '│'), BLUE, cols)
-    # display_message(get_lines("└─┘", 5, BLUE), BLUE, cols)
     return 9
-    # description = mystery_pokemon['description'].replace(mystery_pokemon['french_name'], '***').replace(mystery_pokemon['english_name'], '***')
-    # if counter < 4:
-    #     display_message(f"Persévère ! Il te reste {4 - counter} essai{'s' if counter != 3 else ''} pour obtenir le premier indice.", BLUE, cols)
-    # elif counter < 8:
-    #     display_message(description[:len(description)//2] + " [...]", BLUE, cols)
-    # else:
-    #     display_message(description, BLUE, cols)
-    # number_of_lines_to_clear = 1
-    # letters = []
-    # if counter >= 12:
-    #     letter_count = 0
-    #     if counter < 16:
-    #         letter_count = 1
-    #     elif counter < 20:
-    #         letter_count = 2
-    #     else:
-    #         letter_count = 3
-    #     letters = pick_unique_letters(mystery_pokemon['french_name'], letter_count)
-    #     if letter_count == 1:
-    #         display_message(f"Le pokémon mystère contient la lettre {letters[0]} dans son nom.", BLUE, cols)
-    #     elif letter_count == 2:
-    #         display_message(f"Le pokémon mystère contient les lettres {letters[0]} et {letters[1]} dans son nom.", BLUE, cols)
-    #     elif letter_count == 3:
-    #         display_message(f"Le pokémon mystère contient les lettres {letters[0]}, {letters[1]} et {letters[2]} dans son nom.", BLUE, cols)
-    #     number_of_lines_to_clear += 1
-    # return number_of_lines_to_clear
