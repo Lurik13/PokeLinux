@@ -1,4 +1,5 @@
 import pickle
+from random import randint
 from src.pokedle.display import get_centered_value, get_lines
 from src.pokedle.utils import BLUE, calculate_number_of_spaces, display_message
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
@@ -70,7 +71,8 @@ def pick_unique_letters(name, number_of_letters):
     unique_letters = [c for c in dict.fromkeys(name.upper()) if c.isalpha()]
     letters_array = []
     for i in range(number_of_letters):
-        index = (i * 1357 + 42) % len(unique_letters)
+        letters_array.append(unique_letters.pop())
+        index = randint(0, len(unique_letters) - 1) % len(unique_letters)
         letters_array.append(unique_letters[index])
     return letters_array
 
