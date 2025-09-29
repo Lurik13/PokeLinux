@@ -13,7 +13,7 @@ COLOURS = {
     12: ['Blanc', 'Violet'],
     13: ['Marron'],
     14: ['Jaune'],
-    15: ['Jaune'],
+    15: ['Jaune', 'Noir'],
     16: ['Marron'],
     17: ['Marron'],
     18: ['Marron'],
