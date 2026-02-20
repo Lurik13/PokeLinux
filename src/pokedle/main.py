@@ -29,7 +29,7 @@ def input_loop(generations, mystery_pokemon, cols):
         if not new_try:
             clear_lines(number_of_lines_to_clear)
             continue
-        if counter == 0 and normalize(new_try) == normalize(mystery_pokemon['french_name']):
+        if counter == 0 and (normalize(new_try) == normalize(mystery_pokemon['french_name']) or normalize(new_try) == normalize(mystery_pokemon['english_name'])):
             mystery_pokemon = get_new_mystery_pokemon(generations)
         clear_lines(number_of_lines_to_clear)
         number_of_lines_to_clear = 1
@@ -49,7 +49,7 @@ def input_loop(generations, mystery_pokemon, cols):
                     if normalize(POKEMON[pokemon_id_tried]['french_name']) in normalize(remaining_pokemon_names):
                         remaining_pokemon_names.remove(POKEMON[pokemon_id_tried]['french_name'])
                         display_table(pokemon_id_tried, mystery_pokemon, cols)
-                        if normalize(new_try) == normalize(mystery_pokemon['french_name']):
+                        if normalize(new_try) == normalize(mystery_pokemon['french_name']) or normalize(new_try) == normalize(mystery_pokemon['english_name']):
                             message = f"Bien joué ! Tu as trouvé {mystery_pokemon['french_name']} en {counter} coups !"
                             display_message(message, GREEN, cols)
 #                             save_in_pokedex(mystery_pokemon)
