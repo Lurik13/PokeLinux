@@ -2,9 +2,9 @@ def pick_unique_letters(name, number_of_letters):
     unique_letters = [c for c in dict.fromkeys(name.upper()) if c.isalpha()]
     letters_array = []
     for i in range(number_of_letters):
-        letters_array.append(unique_letters.pop())
         index = (i * 1357 + 42) % len(unique_letters)
         letters_array.append(unique_letters[index])
+        unique_letters.remove(unique_letters[index])
     return letters_array
 
 def get_description_lines(description, pokemon_name):

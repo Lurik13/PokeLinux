@@ -66,6 +66,8 @@ def parsing_gen(function):
 
 if __name__ == "__main__":
     try:
+        if len(sys.argv) != 3:
+            raise Exception("Veuillez lancer ./PokéLinux.sh")
         input_choices = ['help', 'get_anki_deck', 'pokedle', 'get_starters', 'reset_data', 'exit']
         completer = AccentInsensitiveCompleter(input_choices)
         print("Que souhaitez-vous faire ? Voici l'inventaire des commandes disponibles :")
@@ -97,7 +99,14 @@ if __name__ == "__main__":
                     invalid_command = True
 
     except ValueError as ve:
-        print("Error:", ve)
+        ve = str(ve)
+        if ve:
+            print(RED + "Error:", ve + RESET)
+
+    except BaseException as be:
+        be = str(be)
+        if be:
+            print(RED + "Error:", be + RESET)
 
     except KeyboardInterrupt:
         sys.exit(0)
