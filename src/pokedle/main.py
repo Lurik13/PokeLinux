@@ -26,6 +26,9 @@ def input_loop(generations, mystery_pokemon, cols):
         completer = AccentInsensitiveCompleter(remaining_pokemon_names)
         number_of_spaces = calculate_number_of_spaces(cols)
         new_try = prompt(" " * number_of_spaces + "Pokémon : ", completer=completer, complete_while_typing=True)
+        if not new_try:
+            clear_lines(number_of_lines_to_clear)
+            continue
         if counter == 0 and normalize(new_try) == normalize(mystery_pokemon['french_name']):
             mystery_pokemon = get_new_mystery_pokemon(generations)
         clear_lines(number_of_lines_to_clear)
