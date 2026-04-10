@@ -85,12 +85,12 @@ async def display_slowly_row(number_of_spaces, number_of_chars_by_row, rows, slo
                                 k += 1
                             j += k
                 print('')
-            await asyncio.sleep(0.01)
+            await asyncio.sleep(0.007) # chaque caractere
             total_len = 0
             for category_len in number_of_chars_by_row:
                 total_len += category_len
                 if i == total_len:
-                    await asyncio.sleep(0.10)
+                    await asyncio.sleep(0.2) # entre les cases
                     break
             if i < sum(number_of_chars_by_row):
                 clear_lines(3)
