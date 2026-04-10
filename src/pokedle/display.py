@@ -25,7 +25,7 @@ DATA = [
 CATEGORIES = ["POKÉMON", "TYPE 1", "TYPE 2", "ÉV.", "TAILLE", "POIDS", "COULEURS", "HABITATS", "GÉN"]
 
 
-def get_centered_value(value, max_len, value_colour, lines_colour, line = '│'):
+def get_centered_value(value, max_len, value_colour, lines_colour, line1 = '│', line2 = '│'):
     if isinstance(value, list):
         list_to_string = ""
         for values in value:
@@ -36,12 +36,12 @@ def get_centered_value(value, max_len, value_colour, lines_colour, line = '│')
     left_spaces = number_of_spaces // 2
     right_spaces = number_of_spaces - left_spaces
     if isinstance(value, str):
-        return [lines_colour, line, RESET, ' ' * left_spaces, value_colour, value, RESET, ' ' * right_spaces, lines_colour, line, RESET]
+        return [lines_colour, line1, RESET, ' ' * left_spaces, value_colour, value, RESET, ' ' * right_spaces, lines_colour, line2, RESET]
     else:
         if isinstance(value_colour, str):
-            return [lines_colour, line, RESET, ' ' * left_spaces, value_colour, list_to_string[:-2],  RESET, ' ' * right_spaces, lines_colour, line, RESET]
+            return [lines_colour, line1, RESET, ' ' * left_spaces, value_colour, list_to_string[:-2],  RESET, ' ' * right_spaces, lines_colour, line2, RESET]
         else:
-            result = [lines_colour, line, RESET, ' ' * left_spaces]
+            result = [lines_colour, line1, RESET, ' ' * left_spaces]
             for i in range(len(value)):
                 result.append(value_colour[i])
                 result.append(value[i])
@@ -52,7 +52,7 @@ def get_centered_value(value, max_len, value_colour, lines_colour, line = '│')
                     result.append(RESET)
             result.append(' ' * right_spaces)
             result.append(lines_colour)
-            result.append(line)
+            result.append(line2)
             result.append(RESET)
             return result
 
@@ -103,7 +103,7 @@ async def display_caption(cols):
         top_caption.append(get_lines("╔═╗", row['max_len'], WHITE))
     mid_caption = []
     for i in range(len(CATEGORIES)):
-        mid_caption.append(get_centered_value(CATEGORIES[i], DATA[i]['max_len'], WHITE, WHITE, '║'))
+        mid_caption.append(get_centered_value(CATEGORIES[i], DATA[i]['max_len'], WHITE, WHITE, '║', '║'))
     bottom_caption = []
     for row in DATA:
         bottom_caption.append(get_lines("╚═╝", row['max_len'], WHITE))

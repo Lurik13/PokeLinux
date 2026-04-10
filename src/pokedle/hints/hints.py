@@ -1,9 +1,9 @@
 import pickle
-from src.pokedle.display import get_centered_value, get_lines
+from src.pokedle.display import get_centered_value
 from src.pokedle.hints.letters_and_description import pick_unique_letters, get_description_lines
 from src.pokedle.hints.unlock_hints import unlock_hints_by_counter
 from src.pokedle.hints.weaknesses import get_weaknesses_list
-from src.pokedle.utils import BLUE, calculate_number_of_spaces
+from src.pokedle.utils import BLUE, RESET, calculate_number_of_spaces
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
 
@@ -17,6 +17,11 @@ CATEGORIES = ["Faiblesses", "Lettres", "Description"]
 def center_in_cell(max_len, value):
     number_of_spaces = max((max_len + 2 - len(value)) // 2, 0)
     return " " * number_of_spaces + value + " " * (max_len + 2 - len(value) - number_of_spaces)
+
+def get_lines(lines, max_len, colour):
+    if len(lines) == 2:
+        return colour + lines[0] * (max_len + 2) + lines[1] + RESET
+    return colour + lines[0] + lines[1] * (max_len + 2) + lines[2] + RESET
 
 def display_hints(counter, mystery_pokemon, cols):
     top_lines = BLUE + "┌"
@@ -34,7 +39,7 @@ def display_hints(counter, mystery_pokemon, cols):
             max_category_len = int(len(mystery_pokemon['description']) / 3 + 6)
         lines_len += max_category_len + 2
         top_lines += get_lines("─┬", max_category_len, BLUE)
-        title += get_centered_value(CATEGORIES[i], max_category_len, BLUE, BLUE, '│', '')
+        title += ''.join(get_centered_value(CATEGORIES[i], max_category_len, BLUE, BLUE, '│', ''))
         mid_lines += get_lines("─┼", max_category_len, BLUE)
         mid_bottom_lines += get_lines("─┴", max_category_len, BLUE)
     bottom_lines += get_lines("─┘", lines_len, BLUE)
@@ -65,7 +70,7 @@ def display_hints(counter, mystery_pokemon, cols):
 
     # DISPLAY NEXT HINT
     print(" " * number_of_spaces + mid_bottom_lines[:-5] + '┤')
-    footer = get_centered_value(hint_footer, lines_len, BLUE, BLUE)
+    footer = ''.join(get_centered_value(hint_footer, lines_len, BLUE, BLUE))
     print(" " * number_of_spaces + footer)
     print(" " * number_of_spaces + bottom_lines[:-5] + '┘')
     return 9
