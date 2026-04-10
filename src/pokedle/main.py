@@ -1,3 +1,4 @@
+import asyncio
 import pickle
 from prompt_toolkit import prompt # type: ignore
 from prompt_toolkit.shortcuts import clear # type: ignore
@@ -94,7 +95,7 @@ def pokedle(cols):
         mystery_pokemon = get_new_mystery_pokemon(generations)
         clear()
         display_message('Si tu as besoin d\'aide, écris "Indice". Tu as le droit à un indice supplémentaire tous les 3 essais', BLUE, cols)
-        display_caption(cols)
+        asyncio.run(display_caption(cols))
         input_loop(generations, mystery_pokemon, cols)
         number_of_spaces = calculate_number_of_spaces(cols)
         want_to_continue = prompt(

@@ -18,6 +18,8 @@ REDORANGE = "\033[38;2;200;100;25m"
 RED = "\033[38;2;200;50;50m"
 WHITE = "\033[38;2;255;255;255m"
 RESET = "\033[0m"
+CURSOR_HIDE = "\033[?25l"
+CURSOR_SHOW = "\033[?25h"
 
 def console_print(message, should_flush = False, color = GRAY):
     if should_flush:

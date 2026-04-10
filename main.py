@@ -10,7 +10,7 @@ from src.anki.generate_deck import get_anki_deck
 from src.generate_data.generate_files import generate_pokedex
 from src.pokedle.input import AccentInsensitiveCompleter
 from src.pokedle.main import pokedle
-from src.pokedle.utils import BLUE, RED, RESET
+from src.pokedle.utils import BLUE, CURSOR_SHOW, RED, RESET
 from src.utils import get_starters, normalize
 with open("data/Pokédex/pokemon_relations.pkl", "rb") as executable:
     POKEMON = pickle.load(executable)
@@ -101,15 +101,17 @@ if __name__ == "__main__":
     except ValueError as ve:
         ve = str(ve)
         if ve:
-            print(RED + "Error:", ve + RESET)
+            print(RED + "Error:", ve + RESET + CURSOR_SHOW)
 
     except BaseException as be:
         be = str(be)
         if be:
-            print(RED + "Error:", be + RESET)
+            print(RED + "Error:", be + RESET + CURSOR_SHOW)
 
     except KeyboardInterrupt:
+        print(CURSOR_SHOW)
         sys.exit(0)
 
     except EOFError:
+        print(CURSOR_SHOW)
         sys.exit(0)
